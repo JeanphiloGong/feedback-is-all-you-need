@@ -191,3 +191,19 @@ separately. All outcomes from development seeds remain exploratory.
 - The 11-page PDF compiled twice without final-pass warnings. All pages were
   rendered; layout, new results, equations, figures, and references were
   inspected. Earlier versions and raw failed responses remain intact.
+
+## 2026-10-25 UTC: fixed-budget follow-up preparation
+
+- Study D freezes 24 new environments (seeds 6000–6023) and the same 7B
+  reasoning interface. It compares 128/512-token answers from shared greedy
+  continuations, with clean examples, no examples, and oracle rules. It tests
+  the material truncation limit without changing prompts or update mechanisms.
+- All frozen targets, symbolic recovery, and train/test separation passed.
+  Two prefix tests passed, including a case in which further generation makes
+  a correct prefix invalid; improvement is not assumed.
+- The first seed-11 development run completed all 144 direct-versus-prefix
+  equivalence checks. A subsequent review required persisting every compared
+  token pair before an assertion and explicitly enforcing the development
+  prerequisite in the launch workflow. The updated development run must pass
+  with matching source/configuration before formal collection. Both development
+  versions will be retained; this change affects auditing, not generation.
