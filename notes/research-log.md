@@ -407,3 +407,28 @@ separately. All outcomes from development seeds remain exploratory.
   as future interventions. They are not evidence of permanent cycles or a
   causal claim for an untested memory mechanism. The 48 transitions are nested
   within 24 environments and are never treated as independent replicates.
+
+## 2026-10-25 UTC: feedback-history experiment preparation
+
+- Study G compares last-only versus full proposal/check history for 16 fixed
+  revisions on 48 fresh environments per model, seeds 9000–9047. Development
+  uses seed 19. Its primary endpoint is 0.5B final direct accuracy; composition
+  is secondary because of the demonstrated two-command alias. No G model
+  inference has occurred at this checkpoint.
+- Protocol review required matching ordered first-revision batches, padded
+  token IDs, masks, and generated outputs before attributing later changes
+  to history. Any mismatch preserves evidence and fails the suite. Repetition
+  counts distinguish invalid, valid-wrong, and exact states.
+- Implementation review found that input hashes alone would lose the actual
+  mismatching tensors, and that stage costs omitted explicit standalone-arm
+  totals. Both were corrected before inference. A synthetic audit rejected
+  mutations of IDs, masks, seeds, digest, and batch order; scalar verification
+  confirmed 1,584 actual continuations versus 816 per hypothetical standalone
+  arm, including its initial generation.
+- Local history/parser/diagnostic tests pass (18). The first remote combined
+  run lacked an inherited F data fixture, yielding one missing-file failure;
+  copying that unchanged fixture resolved the packaging omission. The complete
+  suite passes 24 tests and 12 subtests, including injected first-revision
+  input/output divergence with raw evidence retained. No implementation layer
+  or compatibility wrapper was added. Cross-model CLI review was skipped in
+  this autonomous run.
