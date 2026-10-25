@@ -1,0 +1,412 @@
+[
+  {
+    "arxiv_id": "1706.03762",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "retrieved_utc": "2026-10-25T15:03:16.272291+00:00",
+    "metadata": {
+      "title": [
+        "Attention Is All You Need"
+      ],
+      "author": [
+        "Vaswani, Ashish",
+        "Shazeer, Noam",
+        "Parmar, Niki",
+        "Uszkoreit, Jakob",
+        "Jones, Llion",
+        "Gomez, Aidan N.",
+        "Kaiser, Lukasz",
+        "Polosukhin, Illia"
+      ],
+      "date": [
+        "2017/06/12"
+      ],
+      "online_date": [
+        "2023/08/02"
+      ],
+      "pdf_url": [
+        "https://arxiv.org/pdf/1706.03762"
+      ],
+      "arxiv_id": [
+        "1706.03762"
+      ],
+      "abstract": [
+        "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data."
+      ]
+    },
+    "abstract": "Abstract: The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data."
+  },
+  {
+    "arxiv_id": "2001.08361",
+    "url": "https://arxiv.org/abs/2001.08361",
+    "retrieved_utc": "2026-10-25T15:03:16.343227+00:00",
+    "metadata": {
+      "title": [
+        "Scaling Laws for Neural Language Models"
+      ],
+      "author": [
+        "Kaplan, Jared",
+        "McCandlish, Sam",
+        "Henighan, Tom",
+        "Brown, Tom B.",
+        "Chess, Benjamin",
+        "Child, Rewon",
+        "Gray, Scott",
+        "Radford, Alec",
+        "Wu, Jeffrey",
+        "Amodei, Dario"
+      ],
+      "date": [
+        "2020/01/23"
+      ],
+      "online_date": [
+        "2020/01/23"
+      ],
+      "pdf_url": [
+        "https://arxiv.org/pdf/2001.08361"
+      ],
+      "arxiv_id": [
+        "2001.08361"
+      ],
+      "abstract": [
+        "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the amount of compute used for training, with some trends spanning more than seven orders of magnitude. Other architectural details such as network width or depth have minimal effects within a wide range. Simple equations govern the dependence of overfitting on model/dataset size and the dependence of training speed on model size. These relationships allow us to determine the optimal allocation of a fixed compute budget. Larger models are significantly more sample-efficient, such that optimally compute-efficient training involves training very large models on a relatively modest amount of data and stopping significantly before convergence."
+      ]
+    },
+    "abstract": "Abstract: We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the amount of compute used for training, with some trends spanning more than seven orders of magnitude. Other architectural details such as network width or depth have minimal effects within a wide range. Simple equations govern the dependence of overfitting on model/dataset size and the dependence of training speed on model size. These relationships allow us to determine the optimal allocation of a fixed compute budget. Larger models are significantly more sample-efficient, such that optimally compute-efficient training involves training very large models on a relatively modest amount of data and stopping significantly before convergence."
+  },
+  {
+    "arxiv_id": "2203.15556",
+    "url": "https://arxiv.org/abs/2203.15556",
+    "retrieved_utc": "2026-10-25T15:03:19.305772+00:00",
+    "metadata": {
+      "title": [
+        "Training Compute-Optimal Large Language Models"
+      ],
+      "author": [
+        "Hoffmann, Jordan",
+        "Borgeaud, Sebastian",
+        "Mensch, Arthur",
+        "Buchatskaya, Elena",
+        "Cai, Trevor",
+        "Rutherford, Eliza",
+        "Casas, Diego de Las",
+        "Hendricks, Lisa Anne",
+        "Welbl, Johannes",
+        "Clark, Aidan",
+        "Hennigan, Tom",
+        "Noland, Eric",
+        "Millican, Katie",
+        "Driessche, George van den",
+        "Damoc, Bogdan",
+        "Guy, Aurelia",
+        "Osindero, Simon",
+        "Simonyan, Karen",
+        "Elsen, Erich",
+        "Rae, Jack W.",
+        "Vinyals, Oriol",
+        "Sifre, Laurent"
+      ],
+      "date": [
+        "2022/03/29"
+      ],
+      "online_date": [
+        "2022/03/29"
+      ],
+      "pdf_url": [
+        "https://arxiv.org/pdf/2203.15556"
+      ],
+      "arxiv_id": [
+        "2203.15556"
+      ],
+      "abstract": [
+        "We investigate the optimal model size and number of tokens for training a transformer language model under a given compute budget. We find that current large language models are significantly undertrained, a consequence of the recent focus on scaling language models whilst keeping the amount of training data constant. By training over 400 language models ranging from 70 million to over 16 billion parameters on 5 to 500 billion tokens, we find that for compute-optimal training, the model size and the number of training tokens should be scaled equally: for every doubling of model size the number of training tokens should also be doubled. We test this hypothesis by training a predicted compute-optimal model, Chinchilla, that uses the same compute budget as Gopher but with 70B parameters and 4$\\times$ more more data. Chinchilla uniformly and significantly outperforms Gopher (280B), GPT-3 (175B), Jurassic-1 (178B), and Megatron-Turing NLG (530B) on a large range of downstream evaluation tasks. This also means that Chinchilla uses substantially less compute for fine-tuning and inference, greatly facilitating downstream usage. As a highlight, Chinchilla reaches a state-of-the-art average accuracy of 67.5% on the MMLU benchmark, greater than a 7% improvement over Gopher."
+      ]
+    },
+    "abstract": "Abstract: We investigate the optimal model size and number of tokens for training a transformer language model under a given compute budget. We find that current large language models are significantly undertrained, a consequence of the recent focus on scaling language models whilst keeping the amount of training data constant. By training over 400 language models ranging from 70 million to over 16 billion parameters on 5 to 500 billion tokens, we find that for compute-optimal training, the model size and the number of training tokens should be scaled equally: for every doubling of model size the number of training tokens should also be doubled. We test this hypothesis by training a predicted compute-optimal model, Chinchilla, that uses the same compute budget as Gopher but with 70B parameters and 4$\\times$ more more data. Chinchilla uniformly and significantly outperforms Gopher (280B), GPT-3 (175B), Jurassic-1 (178B), and Megatron-Turing NLG (530B) on a large range of downstream evaluation tasks. This also means that Chinchilla uses substantially less compute for fine-tuning and inference, greatly facilitating downstream usage. As a highlight, Chinchilla reaches a state-of-the-art average accuracy of 67.5% on the MMLU benchmark, greater than a 7% improvement over Gopher."
+  },
+  {
+    "arxiv_id": "2303.11366",
+    "url": "https://arxiv.org/abs/2303.11366",
+    "retrieved_utc": "2026-10-25T15:03:17.868408+00:00",
+    "metadata": {
+      "title": [
+        "Reflexion: Language Agents with Verbal Reinforcement Learning"
+      ],
+      "author": [
+        "Shinn, Noah",
+        "Cassano, Federico",
+        "Berman, Edward",
+        "Gopinath, Ashwin",
+        "Narasimhan, Karthik",
+        "Yao, Shunyu"
+      ],
+      "date": [
+        "2023/03/20"
+      ],
+      "online_date": [
+        "2023/10/10"
+      ],
+      "pdf_url": [
+        "https://arxiv.org/pdf/2303.11366"
+      ],
+      "arxiv_id": [
+        "2303.11366"
+      ],
+      "abstract": [
+        "Large language models (LLMs) have been increasingly used to interact with external environments (e.g., games, compilers, APIs) as goal-driven agents. However, it remains challenging for these language agents to quickly and efficiently learn from trial-and-error as traditional reinforcement learning methods require extensive training samples and expensive model fine-tuning. We propose Reflexion, a novel framework to reinforce language agents not by updating weights, but instead through linguistic feedback. Concretely, Reflexion agents verbally reflect on task feedback signals, then maintain their own reflective text in an episodic memory buffer to induce better decision-making in subsequent trials. Reflexion is flexible enough to incorporate various types (scalar values or free-form language) and sources (external or internally simulated) of feedback signals, and obtains significant improvements over a baseline agent across diverse tasks (sequential decision-making, coding, language reasoning). For example, Reflexion achieves a 91% pass@1 accuracy on the HumanEval coding benchmark, surpassing the previous state-of-the-art GPT-4 that achieves 80%. We also conduct ablation and analysis studies using different feedback signals, feedback incorporation methods, and agent types, and provide insights into how they affect performance."
+      ]
+    },
+    "abstract": "Abstract: Large language models (LLMs) have been increasingly used to interact with external environments (e.g., games, compilers, APIs) as goal-driven agents. However, it remains challenging for these language agents to quickly and efficiently learn from trial-and-error as traditional reinforcement learning methods require extensive training samples and expensive model fine-tuning. We propose Reflexion, a novel framework to reinforce language agents not by updating weights, but instead through linguistic feedback. Concretely, Reflexion agents verbally reflect on task feedback signals, then maintain their own reflective text in an episodic memory buffer to induce better decision-making in subsequent trials. Reflexion is flexible enough to incorporate various types (scalar values or free-form language) and sources (external or internally simulated) of feedback signals, and obtains significant improvements over a baseline agent across diverse tasks (sequential decision-making, coding, language reasoning). For example, Reflexion achieves a 91% pass@1 accuracy on the HumanEval coding benchmark, surpassing the previous state-of-the-art GPT-4 that achieves 80%. We also conduct ablation and analysis studies using different feedback signals, feedback incorporation methods, and agent types, and provide insights into how they affect performance."
+  },
+  {
+    "arxiv_id": "2303.17651",
+    "url": "https://arxiv.org/abs/2303.17651",
+    "retrieved_utc": "2026-10-25T15:03:18.166389+00:00",
+    "metadata": {
+      "title": [
+        "Self-Refine: Iterative Refinement with Self-Feedback"
+      ],
+      "author": [
+        "Madaan, Aman",
+        "Tandon, Niket",
+        "Gupta, Prakhar",
+        "Hallinan, Skyler",
+        "Gao, Luyu",
+        "Wiegreffe, Sarah",
+        "Alon, Uri",
+        "Dziri, Nouha",
+        "Prabhumoye, Shrimai",
+        "Yang, Yiming",
+        "Gupta, Shashank",
+        "Majumder, Bodhisattwa Prasad",
+        "Hermann, Katherine",
+        "Welleck, Sean",
+        "Yazdanbakhsh, Amir",
+        "Clark, Peter"
+      ],
+      "date": [
+        "2023/03/30"
+      ],
+      "online_date": [
+        "2023/05/25"
+      ],
+      "pdf_url": [
+        "https://arxiv.org/pdf/2303.17651"
+      ],
+      "arxiv_id": [
+        "2303.17651"
+      ],
+      "abstract": [
+        "Like humans, large language models (LLMs) do not always generate the best output on their first try. Motivated by how humans refine their written text, we introduce Self-Refine, an approach for improving initial outputs from LLMs through iterative feedback and refinement. The main idea is to generate an initial output using an LLMs; then, the same LLMs provides feedback for its output and uses it to refine itself, iteratively. Self-Refine does not require any supervised training data, additional training, or reinforcement learning, and instead uses a single LLM as the generator, refiner, and feedback provider. We evaluate Self-Refine across 7 diverse tasks, ranging from dialog response generation to mathematical reasoning, using state-of-the-art (GPT-3.5, ChatGPT, and GPT-4) LLMs. Across all evaluated tasks, outputs generated with Self-Refine are preferred by humans and automatic metrics over those generated with the same LLM using conventional one-step generation, improving by ~20% absolute on average in task performance. Our work demonstrates that even state-of-the-art LLMs like GPT-4 can be further improved at test time using our simple, standalone approach."
+      ]
+    },
+    "abstract": "Abstract: Like humans, large language models (LLMs) do not always generate the best output on their first try. Motivated by how humans refine their written text, we introduce Self-Refine, an approach for improving initial outputs from LLMs through iterative feedback and refinement. The main idea is to generate an initial output using an LLMs; then, the same LLMs provides feedback for its output and uses it to refine itself, iteratively. Self-Refine does not require any supervised training data, additional training, or reinforcement learning, and instead uses a single LLM as the generator, refiner, and feedback provider. We evaluate Self-Refine across 7 diverse tasks, ranging from dialog response generation to mathematical reasoning, using state-of-the-art (GPT-3.5, ChatGPT, and GPT-4) LLMs. Across all evaluated tasks, outputs generated with Self-Refine are preferred by humans and automatic metrics over those generated with the same LLM using conventional one-step generation, improving by ~20% absolute on average in task performance. Our work demonstrates that even state-of-the-art LLMs like GPT-4 can be further improved at test time using our simple, standalone approach."
+  },
+  {
+    "arxiv_id": "2310.01798",
+    "url": "https://arxiv.org/abs/2310.01798",
+    "retrieved_utc": "2026-10-25T15:03:19.728655+00:00",
+    "metadata": {
+      "title": [
+        "Large Language Models Cannot Self-Correct Reasoning Yet"
+      ],
+      "author": [
+        "Huang, Jie",
+        "Chen, Xinyun",
+        "Mishra, Swaroop",
+        "Zheng, Huaixiu Steven",
+        "Yu, Adams Wei",
+        "Song, Xinying",
+        "Zhou, Denny"
+      ],
+      "date": [
+        "2023/10/03"
+      ],
+      "online_date": [
+        "2024/03/14"
+      ],
+      "pdf_url": [
+        "https://arxiv.org/pdf/2310.01798"
+      ],
+      "arxiv_id": [
+        "2310.01798"
+      ],
+      "abstract": [
+        "Large Language Models (LLMs) have emerged as a groundbreaking technology with their unparalleled text generation capabilities across various applications. Nevertheless, concerns persist regarding the accuracy and appropriateness of their generated content. A contemporary methodology, self-correction, has been proposed as a remedy to these issues. Building upon this premise, this paper critically examines the role and efficacy of self-correction within LLMs, shedding light on its true potential and limitations. Central to our investigation is the notion of intrinsic self-correction, whereby an LLM attempts to correct its initial responses based solely on its inherent capabilities, without the crutch of external feedback. In the context of reasoning, our research indicates that LLMs struggle to self-correct their responses without external feedback, and at times, their performance even degrades after self-correction. Drawing from these insights, we offer suggestions for future research and practical applications in this field."
+      ]
+    },
+    "abstract": "Abstract: Large Language Models (LLMs) have emerged as a groundbreaking technology with their unparalleled text generation capabilities across various applications. Nevertheless, concerns persist regarding the accuracy and appropriateness of their generated content. A contemporary methodology, self-correction, has been proposed as a remedy to these issues. Building upon this premise, this paper critically examines the role and efficacy of self-correction within LLMs, shedding light on its true potential and limitations. Central to our investigation is the notion of intrinsic self-correction, whereby an LLM attempts to correct its initial responses based solely on its inherent capabilities, without the crutch of external feedback. In the context of reasoning, our research indicates that LLMs struggle to self-correct their responses without external feedback, and at times, their performance even degrades after self-correction. Drawing from these insights, we offer suggestions for future research and practical applications in this field."
+  },
+  {
+    "arxiv_id": "2408.03314",
+    "url": "https://arxiv.org/abs/2408.03314",
+    "retrieved_utc": "2026-10-25T15:03:19.475067+00:00",
+    "metadata": {
+      "title": [
+        "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters"
+      ],
+      "author": [
+        "Snell, Charlie",
+        "Lee, Jaehoon",
+        "Xu, Kelvin",
+        "Kumar, Aviral"
+      ],
+      "date": [
+        "2024/08/06"
+      ],
+      "online_date": [
+        "2024/08/06"
+      ],
+      "pdf_url": [
+        "https://arxiv.org/pdf/2408.03314"
+      ],
+      "arxiv_id": [
+        "2408.03314"
+      ],
+      "abstract": [
+        "Enabling LLMs to improve their outputs by using more test-time computation is a critical step towards building generally self-improving agents that can operate on open-ended natural language. In this paper, we study the scaling of inference-time computation in LLMs, with a focus on answering the question: if an LLM is allowed to use a fixed but non-trivial amount of inference-time compute, how much can it improve its performance on a challenging prompt? Answering this question has implications not only on the achievable performance of LLMs, but also on the future of LLM pretraining and how one should tradeoff inference-time and pre-training compute. Despite its importance, little research attempted to understand the scaling behaviors of various test-time inference methods. Moreover, current work largely provides negative results for a number of these strategies. In this work, we analyze two primary mechanisms to scale test-time computation: (1) searching against dense, process-based verifier reward models; and (2) updating the model's distribution over a response adaptively, given the prompt at test time. We find that in both cases, the effectiveness of different approaches to scaling test-time compute critically varies depending on the difficulty of the prompt. This observation motivates applying a \"compute-optimal\" scaling strategy, which acts to most effectively allocate test-time compute adaptively per prompt. Using this compute-optimal strategy, we can improve the efficiency of test-time compute scaling by more than 4x compared to a best-of-N baseline. Additionally, in a FLOPs-matched evaluation, we find that on problems where a smaller base model attains somewhat non-trivial success rates, test-time compute can be used to outperform a 14x larger model."
+      ]
+    },
+    "abstract": "Abstract: Enabling LLMs to improve their outputs by using more test-time computation is a critical step towards building generally self-improving agents that can operate on open-ended natural language. In this paper, we study the scaling of inference-time computation in LLMs, with a focus on answering the question: if an LLM is allowed to use a fixed but non-trivial amount of inference-time compute, how much can it improve its performance on a challenging prompt? Answering this question has implications not only on the achievable performance of LLMs, but also on the future of LLM pretraining and how one should tradeoff inference-time and pre-training compute. Despite its importance, little research attempted to understand the scaling behaviors of various test-time inference methods. Moreover, current work largely provides negative results for a number of these strategies. In this work, we analyze two primary mechanisms to scale test-time computation: (1) searching against dense, process-based verifier reward models; and (2) updating the model's distribution over a response adaptively, given the prompt at test time. We find that in both cases, the effectiveness of different approaches to scaling test-time compute critically varies depending on the difficulty of the prompt. This observation motivates applying a \"compute-optimal\" scaling strategy, which acts to most effectively allocate test-time compute adaptively per prompt. Using this compute-optimal strategy, we can improve the efficiency of test-time compute scaling by more than 4x compared to a best-of-N baseline. Additionally, in a FLOPs-matched evaluation, we find that on problems where a smaller base model attains somewhat non-trivial success rates, test-time compute can be used to outperform a 14x larger model."
+  },
+  {
+    "arxiv_id": "1611.02779",
+    "url": "https://arxiv.org/abs/1611.02779",
+    "retrieved_utc": "2026-10-25T15:03:19.184458+00:00",
+    "metadata": {
+      "title": [
+        "RL$^2$: Fast Reinforcement Learning via Slow Reinforcement Learning"
+      ],
+      "author": [
+        "Duan, Yan",
+        "Schulman, John",
+        "Chen, Xi",
+        "Bartlett, Peter L.",
+        "Sutskever, Ilya",
+        "Abbeel, Pieter"
+      ],
+      "date": [
+        "2016/11/09"
+      ],
+      "online_date": [
+        "2016/11/10"
+      ],
+      "pdf_url": [
+        "https://arxiv.org/pdf/1611.02779"
+      ],
+      "arxiv_id": [
+        "1611.02779"
+      ],
+      "abstract": [
+        "Deep reinforcement learning (deep RL) has been successful in learning sophisticated behaviors automatically; however, the learning process requires a huge number of trials. In contrast, animals can learn new tasks in just a few trials, benefiting from their prior knowledge about the world. This paper seeks to bridge this gap. Rather than designing a \"fast\" reinforcement learning algorithm, we propose to represent it as a recurrent neural network (RNN) and learn it from data. In our proposed method, RL$^2$, the algorithm is encoded in the weights of the RNN, which are learned slowly through a general-purpose (\"slow\") RL algorithm. The RNN receives all information a typical RL algorithm would receive, including observations, actions, rewards, and termination flags; and it retains its state across episodes in a given Markov Decision Process (MDP). The activations of the RNN store the state of the \"fast\" RL algorithm on the current (previously unseen) MDP. We evaluate RL$^2$ experimentally on both small-scale and large-scale problems. On the small-scale side, we train it to solve randomly generated multi-arm bandit problems and finite MDPs. After RL$^2$ is trained, its performance on new MDPs is close to human-designed algorithms with optimality guarantees. On the large-scale side, we test RL$^2$ on a vision-based navigation task and show that it scales up to high-dimensional problems."
+      ]
+    },
+    "abstract": "Abstract: Deep reinforcement learning (deep RL) has been successful in learning sophisticated behaviors automatically; however, the learning process requires a huge number of trials. In contrast, animals can learn new tasks in just a few trials, benefiting from their prior knowledge about the world. This paper seeks to bridge this gap. Rather than designing a \"fast\" reinforcement learning algorithm, we propose to represent it as a recurrent neural network (RNN) and learn it from data. In our proposed method, RL$^2$, the algorithm is encoded in the weights of the RNN, which are learned slowly through a general-purpose (\"slow\") RL algorithm. The RNN receives all information a typical RL algorithm would receive, including observations, actions, rewards, and termination flags; and it retains its state across episodes in a given Markov Decision Process (MDP). The activations of the RNN store the state of the \"fast\" RL algorithm on the current (previously unseen) MDP. We evaluate RL$^2$ experimentally on both small-scale and large-scale problems. On the small-scale side, we train it to solve randomly generated multi-arm bandit problems and finite MDPs. After RL$^2$ is trained, its performance on new MDPs is close to human-designed algorithms with optimality guarantees. On the large-scale side, we test RL$^2$ on a vision-based navigation task and show that it scales up to high-dimensional problems."
+  },
+  {
+    "arxiv_id": "2210.14215",
+    "url": "https://arxiv.org/abs/2210.14215",
+    "retrieved_utc": "2026-10-25T15:03:20.067901+00:00",
+    "metadata": {
+      "title": [
+        "In-context Reinforcement Learning with Algorithm Distillation"
+      ],
+      "author": [
+        "Laskin, Michael",
+        "Wang, Luyu",
+        "Oh, Junhyuk",
+        "Parisotto, Emilio",
+        "Spencer, Stephen",
+        "Steigerwald, Richie",
+        "Strouse, DJ",
+        "Hansen, Steven",
+        "Filos, Angelos",
+        "Brooks, Ethan",
+        "Gazeau, Maxime",
+        "Sahni, Himanshu",
+        "Singh, Satinder",
+        "Mnih, Volodymyr"
+      ],
+      "date": [
+        "2022/10/25"
+      ],
+      "online_date": [
+        "2022/10/25"
+      ],
+      "pdf_url": [
+        "https://arxiv.org/pdf/2210.14215"
+      ],
+      "arxiv_id": [
+        "2210.14215"
+      ],
+      "abstract": [
+        "We propose Algorithm Distillation (AD), a method for distilling reinforcement learning (RL) algorithms into neural networks by modeling their training histories with a causal sequence model. Algorithm Distillation treats learning to reinforcement learn as an across-episode sequential prediction problem. A dataset of learning histories is generated by a source RL algorithm, and then a causal transformer is trained by autoregressively predicting actions given their preceding learning histories as context. Unlike sequential policy prediction architectures that distill post-learning or expert sequences, AD is able to improve its policy entirely in-context without updating its network parameters. We demonstrate that AD can reinforcement learn in-context in a variety of environments with sparse rewards, combinatorial task structure, and pixel-based observations, and find that AD learns a more data-efficient RL algorithm than the one that generated the source data."
+      ]
+    },
+    "abstract": "Abstract: We propose Algorithm Distillation (AD), a method for distilling reinforcement learning (RL) algorithms into neural networks by modeling their training histories with a causal sequence model. Algorithm Distillation treats learning to reinforcement learn as an across-episode sequential prediction problem. A dataset of learning histories is generated by a source RL algorithm, and then a causal transformer is trained by autoregressively predicting actions given their preceding learning histories as context. Unlike sequential policy prediction architectures that distill post-learning or expert sequences, AD is able to improve its policy entirely in-context without updating its network parameters. We demonstrate that AD can reinforcement learn in-context in a variety of environments with sparse rewards, combinatorial task structure, and pixel-based observations, and find that AD learns a more data-efficient RL algorithm than the one that generated the source data."
+  },
+  {
+    "arxiv_id": "1706.03741",
+    "url": "https://arxiv.org/abs/1706.03741",
+    "retrieved_utc": "2026-10-25T15:03:20.015231+00:00",
+    "metadata": {
+      "title": [
+        "Deep reinforcement learning from human preferences"
+      ],
+      "author": [
+        "Christiano, Paul",
+        "Leike, Jan",
+        "Brown, Tom B.",
+        "Martic, Miljan",
+        "Legg, Shane",
+        "Amodei, Dario"
+      ],
+      "date": [
+        "2017/06/12"
+      ],
+      "online_date": [
+        "2023/02/17"
+      ],
+      "pdf_url": [
+        "https://arxiv.org/pdf/1706.03741"
+      ],
+      "arxiv_id": [
+        "1706.03741"
+      ],
+      "abstract": [
+        "For sophisticated reinforcement learning (RL) systems to interact usefully with real-world environments, we need to communicate complex goals to these systems. In this work, we explore goals defined in terms of (non-expert) human preferences between pairs of trajectory segments. We show that this approach can effectively solve complex RL tasks without access to the reward function, including Atari games and simulated robot locomotion, while providing feedback on less than one percent of our agent's interactions with the environment. This reduces the cost of human oversight far enough that it can be practically applied to state-of-the-art RL systems. To demonstrate the flexibility of our approach, we show that we can successfully train complex novel behaviors with about an hour of human time. These behaviors and environments are considerably more complex than any that have been previously learned from human feedback."
+      ]
+    },
+    "abstract": "Abstract: For sophisticated reinforcement learning (RL) systems to interact usefully with real-world environments, we need to communicate complex goals to these systems. In this work, we explore goals defined in terms of (non-expert) human preferences between pairs of trajectory segments. We show that this approach can effectively solve complex RL tasks without access to the reward function, including Atari games and simulated robot locomotion, while providing feedback on less than one percent of our agent's interactions with the environment. This reduces the cost of human oversight far enough that it can be practically applied to state-of-the-art RL systems. To demonstrate the flexibility of our approach, we show that we can successfully train complex novel behaviors with about an hour of human time. These behaviors and environments are considerably more complex than any that have been previously learned from human feedback."
+  },
+  {
+    "arxiv_id": "2108.06325",
+    "url": "https://arxiv.org/abs/2108.06325",
+    "retrieved_utc": "2026-10-25T15:03:19.964074+00:00",
+    "metadata": {
+      "title": [
+        "Continual Backprop: Stochastic Gradient Descent with Persistent Randomness"
+      ],
+      "author": [
+        "Dohare, Shibhansh",
+        "Sutton, Richard S.",
+        "Mahmood, A. Rupam"
+      ],
+      "date": [
+        "2021/08/13"
+      ],
+      "online_date": [
+        "2022/05/05"
+      ],
+      "pdf_url": [
+        "https://arxiv.org/pdf/2108.06325"
+      ],
+      "arxiv_id": [
+        "2108.06325"
+      ],
+      "abstract": [
+        "The Backprop algorithm for learning in neural networks utilizes two mechanisms: first, stochastic gradient descent and second, initialization with small random weights, where the latter is essential to the effectiveness of the former. We show that in continual learning setups, Backprop performs well initially, but over time its performance degrades. Stochastic gradient descent alone is insufficient to learn continually; the initial randomness enables only initial learning but not continual learning. To the best of our knowledge, ours is the first result showing this degradation in Backprop's ability to learn. To address this degradation in Backprop's plasticity, we propose an algorithm that continually injects random features alongside gradient descent using a new generate-and-test process. We call this the \\textit{Continual Backprop} algorithm. We show that, unlike Backprop, Continual Backprop is able to continually adapt in both supervised and reinforcement learning (RL) problems. Continual Backprop has the same computational complexity as Backprop and can be seen as a natural extension of Backprop for continual learning."
+      ]
+    },
+    "abstract": "Abstract: The Backprop algorithm for learning in neural networks utilizes two mechanisms: first, stochastic gradient descent and second, initialization with small random weights, where the latter is essential to the effectiveness of the former. We show that in continual learning setups, Backprop performs well initially, but over time its performance degrades. Stochastic gradient descent alone is insufficient to learn continually; the initial randomness enables only initial learning but not continual learning. To the best of our knowledge, ours is the first result showing this degradation in Backprop's ability to learn. To address this degradation in Backprop's plasticity, we propose an algorithm that continually injects random features alongside gradient descent using a new generate-and-test process. We call this the \\textit{Continual Backprop} algorithm. We show that, unlike Backprop, Continual Backprop is able to continually adapt in both supervised and reinforcement learning (RL) problems. Continual Backprop has the same computational complexity as Backprop and can be seen as a natural extension of Backprop for continual learning."
+  }
+]

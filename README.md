@@ -50,6 +50,7 @@ feedback system than as a static parameter store.
 
 - [`paper/outline.md`](paper/outline.md): working paper structure and evidence plan.
 - [`notes/seed-idea.md`](notes/seed-idea.md): the initial conceptual argument.
+- [`references/README.md`](references/README.md): source records and title precedent.
 - `experiments/`: reproducible environments, agents, baselines, and results as
   they are added.
 - `paper/`: manuscript sources and, later, reviewed figures and references.
