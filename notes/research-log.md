@@ -127,3 +127,27 @@ separately. All outcomes from development seeds remain exploratory.
   clean-minus-none difference. This was amended before collection.
 - Study C uses untouched seeds 5000–5023 and tests 128-token generation against
   the original interface. No generation outcome has yet been inspected.
+
+## 2026-10-25 UTC: generation-interface development and source freeze
+
+- The local HTTPS proxy failed TLS, while direct verified HTTPS succeeded.
+  Per-command proxy removal restored GitHub access; private visibility was
+  verified and commits through v3 were pushed. Global proxy settings were not
+  changed. SSH handshake failures subsequently cleared; no C job had started
+  during the failed connections. The GPU was idle before development resumed.
+- Froze 24 Study C environments with NumPy 2.2.4, SHA-256
+  `1b30fb9836729e2775b6db993785cc6de7a90ce9a0cb3c6133d762a2606c6bb7`.
+  All targets, train/test separation, and symbolic recoverability were checked.
+- Seed-9 development on 0.5B returned literal `N` plus EOS under the reasoning
+  prompt. No prompt was tuned to improve this outcome. Separate ordinary
+  calibration questions produced coherent answers, including correct 2+2,
+  whereas the one-digit instruction reproduced the wrong answer 1. This
+  demonstrates prompt sensitivity, not a general arithmetic incapacity.
+- The adversarial generation-code review required retaining raw token IDs and
+  specifying special-token handling. The runner now saves tokens through EOS,
+  all generation defaults and overrides, and padded generation work. Parsing
+  explicitly strips tokenizer special tokens before applying the final-line
+  grammar. The inherited repetition penalty is 1.1 and is disclosed.
+- Parser, prompt, EOS/padding accounting, and task checks passed (eight tests).
+  Cross-model review was skipped in this user-requested autonomous context.
+  Formal Study C seeds remain unscored at this source freeze.
