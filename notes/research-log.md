@@ -54,3 +54,45 @@ user-requested autonomous run; no external reviewer CLI was invoked.
 The review's replay counting concern is addressed by reporting arriving examples
 as `checkpoint * 32` and storing fresh examples used and replay examples used
 separately. All outcomes from development seeds remain exploratory.
+
+## 2026-10-25: Study A results and language protocol review
+
+- The registered Study A run completed all 1120 arms in 105.97 seconds on lens.
+  The 19,200 rows passed completeness, identical initial scores, frozen scores,
+  and delayed-flush equivalence checks. The runner SHA-256 matches metadata.
+- Width 16 clean vs width 256 frozen improved by 46.76 percentage points for
+  linear and 38.06 for XOR. Against width 256 clean, width 16 differed by
+  +0.11 points for linear and -7.67 for XOR. These are conditional adaptation
+  results; the larger learner's XOR advantage contradicts capacity irrelevance.
+- Local plotting failed due to the system Matplotlib/NumPy ABI combination.
+  Analysis succeeded inside lens's pinned environment; no result was discarded.
+  Both generated figures were visually inspected.
+- A fresh reviewer of Study B required exact LoRA prompt/loss rules, constrained
+  self-generated labels, comparisons against no feedback, named random streams,
+  a first-token metric label, and the commutativity limitation. All six were
+  incorporated before scored inference. Cross-model review remains skipped in
+  this autonomous run.
+- Five Study B task tests pass. The generated 24-environment dataset is frozen
+  with SHA-256 ee556574a989ed8db2caac66030daaf5b6dfc0acbeeb1eca4276d7607983bceb.
+- A development-only Qwen 0.5B run on seed 7 completed. Its near-constant output
+  motivates inference diagnostics before any interpretation or formal run.
+
+## 2026-10-25 UTC: post-run code audit and replication
+
+- An independent code reviewer found overlapping random streams in Study A.
+  Adjacent environment seeds reused 255/256 corruption masks; some initial
+  model seeds also collided with other environments' rule seeds. Preserve
+  study-a-v1 and its historical analysis; mark its confidence claims superseded.
+- Derive streams by SHA-256 over environment, family, role, and step/width.
+  Seven tests pass, including collision checks over all formal streams.
+  Replicate unchanged settings on untouched seeds 4000–4019 as study-a-v2.
+- The language-model code review found no target leakage or scoring-index bug,
+  but required peak-memory accounting, actual package versions, and a hash of
+  the actually executed development environment. These were added.
+- The 0.5B checkpoint's SHA-256 exactly matches the official blob hash.
+  CPU float32, GPU float32 and bfloat16, and eager/SDPA inference agree on the
+  surprising calibration response. This is evidence against file corruption
+  or a device-only numerical fault, not a guarantee of general runtime validity.
+- The seed-7 LoRA development run completed. Its saved adapter encountered a
+  nonfatal remote-config lookup failure; vocabulary was unchanged. Formal
+  saving will explicitly omit frozen embeddings and run offline.

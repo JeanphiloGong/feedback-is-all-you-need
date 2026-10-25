@@ -1,0 +1,7 @@
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+PROMPT '<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nWhat is 2 + 2? Answer with one digit.<|im_end|>\n<|im_start|>assistant\n'
+logits top [('1', 24.5), ('2', 22.75), ('3', 22.5), ('4', 22.125), ('9', 18.125), ('8', 17.5), ('5', 16.875), ('0', 16.5)]
+GEN 1<|im_end|>
+PROMPT '<|im_start|>system\nYou execute an unfamiliar command language. Follow the task description and return only one digit from 0 to 7.<|im_end|>\n<|im_start|>user\nStates are integers 0 through 7. Each command (dax, wug, zup, fep) adds its own fixed but unknown integer offset modulo 8. The four offsets are distinct and may include 0. Apply all commands to the starting state. Infer offsets from the examples if available. Return only the final state digit.\nKnown offsets: dax adds 4; wug adds 3; zup adds 7; fep adds 6.\nNow solve:\nStart: 2; commands: dax; result:<|im_end|>\n<|im_start|>assistant\n'
+logits top [('7', 26.125), ('6', 24.25), ('5', 23.625), ('4', 23.625), ('0', 23.625), ('3', 23.5), ('2', 22.875), ('1', 22.5)]
+GEN 7<|im_end|>
