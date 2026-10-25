@@ -275,3 +275,10 @@ separately. All outcomes from development seeds remain exploratory.
   environment-level n=24. Its reproduction-path correction was applied; no
   model outputs were generated for that check. Cross-model review was skipped
   in this autonomous run. Newly introduced unused imports were removed.
+
+- Before formal Study E launch, seed 13 completed in 5.92
+  seconds and passed the full audit: 1,008 evaluation rows, 48 ordered
+  prediction/feedback pairs, initial adapter equality, all saved adapters, and
+  exact base recovery after each condition. The transferred development files
+  and analysis/source hashes match revision 84f2e52. Formal source/model/config
+  gate is enforced by the runner; no formal Study E predictions exist yet.
