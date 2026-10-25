@@ -73,5 +73,68 @@
     "source": "Google DeepMind hosted preprint linked from David Silver publication list",
     "version_note": "PDF creation date 2025-04-10; page1 identifies a forthcoming MIT Press book chapter. No DOI or peer-review status inferred.",
     "review_scope": "All main-text pages1\u20138 read; bibliography not exhaustively checked."
+  },
+  {
+    "name": "voyager",
+    "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+    "authors": [
+      "Guanzhi Wang",
+      "Yuqi Xie",
+      "Yunfan Jiang",
+      "Ajay Mandlekar",
+      "Chaowei Xiao",
+      "Yuke Zhu",
+      "Linxi Fan",
+      "Anima Anandkumar"
+    ],
+    "file": "voyager.pdf",
+    "url": "https://arxiv.org/pdf/2305.16291v2",
+    "version": "2305.16291v2",
+    "sha256": "769a4e33ddeeb73870849232eece49afe882c2d146362e33917ccb432ba0efb8",
+    "bytes": 18830859,
+    "accessed_utc": "2026-10-25T20:50:42.319524+00:00",
+    "source": "Unmodified arXiv PDF, archived in the private research repository.",
+    "review_scope": "Selected main-text methods (Sections 2.1-2.3), experimental setup/baselines, skill-reuse results, ablations (3.4), and limitations (4); no exhaustive appendix review.",
+    "extraction_note": "42-page PDF; rendered title, ablation, and results pages for visual checks."
+  },
+  {
+    "name": "self-debugging",
+    "title": "Teaching Large Language Models to Self-Debug",
+    "authors": [
+      "Xinyun Chen",
+      "Maxwell Lin",
+      "Nathanael Sch\u00e4rli",
+      "Denny Zhou"
+    ],
+    "file": "self-debugging.pdf",
+    "url": "https://arxiv.org/pdf/2304.05128v2",
+    "version": "2304.05128v2",
+    "sha256": "020e06b1fb9e1d4b6c33016a9471e8bd31f8ecfd7a22335d85956c14efa39f75",
+    "bytes": 1419448,
+    "accessed_utc": "2026-10-25T20:50:41.127713+00:00",
+    "source": "Unmodified arXiv PDF, archived in the private research repository.",
+    "review_scope": "Selected main-text framework/feedback variants (3), applications (4), experimental setup and sample-efficiency/execution ablations (5), and conclusion (7); no exhaustive appendix review.",
+    "extraction_note": "78-page PDF; rendered title, prompt, and experiment pages for visual checks."
+  },
+  {
+    "name": "expel",
+    "title": "ExpeL: LLM Agents Are Experiential Learners",
+    "authors": [
+      "Andrew Zhao",
+      "Daniel Huang",
+      "Quentin Xu",
+      "Matthieu Lin",
+      "Yong-Jin Liu",
+      "Gao Huang"
+    ],
+    "file": "expel.pdf",
+    "url": "https://arxiv.org/pdf/2308.10144v3",
+    "version": "2308.10144v3",
+    "sha256": "01e533d81fb4a5f91797c073a9b1929acbaa64da45a592b26563ca7d135024f3",
+    "bytes": 9870272,
+    "accessed_utc": "2026-10-25T20:50:44.904115+00:00",
+    "source": "Unmodified arXiv PDF, archived in the private research repository.",
+    "review_scope": "Selected main-text experience collection/insight extraction/inference/transfer (4), setup, results and ablations (5), and limitations (6); no exhaustive appendix review.",
+    "extraction_note": "38-page PDF; rendered title, insight-template, and transfer pages for visual checks."
   }
 ]

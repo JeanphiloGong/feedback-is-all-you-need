@@ -5,8 +5,8 @@ Attention paper's relevant sections were read in full. This is a targeted
 review, not a systematic or exhaustive novelty search.
 
 Update: a [targeted full-text review](full-text-review.md) now covers the methods
-and limitations of six directly relevant works, including Reward is enough
-and Welcome to the Era of Experience.
+and limitations of nine directly relevant works, including Reward is enough,
+Voyager, ExpeL, and Welcome to the Era of Experience.
 The table below remains the original discovery map; see the review for exact
 versions and reading scope.
 
@@ -24,6 +24,9 @@ versions and reading scope.
 | Snell et al., 2024, [Scaling LLM Test-Time Compute](https://arxiv.org/abs/2408.03314) | Already reports smaller models outperforming much larger models under some compute-matched conditions. A small-versus-large win alone is insufficient novelty. |
 | Dohare et al., 2021, [Continual Backprop](https://arxiv.org/abs/2108.06325) | Continued optimization does not guarantee retained plasticity. Learning stability needs measurement. |
 | Chen et al., 2023, [Feedback is all you need: from ChatGPT to autonomous driving](https://doi.org/10.1007/s11432-023-3740-x) | Direct title/framing precedent; full text still to be obtained. |
+| Wang et al., 2023, [Voyager](https://arxiv.org/abs/2305.16291) | Executable skill library, environment feedback, execution errors, and self-verification provide a strong precedent for external memory and iterative repair. |
+| Chen et al., 2023, [Teaching Large Language Models to Self-Debug](https://arxiv.org/abs/2304.05128) | Code execution and unit-test feedback improve iterative repair without weight updates; inference cost and model competence remain material. |
+| Zhao et al., 2023/2024, [ExpeL](https://arxiv.org/abs/2308.10144) | Extracts editable insights and retrieves successful trajectories across tasks; directly precedes compressed experience memory and transfer. |
 
 ## Proposed contribution to investigate
 

@@ -37,11 +37,16 @@ The closely related title and framing must be acknowledged. The publisher
 endpoint returned a browser challenge instead of a PDF, so only metadata has
 been verified for that work at this checkpoint.
 
-`full-text-manifest.json` records exact copies and versions of Reward is enough,
-RL², Reflexion, Self-Refine, the intrinsic self-correction study, and Welcome to
-the Era of Experience. The
+`full-text-manifest.json` records exact local copies and versions of Reward is enough,
+RL², Reflexion, Self-Refine, the intrinsic self-correction study, Welcome to
+the Era of Experience, Voyager, Self-Debugging, and ExpeL. The
 unmodified PDFs retain their authorship and original license notices.
 [`../notes/full-text-review.md`](../notes/full-text-review.md) records the
 sections read and how their methods constrain our claims. Reward is enough
 was read from an image-only author copy; its Crossref metadata is preserved in
 `reward-is-enough.json`.
+
+Voyager, Self-Debugging, and ExpeL are archived as unmodified PDFs in this
+private research repository, with source URLs, exact hashes, and limited reading
+scopes in `full-text-manifest.json`. Their inclusion is research reference
+material, not a claim of authorship or permission for external republication.

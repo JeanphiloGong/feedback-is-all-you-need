@@ -76,7 +76,8 @@ establish feedback sufficiency for general intelligence.
 - [Study E results](results/study-e-v1/README.md): 24 fresh online-feedback
   environments; no demonstrated composition gain after 16 LoRA updates.
 - [Full-text literature review](notes/full-text-review.md): methods and limits
-  of six close precedents, including Reward is enough and the Era of Experience.
+  of nine close precedents, including Reward is enough, Voyager, ExpeL, and the
+  Era of Experience.
 
 The smallest language model did not improve composition accuracy under the
 first tested feedback mechanism. This negative result is conditional on the
