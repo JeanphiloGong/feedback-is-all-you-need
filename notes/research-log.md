@@ -207,3 +207,9 @@ separately. All outcomes from development seeds remain exploratory.
   prerequisite in the launch workflow. The updated development run must pass
   with matching source/configuration before formal collection. Both development
   versions will be retained; this change affects auditing, not generation.
+
+- The updated seed-11 run completed in 79.95 seconds. Before formal launch,
+  the workflow verified all 144 saved prefix matches, completion metadata,
+  source hashes, revision `8507524`, pinned 7B identity, and exact generation
+  settings. The prerequisite passed. No Study D formal outputs were viewed
+  before this gate.
