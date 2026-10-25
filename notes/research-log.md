@@ -235,3 +235,17 @@ separately. All outcomes from development seeds remain exploratory.
 - All 481 recovered clean composition responses had invalid shorter prefixes.
   Report this decomposition: the result establishes a completion-budget effect
   on the measured use of examples, not 481 corrections of valid wrong answers.
+
+## 2026-10-25 UTC: manuscript v5 review
+
+- A fresh reviewer independently reproduced the Study D means, paired t and
+  bootstrap intervals, invalid-prefix transitions, development equality checks,
+  and costs; no substantive reporting error was found. The reviewer could
+  reparse saved text but lacked the local tokenizer cache for decoding token
+  IDs again; the full remote decoding audit had passed.
+- The new attribution was checked against the archived Era of Experience
+  text. Cross-model review was skipped in this user-requested autonomous run.
+- Version 5 compiles twice without final-pass warnings. All 13 pages were
+  rendered and inspected, including the new result table and figure. Earlier
+  versions remain intact. Study D and the manuscript are separate commits
+  because the data audit and paper snapshot are independently reviewable.
