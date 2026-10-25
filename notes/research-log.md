@@ -96,3 +96,19 @@ separately. All outcomes from development seeds remain exploratory.
 - The seed-7 LoRA development run completed. Its saved adapter encountered a
   nonfatal remote-config lookup failure; vocabulary was unchanged. Formal
   saving will explicitly omit frozen embeddings and run offline.
+
+## 2026-10-25 UTC: independent replication and pretrained-model runs
+
+- Study A v2 completed 1,120 arms / 19,200 checkpoints in 109.54 seconds,
+  with source hash verified. Primary small-clean vs large-frozen differences
+  are +52.91 points for linear and +37.32 for XOR. Under the same clean
+  feedback, small-minus-large is 0.00 and -10.93 points respectively.
+- Manuscript v2 reports the corrected run; v1 retains an audit notice. Both
+  compile without final-pass LaTeX warnings, and result pages were inspected.
+- All four language-model context runs and 24 LoRA environments completed.
+  The remote disk then filled during export. The partial export is excluded;
+  original run metadata and data remained complete. Export and analysis moved
+  to /tmp, which is a separate filesystem with sufficient free space.
+- Actual context runtimes were 21.81, 56.22, 109.02, and 234.69 seconds for
+  0.5B, 1.5B, 3B, and 7B; the LoRA suite took 94.65 seconds. Source hashes
+  match the archived runner. The run scripts and packages remained unchanged.
