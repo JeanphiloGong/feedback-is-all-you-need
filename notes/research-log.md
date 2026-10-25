@@ -213,3 +213,25 @@ separately. All outcomes from development seeds remain exploratory.
   source hashes, revision `8507524`, pinned 7B identity, and exact generation
   settings. The prerequisite passed. No Study D formal outputs were viewed
   before this gate.
+
+## 2026-10-25 UTC: Study D completion and changed interpretation
+
+- The fixed 512-token run completed all 3,456 continuations in 216 batches,
+  taking 1,436.61 seconds. All source/model/data/grid/prompt/token/score/batch
+  checks pass; every transferred hash matches the remote manifest. Independent
+  local aggregation matches all means and the primary interval.
+- Clean-example composition accuracy rises from 7.94% at the 128-token prefix
+  to 70.57% at 512 tokens: +62.63 points, t CI [56.10,69.16], bootstrap
+  [56.38,68.75]. The no-example score also rises from 0% to 14.06%.
+- Clean composition truncation falls from 87.76% to 3.26%; 481 queries become
+  correct and none become incorrect. This materially revises the interpretation
+  of short-budget failures. It is an inference/interface result, not evidence
+  of ongoing parameter learning or the sufficiency of feedback for intelligence.
+- The analysis review required explicit presence of all four source hashes,
+  prefix-relevant generation settings, and a check of padded input costs.
+  These checks were added before interpreting formal results; no rerun was
+  required. Cross-model review was skipped in this autonomous run.
+
+- All 481 recovered clean composition responses had invalid shorter prefixes.
+  Report this decomposition: the result establishes a completion-budget effect
+  on the measured use of examples, not 481 corrections of valid wrong answers.
