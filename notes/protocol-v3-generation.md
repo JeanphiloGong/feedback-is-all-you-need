@@ -22,8 +22,8 @@ Inference reads these bytes rather than regenerating the formal environments.
 - Interfaces: (a) exactly Study B's first-token scoring; (b) brief reasoning
   followed by a final answer, greedy full generation capped at 128 new tokens.
   No sampling, extra retry, or external evaluator is available at test time.
-  Retain the checkpoint's generation defaults, including repetition penalty
-  1.1; archive those defaults and the two overrides (`do_sample=False`,
+  Retain the checkpoint's generation defaults, including repetition penalties
+  1.1 (0.5B) and 1.05 (7B); archive those defaults and the two overrides (`do_sample=False`,
   `max_new_tokens=128`). This is not unpenalized tokenwise argmax.
 - Reasoning prompts replace both single-digit-only instructions with:
   `Reason briefly about the state changes. Finish with a line exactly
@@ -81,3 +81,12 @@ and all four component means. Only evidence of a positive feedback effect under
 generation supports recovery under that interface. A null result applies to this prompt,
 task family, and 128-token budget. Neither outcome resolves whether a small
 agent can develop broad intelligence through long-term interactive learning.
+
+## Documentation correction after launch
+
+The source-freeze prose mistakenly described both checkpoints' repetition
+penalty as 1.1. The pinned 7B development metadata records 1.05. This text was
+corrected during the formal run on 2026-10-25 UTC after analysis-code review.
+The registered rule to retain checkpoint defaults, frozen runner, model
+settings, prompts, token cap, and outcomes were not changed. Both effective
+penalties are now checked and reported in analysis.

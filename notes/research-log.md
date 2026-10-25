@@ -151,3 +151,32 @@ separately. All outcomes from development seeds remain exploratory.
 - Parser, prompt, EOS/padding accounting, and task checks passed (eight tests).
   Cross-model review was skipped in this user-requested autonomous context.
   Formal Study C seeds remain unscored at this source freeze.
+
+- During formal collection, analysis review found a documentation error: the
+  inherited repetition penalty is 1.1 for 0.5B and 1.05 for 7B, as shown by
+  development metadata. The protocol text was corrected with an explicit
+  after-launch note. The rule to inherit checkpoint defaults and the frozen
+  runner were unchanged. Analysis now checks model/revision identities,
+  decodes raw tokens against saved text, and requires EOS or the token cap.
+
+## 2026-10-25 UTC: Study C completion and audit
+
+- Both runs completed without model restarts: 28.92 seconds for 0.5B and
+  1,831.46 seconds for 7B. Each produced 9,216 held-out predictions and 768
+  self-history records. All model/revision, source, environment, grid, raw
+  decoding, EOS, and answer-score checks passed. Local independent aggregation
+  reproduced all means and the primary t interval.
+- The primary interaction is -0.52 points, t CI [-1.16, 0.11], bootstrap
+  [-1.17, 0.00]. Every small-model generation was literal N plus EOS. Its
+  failure is an interface result, not a general reasoning-capacity estimate.
+- 7B oracle generation reaches 100% direct and 97.27% composition accuracy.
+  With correct examples, composition accuracy is 6.90%, and 88.28% of those
+  outputs hit the token cap. Report this material budget limit and register
+  any longer-budget follow-up separately.
+- SSH handshake failures delayed copying completed results. The first SCP
+  directory-copy syntax was rejected; a tar transfer succeeded, with every
+  remote archive hash matching locally. Raw remote outputs remain intact.
+- A reference PDF was initially classified as text by Git; its unchanged
+  streams triggered whitespace diagnostics. PDF binary attributes resolved
+  the false positives without altering any source PDF. Text-only checks and
+  subsequent reference-diff checks passed.
