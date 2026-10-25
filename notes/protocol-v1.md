@@ -17,12 +17,16 @@ the same label. Learning is supervised online adaptation, not a new RL method.
 
 ## Data-generating process
 
-- Independent experimental units: 20 seeds, 1000 through 1019. Development and
+- Independent experimental units: 20 seeds, 2000 through 2019. Development and
   correctness checks use seeds below 100. Seed outcomes must not tune settings.
+  Amendment before formal collection: an implementation smoke run accidentally
+  used seeds 1000 and 1001 and its outcomes were viewed; these are now excluded
+  from formal analysis. See the research log. Model settings were not tuned.
 - Features: independent standard-normal coordinates, dimension 8.
 - Linear family: `y = 1[x dot w >= 0]`, with a normalized random Gaussian `w`.
 - XOR family: `y = 1[(x[i] > 0) != (x[j] > 0)]`, with a uniformly sampled
-  distinct pair of coordinates; a fair random bit may complement labels.
+  distinct pair of coordinates. Independently for each rule draw
+  `c ~ Bernoulli(0.5)` and complement all labels exactly when `c=1`.
 - Each seed has an initial rule and an independently sampled post-change rule.
   Identical XOR rules may occur naturally and are retained, not resampled.
 - Warmup: 256 mini-batches of 32 labeled examples from the initial rule.
@@ -54,10 +58,18 @@ the same label. Learning is supervised online adaptation, not a new RL method.
 6. `delay32`: correct labels arrive 32 batches after prediction. Evaluate both
    the online endpoint and a separately labeled endpoint after flushing pending
    batches, so feedback latency is not confused with final information count.
+   Checkpoint numbers count arriving batches, not completed updates: after
+   arrival t, this arm has max(0, t-32) updates. At t=256 it has 224 updates;
+   flushing processes the remaining 32 in order, reaching 256 total updates.
+   Equality with clean after flushing is an implementation check because the
+   update rule has no dependence on arrival time and uses the same batch order.
 7. `replay25`: each update uses 24 new examples plus 8 randomly selected
    examples retained from warmup; clean post-change labels. This reduces fresh
    examples per update and therefore is not a pure memory ablation. Report
    fresh and replay example counts separately.
+   Use the first 24 examples of each common 32-example batch and discard the
+   other 8 for this arm. Draw 8 warmup examples with replacement independently
+   per update from all 8192 stored examples. Retain their old-rule labels.
 
 No checkpoints are selected using evaluation scores. Checkpoints are fixed at
 0, 16, 32, ..., 256 adaptation steps. Save per-seed accuracy for both rules and

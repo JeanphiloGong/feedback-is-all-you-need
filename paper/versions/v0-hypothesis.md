@@ -60,10 +60,13 @@ cost. We do not assume a universal representation threshold exists.
 ### 4.1 Identification requires information
 
 Consider a hidden task Theta drawn uniformly from K possibilities, independent
-of the agent's initial parameters and random seed. If n responses contain at
-most b bits each, including all task-dependent response channels, their total
-mutual information about Theta is at most nb bits. Adaptive queries do not
-create additional information by themselves. Fano's inequality then gives
+of the complete initial agent state, including parameters, memory, history,
+random seed, and any side information. Every subsequent task-dependent
+observation must be included in the response transcript. If each of n response
+alphabets has at most `2^b` possibilities, their total mutual information about
+Theta is at most nb bits. Adaptive queries are functions of the agent's
+independent initial state and earlier responses, and cannot supply additional
+information by themselves. Fano's inequality then gives
 `P(task-identification error) >= 1 - (nb + 1) / log2(K)` for K > 1, clipped at
 zero. This bound concerns exact task identification, not every possible
 prediction metric. Informative prior knowledge changes the bound.
