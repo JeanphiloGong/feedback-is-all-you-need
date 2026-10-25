@@ -35,3 +35,21 @@ descriptive. Repetition strata separate valid wrong, exact, and invalid rules;
 repeated success is not failure. Component diagnostics use only valid pairs.
 All initialization and collection failures are recorded after run creation;
 preflight rejection of missing development evidence occurs before creating a run.
+
+## Exploratory selection after manuscript v8
+
+The separate post-hoc plan is
+[`../../notes/study-g-selection-plan.md`](../../notes/study-g-selection-plan.md).
+Select the earliest best training-fit rule from each recorded prefix without
+changing formal scores, generation histories, or model weights:
+
+```bash
+python3 -s -m unittest experiments.study_g.test_selection -v
+python3 -s -m experiments.study_g.selection --input results/study-g-v1 \
+  --output /tmp/study-g-selection.json
+```
+
+The selector evaluates all disclosed examples, adding supplied computation.
+Its direct-score monotonicity follows from this task family's structure;
+composition can decline. This is not a run with gated model feedback or a
+measurement of learning across tasks. The output must be a new file.

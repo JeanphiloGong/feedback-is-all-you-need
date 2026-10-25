@@ -490,3 +490,20 @@ separately. All outcomes from development seeds remain exploratory.
   and the changed final pages were rendered and inspected again. All earlier
   manuscript snapshots remain intact. No implementation abstraction was added;
   compilation and rendering intermediates stay outside the tracked archive.
+
+## 2026-10-25 UTC: exploratory selection analysis preparation
+
+- After completing v8, specified a separate post-hoc selector over Study G's
+  fixed candidate pools. It ranks only disclosed-example accuracy, keeps the
+  earliest maximum at each prefix, and retains the strict invalid-rule policy.
+  This measures available candidates discarded by final-proposal scoring,
+  not the unobserved trajectory of a model with an acceptance gate.
+- The plan explicitly identifies why direct-score monotonicity follows from
+  the supplied balanced additive family, while composition can decline.
+  Extra full-example checks and offline analysis time are recorded separately.
+- Six focused tests pass, covering ties, regression recovery, invalid rules,
+  prefix causality, hidden-data independence, and the composition alias.
+  Fresh independent review found no substantive issue in the plan or code.
+  Cross-model CLI review was skipped in this autonomous context. Only direct
+  research analysis functions were added; no compatibility layer or temporary
+  implementation was introduced.
