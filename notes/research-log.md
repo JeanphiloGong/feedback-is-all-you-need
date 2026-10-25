@@ -301,3 +301,16 @@ separately. All outcomes from development seeds remain exploratory.
   The per-outcome and error-only arms apply 384 and 337 updates, respectively;
   their different costs are measured and are not described as matched. All
   final adapter files are archived along with raw records and manifests.
+
+## 2026-10-25 UTC: manuscript v6 review
+
+- A fresh manuscript reviewer independently reproduced all new means and
+  intervals, contrasts, transitions, bootstrap, and update costs, and checked
+  all 48 adapter manifests. No substantive issue remained. Cross-model review
+  was skipped in the authorized autonomous context.
+- Version 6 retains the five studies and all earlier versions. It explicitly
+  distinguishes changed predictions from useful retained improvement and
+  reports the small-model null result without a general incapacity claim.
+- The 15-page PDF compiles twice without final-pass warnings; all pages were
+  rendered and inspected, including the new table, curves, and conclusion.
+  A line overflow in the result paragraph was fixed before the final render.

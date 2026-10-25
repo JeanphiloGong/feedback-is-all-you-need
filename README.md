@@ -61,8 +61,8 @@ The hypothesis has now been tested in controlled classification and pretrained
 language-model studies. Results support conditional adaptation, but do not
 establish feedback sufficiency for general intelligence.
 
-- [Manuscript versions](paper/README.md): v0 hypothesis through v5, including
-  audited results, pretrained models, and response-interface and budget tests.
+- [Manuscript versions](paper/README.md): v0 hypothesis through v6, including
+  audited results, pretrained models, response budgets, and online updates.
 - [Study A replication](results/study-a-v2/README.md): 20 seeds, four capacities,
   seven feedback conditions; all 19,200 records retained.
 - [Study B results](results/study-b-v1/README.md): four Qwen2.5 sizes, 24 new
@@ -73,6 +73,8 @@ establish feedback sufficiency for general intelligence.
   on 24 new environments; all raw tokens, format failures, and truncations.
 - [Study D results](results/study-d-v1/README.md): fixed 128/512-token comparison
   on 24 further environments; clean composition rises from 7.94% to 70.57%.
+- [Study E results](results/study-e-v1/README.md): 24 fresh online-feedback
+  environments; no demonstrated composition gain after 16 LoRA updates.
 - [Full-text literature review](notes/full-text-review.md): methods and limits
   of six close precedents, including Reward is enough and the Era of Experience.
 
@@ -80,7 +82,8 @@ The smallest language model did not improve composition accuracy under the
 first tested feedback mechanism. This negative result is conditional on the
 prompt, update rule, and inference interface. In 7B, longer continuations
 recover substantial example-based performance; all 481 recovered composition
-answers had invalid shorter prefixes. This is a response-completion effect,
-not evidence of persistent error-directed learning. That mechanism remains
-an open research question.
+answers had invalid shorter prefixes. This is a response-completion effect.
+Explicit per-outcome updates and error-only updates in 0.5B also fail to
+demonstrate a retained composition gain under the short tested schedule.
+More effective feedback systems and sustained cross-task learning remain open.
 All commits use English. External paper submission has not been authorized.
