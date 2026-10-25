@@ -249,3 +249,29 @@ separately. All outcomes from development seeds remain exploratory.
   rendered and inspected, including the new result table and figure. Earlier
   versions remain intact. Study D and the manuscript are separate commits
   because the data audit and paper snapshot are independently reviewable.
+
+## 2026-10-25 UTC: online-feedback mechanism preparation
+
+- Study E compares context retention, one LoRA update per verified outcome,
+  and updating only after a wrong prediction. It uses 24 fresh environments,
+  seeds 7000–7023, with the constrained 0.5B interface. Only 16 feedback events
+  are used; no claim about optimal schedules or lifelong learning is intended.
+- Initial review found mismatched adapter initialization between conditions,
+  missing pre-update failure records, and analyzer/source-path inconsistencies.
+  All were corrected before any Study E model execution. An injected optimizer
+  failure first reproduced the loss of the pre-update prediction; its regression
+  test now passes with the prediction retained. No formal results were viewed.
+- All 24 frozen task splits, targets, and symbolic solutions passed. Local
+  E/task tests passed (13); the local PEFT reset test could not collect because
+  PEFT is absent. The authorized lens environment ran all 14 tests successfully,
+  including two actual adapter train/unload cycles with exact base equality.
+  PEFT emitted its existing peft_config warning on reattachment; tensor equality
+  passed. Development will also hash the full pretrained base after each arm.
+- The standalone generator's first invocation used a file path and failed to
+  resolve its package; invoking it as a module succeeded. No model data was
+  collected during that failure. Frozen JSON creation now refuses overwrite.
+- The second fresh review found no remaining substantive issue. An isolated
+  synthetic full-grid audit produced all 42 summaries and 12 contrasts with
+  environment-level n=24. Its reproduction-path correction was applied; no
+  model outputs were generated for that check. Cross-model review was skipped
+  in this autonomous run. Newly introduced unused imports were removed.
