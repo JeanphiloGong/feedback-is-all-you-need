@@ -153,3 +153,57 @@ Reproduce using
 [`../../experiments/study_g/README.md`](../../experiments/study_g/README.md)
 at frozen source `c4b4054`, with the pinned cached models and
 `HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1`.
+
+## Exploratory selection after manuscript v8
+
+This analysis was specified after viewing the complete results and committing
+v8; its plan and implementation are frozen at `893d1c6` in
+[`../../notes/study-g-selection-plan.md`](../../notes/study-g-selection-plan.md).
+`selection-diagnostics.json` retains 1,152 checkpoint records, input/source
+hashes, and all descriptive summaries. The selector uses only disclosed
+training examples, ranks invalid rules below every valid rule, and keeps the
+earliest maximum within each available prefix. It does not change the original
+scores or infer what a model would generate after a changed acceptance decision.
+
+| Model / pool | Final direct % | Selected direct % | Final composition % | Selected composition % | Exact final / selected, out of 48 |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| 0.5B last only | 10.42 | 17.71 | 7.94 | 14.84 | 0 / 0 |
+| 0.5B full history | 10.42 | 19.27 | 7.23 | 15.30 | 0 / 0 |
+| 7B last only | 47.40 | 63.54 | 34.51 | 49.93 | 5 / 10 |
+| 7B full history | 47.92 | 70.31 | 36.65 | 58.14 | 9 / 17 |
+
+The 7B pools contain exact rules in 10 last-only and 17 full-history
+environments, of which five and eight respectively are lost by the final
+proposal. Selection retrieves those candidates. No 0.5B pool contains an
+exact valid rule, so preserving an earlier candidate cannot supply one.
+All 48 trajectories in each group select an earlier stage at the final
+checkpoint; this includes earliest ties and does not mean that all final
+proposals are strictly worse.
+
+Selection improves final direct accuracy in 10/48 and 13/48 small-model
+environments, and 20/48 and 22/48 large-model environments, for last only and
+full history respectively. It never lowers the per-environment direct score:
+that property follows algebraically from the known additive family and
+balanced train/direct queries. It is not evidence that the model learned.
+Individual direct answers can still regress when a different subset of
+offsets becomes correct: gained/lost counts are 60/4, 76/8, 132/8, and 172/0
+in table order. Composition scores fall in 5, 4, 2, and 3 environments despite
+the group mean increases. These are descriptive results from the same fixed
+pools, with no new significance claim or formal primary-endpoint replacement.
+
+Selection adds full-example checks beyond the original first-failure checker:
+9,056, 8,464, 12,032, and 11,664 training-example executions per standalone
+pool group in table order. These counts include repeated candidates and the
+initial proposal within each group; invalid candidates require parsing but
+no example execution. The local offline analysis takes 0.668 seconds before
+output serialization, excluding imports and all original model generation.
+Its generation cost is already incurred in the formal archive; selection
+does not establish a free intervention, a new neural capability, or a
+prospective effect of feedback gating.
+
+Reproduce without model inference using the selection commands in
+[`../../experiments/study_g/README.md`](../../experiments/study_g/README.md).
+Independent calculation from the audited rule memories reproduces all 1,152
+selected-prefix records and 24 summaries, including gains/losses and extra
+example checks; all input/source hashes match. Fresh reporting review found
+no material issue. Cross-model CLI review was skipped in the autonomous run.

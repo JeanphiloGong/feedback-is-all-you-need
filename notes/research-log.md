@@ -507,3 +507,24 @@ separately. All outcomes from development seeds remain exploratory.
   Cross-model CLI review was skipped in this autonomous context. Only direct
   research analysis functions were added; no compatibility layer or temporary
   implementation was introduced.
+
+## 2026-10-25 UTC: exploratory selection outcomes
+
+- The supplied training-example selector retrieves exact rules from 10/48
+  last-only and 17/48 full-history 7B pools, versus final counts of 5/48 and
+  9/48. The full-history direct score becomes 70.31% instead of 47.92%.
+  No 0.5B pool contains an exact valid rule; its selected direct scores are
+  17.71% last-only and 19.27% full-history. These fixed-pool descriptions
+  cannot predict the candidates generated under a different feedback policy.
+- All groups choose an earlier stage in 48/48 environments, including earliest
+  ties. Per-environment direct scores cannot fall under this supplied task
+  structure, but individual answers and composition scores can regress.
+  Composition declines in 5, 4, 2, and 3 environments in model/branch order.
+- The analysis adds 9,056/8,464/12,032/11,664 full-example executions across
+  the four standalone pool groups. It takes 0.668 seconds locally before
+  serialization, excluding imports and all prior generation. Input and
+  source hashes are archived with 1,152 records and 24 summaries.
+- Independent calculation from audited rule memories reproduces every record
+  and summary; fresh results review found no material issue. Cross-model CLI
+  review was skipped. No formal scores, source freezes, or earlier manuscripts
+  changed, and no additional model inference was performed.
