@@ -314,3 +314,36 @@ separately. All outcomes from development seeds remain exploratory.
 - The 15-page PDF compiles twice without final-pass warnings; all pages were
   rendered and inspected, including the new table, curves, and conclusion.
   A line overflow in the result paragraph was fixed before the final render.
+
+## 2026-10-25 UTC: rule-memory experiment preparation
+
+- Added selected-section reviews and exact source records for Voyager,
+  Self-Debugging, and ExpeL. Independent review corrected simulated versus
+  observed traces, SQL execution observations, and the target-example/GPT-4
+  conditions on ExpeL transfer. The three unmodified PDFs are archived.
+- Study F freezes 24 fresh languages, seeds 8000–8023, plus development seed 17.
+  It compares two fixed self-review or externally checked revisions of a
+  shared initial rule, using a supplied executor and no hidden test inputs
+  or targets in prompts. No model calls have occurred at this checkpoint.
+- Protocol review exposed a composition alias: adding four to every offset
+  makes all direct answers wrong but preserves every two-command result.
+  Exact-rule recovery and nonexact perfect-composition diagnostics prevent
+  interpreting that score as faithful memory. The primary t-interval rule
+  and paired percentile bootstrap are specified before inference.
+- Implementation review reproduced a 512-token malformed bracket response
+  that raised RecursionError. The boundary now scores it as invalid. Raw
+  outputs from the whole completed batch are persisted before checking any
+  row; an injected first-row failure verifies that all 16 proposals survive.
+- Local rule tests pass (9). A local analyzer smoke import was unavailable
+  because python3 -s cannot import Transformers; it is not a passing analysis
+  check. The existing remote environment passes 16 tests and 10 subtests.
+  Analysis now verifies the runtime versions of all five scientific/model
+  packages; source/configuration and development evidence are also checked.
+- No production abstractions, adapters, or compatibility layers were added.
+  The test-only batch/model fixtures support the injected-failure check.
+  Cross-model CLI review is skipped in this autonomous research run.
+- The final review also reproduced a setup-failure gap. Provenance is now
+  saved before tokenizer/model loading; an injected cache failure retains
+  incomplete metadata and the exception record. The narrow correction passed
+  independent review. A synthetic full-grid audit checked forks, final scoring,
+  package rejection, Wilson/transition intervals, and JSON serialization.
