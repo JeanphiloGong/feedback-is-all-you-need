@@ -474,3 +474,19 @@ separately. All outcomes from development seeds remain exploratory.
   The label and invalid count are now explicit; no numerical result changed.
   No material findings remain. Cross-model CLI review was skipped in this
   authorized autonomous run.
+
+## 2026-10-25 UTC: manuscript v8 review
+
+- Version 8 adds the complete-history comparison and separates Study F's
+  post-hoc motivation from Study G's prospective endpoint. It reports the
+  primary interval, regressions, exact-rule recovery versus retention,
+  correctness-stratified repetition, and the extra cost of full history.
+- Fresh manuscript review checked the added methods, raw-rule arithmetic,
+  uncertainty, costs, figures, and changed interpretation against the frozen
+  protocol. No actionable scientific-reporting issue remained. Cross-model
+  CLI review was skipped in this authorized autonomous run.
+- The 22-page manuscript compiles twice at its final revision without warnings.
+  All pages were rendered and inspected; a stranded result line was removed
+  and the changed final pages were rendered and inspected again. All earlier
+  manuscript snapshots remain intact. No implementation abstraction was added;
+  compilation and rendering intermediates stay outside the tracked archive.

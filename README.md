@@ -61,9 +61,9 @@ The hypothesis has now been tested in controlled classification and pretrained
 language-model studies. Results support conditional adaptation, but do not
 establish feedback sufficiency for general intelligence.
 
-- [Manuscript versions](paper/README.md): v0 hypothesis through v7, including
+- [Manuscript versions](paper/README.md): v0 hypothesis through v8, including
   audited results, pretrained models, response budgets, online updates, and
-  checked revision of external rule memory.
+  checked revision of external rule memory and complete correction history.
 - [Study A replication](results/study-a-v2/README.md): 20 seeds, four capacities,
   seven feedback conditions; all 19,200 records retained.
 - [Study B results](results/study-b-v1/README.md): four Qwen2.5 sizes, 24 new
@@ -79,6 +79,9 @@ establish feedback sufficiency for general intelligence.
 - [Study F results](results/study-f-v1/README.md): 24 fresh rule-memory
   environments per model; external checks do not establish a small-model
   composition gain over two self-revisions.
+- [Study G results](results/study-g-v1/README.md): 48 fresh environments per
+  model and 16 checked revisions; complete history does not demonstrate a
+  direct-accuracy benefit, with regressions and additional compute retained.
 - [Full-text literature review](notes/full-text-review.md): methods and limits
   of nine close precedents, including Reward is enough, Voyager, ExpeL, and the
   Era of Experience.
@@ -93,5 +96,11 @@ demonstrate a retained composition gain under the short tested schedule.
 Checked revision of stored rules yields a 0.5B composition difference of
 +4.04 points (95% CI [-2.78, 10.85]) over self-review and no exact rule recovery.
 The supplied executor and strict output schema remain part of that result.
+Retaining complete history through 16 checked revisions yields a 0.5B direct
+difference of 0.00 points (95% CI [-3.96, 3.96]) over last-only history. In 7B,
+the full-history branch finishes with nine exact rules but loses three of the
+four initially exact rules. More revisions do not ensure cumulative progress
+under this mechanism, and the full-history branch consumes over twice the
+input tokens.
 More effective feedback systems and sustained cross-task learning remain open.
 All commits use English. External paper submission has not been authorized.
