@@ -282,3 +282,22 @@ separately. All outcomes from development seeds remain exploratory.
   exact base recovery after each condition. The transferred development files
   and analysis/source hashes match revision 84f2e52. Formal source/model/config
   gate is enforced by the runner; no formal Study E predictions exist yet.
+
+## 2026-10-25 UTC: Study E completion
+
+- All 24 environments finished in 72.80 seconds after loading. The full audit
+  passed 24,192 evaluations, 1,152 prediction/feedback pairs, all 48 adapters,
+  model and source identities, reset evidence, prompt separation, and costs.
+  All 152 transferred artifact hashes match; local independent aggregation
+  reproduces all 42 means and the primary t interval.
+- The primary one-update-per-outcome composition change is -0.65 points,
+  t CI [-4.04,2.74], bootstrap [-3.78,2.47]. It is a failure to demonstrate
+  improvement under this 16-event, constrained-output schedule. Error-only
+  updating also has no demonstrated benefit: -2.34 points, CI [-5.53,0.85].
+- Per-outcome LoRA changes 99 composition responses from wrong to correct and
+  104 from correct to wrong. Adding correct context reduces direct accuracy
+  from 13.28% to 5.47%; this secondary context dependence is retained.
+- Both arms have identical initial adapters and unchanged base parameters.
+  The per-outcome and error-only arms apply 384 and 337 updates, respectively;
+  their different costs are measured and are not described as matched. All
+  final adapter files are archived along with raw records and manifests.
