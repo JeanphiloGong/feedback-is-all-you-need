@@ -1,0 +1,423 @@
+{
+  "size": "7B",
+  "summaries": [
+    {
+      "arm": "initial",
+      "stage": 0,
+      "split": "direct",
+      "n": 1,
+      "mean": 1.0
+    },
+    {
+      "arm": "initial",
+      "stage": 0,
+      "split": "compose",
+      "n": 1,
+      "mean": 1.0
+    },
+    {
+      "arm": "self_review",
+      "stage": 1,
+      "split": "direct",
+      "n": 1,
+      "mean": 1.0
+    },
+    {
+      "arm": "self_review",
+      "stage": 1,
+      "split": "compose",
+      "n": 1,
+      "mean": 1.0
+    },
+    {
+      "arm": "checked_review",
+      "stage": 1,
+      "split": "direct",
+      "n": 1,
+      "mean": 1.0
+    },
+    {
+      "arm": "checked_review",
+      "stage": 1,
+      "split": "compose",
+      "n": 1,
+      "mean": 1.0
+    },
+    {
+      "arm": "self_review",
+      "stage": 2,
+      "split": "direct",
+      "n": 1,
+      "mean": 1.0
+    },
+    {
+      "arm": "self_review",
+      "stage": 2,
+      "split": "compose",
+      "n": 1,
+      "mean": 1.0
+    },
+    {
+      "arm": "checked_review",
+      "stage": 2,
+      "split": "direct",
+      "n": 1,
+      "mean": 1.0
+    },
+    {
+      "arm": "checked_review",
+      "stage": 2,
+      "split": "compose",
+      "n": 1,
+      "mean": 1.0
+    }
+  ],
+  "contrasts": [
+    {
+      "contrast": "checked_review_minus_self_review",
+      "split": "direct",
+      "primary": false,
+      "n": 1,
+      "mean": 0.0
+    },
+    {
+      "contrast": "self_review_minus_initial",
+      "split": "direct",
+      "primary": false,
+      "n": 1,
+      "mean": 0.0
+    },
+    {
+      "contrast": "checked_review_minus_initial",
+      "split": "direct",
+      "primary": false,
+      "n": 1,
+      "mean": 0.0
+    },
+    {
+      "contrast": "checked_review_minus_self_review",
+      "split": "compose",
+      "primary": false,
+      "n": 1,
+      "mean": 0.0
+    },
+    {
+      "contrast": "self_review_minus_initial",
+      "split": "compose",
+      "primary": false,
+      "n": 1,
+      "mean": 0.0
+    },
+    {
+      "contrast": "checked_review_minus_initial",
+      "split": "compose",
+      "primary": false,
+      "n": 1,
+      "mean": 0.0
+    }
+  ],
+  "transitions": [
+    {
+      "contrast": "checked_review_minus_self_review",
+      "split": "direct",
+      "n": 16,
+      "wrong_to_correct": 0,
+      "correct_to_wrong": 0,
+      "wrong_to_correct_rate": {
+        "n": 1,
+        "mean": 0.0
+      },
+      "correct_to_wrong_rate": {
+        "n": 1,
+        "mean": 0.0
+      }
+    },
+    {
+      "contrast": "self_review_minus_initial",
+      "split": "direct",
+      "n": 16,
+      "wrong_to_correct": 0,
+      "correct_to_wrong": 0,
+      "wrong_to_correct_rate": {
+        "n": 1,
+        "mean": 0.0
+      },
+      "correct_to_wrong_rate": {
+        "n": 1,
+        "mean": 0.0
+      }
+    },
+    {
+      "contrast": "checked_review_minus_initial",
+      "split": "direct",
+      "n": 16,
+      "wrong_to_correct": 0,
+      "correct_to_wrong": 0,
+      "wrong_to_correct_rate": {
+        "n": 1,
+        "mean": 0.0
+      },
+      "correct_to_wrong_rate": {
+        "n": 1,
+        "mean": 0.0
+      }
+    },
+    {
+      "contrast": "checked_review_minus_self_review",
+      "split": "compose",
+      "n": 32,
+      "wrong_to_correct": 0,
+      "correct_to_wrong": 0,
+      "wrong_to_correct_rate": {
+        "n": 1,
+        "mean": 0.0
+      },
+      "correct_to_wrong_rate": {
+        "n": 1,
+        "mean": 0.0
+      }
+    },
+    {
+      "contrast": "self_review_minus_initial",
+      "split": "compose",
+      "n": 32,
+      "wrong_to_correct": 0,
+      "correct_to_wrong": 0,
+      "wrong_to_correct_rate": {
+        "n": 1,
+        "mean": 0.0
+      },
+      "correct_to_wrong_rate": {
+        "n": 1,
+        "mean": 0.0
+      }
+    },
+    {
+      "contrast": "checked_review_minus_initial",
+      "split": "compose",
+      "n": 32,
+      "wrong_to_correct": 0,
+      "correct_to_wrong": 0,
+      "wrong_to_correct_rate": {
+        "n": 1,
+        "mean": 0.0
+      },
+      "correct_to_wrong_rate": {
+        "n": 1,
+        "mean": 0.0
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "arm": "initial",
+      "stage": 0,
+      "n": 1,
+      "valid": 1,
+      "exact_rule": 1,
+      "train_check_pass": 1,
+      "perfect_composition_nonexact": 0,
+      "eos_terminated": 1,
+      "memory_bytes": 34,
+      "valid_rate": {
+        "mean": 1.0,
+        "low": 0.20654931437723745,
+        "high": 1.0,
+        "method": "Wilson 95%"
+      },
+      "exact_rule_rate": {
+        "mean": 1.0,
+        "low": 0.20654931437723745,
+        "high": 1.0,
+        "method": "Wilson 95%"
+      },
+      "train_check_pass_rate": {
+        "mean": 1.0,
+        "low": 0.20654931437723745,
+        "high": 1.0,
+        "method": "Wilson 95%"
+      }
+    },
+    {
+      "arm": "self_review",
+      "stage": 1,
+      "n": 1,
+      "valid": 1,
+      "exact_rule": 1,
+      "train_check_pass": 1,
+      "perfect_composition_nonexact": 0,
+      "eos_terminated": 1,
+      "memory_bytes": 34,
+      "valid_rate": {
+        "mean": 1.0,
+        "low": 0.20654931437723745,
+        "high": 1.0,
+        "method": "Wilson 95%"
+      },
+      "exact_rule_rate": {
+        "mean": 1.0,
+        "low": 0.20654931437723745,
+        "high": 1.0,
+        "method": "Wilson 95%"
+      },
+      "train_check_pass_rate": {
+        "mean": 1.0,
+        "low": 0.20654931437723745,
+        "high": 1.0,
+        "method": "Wilson 95%"
+      }
+    },
+    {
+      "arm": "checked_review",
+      "stage": 1,
+      "n": 1,
+      "valid": 1,
+      "exact_rule": 1,
+      "train_check_pass": 1,
+      "perfect_composition_nonexact": 0,
+      "eos_terminated": 1,
+      "memory_bytes": 34,
+      "valid_rate": {
+        "mean": 1.0,
+        "low": 0.20654931437723745,
+        "high": 1.0,
+        "method": "Wilson 95%"
+      },
+      "exact_rule_rate": {
+        "mean": 1.0,
+        "low": 0.20654931437723745,
+        "high": 1.0,
+        "method": "Wilson 95%"
+      },
+      "train_check_pass_rate": {
+        "mean": 1.0,
+        "low": 0.20654931437723745,
+        "high": 1.0,
+        "method": "Wilson 95%"
+      }
+    },
+    {
+      "arm": "self_review",
+      "stage": 2,
+      "n": 1,
+      "valid": 1,
+      "exact_rule": 1,
+      "train_check_pass": 1,
+      "perfect_composition_nonexact": 0,
+      "eos_terminated": 1,
+      "memory_bytes": 34,
+      "valid_rate": {
+        "mean": 1.0,
+        "low": 0.20654931437723745,
+        "high": 1.0,
+        "method": "Wilson 95%"
+      },
+      "exact_rule_rate": {
+        "mean": 1.0,
+        "low": 0.20654931437723745,
+        "high": 1.0,
+        "method": "Wilson 95%"
+      },
+      "train_check_pass_rate": {
+        "mean": 1.0,
+        "low": 0.20654931437723745,
+        "high": 1.0,
+        "method": "Wilson 95%"
+      }
+    },
+    {
+      "arm": "checked_review",
+      "stage": 2,
+      "n": 1,
+      "valid": 1,
+      "exact_rule": 1,
+      "train_check_pass": 1,
+      "perfect_composition_nonexact": 0,
+      "eos_terminated": 1,
+      "memory_bytes": 34,
+      "valid_rate": {
+        "mean": 1.0,
+        "low": 0.20654931437723745,
+        "high": 1.0,
+        "method": "Wilson 95%"
+      },
+      "exact_rule_rate": {
+        "mean": 1.0,
+        "low": 0.20654931437723745,
+        "high": 1.0,
+        "method": "Wilson 95%"
+      },
+      "train_check_pass_rate": {
+        "mean": 1.0,
+        "low": 0.20654931437723745,
+        "high": 1.0,
+        "method": "Wilson 95%"
+      }
+    }
+  ],
+  "costs": [
+    {
+      "arm": "initial",
+      "stage": 0,
+      "continuations": 1,
+      "batches": 1,
+      "input_tokens": 364,
+      "output_tokens": 22,
+      "padded_input_tokens": 364,
+      "padded_generation_tokens": 22,
+      "generation_seconds": 0.5777328386902809,
+      "check_seconds": 0.00012550130486488342
+    },
+    {
+      "arm": "self_review",
+      "stage": 1,
+      "continuations": 1,
+      "batches": 1,
+      "input_tokens": 416,
+      "output_tokens": 22,
+      "padded_input_tokens": 416,
+      "padded_generation_tokens": 22,
+      "generation_seconds": 0.4208638798445463,
+      "check_seconds": 4.246272146701813e-05
+    },
+    {
+      "arm": "checked_review",
+      "stage": 1,
+      "continuations": 1,
+      "batches": 1,
+      "input_tokens": 426,
+      "output_tokens": 22,
+      "padded_input_tokens": 426,
+      "padded_generation_tokens": 22,
+      "generation_seconds": 0.4222633820027113,
+      "check_seconds": 3.8331374526023865e-05
+    },
+    {
+      "arm": "self_review",
+      "stage": 2,
+      "continuations": 1,
+      "batches": 1,
+      "input_tokens": 416,
+      "output_tokens": 22,
+      "padded_input_tokens": 416,
+      "padded_generation_tokens": 22,
+      "generation_seconds": 0.42128716967999935,
+      "check_seconds": 4.141777753829956e-05
+    },
+    {
+      "arm": "checked_review",
+      "stage": 2,
+      "continuations": 1,
+      "batches": 1,
+      "input_tokens": 426,
+      "output_tokens": 22,
+      "padded_input_tokens": 426,
+      "padded_generation_tokens": 22,
+      "generation_seconds": 0.43008976988494396,
+      "check_seconds": 4.695914685726166e-05
+    }
+  ],
+  "elapsed_seconds": 2.2857437133789062,
+  "peak_allocated_bytes": 15330002432,
+  "interpretation": "Environment-paired intervals; only 0.5B final checked-minus-self composition is primary. Shared initial generation is counted once. Checker timings include diagnostics for all proposals; only initial and checked stage 1 checks enter revision prompts."
+}

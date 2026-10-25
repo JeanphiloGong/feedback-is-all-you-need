@@ -1,0 +1,73 @@
+Traceback (most recent call last):
+  File "/src/users/lens/feedback-is-all-you-need/.venv/lib/python3.11/site-packages/huggingface_hub/utils/_http.py", line 402, in hf_raise_for_status
+    response.raise_for_status()
+  File "/src/users/lens/feedback-is-all-you-need/.venv/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/resolve/main/adapter_config.json
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/src/users/lens/feedback-is-all-you-need/.venv/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1543, in _get_metadata_or_catch_error
+    metadata = get_hf_file_metadata(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/src/users/lens/feedback-is-all-you-need/.venv/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/src/users/lens/feedback-is-all-you-need/.venv/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1460, in get_hf_file_metadata
+    r = _request_wrapper(
+        ^^^^^^^^^^^^^^^^^
+  File "/src/users/lens/feedback-is-all-you-need/.venv/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 283, in _request_wrapper
+    response = _request_wrapper(
+               ^^^^^^^^^^^^^^^^^
+  File "/src/users/lens/feedback-is-all-you-need/.venv/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 307, in _request_wrapper
+    hf_raise_for_status(response)
+  File "/src/users/lens/feedback-is-all-you-need/.venv/lib/python3.11/site-packages/huggingface_hub/utils/_http.py", line 413, in hf_raise_for_status
+    raise _format(EntryNotFoundError, message, response) from e
+huggingface_hub.errors.EntryNotFoundError: 404 Client Error. (Request ID: Root=1-6ade7528-1686346327f1a4776e127ba1;c7163c1b-a75b-4f90-98cc-adb2fe8d6d35)
+
+Entry Not Found for url: https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/resolve/main/adapter_config.json.
+
+During handling of the above exception, another exception occurred:
+
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/tmp/feedback-research-f/experiments/study_f/run.py", line 161, in <module>
+    main()
+  File "/tmp/feedback-research-f/experiments/study_f/run.py", line 67, in main
+    model = AutoModelForCausalLM.from_pretrained(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/src/users/lens/feedback-is-all-you-need/.venv/lib/python3.11/site-packages/transformers/models/auto/auto_factory.py", line 526, in from_pretrained
+    maybe_adapter_path = find_adapter_config_file(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/src/users/lens/feedback-is-all-you-need/.venv/lib/python3.11/site-packages/transformers/utils/peft_utils.py", line 88, in find_adapter_config_file
+    adapter_cached_filename = cached_file(
+                              ^^^^^^^^^^^^
+  File "/src/users/lens/feedback-is-all-you-need/.venv/lib/python3.11/site-packages/transformers/utils/hub.py", line 322, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/src/users/lens/feedback-is-all-you-need/.venv/lib/python3.11/site-packages/transformers/utils/hub.py", line 567, in cached_files
+    raise e
+  File "/src/users/lens/feedback-is-all-you-need/.venv/lib/python3.11/site-packages/transformers/utils/hub.py", line 479, in cached_files
+    hf_hub_download(
+  File "/src/users/lens/feedback-is-all-you-need/.venv/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/src/users/lens/feedback-is-all-you-need/.venv/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1007, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/src/users/lens/feedback-is-all-you-need/.venv/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1070, in _hf_hub_download_to_cache_dir
+    (url_to_download, etag, commit_hash, expected_size, xet_file_data, head_call_error) = _get_metadata_or_catch_error(
+                                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/src/users/lens/feedback-is-all-you-need/.venv/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 1559, in _get_metadata_or_catch_error
+    _cache_commit_hash_for_specific_revision(storage_folder, revision, commit_hash)
+  File "/src/users/lens/feedback-is-all-you-need/.venv/lib/python3.11/site-packages/huggingface_hub/file_download.py", line 768, in _cache_commit_hash_for_specific_revision
+    ref_path.write_text(commit_hash)
+  File "/src/users/lens/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/pathlib.py", line 1078, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
+OSError: [Errno 28] No space left on device

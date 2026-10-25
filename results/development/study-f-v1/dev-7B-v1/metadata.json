@@ -1,0 +1,30 @@
+{
+  "study": "F",
+  "size": "7B",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "development": true,
+  "seeds": [
+    17
+  ],
+  "source_sha256": {
+    "experiments/study_f/run.py": "40540095c4be72864fab25c3a8a54a8fdd941df880bc950a71f092ec9a05b8d3",
+    "experiments/study_f/rules.py": "0a2f000f4e8c802e0cc970745e511158c1b3ed87eb9e1c5e04769c905c58c94d",
+    "experiments/study_f/analyze.py": "9924605d99c0b43c2c556527c5d2d0066836af9d2fff123e26781e93c32795ae",
+    "experiments/study_f/freeze_data.py": "49ee31ae56dbe75bfb9acc433541e73a4d21b8de47d845e33e46c037f0a5afcf",
+    "experiments/study_b/run.py": "66ce2d124aa69595f48bb54c5b2f79d54762c25b68354969e6277df26ea1b59d",
+    "experiments/study_b/tasks.py": "802db27b8043ab74f112bd63bcf537cdc401eca1d6592bd3bc0ef24bdb333bd4",
+    "notes/protocol-v6-rule-memory.md": "edf67d56b132be063e306a756f10cc6fdab6cbead1273551661949eaf4a6730b"
+  },
+  "input_environments_sha256": "3713e3d93f4221224e247b9c2b6454f1e4fec4df03fa8cfd93b1babf7c150215",
+  "packages": {
+    "torch": "2.8.0+cu126",
+    "transformers": "4.57.1",
+    "numpy": "2.3.4",
+    "scipy": "1.16.3",
+    "matplotlib": "3.10.7"
+  },
+  "git_revision": "08725bb",
+  "preflight_unix": 1792963879.8321104,
+  "completed": false
+}

@@ -347,3 +347,12 @@ separately. All outcomes from development seeds remain exploratory.
   incomplete metadata and the exception record. The narrow correction passed
   independent review. A synthetic full-grid audit checked forks, final scoring,
   package rejection, Wilson/transition intervals, and JSON serialization.
+
+- Study F development completed five proposals and 240 evaluations per model.
+  The full audits pass and transferred hashes match frozen source `08725bb`.
+  0.5B took 1.11 seconds after loading. The first 7B launch failed before
+  inference because an optional adapter lookup attempted a metadata write on
+  the full root filesystem. Its metadata, traceback, and failure record are
+  retained. An offline retry using the same cached pinned weights completed
+  in 2.29 seconds; both formal runs will use the same offline environment flags.
+  No prompt, cap, source, or model parameter was changed after development.

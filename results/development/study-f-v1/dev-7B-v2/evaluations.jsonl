@@ -1,0 +1,240 @@
+{"seed": 17, "arm": "initial", "stage": 0, "split": "direct", "index": 0, "query": {"commands": ["dax"], "state": 6, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "direct", "index": 1, "query": {"commands": ["dax"], "state": 1, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "direct", "index": 2, "query": {"commands": ["dax"], "state": 3, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "direct", "index": 3, "query": {"commands": ["dax"], "state": 0, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "direct", "index": 4, "query": {"commands": ["wug"], "state": 7, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "direct", "index": 5, "query": {"commands": ["wug"], "state": 4, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "direct", "index": 6, "query": {"commands": ["wug"], "state": 6, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "direct", "index": 7, "query": {"commands": ["wug"], "state": 1, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "direct", "index": 8, "query": {"commands": ["zup"], "state": 4, "target": 5}, "prediction": 5, "target": 5, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "direct", "index": 9, "query": {"commands": ["zup"], "state": 5, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "direct", "index": 10, "query": {"commands": ["zup"], "state": 1, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "direct", "index": 11, "query": {"commands": ["zup"], "state": 3, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "direct", "index": 12, "query": {"commands": ["fep"], "state": 5, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "direct", "index": 13, "query": {"commands": ["fep"], "state": 1, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "direct", "index": 14, "query": {"commands": ["fep"], "state": 3, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "direct", "index": 15, "query": {"commands": ["fep"], "state": 7, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 0, "query": {"commands": ["fep", "zup"], "state": 7, "target": 5}, "prediction": 5, "target": 5, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 1, "query": {"commands": ["wug", "zup"], "state": 6, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 2, "query": {"commands": ["zup", "dax"], "state": 2, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 3, "query": {"commands": ["zup", "dax"], "state": 4, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 4, "query": {"commands": ["wug", "zup"], "state": 7, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 5, "query": {"commands": ["fep", "fep"], "state": 4, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 6, "query": {"commands": ["zup", "dax"], "state": 7, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 7, "query": {"commands": ["wug", "fep"], "state": 4, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 8, "query": {"commands": ["wug", "wug"], "state": 3, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 9, "query": {"commands": ["zup", "wug"], "state": 1, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 10, "query": {"commands": ["fep", "wug"], "state": 1, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 11, "query": {"commands": ["dax", "fep"], "state": 1, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 12, "query": {"commands": ["dax", "dax"], "state": 3, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 13, "query": {"commands": ["zup", "dax"], "state": 0, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 14, "query": {"commands": ["wug", "fep"], "state": 3, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 15, "query": {"commands": ["fep", "dax"], "state": 3, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 16, "query": {"commands": ["zup", "wug"], "state": 7, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 17, "query": {"commands": ["wug", "zup"], "state": 4, "target": 5}, "prediction": 5, "target": 5, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 18, "query": {"commands": ["dax", "dax"], "state": 0, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 19, "query": {"commands": ["wug", "zup"], "state": 3, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 20, "query": {"commands": ["dax", "fep"], "state": 0, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 21, "query": {"commands": ["zup", "wug"], "state": 3, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 22, "query": {"commands": ["dax", "dax"], "state": 4, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 23, "query": {"commands": ["fep", "zup"], "state": 4, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 24, "query": {"commands": ["wug", "dax"], "state": 3, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 25, "query": {"commands": ["dax", "wug"], "state": 4, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 26, "query": {"commands": ["zup", "zup"], "state": 5, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 27, "query": {"commands": ["zup", "fep"], "state": 6, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 28, "query": {"commands": ["dax", "dax"], "state": 5, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 29, "query": {"commands": ["wug", "wug"], "state": 0, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 30, "query": {"commands": ["zup", "fep"], "state": 1, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "initial", "stage": 0, "split": "compose", "index": 31, "query": {"commands": ["dax", "wug"], "state": 6, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "direct", "index": 0, "query": {"commands": ["dax"], "state": 6, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "direct", "index": 1, "query": {"commands": ["dax"], "state": 1, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "direct", "index": 2, "query": {"commands": ["dax"], "state": 3, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "direct", "index": 3, "query": {"commands": ["dax"], "state": 0, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "direct", "index": 4, "query": {"commands": ["wug"], "state": 7, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "direct", "index": 5, "query": {"commands": ["wug"], "state": 4, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "direct", "index": 6, "query": {"commands": ["wug"], "state": 6, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "direct", "index": 7, "query": {"commands": ["wug"], "state": 1, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "direct", "index": 8, "query": {"commands": ["zup"], "state": 4, "target": 5}, "prediction": 5, "target": 5, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "direct", "index": 9, "query": {"commands": ["zup"], "state": 5, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "direct", "index": 10, "query": {"commands": ["zup"], "state": 1, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "direct", "index": 11, "query": {"commands": ["zup"], "state": 3, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "direct", "index": 12, "query": {"commands": ["fep"], "state": 5, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "direct", "index": 13, "query": {"commands": ["fep"], "state": 1, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "direct", "index": 14, "query": {"commands": ["fep"], "state": 3, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "direct", "index": 15, "query": {"commands": ["fep"], "state": 7, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 0, "query": {"commands": ["fep", "zup"], "state": 7, "target": 5}, "prediction": 5, "target": 5, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 1, "query": {"commands": ["wug", "zup"], "state": 6, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 2, "query": {"commands": ["zup", "dax"], "state": 2, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 3, "query": {"commands": ["zup", "dax"], "state": 4, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 4, "query": {"commands": ["wug", "zup"], "state": 7, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 5, "query": {"commands": ["fep", "fep"], "state": 4, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 6, "query": {"commands": ["zup", "dax"], "state": 7, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 7, "query": {"commands": ["wug", "fep"], "state": 4, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 8, "query": {"commands": ["wug", "wug"], "state": 3, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 9, "query": {"commands": ["zup", "wug"], "state": 1, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 10, "query": {"commands": ["fep", "wug"], "state": 1, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 11, "query": {"commands": ["dax", "fep"], "state": 1, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 12, "query": {"commands": ["dax", "dax"], "state": 3, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 13, "query": {"commands": ["zup", "dax"], "state": 0, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 14, "query": {"commands": ["wug", "fep"], "state": 3, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 15, "query": {"commands": ["fep", "dax"], "state": 3, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 16, "query": {"commands": ["zup", "wug"], "state": 7, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 17, "query": {"commands": ["wug", "zup"], "state": 4, "target": 5}, "prediction": 5, "target": 5, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 18, "query": {"commands": ["dax", "dax"], "state": 0, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 19, "query": {"commands": ["wug", "zup"], "state": 3, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 20, "query": {"commands": ["dax", "fep"], "state": 0, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 21, "query": {"commands": ["zup", "wug"], "state": 3, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 22, "query": {"commands": ["dax", "dax"], "state": 4, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 23, "query": {"commands": ["fep", "zup"], "state": 4, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 24, "query": {"commands": ["wug", "dax"], "state": 3, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 25, "query": {"commands": ["dax", "wug"], "state": 4, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 26, "query": {"commands": ["zup", "zup"], "state": 5, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 27, "query": {"commands": ["zup", "fep"], "state": 6, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 28, "query": {"commands": ["dax", "dax"], "state": 5, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 29, "query": {"commands": ["wug", "wug"], "state": 0, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 30, "query": {"commands": ["zup", "fep"], "state": 1, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 1, "split": "compose", "index": 31, "query": {"commands": ["dax", "wug"], "state": 6, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "direct", "index": 0, "query": {"commands": ["dax"], "state": 6, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "direct", "index": 1, "query": {"commands": ["dax"], "state": 1, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "direct", "index": 2, "query": {"commands": ["dax"], "state": 3, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "direct", "index": 3, "query": {"commands": ["dax"], "state": 0, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "direct", "index": 4, "query": {"commands": ["wug"], "state": 7, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "direct", "index": 5, "query": {"commands": ["wug"], "state": 4, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "direct", "index": 6, "query": {"commands": ["wug"], "state": 6, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "direct", "index": 7, "query": {"commands": ["wug"], "state": 1, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "direct", "index": 8, "query": {"commands": ["zup"], "state": 4, "target": 5}, "prediction": 5, "target": 5, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "direct", "index": 9, "query": {"commands": ["zup"], "state": 5, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "direct", "index": 10, "query": {"commands": ["zup"], "state": 1, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "direct", "index": 11, "query": {"commands": ["zup"], "state": 3, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "direct", "index": 12, "query": {"commands": ["fep"], "state": 5, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "direct", "index": 13, "query": {"commands": ["fep"], "state": 1, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "direct", "index": 14, "query": {"commands": ["fep"], "state": 3, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "direct", "index": 15, "query": {"commands": ["fep"], "state": 7, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 0, "query": {"commands": ["fep", "zup"], "state": 7, "target": 5}, "prediction": 5, "target": 5, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 1, "query": {"commands": ["wug", "zup"], "state": 6, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 2, "query": {"commands": ["zup", "dax"], "state": 2, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 3, "query": {"commands": ["zup", "dax"], "state": 4, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 4, "query": {"commands": ["wug", "zup"], "state": 7, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 5, "query": {"commands": ["fep", "fep"], "state": 4, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 6, "query": {"commands": ["zup", "dax"], "state": 7, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 7, "query": {"commands": ["wug", "fep"], "state": 4, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 8, "query": {"commands": ["wug", "wug"], "state": 3, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 9, "query": {"commands": ["zup", "wug"], "state": 1, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 10, "query": {"commands": ["fep", "wug"], "state": 1, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 11, "query": {"commands": ["dax", "fep"], "state": 1, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 12, "query": {"commands": ["dax", "dax"], "state": 3, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 13, "query": {"commands": ["zup", "dax"], "state": 0, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 14, "query": {"commands": ["wug", "fep"], "state": 3, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 15, "query": {"commands": ["fep", "dax"], "state": 3, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 16, "query": {"commands": ["zup", "wug"], "state": 7, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 17, "query": {"commands": ["wug", "zup"], "state": 4, "target": 5}, "prediction": 5, "target": 5, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 18, "query": {"commands": ["dax", "dax"], "state": 0, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 19, "query": {"commands": ["wug", "zup"], "state": 3, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 20, "query": {"commands": ["dax", "fep"], "state": 0, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 21, "query": {"commands": ["zup", "wug"], "state": 3, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 22, "query": {"commands": ["dax", "dax"], "state": 4, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 23, "query": {"commands": ["fep", "zup"], "state": 4, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 24, "query": {"commands": ["wug", "dax"], "state": 3, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 25, "query": {"commands": ["dax", "wug"], "state": 4, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 26, "query": {"commands": ["zup", "zup"], "state": 5, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 27, "query": {"commands": ["zup", "fep"], "state": 6, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 28, "query": {"commands": ["dax", "dax"], "state": 5, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 29, "query": {"commands": ["wug", "wug"], "state": 0, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 30, "query": {"commands": ["zup", "fep"], "state": 1, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 1, "split": "compose", "index": 31, "query": {"commands": ["dax", "wug"], "state": 6, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "direct", "index": 0, "query": {"commands": ["dax"], "state": 6, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "direct", "index": 1, "query": {"commands": ["dax"], "state": 1, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "direct", "index": 2, "query": {"commands": ["dax"], "state": 3, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "direct", "index": 3, "query": {"commands": ["dax"], "state": 0, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "direct", "index": 4, "query": {"commands": ["wug"], "state": 7, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "direct", "index": 5, "query": {"commands": ["wug"], "state": 4, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "direct", "index": 6, "query": {"commands": ["wug"], "state": 6, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "direct", "index": 7, "query": {"commands": ["wug"], "state": 1, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "direct", "index": 8, "query": {"commands": ["zup"], "state": 4, "target": 5}, "prediction": 5, "target": 5, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "direct", "index": 9, "query": {"commands": ["zup"], "state": 5, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "direct", "index": 10, "query": {"commands": ["zup"], "state": 1, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "direct", "index": 11, "query": {"commands": ["zup"], "state": 3, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "direct", "index": 12, "query": {"commands": ["fep"], "state": 5, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "direct", "index": 13, "query": {"commands": ["fep"], "state": 1, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "direct", "index": 14, "query": {"commands": ["fep"], "state": 3, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "direct", "index": 15, "query": {"commands": ["fep"], "state": 7, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 0, "query": {"commands": ["fep", "zup"], "state": 7, "target": 5}, "prediction": 5, "target": 5, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 1, "query": {"commands": ["wug", "zup"], "state": 6, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 2, "query": {"commands": ["zup", "dax"], "state": 2, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 3, "query": {"commands": ["zup", "dax"], "state": 4, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 4, "query": {"commands": ["wug", "zup"], "state": 7, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 5, "query": {"commands": ["fep", "fep"], "state": 4, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 6, "query": {"commands": ["zup", "dax"], "state": 7, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 7, "query": {"commands": ["wug", "fep"], "state": 4, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 8, "query": {"commands": ["wug", "wug"], "state": 3, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 9, "query": {"commands": ["zup", "wug"], "state": 1, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 10, "query": {"commands": ["fep", "wug"], "state": 1, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 11, "query": {"commands": ["dax", "fep"], "state": 1, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 12, "query": {"commands": ["dax", "dax"], "state": 3, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 13, "query": {"commands": ["zup", "dax"], "state": 0, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 14, "query": {"commands": ["wug", "fep"], "state": 3, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 15, "query": {"commands": ["fep", "dax"], "state": 3, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 16, "query": {"commands": ["zup", "wug"], "state": 7, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 17, "query": {"commands": ["wug", "zup"], "state": 4, "target": 5}, "prediction": 5, "target": 5, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 18, "query": {"commands": ["dax", "dax"], "state": 0, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 19, "query": {"commands": ["wug", "zup"], "state": 3, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 20, "query": {"commands": ["dax", "fep"], "state": 0, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 21, "query": {"commands": ["zup", "wug"], "state": 3, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 22, "query": {"commands": ["dax", "dax"], "state": 4, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 23, "query": {"commands": ["fep", "zup"], "state": 4, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 24, "query": {"commands": ["wug", "dax"], "state": 3, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 25, "query": {"commands": ["dax", "wug"], "state": 4, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 26, "query": {"commands": ["zup", "zup"], "state": 5, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 27, "query": {"commands": ["zup", "fep"], "state": 6, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 28, "query": {"commands": ["dax", "dax"], "state": 5, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 29, "query": {"commands": ["wug", "wug"], "state": 0, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 30, "query": {"commands": ["zup", "fep"], "state": 1, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "self_review", "stage": 2, "split": "compose", "index": 31, "query": {"commands": ["dax", "wug"], "state": 6, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "direct", "index": 0, "query": {"commands": ["dax"], "state": 6, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "direct", "index": 1, "query": {"commands": ["dax"], "state": 1, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "direct", "index": 2, "query": {"commands": ["dax"], "state": 3, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "direct", "index": 3, "query": {"commands": ["dax"], "state": 0, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "direct", "index": 4, "query": {"commands": ["wug"], "state": 7, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "direct", "index": 5, "query": {"commands": ["wug"], "state": 4, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "direct", "index": 6, "query": {"commands": ["wug"], "state": 6, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "direct", "index": 7, "query": {"commands": ["wug"], "state": 1, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "direct", "index": 8, "query": {"commands": ["zup"], "state": 4, "target": 5}, "prediction": 5, "target": 5, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "direct", "index": 9, "query": {"commands": ["zup"], "state": 5, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "direct", "index": 10, "query": {"commands": ["zup"], "state": 1, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "direct", "index": 11, "query": {"commands": ["zup"], "state": 3, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "direct", "index": 12, "query": {"commands": ["fep"], "state": 5, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "direct", "index": 13, "query": {"commands": ["fep"], "state": 1, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "direct", "index": 14, "query": {"commands": ["fep"], "state": 3, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "direct", "index": 15, "query": {"commands": ["fep"], "state": 7, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 0, "query": {"commands": ["fep", "zup"], "state": 7, "target": 5}, "prediction": 5, "target": 5, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 1, "query": {"commands": ["wug", "zup"], "state": 6, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 2, "query": {"commands": ["zup", "dax"], "state": 2, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 3, "query": {"commands": ["zup", "dax"], "state": 4, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 4, "query": {"commands": ["wug", "zup"], "state": 7, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 5, "query": {"commands": ["fep", "fep"], "state": 4, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 6, "query": {"commands": ["zup", "dax"], "state": 7, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 7, "query": {"commands": ["wug", "fep"], "state": 4, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 8, "query": {"commands": ["wug", "wug"], "state": 3, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 9, "query": {"commands": ["zup", "wug"], "state": 1, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 10, "query": {"commands": ["fep", "wug"], "state": 1, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 11, "query": {"commands": ["dax", "fep"], "state": 1, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 12, "query": {"commands": ["dax", "dax"], "state": 3, "target": 1}, "prediction": 1, "target": 1, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 13, "query": {"commands": ["zup", "dax"], "state": 0, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 14, "query": {"commands": ["wug", "fep"], "state": 3, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 15, "query": {"commands": ["fep", "dax"], "state": 3, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 16, "query": {"commands": ["zup", "wug"], "state": 7, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 17, "query": {"commands": ["wug", "zup"], "state": 4, "target": 5}, "prediction": 5, "target": 5, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 18, "query": {"commands": ["dax", "dax"], "state": 0, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 19, "query": {"commands": ["wug", "zup"], "state": 3, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 20, "query": {"commands": ["dax", "fep"], "state": 0, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 21, "query": {"commands": ["zup", "wug"], "state": 3, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 22, "query": {"commands": ["dax", "dax"], "state": 4, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 23, "query": {"commands": ["fep", "zup"], "state": 4, "target": 2}, "prediction": 2, "target": 2, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 24, "query": {"commands": ["wug", "dax"], "state": 3, "target": 6}, "prediction": 6, "target": 6, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 25, "query": {"commands": ["dax", "wug"], "state": 4, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 26, "query": {"commands": ["zup", "zup"], "state": 5, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 27, "query": {"commands": ["zup", "fep"], "state": 6, "target": 4}, "prediction": 4, "target": 4, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 28, "query": {"commands": ["dax", "dax"], "state": 5, "target": 3}, "prediction": 3, "target": 3, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 29, "query": {"commands": ["wug", "wug"], "state": 0, "target": 0}, "prediction": 0, "target": 0, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 30, "query": {"commands": ["zup", "fep"], "state": 1, "target": 7}, "prediction": 7, "target": 7, "correct": true}
+{"seed": 17, "arm": "checked_review", "stage": 2, "split": "compose", "index": 31, "query": {"commands": ["dax", "wug"], "state": 6, "target": 1}, "prediction": 1, "target": 1, "correct": true}
