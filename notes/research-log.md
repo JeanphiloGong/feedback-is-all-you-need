@@ -438,3 +438,39 @@ separately. All outcomes from development seeds remain exploratory.
   equality. Full audits pass; all 82 transferred manifest entries and source
   hashes match `c4b4054`. Post-loading elapsed times are 6.50 and 19.33 seconds.
   Actual/standalone continuation counts are 33/17 per development language.
+
+## 2026-10-25 UTC: Study G completion
+
+- Both frozen formal suites completed 1,584 proposals, 1,584 saved rules,
+  and 76,032 held-out evaluations each. Full remote audits pass; all 3,188
+  transferred manifest entries match. Actual first-revision seed batches,
+  input IDs/masks, and generated IDs are identical across branches. Every
+  proposal finishes at EOS before the cap. No model rerun was needed.
+- The primary 0.5B full-history-minus-last-only direct effect is 0.00 points,
+  t CI [-3.96, 3.96], bootstrap [-3.65, 3.65]. Both branches finish 3.13 points
+  below initial direct accuracy, with intervals containing zero. No exact
+  small-model rule appears. Secondary composition declines have descriptive
+  intervals below zero; they do not replace the registered primary endpoint.
+- The secondary 7B direct contrast is +0.52 points, CI [-11.69, 12.73]. Final
+  exact counts are 5/48 last-only and 9/48 full-history. The latter gains eight
+  exact rules but loses three of the four initially exact rules; final count
+  and retention of initial successes must remain distinct. All repetition
+  and component transitions remain nested within 48 environments per branch.
+- Independent raw parsing/arithmetic reproduces 132 means, 12 contrasts,
+  primary bootstrap, 66 diagnostic rows, Wilson intervals, answer/exact-rule
+  transitions, repetition/component records, first-revision tensors, and
+  actual/standalone costs. An initially over-tight comparison using local
+  SciPy 1.8.0 failed on a roughly 7.6e-11 interval-bound difference from remote
+  SciPy 1.16.3. Independent CDF root solving reproduced the recorded quantile
+  at the original tolerance; no formal result or source was changed.
+- Post-loading elapsed times are 42.08 and 228.10 seconds. Each standalone
+  branch accounts for 816 continuations including its initial proposal;
+  actual suites count the shared initial generation once. Full history uses
+  2.43/2.29 times the standalone input tokens in 0.5B/7B. This is not a
+  matched-compute experiment. Both result figures were inspected.
+- Fresh results review found a mislabeled retention denominator in the new
+  README: 123/154 counts all transitions from exact 7B full-history rules,
+  including 18 invalid successors, rather than only valid-to-valid pairs.
+  The label and invalid count are now explicit; no numerical result changed.
+  No material findings remain. Cross-model CLI review was skipped in this
+  authorized autonomous run.
