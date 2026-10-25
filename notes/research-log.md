@@ -180,3 +180,14 @@ separately. All outcomes from development seeds remain exploratory.
   streams triggered whitespace diagnostics. PDF binary attributes resolved
   the false positives without altering any source PDF. Text-only checks and
   subsequent reference-diff checks passed.
+
+## 2026-10-25 UTC: manuscript v4 review
+
+- Version 4 integrates all three studies, the memory counting bound, and a
+  targeted full-text review. A fresh reviewer independently checked the new
+  numerical results and theoretical bound and found no substantive error.
+  Its suggested clarification, "clean-example" truncation in the abstract,
+  was incorporated. Cross-model review was skipped in this autonomous run.
+- The 11-page PDF compiled twice without final-pass warnings. All pages were
+  rendered; layout, new results, equations, figures, and references were
+  inspected. Earlier versions and raw failed responses remain intact.

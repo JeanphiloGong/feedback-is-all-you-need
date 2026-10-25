@@ -23,10 +23,10 @@ additional compute.
 
 ## Why this matters
 
-The dominant scaling approach treats intelligence largely as a function of
-model size and training data. This project asks whether the more fundamental
-variable is **feedback efficiency**: how much durable, transferable capability
-an agent gains from each reliable interaction with reality.
+Scaling research studies the joint contribution of model size, training data,
+and computation. This project investigates **feedback efficiency**: how much
+durable, transferable capability an agent gains from reliable interaction,
+and how that gain depends on capacity, memory, and computational resources.
 
 The working view is that books, language, science, and institutions are
 externalized records of accumulated feedback. Human intelligence may therefore
@@ -61,18 +61,21 @@ The hypothesis has now been tested in controlled classification and pretrained
 language-model studies. Results support conditional adaptation, but do not
 establish feedback sufficiency for general intelligence.
 
-- [Manuscript versions](paper/README.md): v0 hypothesis, audited v1, corrected
-  v2, and v3 incorporating language-model evidence.
+- [Manuscript versions](paper/README.md): v0 hypothesis through v4, including
+  audited and corrected results, pretrained models, and full-generation tests.
 - [Study A replication](results/study-a-v2/README.md): 20 seeds, four capacities,
   seven feedback conditions; all 19,200 records retained.
 - [Study B results](results/study-b-v1/README.md): four Qwen2.5 sizes, 24 new
   command languages, raw predictions, and persistent LoRA updates.
 - [Research log](notes/research-log.md): protocol amendments, failed checks,
   independent reviews, and infrastructure failures.
-- [Study C protocol](notes/protocol-v3-generation.md): prospective test of the
-  first-token interface versus full generation on untouched environments.
+- [Study C results](results/study-c-v1/README.md): first-token versus generation
+  on 24 new environments; all raw tokens, format failures, and truncations.
+- [Full-text literature review](notes/full-text-review.md): methods and limits
+  of five close precedents, including Reward is enough.
 
 The smallest language model did not improve composition accuracy under the
 first tested feedback mechanism. This negative result is conditional on the
-prompt, update rule, and inference interface; follow-up experiments continue.
+prompt, update rule, and inference interface. Full-generation results expose
+format and token-budget limitations; follow-up experiments continue.
 All commits use English. External paper submission has not been authorized.
