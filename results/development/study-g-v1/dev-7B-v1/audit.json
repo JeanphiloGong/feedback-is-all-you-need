@@ -1,0 +1,300 @@
+{
+  "passed": true,
+  "metadata": {
+    "study": "G",
+    "size": "7B",
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "development": true,
+    "seeds": [
+      19
+    ],
+    "source_sha256": {
+      "experiments/study_g/run.py": "47b926390b6217aee390dbc78436d5009133aeec7a74f4541b3ca18a7f3e0a4b",
+      "experiments/study_g/history.py": "2bb4502b5c0510fbfd37ec4cecfe40b16393d571eaca36c2572f5632c579def1",
+      "experiments/study_g/analyze.py": "dede1d67f3d6d882b51c7bc360887410d9252c0400c59691767fb75c55a58503",
+      "experiments/study_g/freeze_data.py": "719b623b8dc7580c6d3bedf624f7709032b9ce97a20331da6ec28bd66535d03d",
+      "experiments/study_f/rules.py": "0a2f000f4e8c802e0cc970745e511158c1b3ed87eb9e1c5e04769c905c58c94d",
+      "experiments/study_f/diagnose.py": "517450cea6bdb6c91d959bacce3ec5816a140b79ea9964d7f018ad0e02211d17",
+      "experiments/study_b/run.py": "66ce2d124aa69595f48bb54c5b2f79d54762c25b68354969e6277df26ea1b59d",
+      "experiments/study_b/tasks.py": "802db27b8043ab74f112bd63bcf537cdc401eca1d6592bd3bc0ef24bdb333bd4",
+      "notes/protocol-v7-feedback-history.md": "4a2d003e819eb5c565f7d62d62f8c43159225ff55beb327549fccc29db12036a"
+    },
+    "input_environments_sha256": "a520ddb1a69ff40502abe49659de80d310dadd91cd3f7a50c160d83617e38b65",
+    "executed_environments_sha256": "129fe45a51ccebfd11e6af84c7533cce33cc8da1304814663e1fb1fd25647855",
+    "git_revision": "c4b4054",
+    "packages": {
+      "torch": "2.8.0+cu126",
+      "transformers": "4.57.1",
+      "numpy": "2.3.4",
+      "scipy": "1.16.3",
+      "matplotlib": "3.10.7"
+    },
+    "device": "NVIDIA GeForce RTX 4090 D",
+    "parameters": 7615616512,
+    "batch_size": 16,
+    "stages": [
+      [
+        "initial",
+        0
+      ],
+      [
+        "last_only",
+        1
+      ],
+      [
+        "full_history",
+        1
+      ],
+      [
+        "last_only",
+        2
+      ],
+      [
+        "full_history",
+        2
+      ],
+      [
+        "last_only",
+        3
+      ],
+      [
+        "full_history",
+        3
+      ],
+      [
+        "last_only",
+        4
+      ],
+      [
+        "full_history",
+        4
+      ],
+      [
+        "last_only",
+        5
+      ],
+      [
+        "full_history",
+        5
+      ],
+      [
+        "last_only",
+        6
+      ],
+      [
+        "full_history",
+        6
+      ],
+      [
+        "last_only",
+        7
+      ],
+      [
+        "full_history",
+        7
+      ],
+      [
+        "last_only",
+        8
+      ],
+      [
+        "full_history",
+        8
+      ],
+      [
+        "last_only",
+        9
+      ],
+      [
+        "full_history",
+        9
+      ],
+      [
+        "last_only",
+        10
+      ],
+      [
+        "full_history",
+        10
+      ],
+      [
+        "last_only",
+        11
+      ],
+      [
+        "full_history",
+        11
+      ],
+      [
+        "last_only",
+        12
+      ],
+      [
+        "full_history",
+        12
+      ],
+      [
+        "last_only",
+        13
+      ],
+      [
+        "full_history",
+        13
+      ],
+      [
+        "last_only",
+        14
+      ],
+      [
+        "full_history",
+        14
+      ],
+      [
+        "last_only",
+        15
+      ],
+      [
+        "full_history",
+        15
+      ],
+      [
+        "last_only",
+        16
+      ],
+      [
+        "full_history",
+        16
+      ]
+    ],
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "generation_config": {
+      "max_length": 20,
+      "max_new_tokens": null,
+      "min_length": 0,
+      "min_new_tokens": null,
+      "early_stopping": false,
+      "max_time": null,
+      "stop_strings": null,
+      "do_sample": true,
+      "num_beams": 1,
+      "use_cache": true,
+      "cache_implementation": null,
+      "cache_config": null,
+      "return_legacy_cache": null,
+      "prefill_chunk_size": null,
+      "temperature": 0.7,
+      "top_k": 20,
+      "top_p": 0.8,
+      "min_p": null,
+      "typical_p": 1.0,
+      "epsilon_cutoff": 0.0,
+      "eta_cutoff": 0.0,
+      "repetition_penalty": 1.05,
+      "encoder_repetition_penalty": 1.0,
+      "length_penalty": 1.0,
+      "no_repeat_ngram_size": 0,
+      "bad_words_ids": null,
+      "renormalize_logits": false,
+      "forced_bos_token_id": null,
+      "forced_eos_token_id": null,
+      "remove_invalid_values": false,
+      "exponential_decay_length_penalty": null,
+      "suppress_tokens": null,
+      "begin_suppress_tokens": null,
+      "sequence_bias": null,
+      "token_healing": false,
+      "guidance_scale": null,
+      "watermarking_config": null,
+      "num_return_sequences": 1,
+      "output_attentions": false,
+      "output_hidden_states": false,
+      "output_scores": false,
+      "output_logits": null,
+      "return_dict_in_generate": false,
+      "pad_token_id": 151643,
+      "bos_token_id": 151643,
+      "eos_token_id": [
+        151645,
+        151643
+      ],
+      "encoder_no_repeat_ngram_size": 0,
+      "decoder_start_token_id": null,
+      "is_assistant": false,
+      "num_assistant_tokens": 20,
+      "num_assistant_tokens_schedule": "constant",
+      "assistant_confidence_threshold": 0.4,
+      "prompt_lookup_num_tokens": null,
+      "max_matching_ngram_size": null,
+      "assistant_early_exit": null,
+      "assistant_lookbehind": 10,
+      "target_lookbehind": 10,
+      "disable_compile": false,
+      "low_memory": null,
+      "penalty_alpha": null,
+      "dola_layers": null,
+      "diversity_penalty": 0.0,
+      "num_beam_groups": 1,
+      "constraints": null,
+      "force_words_ids": null,
+      "_from_model_config": false,
+      "transformers_version": "4.57.1"
+    },
+    "generation_overrides": {
+      "do_sample": false,
+      "max_new_tokens": 512
+    },
+    "load_seconds": 2.144607024267316,
+    "started_unix": 1792967493.3046098,
+    "max_position_embeddings": 32768,
+    "development_evidence": null,
+    "completed": true,
+    "finished_unix": 1792967512.6317332,
+    "peak_allocated_bytes": 15570399744,
+    "elapsed_seconds": 19.327123403549194
+  },
+  "files_sha256": {
+    "summary.json": "529df79bd271fcdd984e9afa720140bc45bfbb0764c95f2c76507a789d78ca14",
+    "symbolic.json": "42b9bcd472dc46bfddf8b83eed1ebb18363806f1a3b4cea10430ce43a692c6b7",
+    "evaluations.jsonl": "ae5077f1127422ad85b96868886bc7da5d3c0f3fbfdf5ae2c4e0badc24bdadcd",
+    "checks.jsonl": "0d212e20eec087b64510bb1ccbbade15ceab6975b749d37ffb071069d0f2208d",
+    "batches.jsonl": "f637cfeea1a9170519f9f4eda163fb939660ac93ddec6bab397a5fe9be591758",
+    "proposals.jsonl": "8d54840058317b69c9ce0c4acea85e949e339bde9bb2b27f2cf4a071bcd5f639",
+    "environments.json": "129fe45a51ccebfd11e6af84c7533cce33cc8da1304814663e1fb1fd25647855",
+    "metadata.json": "6b981912b23671e318c85559c11ec2ee73521f2e5e9022a30c3bcc7bb9854217",
+    "rules/19-full_history-16.json": "feac86da0bb2599dd633f329556aaa0db3cec4372b544e52453d02506940f058",
+    "rules/19-last_only-16.json": "00dea81aa58310143703e6420086a26670e953f033ce309f15bee9408ab7b7a6",
+    "rules/19-full_history-15.json": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+    "rules/19-last_only-15.json": "00dea81aa58310143703e6420086a26670e953f033ce309f15bee9408ab7b7a6",
+    "rules/19-full_history-14.json": "feac86da0bb2599dd633f329556aaa0db3cec4372b544e52453d02506940f058",
+    "rules/19-last_only-14.json": "00dea81aa58310143703e6420086a26670e953f033ce309f15bee9408ab7b7a6",
+    "rules/19-full_history-13.json": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+    "rules/19-last_only-13.json": "00dea81aa58310143703e6420086a26670e953f033ce309f15bee9408ab7b7a6",
+    "rules/19-full_history-12.json": "feac86da0bb2599dd633f329556aaa0db3cec4372b544e52453d02506940f058",
+    "rules/19-last_only-12.json": "00dea81aa58310143703e6420086a26670e953f033ce309f15bee9408ab7b7a6",
+    "rules/19-full_history-11.json": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+    "rules/19-last_only-11.json": "00dea81aa58310143703e6420086a26670e953f033ce309f15bee9408ab7b7a6",
+    "rules/19-full_history-10.json": "feac86da0bb2599dd633f329556aaa0db3cec4372b544e52453d02506940f058",
+    "rules/19-last_only-10.json": "00dea81aa58310143703e6420086a26670e953f033ce309f15bee9408ab7b7a6",
+    "rules/19-full_history-9.json": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+    "rules/19-last_only-9.json": "00dea81aa58310143703e6420086a26670e953f033ce309f15bee9408ab7b7a6",
+    "rules/19-full_history-8.json": "feac86da0bb2599dd633f329556aaa0db3cec4372b544e52453d02506940f058",
+    "rules/19-last_only-8.json": "00dea81aa58310143703e6420086a26670e953f033ce309f15bee9408ab7b7a6",
+    "rules/19-full_history-7.json": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+    "rules/19-last_only-7.json": "00dea81aa58310143703e6420086a26670e953f033ce309f15bee9408ab7b7a6",
+    "rules/19-full_history-6.json": "feac86da0bb2599dd633f329556aaa0db3cec4372b544e52453d02506940f058",
+    "rules/19-last_only-6.json": "00dea81aa58310143703e6420086a26670e953f033ce309f15bee9408ab7b7a6",
+    "rules/19-full_history-5.json": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+    "rules/19-last_only-5.json": "00dea81aa58310143703e6420086a26670e953f033ce309f15bee9408ab7b7a6",
+    "rules/19-full_history-4.json": "00dea81aa58310143703e6420086a26670e953f033ce309f15bee9408ab7b7a6",
+    "rules/19-last_only-4.json": "00dea81aa58310143703e6420086a26670e953f033ce309f15bee9408ab7b7a6",
+    "rules/19-full_history-3.json": "5e29e19602e7505cfe96c920682bfc09a3a6f8541b1ccb9da9d81fafd8daeacf",
+    "rules/19-last_only-3.json": "00dea81aa58310143703e6420086a26670e953f033ce309f15bee9408ab7b7a6",
+    "rules/19-full_history-2.json": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+    "rules/19-last_only-2.json": "00dea81aa58310143703e6420086a26670e953f033ce309f15bee9408ab7b7a6",
+    "rules/19-full_history-1.json": "00dea81aa58310143703e6420086a26670e953f033ce309f15bee9408ab7b7a6",
+    "rules/19-last_only-1.json": "00dea81aa58310143703e6420086a26670e953f033ce309f15bee9408ab7b7a6",
+    "rules/19-initial-0.json": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed"
+  }
+}

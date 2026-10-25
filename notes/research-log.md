@@ -432,3 +432,9 @@ separately. All outcomes from development seeds remain exploratory.
   input/output divergence with raw evidence retained. No implementation layer
   or compatibility wrapper was added. Cross-model CLI review was skipped in
   this autonomous run.
+
+- Before formal G inference, both seed-19 runs completed 33 proposals and
+  1,584 evaluations, with exact first-revision batch inputs/masks/output
+  equality. Full audits pass; all 82 transferred manifest entries and source
+  hashes match `c4b4054`. Post-loading elapsed times are 6.50 and 19.33 seconds.
+  Actual/standalone continuation counts are 33/17 per development language.
