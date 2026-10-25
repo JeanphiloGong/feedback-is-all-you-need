@@ -22,7 +22,7 @@ def interval(values, confidence=0.95):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input", type=Path, default=Path("results/study-a-v1"))
+    parser.add_argument("--input", type=Path, default=Path("results/study-a-v2"))
     args = parser.parse_args()
     meta = json.loads((args.input / "metadata.json").read_text())
     FAMILIES, WIDTHS, ARMS = meta["families"], meta["widths"], meta["arms"]
