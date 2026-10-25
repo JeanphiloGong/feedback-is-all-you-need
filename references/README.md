@@ -36,3 +36,11 @@ DOI [10.1007/s11432-023-3740-x](https://doi.org/10.1007/s11432-023-3740-x).
 The closely related title and framing must be acknowledged. The publisher
 endpoint returned a browser challenge instead of a PDF, so only metadata has
 been verified for that work at this checkpoint.
+
+`full-text-manifest.json` records exact copies and versions of Reward is enough,
+RL², Reflexion, Self-Refine, and the intrinsic self-correction study. The
+unmodified PDFs retain their authorship and original license notices.
+[`../notes/full-text-review.md`](../notes/full-text-review.md) records the
+sections read and how their methods constrain our claims. Reward is enough
+was read from an image-only author copy; its Crossref metadata is preserved in
+`reward-is-enough.json`.

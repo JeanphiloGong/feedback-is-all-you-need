@@ -1,0 +1,60 @@
+[
+  {
+    "name": "reflexion",
+    "url": "https://arxiv.org/pdf/2303.11366",
+    "sha256": "6059b6f89fea9959bd3dab553fbb97756a3dfb1b15e3cbab2fbf3ab6664333bd",
+    "bytes": 591097,
+    "accessed_utc": "2026-10-25",
+    "file": "reflexion.pdf",
+    "version": "2303.11366v4",
+    "version_url": "https://arxiv.org/abs/2303.11366v4",
+    "review_scope": "Methods, evaluation controls, and limitations; appendices consulted selectively."
+  },
+  {
+    "name": "self-refine",
+    "url": "https://arxiv.org/pdf/2303.17651",
+    "sha256": "81e44592314d80218ad108d3490cd0b84ba5962fefd5c84819987afd77a57087",
+    "bytes": 2014949,
+    "accessed_utc": "2026-10-25",
+    "file": "self-refine.pdf",
+    "version": "2303.17651v2",
+    "version_url": "https://arxiv.org/abs/2303.17651v2",
+    "review_scope": "Methods, evaluation controls, and limitations; appendices consulted selectively."
+  },
+  {
+    "name": "cannot-self-correct",
+    "url": "https://arxiv.org/pdf/2310.01798",
+    "sha256": "15e1731e255ec6b217792a1e077926807da77e8e46b69e6c57dda30d67794761",
+    "bytes": 385585,
+    "accessed_utc": "2026-10-25",
+    "file": "cannot-self-correct.pdf",
+    "version": "2310.01798v2",
+    "version_url": "https://arxiv.org/abs/2310.01798v2",
+    "review_scope": "Methods, evaluation controls, and limitations; appendices consulted selectively."
+  },
+  {
+    "name": "rl-squared",
+    "url": "https://arxiv.org/pdf/1611.02779",
+    "sha256": "39c4537b080187e8ab02127381efd3c198ab6bbbaeeef72d08c62f4a884926a8",
+    "bytes": 1730325,
+    "accessed_utc": "2026-10-25",
+    "file": "rl-squared.pdf",
+    "version": "1611.02779v2",
+    "version_url": "https://arxiv.org/abs/1611.02779v2",
+    "review_scope": "Methods, evaluation controls, and limitations; appendices consulted selectively.",
+    "extraction_note": "Poppler reconstructed a missing xref entry (333); 14 pages of text extracted. Appendix A.1 was visually checked."
+  },
+  {
+    "name": "reward-is-enough",
+    "file": "reward-is-enough.pdf",
+    "url": "http://incompleteideas.net/papers/RewardIsEnough.pdf",
+    "doi": "10.1016/j.artint.2021.103535",
+    "sha256": "9cdc5d3fcb1c9cee257cc5896f29c4d99809f0f99ad32fcf452585a628cda64f",
+    "bytes": 7909055,
+    "accessed_utc": "2026-10-25",
+    "source": "Richard Sutton author website; unmodified image-only copy of the published article",
+    "license": "CC BY-NC-ND 4.0, stated on article page 1",
+    "review_scope": "All main-text pages 1\u201311 read visually; reference pages 12\u201313 inspected.",
+    "extraction_note": "14-page file with no extractable text; rendered with Poppler and read visually."
+  }
+]

@@ -1,0 +1,794 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        24
+      ]
+    ],
+    "date-time": "2026-10-24T19:24:04Z",
+    "timestamp": 1792869844833,
+    "version": "4.5.0"
+  },
+  "reference-count": 66,
+  "publisher": "Elsevier BV",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            1
+          ]
+        ],
+        "date-time": "2021-10-01T00:00:00Z",
+        "timestamp": 1633046400000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            1
+          ]
+        ],
+        "date-time": "2021-10-01T00:00:00Z",
+        "timestamp": 1633046400000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            2
+          ]
+        ],
+        "date-time": "2021-06-02T00:00:00Z",
+        "timestamp": 1622592000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "elsevier.com",
+      "sciencedirect.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Artificial Intelligence"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2021,
+        10
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.artint.2021.103535",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2021,
+        5,
+        24
+      ]
+    ],
+    "date-time": "2021-05-24T12:11:16Z",
+    "timestamp": 1621858276000
+  },
+  "page": "103535",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 417,
+  "special_numbering": "C",
+  "title": [
+    "Reward is enough"
+  ],
+  "prefix": "10.1016",
+  "volume": "299",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-5197-2892",
+      "authenticated-orcid": false,
+      "given": "David",
+      "family": "Silver",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Satinder",
+      "family": "Singh",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Doina",
+      "family": "Precup",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-3679-3415",
+      "authenticated-orcid": false,
+      "given": "Richard S.",
+      "family": "Sutton",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "78",
+  "reference": [
+    {
+      "issue": "4",
+      "key": "10.1016/j.artint.2021.103535_br0010",
+      "doi-asserted-by": "crossref",
+      "first-page": "1036",
+      "DOI": "10.1037/0033-295X.111.4.1036",
+      "article-title": "An integrated theory of the mind",
+      "volume": "111",
+      "author": "Anderson",
+      "year": "2004",
+      "journal-title": "Psychol. Rev."
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0020",
+      "series-title": "Machine Intelligence 15",
+      "first-page": "103",
+      "article-title": "A framework for behavioural cloning",
+      "author": "Bain",
+      "year": "1995"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0030",
+      "series-title": "Social Learning Theory, vol. 1",
+      "author": "Bandura",
+      "year": "1977"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0040",
+      "series-title": "The Economic Approach to Human Behavior. Economic Theory",
+      "author": "Becker",
+      "year": "1976"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0050",
+      "author": "Bojarski"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0060",
+      "series-title": "Proceedings of the 18th International Conference on Autonomous Agents and MultiAgent Systems",
+      "first-page": "1117",
+      "article-title": "Observational learning by reinforcement learning",
+      "author": "Borsa",
+      "year": "2019"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0070",
+      "series-title": "Proceedings of the 10th International Conference on Cognitive Modeling",
+      "article-title": "A new approach to exploring language emergence as boundedly optimal control in the face of environmental and cognitive constraints",
+      "author": "Bratman",
+      "year": "2010"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0080",
+      "author": "Brown"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0090",
+      "series-title": "Handbook of Perception",
+      "author": "Carterette",
+      "year": "1978"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0100",
+      "series-title": "Syntactic Structures",
+      "author": "Chomsky",
+      "year": "2002"
+    },
+    {
+      "issue": "3",
+      "key": "10.1016/j.artint.2021.103535_br0110",
+      "doi-asserted-by": "crossref",
+      "first-page": "181",
+      "DOI": "10.1017/S0140525X12000477",
+      "article-title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science",
+      "volume": "36",
+      "author": "Clark",
+      "year": "2013",
+      "journal-title": "Behav. Brain Sci."
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0120",
+      "series-title": "Representation of a Preference Ordering by a Numerical Function",
+      "author": "Debreu",
+      "year": "1954"
+    },
+    {
+      "issue": "127\u201338",
+      "key": "10.1016/j.artint.2021.103535_br0140",
+      "article-title": "The free-energy principle: A unified brain theory?",
+      "volume": "11",
+      "author": "Friston",
+      "year": "2010",
+      "journal-title": "Nat. Rev. Neurosci."
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0150",
+      "series-title": "Artificial General Intelligence, vol. 2",
+      "author": "Goertzel",
+      "year": "2007"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0160",
+      "series-title": "2013 IEEE International Conference on Acoustics, Speech and Signal Processing",
+      "first-page": "6645",
+      "article-title": "Speech recognition with deep recurrent neural networks",
+      "author": "Graves",
+      "year": "2013"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0650",
+      "author": "Grujic"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0170",
+      "author": "Hafner"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0180",
+      "series-title": "On Intelligence",
+      "author": "Hawkins",
+      "year": "2004"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0190",
+      "series-title": "Unsupervised Learning: Foundations of Neural Computation",
+      "author": "Hinton",
+      "year": "1999"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0660",
+      "author": "Hospedales"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0200",
+      "series-title": "Universal Artificial Intelligence: Sequential Decisions Based on Algorithmic Probability",
+      "author": "Hutter",
+      "year": "2005"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0210",
+      "series-title": "2nd Annual Conference on Robot Learning, Proceedings",
+      "first-page": "651",
+      "article-title": "Scalable deep reinforcement learning for vision-based robotic manipulation",
+      "volume": "vol. 87",
+      "author": "Kalashnikov",
+      "year": "2018"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0220",
+      "series-title": "Advances in Neural Information Processing Systems",
+      "first-page": "1097",
+      "article-title": "Imagenet classification with deep convolutional neural networks",
+      "author": "Krizhevsky",
+      "year": "2012"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0230",
+      "series-title": "Computer perception with deep learning",
+      "author": "LeCun",
+      "year": "2013"
+    },
+    {
+      "issue": "4",
+      "key": "10.1016/j.artint.2021.103535_br0240",
+      "doi-asserted-by": "crossref",
+      "first-page": "391",
+      "DOI": "10.1007/s11023-007-9079-x",
+      "article-title": "Universal intelligence: A definition of machine intelligence",
+      "volume": "17",
+      "author": "Legg",
+      "year": "2007",
+      "journal-title": "Minds Mach."
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0250",
+      "author": "Levine"
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.artint.2021.103535_br0260",
+      "doi-asserted-by": "crossref",
+      "first-page": "279",
+      "DOI": "10.1111/tops.12086",
+      "article-title": "Computational rationality: Linking mechanism and behavior through bounded utility maximization",
+      "volume": "6",
+      "author": "Lewis",
+      "year": "2014",
+      "journal-title": "Top. Cogn. Sci."
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0270",
+      "series-title": "Foundations of Statistical Natural Language Processing",
+      "author": "Manning",
+      "year": "1999"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0280",
+      "series-title": "What Is AI?",
+      "author": "McCarthy",
+      "year": "1998"
+    },
+    {
+      "issue": "7540",
+      "key": "10.1016/j.artint.2021.103535_br0290",
+      "doi-asserted-by": "crossref",
+      "first-page": "529",
+      "DOI": "10.1038/nature14236",
+      "article-title": "Human-level control through deep reinforcement learning",
+      "volume": "518",
+      "author": "Mnih",
+      "year": "2015",
+      "journal-title": "Nature"
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.artint.2021.103535_br0300",
+      "doi-asserted-by": "crossref",
+      "first-page": "146",
+      "DOI": "10.1177/1059712313511648",
+      "article-title": "Multi-timescale nexting in a reinforcement learning robot",
+      "volume": "22",
+      "author": "Modayil",
+      "year": "2014",
+      "journal-title": "Adapt. Behav."
+    },
+    {
+      "issue": "1\u20132",
+      "key": "10.1016/j.artint.2021.103535_br0310",
+      "doi-asserted-by": "crossref",
+      "first-page": "145",
+      "DOI": "10.1016/S0004-3702(01)00121-7",
+      "article-title": "Computer Go",
+      "volume": "134",
+      "author": "M\u00fcller",
+      "year": "2002",
+      "journal-title": "Artif. Intell."
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.artint.2021.103535_br0320",
+      "doi-asserted-by": "crossref",
+      "first-page": "48",
+      "DOI": "10.1073/pnas.36.1.48",
+      "article-title": "Equilibrium points in n-person games",
+      "volume": "36",
+      "author": "Nash",
+      "year": "1950",
+      "journal-title": "Proc. Natl. Acad. Sci."
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.artint.2021.103535_br0330",
+      "doi-asserted-by": "crossref",
+      "first-page": "295",
+      "DOI": "10.1007/BF01448847",
+      "article-title": "Zur theorie der gesellschaftsspiele",
+      "volume": "100",
+      "author": "Neumann",
+      "year": "1928",
+      "journal-title": "Math. Ann."
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0340",
+      "series-title": "Unified Theories of Cognition",
+      "author": "Newell",
+      "year": "1990"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0350",
+      "series-title": "Proceedings of the 5th International Conference on Artificial General Intelligence",
+      "first-page": "209",
+      "article-title": "Space-time embedded intelligence",
+      "volume": "vol. 7716",
+      "author": "Orseau",
+      "year": "2012"
+    },
+    {
+      "issue": "10",
+      "key": "10.1016/j.artint.2021.103535_br0360",
+      "doi-asserted-by": "crossref",
+      "first-page": "1345",
+      "DOI": "10.1109/TKDE.2009.191",
+      "article-title": "A survey on transfer learning",
+      "volume": "22",
+      "author": "Pan",
+      "year": "2009",
+      "journal-title": "IEEE Trans. Knowl. Data Eng."
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0370",
+      "series-title": "Markov Decision Processes: Discrete Stochastic Dynamic Programming",
+      "author": "Puterman",
+      "year": "2014"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0380",
+      "series-title": "Twenty-Third International Joint Conference on Artificial Intelligence",
+      "article-title": "On stochastic optimal control and reinforcement learning by approximate inference",
+      "author": "Rawlik",
+      "year": "2013"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0390",
+      "series-title": "AlphaGo to Zero: The Complete Games",
+      "author": "Redmond",
+      "year": "2020"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0400",
+      "doi-asserted-by": "crossref",
+      "first-page": "520",
+      "DOI": "10.2307/1911749",
+      "article-title": "Existence and uniqueness of equilibrium points for concave n-person games",
+      "author": "Ben Rosen",
+      "year": "1965",
+      "journal-title": "Econometrica"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0410",
+      "series-title": "Artificial Intelligence: A Modern Approach",
+      "author": "Russell",
+      "year": "1995"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0420",
+      "doi-asserted-by": "crossref",
+      "first-page": "575",
+      "DOI": "10.1613/jair.133",
+      "article-title": "Provably bounded-optimal agents",
+      "volume": "2",
+      "author": "Russell",
+      "year": "1995",
+      "journal-title": "J. Artif. Intell. Res."
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0430",
+      "series-title": "Game Changer: AlphaZero's Groundbreaking Chess Strategies and the Promise of AI",
+      "author": "Sadler",
+      "year": "2019"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0440",
+      "series-title": "Advances in Neural Information Processing Systems 9",
+      "first-page": "1040",
+      "article-title": "Learning from demonstration",
+      "author": "Schaal",
+      "year": "1996"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0670",
+      "author": "Schaffner"
+    },
+    {
+      "issue": "7",
+      "key": "10.1016/j.artint.2021.103535_br0450",
+      "doi-asserted-by": "crossref",
+      "first-page": "365",
+      "DOI": "10.1016/j.artint.2006.02.006",
+      "article-title": "If multi-agent learning is the answer, what is the question?",
+      "volume": "171",
+      "author": "Shoham",
+      "year": "2007",
+      "journal-title": "Artif. Intell."
+    },
+    {
+      "issue": "6419",
+      "key": "10.1016/j.artint.2021.103535_br0460",
+      "doi-asserted-by": "crossref",
+      "first-page": "1140",
+      "DOI": "10.1126/science.aar6404",
+      "article-title": "A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play",
+      "volume": "362",
+      "author": "Silver",
+      "year": "2018",
+      "journal-title": "Science"
+    },
+    {
+      "issue": "7676",
+      "key": "10.1016/j.artint.2021.103535_br0470",
+      "doi-asserted-by": "crossref",
+      "first-page": "354",
+      "DOI": "10.1038/nature24270",
+      "article-title": "Mastering the game of go without human knowledge",
+      "volume": "550",
+      "author": "Silver",
+      "year": "2017",
+      "journal-title": "Nature"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.artint.2021.103535_br0480",
+      "doi-asserted-by": "crossref",
+      "first-page": "99",
+      "DOI": "10.2307/1884852",
+      "article-title": "A behavioral model of rational choice",
+      "volume": "69",
+      "author": "Simon",
+      "year": "1955",
+      "journal-title": "Q. J. Econ."
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.artint.2021.103535_br0490",
+      "doi-asserted-by": "crossref",
+      "first-page": "70",
+      "DOI": "10.1109/TAMD.2010.2051031",
+      "article-title": "Intrinsically motivated reinforcement learning: An evolutionary perspective",
+      "volume": "2",
+      "author": "Singh",
+      "year": "2010",
+      "journal-title": "IEEE Trans. Auton. Ment. Dev."
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0500",
+      "series-title": "The Behavior of Organisms: An Experimental Analysis",
+      "author": "Skinner",
+      "year": "1938"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0510",
+      "series-title": "Verbal Behavior",
+      "author": "Skinner",
+      "year": "1957"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0520",
+      "series-title": "Advances in Neural Information Processing Systems 33",
+      "article-title": "Learning to summarize with human feedback",
+      "author": "Stiennon",
+      "year": "2020"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.artint.2021.103535_br0530",
+      "doi-asserted-by": "crossref",
+      "first-page": "9",
+      "DOI": "10.1023/A:1022633531479",
+      "article-title": "Learning to predict by the methods of temporal differences",
+      "volume": "3",
+      "author": "Sutton",
+      "year": "1988",
+      "journal-title": "Mach. Learn."
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0540",
+      "series-title": "Reinforcement Learning: An Introduction",
+      "author": "Sutton",
+      "year": "2018"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0550",
+      "series-title": "Advances in Neural Information Processing Systems",
+      "first-page": "1057",
+      "article-title": "Policy gradient methods for reinforcement learning with function approximation",
+      "author": "Sutton",
+      "year": "2000"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.artint.2021.103535_br0560",
+      "first-page": "1633",
+      "article-title": "Transfer learning for reinforcement learning domains: A survey",
+      "volume": "10",
+      "author": "Taylor",
+      "year": "2009",
+      "journal-title": "J. Mach. Learn. Res."
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0570",
+      "series-title": "Purposive Behavior in Animals and Men",
+      "author": "Tolman",
+      "year": "1932"
+    },
+    {
+      "issue": "236",
+      "key": "10.1016/j.artint.2021.103535_br0580",
+      "doi-asserted-by": "crossref",
+      "first-page": "433",
+      "DOI": "10.1093/mind/LIX.236.433",
+      "article-title": "Computing machinery and intelligence",
+      "volume": "59",
+      "author": "Turing",
+      "year": "1950",
+      "journal-title": "Mind"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0590",
+      "author": "Vanschoren"
+    },
+    {
+      "issue": "7782",
+      "key": "10.1016/j.artint.2021.103535_br0600",
+      "doi-asserted-by": "crossref",
+      "first-page": "350",
+      "DOI": "10.1038/s41586-019-1724-z",
+      "article-title": "Grandmaster level in starcraft II using multi-agent reinforcement learning",
+      "volume": "575",
+      "author": "Vinyals",
+      "year": "2019",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0610",
+      "series-title": "Economy and Society: An Outline of Interpretive Sociology",
+      "author": "Weber",
+      "year": "1978"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0620",
+      "series-title": "AlphaGo vs Ke Jie",
+      "author": "Zhou",
+      "year": "2017"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0630",
+      "series-title": "Rethinking Opening Strategy: AlphaGo's Impact on Pro Play",
+      "author": "Zhou",
+      "year": "2018"
+    },
+    {
+      "key": "10.1016/j.artint.2021.103535_br0640",
+      "series-title": "Proceedings of the 27th International Conference on Machine Learning",
+      "first-page": "1255",
+      "article-title": "Modeling interaction via the principle of maximum causal entropy",
+      "author": "Ziebart",
+      "year": "2010"
+    }
+  ],
+  "container-title": [
+    "Artificial Intelligence"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0004370221000862?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0004370221000862?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        9,
+        13
+      ]
+    ],
+    "date-time": "2025-09-13T07:24:12Z",
+    "timestamp": 1757748252000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0004370221000862"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        10
+      ]
+    ]
+  },
+  "references-count": 66,
+  "alternative-id": [
+    "S0004370221000862"
+  ],
+  "URL": "https://doi.org/10.1016/j.artint.2021.103535",
+  "relation": {},
+  "ISSN": [
+    "0004-3702"
+  ],
+  "issn-type": [
+    {
+      "value": "0004-3702",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2021,
+        10
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "Elsevier",
+      "name": "publisher",
+      "label": "This article is maintained by"
+    },
+    {
+      "value": "Reward is enough",
+      "name": "articletitle",
+      "label": "Article Title"
+    },
+    {
+      "value": "Artificial Intelligence",
+      "name": "journaltitle",
+      "label": "Journal Title"
+    },
+    {
+      "value": "https://doi.org/10.1016/j.artint.2021.103535",
+      "name": "articlelink",
+      "label": "CrossRef DOI link to publisher maintained version"
+    },
+    {
+      "value": "article",
+      "name": "content_type",
+      "label": "Content Type"
+    },
+    {
+      "value": "\u00a9 2021 The Authors. Published by Elsevier B.V.",
+      "name": "copyright",
+      "label": "Copyright"
+    }
+  ],
+  "article-number": "103535"
+}

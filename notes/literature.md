@@ -4,6 +4,11 @@ Status: source metadata and abstracts verified on 2026-10-25; the original
 Attention paper's relevant sections were read in full. This is a targeted
 review, not a systematic or exhaustive novelty search.
 
+Update: a [targeted full-text review](full-text-review.md) now covers the methods
+and limitations of five directly relevant works, including Reward is enough.
+The table below remains the original discovery map; see the review for exact
+versions and reading scope.
+
 | Work | Relevance and constraint on our claim |
 | --- | --- |
 | Vaswani et al., 2017, [Attention Is All You Need](https://arxiv.org/abs/1706.03762) | Demonstrates an architecture with task-specific experiments and ablations; does not establish that attention alone is sufficient for all intelligence. |
