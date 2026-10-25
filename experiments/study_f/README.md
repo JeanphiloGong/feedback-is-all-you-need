@@ -19,7 +19,8 @@ GPU. Dependencies match the Study E environment: PyTorch 2.8.0+cu126,
 Transformers 4.57.1, NumPy 2.3.4, SciPy 1.16.3, Matplotlib 3.10.7.
 
 ```bash
-python -m unittest experiments.study_f.test_rules -v
+export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1
+python -m unittest experiments.study_f.test_rules experiments.study_f.test_journal -v
 python -m experiments.study_f.run --size 0.5B --development --output runs/f-dev-0.5B
 python -m experiments.study_f.analyze --input runs/f-dev-0.5B
 python -m experiments.study_f.run --size 0.5B --output runs/f-formal-0.5B \

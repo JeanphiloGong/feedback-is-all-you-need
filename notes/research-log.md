@@ -356,3 +356,24 @@ separately. All outcomes from development seeds remain exploratory.
   retained. An offline retry using the same cached pinned weights completed
   in 2.29 seconds; both formal runs will use the same offline environment flags.
   No prompt, cap, source, or model parameter was changed after development.
+
+## 2026-10-25 UTC: Study F completion
+
+- Both frozen suites completed: 120 proposals, 120 retained rule files, and
+  5,760 held-out evaluations per model. Full remote audits pass; all 258
+  transferred manifest entries match. An independent local parser and scalar
+  executor reproduce 20 means, 12 contrasts, bootstrap, Wilson intervals,
+  answer transitions, and generation costs. The two figures were inspected.
+- The primary 0.5B checked-minus-self composition effect is +4.04 points,
+  t CI [-2.78,10.85], bootstrap [-1.56,11.07]. No small-model proposal recovers
+  all four rules. This is inconclusive for a composition benefit and negative
+  for observed exact recovery under the tested interface, not a universal
+  impossibility result. The 7B final exact counts are 6/24 checked and 3/24 self.
+- All responses finish before the token cap. Invalid 0.5B proposals repeat
+  offsets; nine of the 12 invalid 7B proposals instead use negative modular
+  representatives disallowed by the declared interface. Raw outputs are
+  retained and scores are not silently normalized after collection.
+- The measured post-loading suites take 2.76 and 12.50 seconds; shared initial
+  generation is counted once. Storage and modular execution remain supplied
+  system components. HTTP pushes failed twice with TLS termination errors;
+  the authenticated SSH transport successfully synchronized through e195e6d.

@@ -1,0 +1,7 @@
+Verified 120 proposals, 5760 evaluations, and 120 saved memories.
+{"contrast": "checked_review_minus_self_review", "split": "direct", "primary": false, "n": 24, "mean": -0.010416666666666666, "sd": 0.21466818007388025, "low": -0.1010630891987462, "high": 0.08022975586541285}
+{"contrast": "self_review_minus_initial", "split": "direct", "primary": false, "n": 24, "mean": 0.0, "sd": 0.0, "low": 0.0, "high": 0.0}
+{"contrast": "checked_review_minus_initial", "split": "direct", "primary": false, "n": 24, "mean": -0.010416666666666666, "sd": 0.21466818007388025, "low": -0.1010630891987462, "high": 0.08022975586541285}
+{"contrast": "checked_review_minus_self_review", "split": "compose", "primary": true, "n": 24, "mean": 0.040364583333333336, "sd": 0.161324965371119, "low": -0.027756975115481537, "high": 0.10848614178214822, "bootstrap95": [-0.015625, 0.11067708333333333]}
+{"contrast": "self_review_minus_initial", "split": "compose", "primary": false, "n": 24, "mean": 0.0, "sd": 0.0, "low": 0.0, "high": 0.0}
+{"contrast": "checked_review_minus_initial", "split": "compose", "primary": false, "n": 24, "mean": 0.040364583333333336, "sd": 0.161324965371119, "low": -0.027756975115481537, "high": 0.10848614178214822}
