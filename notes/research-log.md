@@ -112,3 +112,18 @@ separately. All outcomes from development seeds remain exploratory.
 - Actual context runtimes were 21.81, 56.22, 109.02, and 234.69 seconds for
   0.5B, 1.5B, 3B, and 7B; the LoRA suite took 94.65 seconds. Source hashes
   match the archived runner. The run scripts and packages remained unchanged.
+
+## 2026-10-25 UTC: manuscript v3 evidence review
+
+- The Study B primary 0.5B composition contrast is 0.00 points, t CI
+  [-1.03, 1.03], bootstrap [-0.78, 1.04]. The registered result is negative.
+- A fresh manuscript reviewer required two material reporting corrections:
+  logistic regression's chance XOR result must not be confused with the
+  optimal zero-one accuracy of a biased linear classifier; LoRA's direct
+  score drops from 26.30% without examples to 9.90% with correct context.
+  Both corrections and the paired direct-gain interval are now in v3.
+- The same review corrected Study C interpretation: a positive interaction
+  cannot establish helpful feedback without examining generation's own
+  clean-minus-none difference. This was amended before collection.
+- Study C uses untouched seeds 5000–5023 and tests 128-token generation against
+  the original interface. No generation outcome has yet been inspected.

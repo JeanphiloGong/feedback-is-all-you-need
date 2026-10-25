@@ -57,6 +57,22 @@ feedback system than as a static parameter store.
 
 ## Current status
 
-The project is at the hypothesis and research-design stage. No empirical claim
-has been accepted yet. Every strong statement in the manuscript should be
-paired with a falsifiable prediction or an explicitly marked limitation.
+The hypothesis has now been tested in controlled classification and pretrained
+language-model studies. Results support conditional adaptation, but do not
+establish feedback sufficiency for general intelligence.
+
+- [Manuscript versions](paper/README.md): v0 hypothesis, audited v1, corrected
+  v2, and v3 incorporating language-model evidence.
+- [Study A replication](results/study-a-v2/README.md): 20 seeds, four capacities,
+  seven feedback conditions; all 19,200 records retained.
+- [Study B results](results/study-b-v1/README.md): four Qwen2.5 sizes, 24 new
+  command languages, raw predictions, and persistent LoRA updates.
+- [Research log](notes/research-log.md): protocol amendments, failed checks,
+  independent reviews, and infrastructure failures.
+- [Study C protocol](notes/protocol-v3-generation.md): prospective test of the
+  first-token interface versus full generation on untouched environments.
+
+The smallest language model did not improve composition accuracy under the
+first tested feedback mechanism. This negative result is conditional on the
+prompt, update rule, and inference interface; follow-up experiments continue.
+All commits use English. External paper submission has not been authorized.
