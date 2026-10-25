@@ -377,3 +377,19 @@ separately. All outcomes from development seeds remain exploratory.
   generation is counted once. Storage and modular execution remain supplied
   system components. HTTP pushes failed twice with TLS termination errors;
   the authenticated SSH transport successfully synchronized through e195e6d.
+
+## 2026-10-25 UTC: manuscript v7 review
+
+- A fresh reviewer independently recomputed all new raw-rule scores, 20 means,
+  12 contrasts, primary bootstrap, Wilson/transition intervals, prompts, hashes,
+  and costs. No substantive reporting issue was found. The review reparsed
+  decoded text; remote analysis performed token-ID decoding. Cross-model CLI
+  review was skipped in this autonomous run.
+- The review identified a useful concrete interface example: seed 8012's final
+  checked 7B rule is semantically exact with -1 interpreted as 7, while its
+  registered canonical-format score is zero. The manuscript discloses this
+  without changing formal scores or overstating neural incapacity.
+- Version 7 incorporates Study F and the three new literature precedents.
+  All earlier snapshots remain intact. The 18-page PDF compiles twice without
+  final-pass warnings; all pages were rendered and inspected. A line overflow
+  and an isolated concluding line were removed before the final render.

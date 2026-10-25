@@ -14,22 +14,25 @@ is borrowed from it.
 | [v4](versions/v4-generation-and-feedback.pdf) | Adds full-generation evidence on fresh environments, format and token-budget failures, a memory bound, and full-text comparisons with prior work. |
 | [v5](versions/v5-generation-budget.pdf) | Adds a fixed 128/512-token comparison on 24 fresh environments: substantial recovery from invalid shorter prefixes, with no additional feedback during generation. |
 | [v6](versions/v6-online-feedback.pdf) | Adds repeated parameter updates after verified outcomes on 24 fresh environments: no demonstrated composition gain, with context dependence and all adapter states retained. |
+| [v7](versions/v7-rule-memory.pdf) | Adds externally checked rule revision, all intermediate rule memories, explicit executor attribution, and comparisons with Voyager, Self-Debugging, and ExpeL. |
 
 All manuscripts are working drafts. The current results support conditional
 adaptation, not the sufficiency of feedback for general intelligence.
 Full generation reveals stronger oracle execution in 7B. Extending the fixed
 generation cap raises clean composition accuracy from 7.94% to 70.57%; all 481
-recovered responses had invalid shorter prefixes. The 0.5B format failure
-remains unresolved. A one-pass LoRA feedback loop shows no demonstrated
+recovered responses had invalid shorter prefixes. The 0.5B failure
+under Study C's prompt remains unresolved; Study F's different rule interface
+yields mostly valid proposals but no exact recovery. A one-pass LoRA feedback loop shows no demonstrated
 composition gain; more effective mechanisms and sustained cross-task learning
-remain open.
+remain open. The Study F checked-minus-self composition contrast is +4.04
+points with 95% CI [-2.78, 10.85], which does not demonstrate a positive effect.
 
 From the repository root, compile a version twice to resolve citations:
 
 ```bash
 mkdir -p paper/build
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=paper/build \
-  paper/versions/v6-online-feedback.tex
+  paper/versions/v7-rule-memory.tex
 ```
 
 Compiled files in `paper/versions/` are inspected snapshots. `paper/build/`

@@ -61,8 +61,9 @@ The hypothesis has now been tested in controlled classification and pretrained
 language-model studies. Results support conditional adaptation, but do not
 establish feedback sufficiency for general intelligence.
 
-- [Manuscript versions](paper/README.md): v0 hypothesis through v6, including
-  audited results, pretrained models, response budgets, and online updates.
+- [Manuscript versions](paper/README.md): v0 hypothesis through v7, including
+  audited results, pretrained models, response budgets, online updates, and
+  checked revision of external rule memory.
 - [Study A replication](results/study-a-v2/README.md): 20 seeds, four capacities,
   seven feedback conditions; all 19,200 records retained.
 - [Study B results](results/study-b-v1/README.md): four Qwen2.5 sizes, 24 new
@@ -75,6 +76,9 @@ establish feedback sufficiency for general intelligence.
   on 24 further environments; clean composition rises from 7.94% to 70.57%.
 - [Study E results](results/study-e-v1/README.md): 24 fresh online-feedback
   environments; no demonstrated composition gain after 16 LoRA updates.
+- [Study F results](results/study-f-v1/README.md): 24 fresh rule-memory
+  environments per model; external checks do not establish a small-model
+  composition gain over two self-revisions.
 - [Full-text literature review](notes/full-text-review.md): methods and limits
   of nine close precedents, including Reward is enough, Voyager, ExpeL, and the
   Era of Experience.
@@ -86,5 +90,8 @@ recover substantial example-based performance; all 481 recovered composition
 answers had invalid shorter prefixes. This is a response-completion effect.
 Explicit per-outcome updates and error-only updates in 0.5B also fail to
 demonstrate a retained composition gain under the short tested schedule.
+Checked revision of stored rules yields a 0.5B composition difference of
++4.04 points (95% CI [-2.78, 10.85]) over self-review and no exact rule recovery.
+The supplied executor and strict output schema remain part of that result.
 More effective feedback systems and sustained cross-task learning remain open.
 All commits use English. External paper submission has not been authorized.
