@@ -1,0 +1,27 @@
+{
+  "study": "C",
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "development": true,
+  "seeds": [
+    9
+  ],
+  "source_sha256": "9bc7c0e204e2f2bb1a108e874d0f55ce0fa88a9ef4f7cdbc6117106a81dfb8f3",
+  "tasks_sha256": "802db27b8043ab74f112bd63bcf537cdc401eca1d6592bd3bc0ef24bdb333bd4",
+  "score_source_sha256": "66ce2d124aa69595f48bb54c5b2f79d54762c25b68354969e6277df26ea1b59d",
+  "input_environments_sha256": "1b30fb9836729e2775b6db993785cc6de7a90ce9a0cb3c6133d762a2606c6bb7",
+  "executed_environments_sha256": "e2e4997c03e236c1c34ba0c7ef683e5bfe0de4006284bffb2ae690065ad5de16",
+  "git_revision": "development-uncommitted",
+  "packages": {
+    "torch": "2.8.0+cu126",
+    "transformers": "4.57.1",
+    "numpy": "2.3.4"
+  },
+  "device": "NVIDIA GeForce RTX 4090 D",
+  "batch_size": 16,
+  "max_new_tokens": 128,
+  "started_unix": 1792947393.8188365,
+  "finished_unix": 1792947395.2098594,
+  "elapsed_seconds": 1.3910229206085205,
+  "peak_allocated_bytes": 1314335232
+}
