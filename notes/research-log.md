@@ -528,3 +528,21 @@ separately. All outcomes from development seeds remain exploratory.
   and summary; fresh results review found no material issue. Cross-model CLI
   review was skipped. No formal scores, source freezes, or earlier manuscripts
   changed, and no additional model inference was performed.
+
+## 2026-10-25 UTC: uniform-proposal reference preparation
+
+- After observing selection outcomes, specified two exact post-hoc references:
+  17 uniform legal proposals, and the shared neural initial proposal followed
+  by 16 uniform proposals. Both use the supplied training-example selector;
+  neither changes any frozen model trajectory. The latter retains the neural
+  initial call and must not be called a fully model-free system.
+- Enumerating the 1,680 legal rules yields the correct-offset distribution;
+  a tail-sum formula gives conditional selected-direct expectations and
+  exact-recovery probabilities with rational arithmetic. The sampler builds
+  the grammar into its action space and always returns valid rules. Equal
+  candidate counts do not match inference or checker costs.
+- Five tests pass, including independent inclusion-exclusion, single-draw
+  marginals, and a weighted two-draw calculation. Fresh review found no issue
+  in the formula, initial-rule conditioning, implementation, or attribution.
+  Cross-model CLI review was skipped. The added research functions introduce
+  no compatibility layer or temporary implementation.

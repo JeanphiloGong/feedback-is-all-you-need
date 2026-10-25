@@ -53,3 +53,19 @@ The selector evaluates all disclosed examples, adding supplied computation.
 Its direct-score monotonicity follows from this task family's structure;
 composition can decline. This is not a run with gated model feedback or a
 measurement of learning across tasks. The output must be a new file.
+
+The later uniform-proposal reference is specified in
+[`../../notes/study-g-random-reference-plan.md`](../../notes/study-g-random-reference-plan.md).
+It calculates exact expectations for 17 uniform legal rules or 16 uniform
+revisions after the shared neural initial proposal. It adds no model calls:
+
+```bash
+python3 -s -m unittest experiments.study_g.test_random_reference -v
+python3 -s -m experiments.study_g.random_reference \
+  --input results/study-g-v1/selection-diagnostics.json \
+  --output /tmp/study-g-random-reference.json
+```
+
+The sampler has a supplied finite grammar and always produces valid rules.
+Candidate opportunities do not match measured compute or checker executions;
+conditional expectations are not observed runs or confidence intervals.
