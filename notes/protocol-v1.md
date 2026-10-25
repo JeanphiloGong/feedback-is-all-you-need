@@ -1,6 +1,6 @@
 # Study A protocol: capacity and online feedback
 
-Status: proposed before outcome collection; freeze by Git commit after review.
+Status: frozen and amended; see dated amendment below for the current seed set.
 This is a repository-timestamped protocol, not an externally registered study.
 Changes after the freeze must be dated and justified in the research log.
 
@@ -17,7 +17,7 @@ the same label. Learning is supervised online adaptation, not a new RL method.
 
 ## Data-generating process
 
-- Independent experimental units: 20 seeds, 2000 through 2019. Development and
+- Independent experimental units: 20 seeds, 4000 through 4019. Development and
   correctness checks use seeds below 100. Seed outcomes must not tune settings.
   Amendment before formal collection: an implementation smoke run accidentally
   used seeds 1000 and 1001 and its outcomes were viewed; these are now excluded
@@ -126,3 +126,16 @@ required: pretrained language models, new task families, persistent knowledge,
 equal-information offline controls, equal-inference-budget controls, and a
 capacity sweep with informative feedback supplied to large models as well.
 Study B will freeze its own protocol before scored language-model runs.
+
+## Amendment: 2026-10-25 UTC, after implementation audit
+
+The first full run (2000–2019, archived as study-a-v1) used additive seed
+offsets. This caused overlapping corruption masks across environments and
+some initialization/task stream collisions. Treat its intervals as superseded;
+keep all raw outcomes and the original implementation in Git history. The
+replication uses untouched seeds 4000–4019 and derives each PRNG seed from
+SHA-256 of `(seed, family, role, details)`, taking the first eight bytes as an
+unsigned little-endian integer. Test for stream collisions over the complete
+grid. Feedback arms deliberately share within-environment data and noise
+draws for paired comparisons. No model, optimizer, endpoint, sample size,
+or feedback schedule changes. Replication results will replace primary tables.

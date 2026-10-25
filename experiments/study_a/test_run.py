@@ -7,7 +7,7 @@ from experiments.study_a.run import Agent, Rule, make_data, make_rule, parameter
 
 
 def test_parameter_counts_are_frozen_by_protocol() -> None:
-    assert [parameter_count(width) for width in (0, 16, 64, 256)] == [9, 161, 641, 2561]
+    assert [sum(p.numel() for p in Agent(width).parameters()) for width in (0,16,64,256)] == [9,161,641,2561]
 
 
 def test_rule_generation_and_data_are_deterministic() -> None:
@@ -60,3 +60,17 @@ def test_noise50_does_not_leak_labels_and_inversion_is_exact() -> None:
     noisy = run.noisy_labels(labels, "noise50", 3)
     assert 0.48 < noisy.mean().item() < 0.52
     assert torch.equal(run.noisy_labels(labels, "inverted", 3), torch.ones_like(labels))
+
+
+def test_random_streams_do_not_overlap_between_seeds_or_roles():
+    streams=[]
+    for seed in range(4000,4020):
+        for family in run.FAMILIES:
+            for role in ("initial_rule","post_rule","warmup_data","adaptation_data",
+                         "post_gaussian","post_uniform","old_gaussian","old_uniform","replay"):
+                streams.append(run.stream_seed(seed,family,role))
+            for width in run.WIDTHS:
+                streams.append(run.stream_seed(seed,family,"initialization",width))
+            for step in range(256):
+                streams.append(run.stream_seed(seed,family,"corruption",step))
+    assert len(streams)==len(set(streams))

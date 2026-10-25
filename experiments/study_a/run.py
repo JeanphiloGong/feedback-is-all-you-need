@@ -36,6 +36,12 @@ ARMS = ("frozen", "clean", "noise25", "noise50", "inverted", "delay32", "replay2
 WIDTHS = (0, 16, 64, 256)
 
 
+def stream_seed(seed: int, family: str, role: str, *details: object) -> int:
+    """Derive separate reproducible PRNG streams for each experimental role."""
+    encoded = json.dumps([seed, family, role, *details]).encode()
+    return int.from_bytes(hashlib.sha256(encoded).digest()[:8], "little")
+
+
 @dataclass(frozen=True)
 class Rule:
     """A deterministic binary task rule."""
@@ -196,7 +202,7 @@ def run_arm(
     optimizer = torch.optim.Adam(agent.parameters(), lr=0.01)
     records: list[dict[str, object]] = []
     pending: list[tuple[Tensor, Tensor]] = []
-    replay_generator = make_generator(seed + 70_000_000 + len(family) * 1000 + len(arm))
+    replay_generator = make_generator(stream_seed(seed, family, "replay"))
     replay_indices = torch.randint(
         0, WARMUP_BATCHES * BATCH_SIZE, (ADAPTATION_BATCHES, 8), generator=replay_generator
     )
@@ -233,7 +239,7 @@ def run_arm(
     for step in range(ADAPTATION_BATCHES):
         update_start = time.perf_counter()
         x = adapt_x[step]
-        y = noisy_labels(adapt_y[step], arm, seed + 80_000_000 + step)
+        y = noisy_labels(adapt_y[step], arm, stream_seed(seed, family, "corruption", step))
         if arm == "frozen":
             pass
         elif arm == "replay25":
@@ -312,6 +318,7 @@ def run(args: argparse.Namespace) -> None:
     started = time.time()
     metadata = {
         "study": "A",
+        "random_stream_scheme": "sha256(seed, family, role, details), first 64 bits little-endian",
         "protocol": "notes/protocol-v1.md",
         "git_revision": git_revision(),
         "source_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
@@ -340,22 +347,21 @@ def run(args: argparse.Namespace) -> None:
         total = len(families) * len(widths) * len(arms) * len(seeds)
         completed = 0
         for family in families:
-            family_index = FAMILIES.index(family)
             for seed in seeds:
-                initial_rule = make_rule(family, seed + family_index * 1_000_000)
-                post_rule = make_rule(family, seed + family_index * 1_000_000 + 500_000)
-                warm_x, warm_y = make_data(initial_rule, WARMUP_BATCHES, seed + 10_000_000 + family_index)
-                adapt_x, adapt_y = make_data(post_rule, ADAPTATION_BATCHES, seed + 20_000_000 + family_index)
+                initial_rule = make_rule(family, stream_seed(seed, family, "initial_rule"))
+                post_rule = make_rule(family, stream_seed(seed, family, "post_rule"))
+                warm_x, warm_y = make_data(initial_rule, WARMUP_BATCHES, stream_seed(seed, family, "warmup_data"))
+                adapt_x, adapt_y = make_data(post_rule, ADAPTATION_BATCHES, stream_seed(seed, family, "adaptation_data"))
                 eval_sets = {
-                    "post_gaussian": make_data(post_rule, EVAL_EXAMPLES // BATCH_SIZE, seed + 30_000_000 + family_index)[0:2],
-                    "post_uniform": make_data(post_rule, EVAL_EXAMPLES // BATCH_SIZE, seed + 40_000_000 + family_index, "uniform")[0:2],
-                    "old_gaussian": make_data(initial_rule, EVAL_EXAMPLES // BATCH_SIZE, seed + 50_000_000 + family_index)[0:2],
-                    "old_uniform": make_data(initial_rule, EVAL_EXAMPLES // BATCH_SIZE, seed + 60_000_000 + family_index, "uniform")[0:2],
+                    "post_gaussian": make_data(post_rule, EVAL_EXAMPLES // BATCH_SIZE, stream_seed(seed, family, "post_gaussian")),
+                    "post_uniform": make_data(post_rule, EVAL_EXAMPLES // BATCH_SIZE, stream_seed(seed, family, "post_uniform"), "uniform"),
+                    "old_gaussian": make_data(initial_rule, EVAL_EXAMPLES // BATCH_SIZE, stream_seed(seed, family, "old_gaussian")),
+                    "old_uniform": make_data(initial_rule, EVAL_EXAMPLES // BATCH_SIZE, stream_seed(seed, family, "old_uniform"), "uniform"),
                 }
                 warm_x_device = warm_x.to(device)
                 warm_y_device = warm_y.to(device)
                 for width in widths:
-                    torch.manual_seed(seed + family_index * 1_000_000 + width)
+                    torch.manual_seed(stream_seed(seed, family, "initialization", width))
                     warm_agent = Agent(width).to(device)
                     optimizer = torch.optim.Adam(warm_agent.parameters(), lr=0.01)
                     warm_start = time.perf_counter()
@@ -393,7 +399,7 @@ def run(args: argparse.Namespace) -> None:
 def parse_args(argv: Iterable[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", required=True, type=Path)
-    parser.add_argument("--seed-start", type=int, default=2000)
+    parser.add_argument("--seed-start", type=int, default=4000)
     parser.add_argument("--seed-count", type=int, default=20)
     parser.add_argument("--families", nargs="+", choices=FAMILIES, default=list(FAMILIES))
     parser.add_argument("--widths", nargs="+", type=int, choices=WIDTHS, default=list(WIDTHS))
