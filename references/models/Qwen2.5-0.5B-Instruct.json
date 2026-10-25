@@ -1,0 +1,23 @@
+{
+  "id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "sha": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "safetensors": {
+    "parameters": {
+      "BF16": 494032768
+    },
+    "total": 494032768
+  },
+  "cardData": {
+    "license": "apache-2.0",
+    "license_link": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct/blob/main/LICENSE",
+    "language": [
+      "en"
+    ],
+    "pipeline_tag": "text-generation",
+    "base_model": "Qwen/Qwen2.5-0.5B",
+    "tags": [
+      "chat"
+    ],
+    "library_name": "transformers"
+  }
+}
