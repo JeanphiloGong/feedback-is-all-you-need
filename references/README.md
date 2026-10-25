@@ -38,7 +38,8 @@ endpoint returned a browser challenge instead of a PDF, so only metadata has
 been verified for that work at this checkpoint.
 
 `full-text-manifest.json` records exact copies and versions of Reward is enough,
-RL², Reflexion, Self-Refine, and the intrinsic self-correction study. The
+RL², Reflexion, Self-Refine, the intrinsic self-correction study, and Welcome to
+the Era of Experience. The
 unmodified PDFs retain their authorship and original license notices.
 [`../notes/full-text-review.md`](../notes/full-text-review.md) records the
 sections read and how their methods constrain our claims. Reward is enough

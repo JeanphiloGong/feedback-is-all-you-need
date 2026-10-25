@@ -108,10 +108,38 @@ Internal reasoning can still improve use of existing information, and external
 feedback can still fail if the learner cannot use it. Neither statement implies
 that all self-refinement is useless or that any external feedback is sufficient.
 
+## Welcome to the Era of Experience — Silver and Sutton (2025)
+
+[Author-linked preprint](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf).
+All main-text pages 1–8 were read. The PDF, dated April 2025 in its metadata,
+identifies itself as a forthcoming chapter in *Designing an Intelligence*,
+MIT Press. It is a perspective and research agenda, not a new controlled test
+establishing general intelligence. The author publication list links this copy.
+
+This is especially close to the original project motivation. It argues for
+agents that learn continuously from their own interactions, retain information
+across long experience streams, obtain rewards from observable consequences,
+and revise world models from prediction errors (pp. 1–5). Its definition of
+adaptation includes weight updates and adaptation in context (p. 2, footnote 1).
+It explicitly says experience and human interaction are not opposites (p. 4,
+footnote 2), so books and human knowledge need not be excluded from a feedback
+system.
+
+The perspective also recognizes simultaneous scaling with network size,
+interactive experience, and thinking time (p. 6). It does not establish that
+small controllers make capacity irrelevant. Its discussion of adaptable reward
+functions explicitly provides no perfect-alignment guarantee and notes the
+physical delays of real-world experimentation (p. 8).
+
+Our paper should cite this close precedent and avoid presenting the whole
+research agenda as novel. Studies B–D remain short, synthetic inference
+experiments; they do not instantiate the lifelong, consequence-driven learning
+system described here.
+
 ## Consequences for this manuscript
 
 1. Retain the title as a hypothesis; acknowledge both the 2023 title precedent
-   and the stronger conceptual precedent from Reward is enough.
+   and the conceptual precedents from Reward is enough and the Era of Experience.
 2. Report feedback source, update mechanism, memory, prior learning, and compute
    separately. Parameter count is one resource, not a complete system measure.
 3. Describe Studies B and C as diagnostic example-conditioning experiments,
