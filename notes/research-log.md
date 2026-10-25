@@ -393,3 +393,17 @@ separately. All outcomes from development seeds remain exploratory.
   All earlier snapshots remain intact. The 18-page PDF compiles twice without
   final-pass warnings; all pages were rendered and inspected. A line overflow
   and an isolated concluding line were removed before the final render.
+
+## 2026-10-25 UTC: exploratory Study F mechanism diagnostics
+
+- After v7, a separate post-hoc plan and analyzer describe all 192 revision
+  transitions. Four behavioral tests pass; fresh independent review checked
+  every transition. No new inference or formal-score changes were made.
+- In 0.5B, self-review repeats text in 47/48 transitions; checked review repeats
+  it in 26/48, with the final response unchanged in 16/24 environments. Among
+  32 valid incorrect-to-valid checked transitions, three repair the first
+  failing command. Five offsets become correct and six become wrong.
+- These counts motivate rejection memory and preservation of verified progress
+  as future interventions. They are not evidence of permanent cycles or a
+  causal claim for an untested memory mechanism. The 48 transitions are nested
+  within 24 environments and are never treated as independent replicates.

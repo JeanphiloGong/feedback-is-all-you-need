@@ -85,3 +85,41 @@ The complete development evidence, including the preserved pre-inference
 Reproduce with the commands in
 [`../../experiments/study_f/README.md`](../../experiments/study_f/README.md),
 using `HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1` with the cached model revisions.
+
+## Exploratory transition diagnostics after manuscript v7
+
+These descriptive counts were specified after viewing the formal results;
+see [`../../notes/study-f-diagnostics-plan.md`](../../notes/study-f-diagnostics-plan.md).
+They do not change formal scores. Each row contains 48 successive revisions
+within 24 environments, not 48 independent samples. `transition-diagnostics.json`
+preserves all 192 transition records and input/source hashes.
+
+| Model / branch | Repeated text / 48 | Same final text as first revision / 24 | First failing command corrected / valid successor pairs | Correct offsets gained / lost, valid pairs only |
+| --- | ---: | ---: | ---: | ---: |
+| 0.5B self | 47 | 24 | 0 / 36 | 1 / 1 (36 pairs) |
+| 0.5B checked | 26 | 16 | 3 / 32 | 5 / 6 (32 pairs) |
+| 7B self | 27 | 15 | 4 / 35 | 8 / 9 (42 pairs) |
+| 7B checked | 15 | 9 | 8 / 31 | 12 / 8 (41 pairs) |
+
+The error-repair denominators include only a valid, incorrect previous rule
+and a valid successor. They exclude previously exact rules and invalid
+successors. In self-review, the first failing command is an offline diagnostic;
+its check was not supplied to the model. The component totals use all valid
+pairs, including previously exact rules, so their denominator differs.
+
+The small model repeats the exact final response in 16/24 checked environments,
+and self-review repeats it in all 24. External checking changes more proposals,
+but among the 32 valid incorrect-rule transitions with valid successors only
+three repair the first failing command. Five components become correct and
+six previously correct components become wrong. This motivates tests of
+rejection memory and preservation of verified components; it does not establish
+that those interventions work. A repeated response is not proof of a permanent
+cycle. The 7B checked branch retains all ten observed previously exact states,
+while self-review retains six of seven.
+
+Reproduce this post-hoc description without model inference:
+
+```bash
+python3 -s -m experiments.study_f.diagnose --input results/study-f-v1 \
+  --output /tmp/study-f-transition-diagnostics.json
+```
