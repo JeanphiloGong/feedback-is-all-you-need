@@ -10,6 +10,9 @@ a count-based prior, finite ranked enumeration, and a budgeted first-fit checker
 The data freeze contains 33 environments and 1,848 tasks; all environments have
 24 experience tasks. No official outcomes were collected before this freeze.
 Data SHA-256: `8d44fdd010df018097ffc5a8e5ee08e7f0270b1f3351846e3671293cc657aa78`.
+The [archived results](../../results/study-i-v1/README.md) include the complete
+audited formal comparison and its unfavorable primary result. Experiment code
+and data remain unchanged from the pre-outcome freeze.
 
 ```bash
 # Pure search checks (standard library only).

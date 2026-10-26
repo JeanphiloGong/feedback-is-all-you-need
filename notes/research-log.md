@@ -899,3 +899,36 @@ separately. All outcomes from development seeds remain exploratory.
   formal grid from the same source/data freeze and matching development audit.
   No new abstraction, compatibility layer, or temporary implementation was
   introduced in this archival checkpoint.
+
+## 2026-10-26 UTC: formal neural-prior transfer outcomes
+
+- Completed the fixed 32-environment grid once from source/data freeze 6365bec:
+  8,960 searches, 36,864 updates, and 2,304,000 replay target tokens. Independent
+  audit passed all searches, model/optimizer replays, NumPy prior rankings,
+  scores, and phase records. Collection took 150.076 seconds on a lens AMD
+  Ryzen 9 9950X CPU; audit/analysis took 84.424 seconds.
+- The primary small-trained-minus-uniform composition contrast is −27.1484
+  points, t95 [−32.7449, −21.5519], bootstrap95 [−32.2266, −21.6797]. There are
+  29 negative, two positive, and one zero environment differences. Small trained
+  solves 117/512 composition tasks versus uniform's 256/512. The frozen small
+  prior also solves 256/512; the larger trained prior solves 90/512, descriptively.
+- Counts solve 338/512 compositions but only 172/512 shifted tasks. Across the
+  balanced mixture they solve 510/1,024 versus uniform's 512/1,024; small trained
+  solves 169/1,024. All 768 experience solutions are exact, and there are no false
+  accepted transfer fits. The 5,761 nonaccepted searches all exhaust their cap.
+  No unfavorable arm, probe, task family, or checkpoint was dropped.
+- Shared experience costs 3,188,241 primitive operations. Actual collection
+  uses 434,569,422 search operations including probes, with neural ranking and
+  training reported separately. Standalone phase sums reuse measured shared
+  phases and are not independent wall-time or equal-FLOP comparisons. The
+  352 retained checkpoint files occupy 43,789,664 bytes including optimizer
+  states; archive size is not an inference-RAM measurement.
+- All 969 formal raw/audit files (80,380,327 bytes) match their remote originals;
+  all 967 raw hashes also match the independent audit. A local independent
+  reconstruction reproduces primary differences and both intervals. The
+  prespecified progress figure was rendered and visually checked.
+- Fresh reporting review found no material issue in numbers, inference, cost
+  attribution, the figure, or archive completeness. Cross-model CLI review was
+  skipped. No experiment source or protocol changed after official outcomes.
+  No new abstraction or compatibility layer was added in this results slice;
+  the plot script only presents prespecified audited checkpoints.
