@@ -881,3 +881,21 @@ separately. All outcomes from development seeds remain exploratory.
   experience search. This large generated JSON is a separate archival commit
   so it does not obscure the reviewed source. No development/formal search or
   neural training outcome was used to select the data or implementation.
+
+## 2026-10-26 UTC: archived neural-prior development
+
+- Verified all 15 transferred source/protocol/data hashes against Git freeze
+  6365bec and the lens execution host. Completed development seed 29 once:
+  280 searches and 1,152 gradient steps in 5.428 seconds. Independent complete
+  audit/analysis passed in 3.398 seconds, reproducing weights, optimizer states,
+  candidate orders, scores, and costs.
+- Small trained composition success is 1/16 versus 8/16 uniform; shifted
+  success is 0/16 versus 8/16. All other controls/probes are retained in the
+  development summary. These are descriptive single-environment observations,
+  not confirmatory evidence or a tuning signal. No source, task, parameter,
+  budget, checkpoint selection, or protocol changed after viewing them.
+- Archived all 39 raw/audit files byte-identically with a manifest; all 37 raw
+  hashes also match the independent audit. Started the full 32-environment
+  formal grid from the same source/data freeze and matching development audit.
+  No new abstraction, compatibility layer, or temporary implementation was
+  introduced in this archival checkpoint.

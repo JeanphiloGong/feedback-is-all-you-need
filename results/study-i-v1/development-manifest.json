@@ -1,0 +1,162 @@
+{
+  "source": "lens:/tmp/feedback-research-i",
+  "source_revision": "6365bec2b42cbc4c54b1d31f9200512a933357c8",
+  "files": {
+    "development-v1/active-phase.json": {
+      "bytes": 22,
+      "sha256": "0adef27256032d3e542fb78d60204e96f8c1a1ac20e2ce29d187a6afa0171299"
+    },
+    "development-v1/environments.json": {
+      "bytes": 72077,
+      "sha256": "2b436c8a019ac4b5ea1396eea3ea5d971fbf95c1daba9f6e7dedf1906df61d5f"
+    },
+    "development-v1/evaluations.jsonl": {
+      "bytes": 72196,
+      "sha256": "872a203bc57242ebcacbbb64cf06526c01c8475e23346b8007dc08c7e1ada45d"
+    },
+    "development-v1/metadata.json": {
+      "bytes": 2663,
+      "sha256": "3d64f0c9ad240211778e6d22531d86c8e953eade3f83bd1987d7b11f9428bf29"
+    },
+    "development-v1/phases.jsonl": {
+      "bytes": 15396,
+      "sha256": "cc2c677b2a522eaee87917662f3db9cdd30f047742c05b7f3f3af2252ce42524"
+    },
+    "development-v1/searches.jsonl": {
+      "bytes": 99269,
+      "sha256": "093335d9c28269b5248ccbcf2febc1da4cd28bbdf3333c6849f820e2ec59993c"
+    },
+    "development-v1/seed-29/corpus.json": {
+      "bytes": 3321,
+      "sha256": "3e489d68b59124341b2cc3e25824932c33460a5581416d981d25abcf45174f7f"
+    },
+    "development-v1/seed-29/costs.json": {
+      "bytes": 5293,
+      "sha256": "77a304744c3a9c207eaa13681dd80179d0cf9db81a170747735ed31382be2528"
+    },
+    "development-v1/seed-29/counts.json": {
+      "bytes": 361,
+      "sha256": "736beaeba70f17136d537e9e234447e598fcd7696dad735a0799a84243e3430d"
+    },
+    "development-v1/seed-29/large-initial.pt": {
+      "bytes": 114269,
+      "sha256": "6b8a290bd462a3567dabe3d67326e757bdb430f7600393f7ee788c8cf22cbee3"
+    },
+    "development-v1/seed-29/large_trained-16.pt": {
+      "bytes": 341481,
+      "sha256": "3c4e825ada412381f4783872f07e670af30ee59a7a0b1d0a2e7f1f4d4f5257a3"
+    },
+    "development-v1/seed-29/large_trained-24.pt": {
+      "bytes": 341481,
+      "sha256": "e3efe738662af580f5326ede03ab722a3965ac1179520f1c220d1346786ef77e"
+    },
+    "development-v1/seed-29/large_trained-8.pt": {
+      "bytes": 341451,
+      "sha256": "7bc1af7f665a7dde21fc97364f4794a10f7da6d21d41ee2eed5e8b37cea149fa"
+    },
+    "development-v1/seed-29/order-counts.txt": {
+      "bytes": 75146,
+      "sha256": "2a3bd4bb2779e6b7f170c4ce08ce25888d375f906f31d45e2a4fa5062f7bc655"
+    },
+    "development-v1/seed-29/order-large_trained.txt": {
+      "bytes": 74132,
+      "sha256": "6d56d19203cad68ccd2b3a027a8fe1a06a5ce26dffe69a31dc1ce0890b8e2e0c"
+    },
+    "development-v1/seed-29/order-small_after_16.txt": {
+      "bytes": 74139,
+      "sha256": "9f8ebada12369e758edb43723c13c16d7b94adca9dd646f244540ab1fb8a6c01"
+    },
+    "development-v1/seed-29/order-small_after_8.txt": {
+      "bytes": 74276,
+      "sha256": "ed5d2650893e65fb67a873b79002b0a61fad31affe43a83ae46568f76c372141"
+    },
+    "development-v1/seed-29/order-small_frozen.txt": {
+      "bytes": 75933,
+      "sha256": "49680ea4550c0818cfcccf5697e0810822bcf7b2e84cb6172d5ed8fa323dbda1"
+    },
+    "development-v1/seed-29/order-small_shuffled.txt": {
+      "bytes": 74282,
+      "sha256": "e55cff3c548df05721ff529b0d1cded1d6de25f6f808478451b4e696c1db981e"
+    },
+    "development-v1/seed-29/order-small_trained.txt": {
+      "bytes": 74134,
+      "sha256": "a4745ee11af07d010407d7b0a05d55ead0a59feeafecfc3a7a0e3aaec2e80cf8"
+    },
+    "development-v1/seed-29/order-uniform.txt": {
+      "bytes": 75945,
+      "sha256": "20ddcdfc9313e2a34a01e1d2ff1d4346ab376cb5dea9d2635ceb995360aae64f"
+    },
+    "development-v1/seed-29/ranking-counts.json": {
+      "bytes": 200,
+      "sha256": "e4babcdeda78fa7dd54c2c1f2250f80a9a4296a3253c35c3df399f94112948f5"
+    },
+    "development-v1/seed-29/ranking-large_trained.json": {
+      "bytes": 198,
+      "sha256": "ffee3941f57657ec9ed41de86dce8226811f999cd0afa3301c4c0a7fb5c0f1ae"
+    },
+    "development-v1/seed-29/ranking-small_after_16.json": {
+      "bytes": 199,
+      "sha256": "dd3f889c187c5e818c69038651c2af0e64028594c212d4512e38fbec56b5cf5e"
+    },
+    "development-v1/seed-29/ranking-small_after_8.json": {
+      "bytes": 198,
+      "sha256": "8ada57b604b653c7140f6626db06993b0c1d5ba3441c0e7ef5027afd87e340bb"
+    },
+    "development-v1/seed-29/ranking-small_frozen.json": {
+      "bytes": 200,
+      "sha256": "14f5f9a0a895f5af891f25b305e45e1b606df87d3289c9b5a53e39088157f1b6"
+    },
+    "development-v1/seed-29/ranking-small_shuffled.json": {
+      "bytes": 198,
+      "sha256": "bbaa98151d0f654de2173a3bb8743b9bfc74670cf19d40004b15e15e43201ec1"
+    },
+    "development-v1/seed-29/ranking-small_trained.json": {
+      "bytes": 199,
+      "sha256": "146f6dc0bc532dc5e1172153a128dacdefcc900c68bf9eade2585002df5507cd"
+    },
+    "development-v1/seed-29/ranking-uniform.json": {
+      "bytes": 201,
+      "sha256": "f74b51d82400c359a26fbcba75bac5e4a6114fcb8f8e7c9bc3e2d86d71c0785a"
+    },
+    "development-v1/seed-29/small-initial.pt": {
+      "bytes": 12509,
+      "sha256": "d1640c71bad9ae08bae2d1940e7d8e875642d2a614ddfb143bf1d077e0ff27d3"
+    },
+    "development-v1/seed-29/small_shuffled-16.pt": {
+      "bytes": 36231,
+      "sha256": "7359c9e475090f9615717f9b3a73dcc218b418846bd9c77afcea8ab0ceba4e77"
+    },
+    "development-v1/seed-29/small_shuffled-24.pt": {
+      "bytes": 36231,
+      "sha256": "fd903467b832ea87db16ec4479b30824be74da812092d05c0d1cd5930bc0abe4"
+    },
+    "development-v1/seed-29/small_shuffled-8.pt": {
+      "bytes": 36201,
+      "sha256": "8acc9b716886fc6ae30fd95066562cd3cc4946505cf6f98f9dbb60c8ba2e0394"
+    },
+    "development-v1/seed-29/small_trained-16.pt": {
+      "bytes": 36201,
+      "sha256": "fdcac163e010e0c1bca0a42972574e76959a82efbcda60c723ab8111dd7732bd"
+    },
+    "development-v1/seed-29/small_trained-24.pt": {
+      "bytes": 36201,
+      "sha256": "1fefb45b0e0bb36aade8fed4ff916c86423ca725fcd4dc158403822b77e4067f"
+    },
+    "development-v1/seed-29/small_trained-8.pt": {
+      "bytes": 36171,
+      "sha256": "cc199566628f335a982e3dee1795eb9f6a50e3e0e9ea497f3f1cdabc1f05b05f"
+    },
+    "development-v1/updates.jsonl": {
+      "bytes": 245409,
+      "sha256": "9cf1820cf426e5332c458e967799e3c31ec7ceda1d133c28ef8cd58826abbe9c"
+    },
+    "development-audit-v1/audit.json": {
+      "bytes": 5515,
+      "sha256": "af002183f7d9507039da79f7cf89a8e232ff721130bf16c574979b36766b2c15"
+    },
+    "development-audit-v1/summary.json": {
+      "bytes": 47331,
+      "sha256": "43ccc71579b0d66d8c82509ab9418cd7362155c6e9a5558f95e25099287e12c0"
+    }
+  }
+}

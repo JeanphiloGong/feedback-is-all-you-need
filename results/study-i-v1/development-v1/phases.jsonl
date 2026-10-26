@@ -1,0 +1,100 @@
+{"seed": 29, "stage": "initialization", "arm": "small", "seconds": 0.0023115836083889008}
+{"seed": 29, "stage": "checkpoint_save", "name": "small-initial.pt", "seconds": 0.00212990865111351}
+{"seed": 29, "stage": "initialization", "arm": "large", "seconds": 0.00035846419632434845}
+{"seed": 29, "stage": "checkpoint_save", "name": "large-initial.pt", "seconds": 0.00024774111807346344}
+{"seed": 29, "stage": "clone", "seconds": 0.00033362768590450287}
+{"seed": 29, "stage": "optimizer_setup", "arm": "small_trained", "seconds": 0.4266020357608795}
+{"seed": 29, "stage": "optimizer_setup", "arm": "small_shuffled", "seconds": 4.0469691157341003e-05}
+{"seed": 29, "stage": "optimizer_setup", "arm": "large_trained", "seconds": 1.913495361804962e-05}
+{"seed": 29, "stage": "replay", "arm": "small_trained", "attempt": 1, "seconds": 0.044308122247457504, "steps": 16, "replay_tokens": 80, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_shuffled", "attempt": 1, "seconds": 0.01046816073358059, "steps": 16, "replay_tokens": 80, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "large_trained", "attempt": 1, "seconds": 0.010771561414003372, "steps": 16, "replay_tokens": 80, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_trained", "attempt": 2, "seconds": 0.01013287901878357, "steps": 16, "replay_tokens": 160, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_shuffled", "attempt": 2, "seconds": 0.010140404105186462, "steps": 16, "replay_tokens": 160, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "large_trained", "attempt": 2, "seconds": 0.011391835287213326, "steps": 16, "replay_tokens": 160, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_trained", "attempt": 3, "seconds": 0.010185999795794487, "steps": 16, "replay_tokens": 240, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_shuffled", "attempt": 3, "seconds": 0.01010824367403984, "steps": 16, "replay_tokens": 240, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "large_trained", "attempt": 3, "seconds": 0.011702876538038254, "steps": 16, "replay_tokens": 240, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_trained", "attempt": 4, "seconds": 0.010237500071525574, "steps": 16, "replay_tokens": 320, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_shuffled", "attempt": 4, "seconds": 0.010122841224074364, "steps": 16, "replay_tokens": 320, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "large_trained", "attempt": 4, "seconds": 0.01207658089697361, "steps": 16, "replay_tokens": 320, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_trained", "attempt": 5, "seconds": 0.0103050097823143, "steps": 16, "replay_tokens": 400, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_shuffled", "attempt": 5, "seconds": 0.010564293712377548, "steps": 16, "replay_tokens": 400, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "large_trained", "attempt": 5, "seconds": 0.012299329042434692, "steps": 16, "replay_tokens": 400, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_trained", "attempt": 6, "seconds": 0.010332293808460236, "steps": 16, "replay_tokens": 480, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_shuffled", "attempt": 6, "seconds": 0.010277293622493744, "steps": 16, "replay_tokens": 480, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "large_trained", "attempt": 6, "seconds": 0.012492015957832336, "steps": 16, "replay_tokens": 480, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_trained", "attempt": 7, "seconds": 0.011072834953665733, "steps": 16, "replay_tokens": 560, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_shuffled", "attempt": 7, "seconds": 0.01013004407286644, "steps": 16, "replay_tokens": 560, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "large_trained", "attempt": 7, "seconds": 0.012345805764198303, "steps": 16, "replay_tokens": 560, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_trained", "attempt": 8, "seconds": 0.010238680988550186, "steps": 16, "replay_tokens": 640, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_shuffled", "attempt": 8, "seconds": 0.01010625809431076, "steps": 16, "replay_tokens": 640, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "large_trained", "attempt": 8, "seconds": 0.012156181037425995, "steps": 16, "replay_tokens": 640, "skip_reason": null}
+{"seed": 29, "stage": "checkpoint_save", "name": "small_trained-8.pt", "seconds": 0.0005888920277357101}
+{"seed": 29, "stage": "checkpoint_save", "name": "small_shuffled-8.pt", "seconds": 0.00033138133585453033}
+{"seed": 29, "stage": "checkpoint_save", "name": "large_trained-8.pt", "seconds": 0.00039329007267951965}
+{"seed": 29, "stage": "replay", "arm": "small_trained", "attempt": 9, "seconds": 0.010463159531354904, "steps": 16, "replay_tokens": 720, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_shuffled", "attempt": 9, "seconds": 0.010372808203101158, "steps": 16, "replay_tokens": 720, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "large_trained", "attempt": 9, "seconds": 0.012537172064185143, "steps": 16, "replay_tokens": 720, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_trained", "attempt": 10, "seconds": 0.010448470711708069, "steps": 16, "replay_tokens": 800, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_shuffled", "attempt": 10, "seconds": 0.010358748957514763, "steps": 16, "replay_tokens": 800, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "large_trained", "attempt": 10, "seconds": 0.012840280309319496, "steps": 16, "replay_tokens": 800, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_trained", "attempt": 11, "seconds": 0.010484062135219574, "steps": 16, "replay_tokens": 880, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_shuffled", "attempt": 11, "seconds": 0.010384790599346161, "steps": 16, "replay_tokens": 880, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "large_trained", "attempt": 11, "seconds": 0.013143099844455719, "steps": 16, "replay_tokens": 880, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_trained", "attempt": 12, "seconds": 0.010512873530387878, "steps": 16, "replay_tokens": 960, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_shuffled", "attempt": 12, "seconds": 0.01041826419532299, "steps": 16, "replay_tokens": 960, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "large_trained", "attempt": 12, "seconds": 0.012944307178258896, "steps": 16, "replay_tokens": 960, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_trained", "attempt": 13, "seconds": 0.010518796741962433, "steps": 16, "replay_tokens": 1040, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_shuffled", "attempt": 13, "seconds": 0.010561065748333931, "steps": 16, "replay_tokens": 1040, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "large_trained", "attempt": 13, "seconds": 0.014632230624556541, "steps": 16, "replay_tokens": 1040, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_trained", "attempt": 14, "seconds": 0.016189387068152428, "steps": 16, "replay_tokens": 1120, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_shuffled", "attempt": 14, "seconds": 0.011602958664298058, "steps": 16, "replay_tokens": 1120, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "large_trained", "attempt": 14, "seconds": 0.015032503753900528, "steps": 16, "replay_tokens": 1120, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_trained", "attempt": 15, "seconds": 0.010932967066764832, "steps": 16, "replay_tokens": 1200, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_shuffled", "attempt": 15, "seconds": 0.01082955114543438, "steps": 16, "replay_tokens": 1200, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "large_trained", "attempt": 15, "seconds": 0.014029400423169136, "steps": 16, "replay_tokens": 1200, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_trained", "attempt": 16, "seconds": 0.012138238176703453, "steps": 16, "replay_tokens": 1280, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_shuffled", "attempt": 16, "seconds": 0.013878250494599342, "steps": 16, "replay_tokens": 1280, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "large_trained", "attempt": 16, "seconds": 0.013772260397672653, "steps": 16, "replay_tokens": 1280, "skip_reason": null}
+{"seed": 29, "stage": "checkpoint_save", "name": "small_trained-16.pt", "seconds": 0.0006503015756607056}
+{"seed": 29, "stage": "checkpoint_save", "name": "small_shuffled-16.pt", "seconds": 0.0003652665764093399}
+{"seed": 29, "stage": "checkpoint_save", "name": "large_trained-16.pt", "seconds": 0.00042074359953403473}
+{"seed": 29, "stage": "replay", "arm": "small_trained", "attempt": 17, "seconds": 0.011191751807928085, "steps": 16, "replay_tokens": 1360, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_shuffled", "attempt": 17, "seconds": 0.010975267738103867, "steps": 16, "replay_tokens": 1360, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "large_trained", "attempt": 17, "seconds": 0.01453699916601181, "steps": 16, "replay_tokens": 1360, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_trained", "attempt": 18, "seconds": 0.011022739112377167, "steps": 16, "replay_tokens": 1440, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_shuffled", "attempt": 18, "seconds": 0.01082768663764, "steps": 16, "replay_tokens": 1440, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "large_trained", "attempt": 18, "seconds": 0.014436574652791023, "steps": 16, "replay_tokens": 1440, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_trained", "attempt": 19, "seconds": 0.011101316660642624, "steps": 16, "replay_tokens": 1520, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_shuffled", "attempt": 19, "seconds": 0.010861381888389587, "steps": 16, "replay_tokens": 1520, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "large_trained", "attempt": 19, "seconds": 0.014837972819805145, "steps": 16, "replay_tokens": 1520, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_trained", "attempt": 20, "seconds": 0.010975558310747147, "steps": 16, "replay_tokens": 1600, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_shuffled", "attempt": 20, "seconds": 0.010765954852104187, "steps": 16, "replay_tokens": 1600, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "large_trained", "attempt": 20, "seconds": 0.014549637213349342, "steps": 16, "replay_tokens": 1600, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_trained", "attempt": 21, "seconds": 0.010879302397370338, "steps": 16, "replay_tokens": 1680, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_shuffled", "attempt": 21, "seconds": 0.011116327717900276, "steps": 16, "replay_tokens": 1680, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "large_trained", "attempt": 21, "seconds": 0.015088764950633049, "steps": 16, "replay_tokens": 1680, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_trained", "attempt": 22, "seconds": 0.011007359251379967, "steps": 16, "replay_tokens": 1760, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_shuffled", "attempt": 22, "seconds": 0.011056995019316673, "steps": 16, "replay_tokens": 1760, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "large_trained", "attempt": 22, "seconds": 0.017792435362935066, "steps": 16, "replay_tokens": 1760, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_trained", "attempt": 23, "seconds": 0.011863674968481064, "steps": 16, "replay_tokens": 1840, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_shuffled", "attempt": 23, "seconds": 0.01117243617773056, "steps": 16, "replay_tokens": 1840, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "large_trained", "attempt": 23, "seconds": 0.015302862972021103, "steps": 16, "replay_tokens": 1840, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_trained", "attempt": 24, "seconds": 0.010902240872383118, "steps": 16, "replay_tokens": 1920, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "small_shuffled", "attempt": 24, "seconds": 0.01268068514764309, "steps": 16, "replay_tokens": 1920, "skip_reason": null}
+{"seed": 29, "stage": "replay", "arm": "large_trained", "attempt": 24, "seconds": 0.015527298673987389, "steps": 16, "replay_tokens": 1920, "skip_reason": null}
+{"seed": 29, "stage": "checkpoint_save", "name": "small_trained-24.pt", "seconds": 0.0005349814891815186}
+{"seed": 29, "stage": "checkpoint_save", "name": "small_shuffled-24.pt", "seconds": 0.00032782740890979767}
+{"seed": 29, "stage": "checkpoint_save", "name": "large_trained-24.pt", "seconds": 0.00039582327008247375}
+{"seed": 29, "stage": "counts", "seconds": 1.286342740058899e-05}
+{"seed": 29, "stage": "ranking", "arm": "uniform", "candidates": 10403, "minimum_primitive_ops": 65542, "predictions": 10402, "prefix_positions": 75937, "children": 41608, "maximum_heap_entries": 31207, "seconds": 0.01922241598367691}
+{"seed": 29, "stage": "ranking", "arm": "counts", "candidates": 9604, "minimum_primitive_ops": 65542, "predictions": 8639, "prefix_positions": 65498, "children": 34556, "maximum_heap_entries": 24954, "seconds": 0.018892597407102585}
+{"seed": 29, "stage": "ranking", "arm": "small_frozen", "candidates": 10392, "minimum_primitive_ops": 65541, "predictions": 10391, "prefix_positions": 75925, "children": 41564, "maximum_heap_entries": 31174, "seconds": 0.8235101979225874}
+{"seed": 29, "stage": "ranking", "arm": "small_trained", "candidates": 8591, "minimum_primitive_ops": 65543, "predictions": 5575, "prefix_positions": 43976, "children": 22300, "maximum_heap_entries": 13711, "seconds": 0.44983869791030884}
+{"seed": 29, "stage": "ranking", "arm": "small_shuffled", "candidates": 8739, "minimum_primitive_ops": 65543, "predictions": 6044, "prefix_positions": 47333, "children": 24176, "maximum_heap_entries": 15439, "seconds": 0.5945706889033318}
+{"seed": 29, "stage": "ranking", "arm": "large_trained", "candidates": 8587, "minimum_primitive_ops": 65545, "predictions": 5505, "prefix_positions": 43312, "children": 22020, "maximum_heap_entries": 13435, "seconds": 0.5112857669591904}
+{"seed": 29, "stage": "probe_load", "arm": "small_after_8", "seconds": 0.0031203683465719223}
+{"seed": 29, "stage": "ranking", "arm": "small_after_8", "candidates": 8731, "minimum_primitive_ops": 65545, "predictions": 6024, "prefix_positions": 47206, "children": 24096, "maximum_heap_entries": 15367, "seconds": 0.5120433922857046}
+{"seed": 29, "stage": "probe_load", "arm": "small_after_16", "seconds": 0.0014316048473119736}
+{"seed": 29, "stage": "ranking", "arm": "small_after_16", "candidates": 8600, "minimum_primitive_ops": 65539, "predictions": 5578, "prefix_positions": 43921, "children": 22312, "maximum_heap_entries": 13714, "seconds": 0.45887130685150623}
