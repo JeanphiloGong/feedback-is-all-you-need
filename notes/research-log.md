@@ -640,3 +640,28 @@ separately. All outcomes from development seeds remain exploratory.
 - The core adds direct research functions, not a software abstraction layer or
   compatibility interface. No temporary implementation was introduced. Runtime
   collection and result auditing are a subsequent implementation slice.
+
+## 2026-10-26 UTC: library collection and audit implementation
+
+- Added collection journals, fixed memory controls, independent search/compression
+  replay, paired analysis, cost summaries, and reproduction instructions.
+  Search takes primitive tables plus visible examples; accepted programs feed
+  memory; the separate evaluator reads held-out labels only after search ends.
+- Fresh review found five actionable defects before the official development
+  run: a completed search could be lost if evaluation failed; initialization
+  errors escaped the failure archive; negative bootstrap/t-interval disagreement
+  was missed; truncated seed grids could pass; and truncated or reassigned task
+  families could pass. All were corrected with direct changes and regression
+  tests. Raw searches now flush before evaluation into a separate journal;
+  audit requires complete grids and exact deterministic task generation.
+- All 18 tests pass. Narrow follow-up reviews confirmed resolution, checked
+  phase ordering and false-fit retention, and exercised journal reordering,
+  missing/duplicate rows, and mismatched keys. The auditor's temporary seed-23
+  fixture covered 152 searches and was deleted by its TemporaryDirectory after
+  the check; it is transient test evidence, not an archived development run.
+  The official development suite will be retained after source/data freezing.
+  No formal search has run. Cross-model CLI review was skipped.
+- The two journals represent actual search and evaluation lifecycle boundaries.
+  No DTO, compatibility layer, or temporary migration path was added. The
+  original duplicated collection loops were consolidated within the collector;
+  obsolete combined-record construction was removed before the first commit.
