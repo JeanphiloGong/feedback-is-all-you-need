@@ -665,3 +665,15 @@ separately. All outcomes from development seeds remain exploratory.
   No DTO, compatibility layer, or temporary migration path was added. The
   original duplicated collection loops were consolidated within the collector;
   obsolete combined-record construction was removed before the first commit.
+
+## 2026-10-26 UTC: Study H data freeze
+
+- Archived development seed 23 and formal seeds 10000–10031: 33 environments,
+  1,848 tasks, 2,378,541 bytes, SHA-256
+  `cea3c10966a5b8e48225afaa2bd42722c6bb0cdfa82be6da5d9802d17118d432`.
+  All full-function labels and split uniqueness checks pass; no experience
+  task was omitted for duplicate semantics. Regeneration reproduces the data.
+- Generator source is unchanged from core commit 8410cf1; collection and audit
+  are frozen at 9e34d23. No official development or formal search outcome was
+  used to select this data. The large generated JSON is a separate data commit
+  so that it does not obscure the reviewed implementation.

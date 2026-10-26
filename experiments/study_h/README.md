@@ -47,6 +47,9 @@ also records elapsed wall time including serialization and journaling.
 
 To reproduce the fixed data without replacing the archive:
 
+The archived data contains 33 environments and 1,848 tasks, including seed 23.
+SHA-256: `cea3c10966a5b8e48225afaa2bd42722c6bb0cdfa82be6da5d9802d17118d432`.
+
 ```bash
 python3 -s -m experiments.study_h.tasks --output /tmp/study-h-environments.json
 cmp experiments/study_h/data/environments-v1.json /tmp/study-h-environments.json
