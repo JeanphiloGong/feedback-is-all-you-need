@@ -1555,3 +1555,24 @@ separately. All outcomes from development seeds remain exploratory.
   This archive adds no architectural abstraction or compatibility layer and
   removes no research evidence. Scientific interpretation remains a separate
   reviewable change.
+
+## 2026-10-26 UTC: failure-update interpretation and figure
+
+- Recorded all four arms, both task families, every registered operation
+  endpoint, the negative primary, direct parameter-change counts, and full
+  standalone/actual cost distinctions. Rejection takes 178,848 transfer steps
+  in 11,178 batches, each changing all 1,172 weights; its primary nevertheless
+  trails uniformizing by 2.44 points. These are task-local resets, not retained
+  learning across goals. No objective or endpoint was changed after outcomes.
+- Fresh results review identified overly strong wording that the loss
+  "reduces" known rejected mass. Archived seed 14012 composition-13 has an
+  Adam batch that increases mass on the same 8,203 rejected strings at boundary
+  57,344. Changed the narrative to "penalizes" and explicitly disclosed that
+  finite updates need not reduce mass monotonically. Targeted recheck found
+  the issue resolved; no remaining material finding. Cross-model CLI review
+  was skipped in this autonomous run.
+- Generated the figure directly from the audited summary. Initial visual
+  inspection found overlapping final environment/mean tick labels; increasing
+  their separation resolved it. The final figure was rendered and inspected.
+  Added one direct plotting script, no architectural abstraction or temporary
+  compatibility layer. Preserved every raw record and removed no evidence.
