@@ -1713,3 +1713,20 @@ separately. All outcomes from development seeds remain exploratory.
   date. Added direct audit functions, no architectural abstraction or
   compatibility layer; temporary fixtures clean themselves up. No historical
   research evidence was removed. Analysis remains a separate save point.
+
+## 2026-10-26 UTC: retained learning analysis freeze
+
+- Implemented fixed trapezoidal AUC, paired environment inference with bootstrap
+  seed 983, all descriptive comparisons, static-probe reuse, goal/transition
+  summaries, and standalone versus actual costs. The small/large training MAC
+  allocation remains explicitly distinct from complete compute or wall time.
+- Fresh review reproduced pure graph-archive time incorrectly charged to
+  standalone operation. Excluding graph records with no inference resolves the
+  hand-built counterexample and regression; all three analysis tests pass.
+  Main-action subtiming names explicitly exclude warmup/probes, and fallback
+  actions are reported. Independent 32-seed synthetic aggregation matched
+  primary differences, static reuse, and shared initialization accounting.
+- The pinned-server suite already exercised these analysis changes with the
+  audit/core/collection checks. No official data or outcome preceded this
+  source freeze. Cross-model CLI review was skipped. Added direct analysis
+  functions, no compatibility layer; no research evidence was removed.

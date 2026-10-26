@@ -49,7 +49,21 @@ locking or protection against changes after verification.
 PYTHONDONTWRITEBYTECODE=1 python3 -m unittest experiments.study_m.test_replay experiments.study_m.test_audit -v
 ```
 
-No official world data or experiment outcome has been generated. Official
-collection must use the registered source/data freeze and PyTorch 2.8.0+cu126
-runtime; local synthetic checks under another runtime do not satisfy that
-requirement.
+The analysis reports all five learning-curve points and the sole registered
+primary: structured-world AUC, small immediate minus large immediate, paired
+across 32 seeds. Other comparisons are descriptive. Standalone costs include
+shared warmup and width-specific initialization once, and exclude pure graph
+archives, checkpoints, and evaluations. Actual totals retain those costs.
+
+After the reviewed source and complete world-data freezes, use new output
+directories under the registered PyTorch 2.8.0+cu126 environment:
+
+```bash
+python -m experiments.study_m.run --source-revision SOURCE_COMMIT --development --output runs/study-m-development
+python -m experiments.study_m.analyze --input runs/study-m-development --output runs/study-m-development-audit
+python -m experiments.study_m.run --source-revision SOURCE_COMMIT --development-audit runs/study-m-development-audit/audit.json --output runs/study-m-formal
+python -m experiments.study_m.analyze --input runs/study-m-formal --output runs/study-m-formal-audit
+```
+
+No official data or outcomes existed at implementation freeze. Local synthetic
+checks under another runtime do not replace registered-runtime verification.
