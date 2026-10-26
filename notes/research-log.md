@@ -1165,3 +1165,21 @@ separately. All outcomes from development seeds remain exploratory.
   originals; the original audit also matches all 37 raw hashes. This separate
   archival slice adds no abstraction or compatibility layer. No experiment
   records or checkpoints were removed.
+
+## 2026-10-26 UTC: local-context formal archive
+
+- Completed the unchanged 32-environment formal grid after the matching
+  development audit: 11,008 searches and 24,576 gradient steps. Collection
+  took 149.137 seconds; complete independent audit/analysis took 74.098 seconds.
+  Exact tensor/Adam replay, independent NumPy GRU ranking, full-function
+  outcomes, and complete physical input/cost records passed.
+- Transferred all 969 formal raw/audit files, 48,537,188 bytes, and verified them
+  against the execution host; the original audit also matches all 967 raw
+  hashes. A separate local reconstruction reproduced every seed/budget score,
+  descriptive contrast, primary paired difference, and both intervals. All
+  execution sources still match freeze ce23277; no source, data, schedule,
+  checkpoint choice, or budget changed after the development outcomes.
+- The archive preserves all controls, probes, optimizer states, and execution
+  records. This generated evidence is saved separately from its narrative
+  interpretation. No abstraction or compatibility layer was added, and no
+  research evidence was removed.
