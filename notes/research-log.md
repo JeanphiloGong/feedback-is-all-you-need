@@ -677,3 +677,16 @@ separately. All outcomes from development seeds remain exploratory.
   are frozen at 9e34d23. No official development or formal search outcome was
   used to select this data. The large generated JSON is a separate data commit
   so that it does not obscure the reviewed implementation.
+
+## 2026-10-26 UTC: archived Study H development
+
+- Ran the official seed-23 suite from source/data freeze c582467: 152 searches
+  and evaluations, 4.348 seconds including journaling. Independent replay and
+  exhaustive compression audit passed, taking 14.181 seconds with analysis.
+  All seven raw/audit files were archived byte-identically with a manifest.
+- At the fixed budget, composition exact counts are 8/0/14/0 of 16 for
+  none/whole/compressed/renamed memory. Shifted counts are 8/0/0/2. These are
+  single-environment development observations, not formal effect estimates.
+  No configuration, seed, task, or implementation changed after inspection.
+- Started the full 32-environment formal suite using the matching development
+  audit. The audit did not trigger a design amendment or a favorable rerun.

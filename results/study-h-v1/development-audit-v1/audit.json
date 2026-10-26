@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "seeds": [
+    23
+  ],
+  "source_sha256": {
+    "experiments/study_h/analyze.py": "8e31e06a4518b4dadca3b269beb3ef7608448b44414141234c78276a8014a6ce",
+    "experiments/study_h/audit.py": "5af25e6d0e09af3325aa626bf7bb224868ea1f55985d19e24e629e14f9c093cc",
+    "experiments/study_h/run.py": "1b31a0a1d375c03f37adddfba368a821ee278c06e4c8de160a9fd2fc9fd9291a",
+    "experiments/study_h/search.py": "70a6c9bbcacb79e7b3623111f67a11cdf1b9f743068679d166f0a1a54cb5d062",
+    "experiments/study_h/tasks.py": "4e1e06bc1717fbf63e863d9513996221015a85e02e8fcda6ac3855979d5a15b0",
+    "experiments/study_h/test_analysis.py": "46fe8a92bf3575913a853c626ab7b779c6f980900cadf917cabfffe47cd7a38a",
+    "experiments/study_h/test_collection.py": "58c6c3eb5cacf7ad80d68020a7d01025ac1f121f43bb1735b38116260e1a6355",
+    "experiments/study_h/test_search.py": "d3603917cb77b5fdd7a29cdbcb06bd2d277dda16e3553a6a02c90d26110247a3",
+    "experiments/study_h/test_tasks.py": "be4b11eb8d892793d4480f75ab44d9cda437b75a8db0ad1900e5dc98fe84c1c4",
+    "notes/protocol-v8-library-transfer.md": "af434ec5f25ed79c6a51bd030c47cb1d5e9c0387e98b53559226b4ea269e792e"
+  },
+  "data_sha256": "cea3c10966a5b8e48225afaa2bd42722c6bb0cdfa82be6da5d9802d17118d432",
+  "searches": 152,
+  "input_sha256": {
+    "metadata.json": "4109c3edea6879ad493d29aa51b6fb2cffb3945db3abf171910fb518c05e5f86",
+    "environments.json": "54e6a1317f68f82177fd9b83d40ab41a92cbd85589de2933d7fa17ab60579df8",
+    "searches.jsonl": "129b3b64f4801bbec515cd85bf47308d693b5e9e7e29af076f5b7669fc1c8ded",
+    "evaluations.jsonl": "f3a47a517277c3a87590e31aba787652c49f919e8d1d0a21d3b274156b61fed1",
+    "memory-23.json": "332d896546c9e4887b816ddb886f13546562d4c51ac16b11c03a31252acac731"
+  },
+  "elapsed_seconds": 14.180991258006543
+}
