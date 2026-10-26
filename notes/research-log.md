@@ -1867,3 +1867,27 @@ separately. All outcomes from development seeds remain exploratory.
   architectural abstraction. Test hooks are removed after capture; temporary
   source bundles remain outside the research archive. Cross-model CLI review
   was skipped for this autonomous continuation.
+
+## 2026-10-26 UTC: encoding study collection
+
+- Added complete paired prediction/query/update streams, fixed model/Adam/replay
+  checkpoints, direct tests on unqueried pairs, frozen goal probes, symbolic
+  references, and true-distance checks. Every learning stream finishes before
+  evaluation. Synthetic checks confirm actual weight changes, continuation of
+  optimizer moments, target isolation, exact-table equivariance, and probe
+  inability to train or mutate saved checkpoints.
+- Fresh review reproduced an empty/partial development manifest bypass and
+  missing journal subtimes in standalone learning phases. The gate now requires
+  the exact complete file grid; prediction/query/training record serialization
+  and flush time separately. Added replay-insertion timing and regressions.
+  Rechecking the original counterexamples rejects incomplete manifests before
+  output creation and attributes all injected write latency to journal time.
+- All six collector tests pass on lens under pinned PyTorch 2.8.0+cu126 in
+  4.733 seconds. Only negative-seed worlds and stubbed seed labels were used;
+  no official data or outcomes exist. Full gradient audit and analysis must
+  be implemented and reviewed before source/data freezes and development.
+- Added direct collector/checkpoint functions, no compatibility layer or new
+  architectural abstraction. Temporary fixtures remove their outputs, and
+  experimental failures are preserved by the production entry point. No
+  historical research evidence was removed; external cross-model CLI review
+  was skipped in this autonomous run.
