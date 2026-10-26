@@ -960,3 +960,17 @@ separately. All outcomes from development seeds remain exploratory.
   the H/I Python caches created during verification; experiment archives and
   original remote records remain intact. No experiment rerun was needed for
   this documentation-only checkpoint.
+
+## 2026-10-26 UTC: exploratory likelihood diagnostic plan
+
+- After freezing v11, specified an explicitly post-hoc analysis of all Study I
+  formal checkpoints. It compares common-corpus token loss, each learner's
+  actual corpus and unrestricted empirical prefix-loss bound, and generating
+  program likelihood by transfer family, length, and position. No new diagnostic
+  scores were computed before this plan; no training, search, or data changes
+  are part of it.
+- Fresh independent review found no substantive issue against the original
+  protocol and implementation. Cross-model CLI review was skipped in the
+  autonomous context. Generator-sequence likelihood is expressly distinct from
+  total semantic solution probability and cannot isolate a causal explanation.
+  This documentation-only freeze adds no abstraction or compatibility layer.
