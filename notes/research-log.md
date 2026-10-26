@@ -1576,3 +1576,33 @@ separately. All outcomes from development seeds remain exploratory.
   their separation resolved it. The final figure was rendered and inspected.
   Added one direct plotting script, no architectural abstraction or temporary
   compatibility layer. Preserved every raw record and removed no evidence.
+
+## 2026-10-26 UTC: manuscript v15
+
+- Added Study L methods, registered primary/controls, real weight-change
+  evidence, all operation endpoints, costs, and limitations to a new version.
+  The abstract and conclusion distinguish within-task updates from Study K's
+  retained accepted-solution learning and from unsupported general intelligence.
+  Historical sources and PDFs remain unchanged; v14's recorded digest matches.
+- Added the exact 2019 unlikelihood-training reference after reading its
+  introduction and token/sequence method pages, with title/version distinctions
+  and explicit separation from our set-level program loss. The new source and
+  reading record are archived separately. No novelty for negative learning is
+  claimed, and the overall targeted review remains incomplete.
+- Fresh scientific review found no material discrepancy. It flagged a minor
+  ambiguity about empty rejection sets; the methods now specify that only the
+  rejection arm skips those updates. Incorporated the results review's
+  nonmonotonic-Adam correction. Cross-model CLI review was skipped in this
+  autonomous run.
+- Final two-pass LaTeX compilation produced 43 pages without warnings or
+  overfull/underfull boxes. All pages were visually inspected. After the two
+  wording corrections, the entire PDF was rendered again: only pages 14,
+  39, 40, and 41 differed, and those final pages were inspected. The final
+  PDF has 680,186 bytes and SHA-256
+  `80e5e0250a4161c9f5c804f24f4b3d75cbefa780a90d6f695874744b4b912c17`.
+- Updated manuscript/repository indexes; all 20 frozen Study L source/data
+  files still match. Added no architectural abstraction or compatibility layer.
+  Removed disposable v15 build/render files after preserving the inspected
+  source and PDF. Private repository status was verified before push. The
+  broader research goal remains active; this manuscript is an evidence
+  checkpoint, not proof of feedback sufficiency.

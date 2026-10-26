@@ -61,14 +61,15 @@ The hypothesis has now been tested in controlled classification, pretrained
 language-model, and symbolic program-search studies. Results support conditional adaptation, but do not
 establish feedback sufficiency for general intelligence.
 
-- [Manuscript versions](paper/README.md): v0 hypothesis through v14, including
+- [Manuscript versions](paper/README.md): v0 hypothesis through v15, including
   audited results, pretrained models, response budgets, online updates, and
   checked rule revision, complete correction history, and explicit separation
   of candidate generation from external selection, cross-task fragment reuse,
   neural program priors learned from accepted solutions, and post-hoc
   diagnostics separating experience fitting from transfer likelihood, and
   a prospective local-context intervention with distribution-specific gains,
-  and continued weight updates with untouched transfer probes.
+  and continued weight updates with untouched transfer probes, followed by
+  direct failure-conditioned updates during task solving.
 - [Study A replication](results/study-a-v2/README.md): 20 seeds, four capacities,
   seven feedback conditions; all 19,200 records retained.
 - [Study B results](results/study-b-v1/README.md): four Qwen2.5 sizes, 24 new
@@ -121,9 +122,17 @@ establish feedback sufficiency for general intelligence.
   uniform comparator scores 50.20% overall, and additional optimization of
   only initial experience scores 43.16%. Both stream orders and all probes
   are retained with explicit reuse and lifetime-resource accounting.
+- [Study L results](results/study-l-v1/README.md): weights change after rejected
+  programs during task solving in 32 fresh environments. Rejection scores
+  48.14% balanced exact success versus 50.59% for uniformizing updates, a
+  primary difference of -2.44 points (95% CI [-4.50, -0.38]). All 11,178
+  rejection batches change all 1,172 parameters, yet this objective does not
+  improve the primary endpoint. Weights reset for each task; the result does
+  not measure cross-task retention. Full journals, checkpoints, and unequal
+  lifetime costs are archived.
 - [Full-text literature review](notes/full-text-review.md): methods and limits
-  of ten close precedents, including Reward is enough, DreamCoder, ExpeL, and the
-  Era of Experience.
+  of eleven close precedents, including Reward is enough, DreamCoder, ExpeL,
+  the Era of Experience, and unlikelihood training.
 
 The smallest language model did not improve composition accuracy under the
 first tested feedback mechanism. This negative result is conditional on the

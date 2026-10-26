@@ -22,6 +22,7 @@ is borrowed from it.
 | [v12](versions/v12-experience-fit-and-transfer.pdf) | Adds explicitly post-hoc diagnostics of the frozen priors: near-minimal experience loss coexists with worse transfer-program likelihood and search success. Reports empirical prefix bounds, every prior, and the limits of causal and semantic interpretation. |
 | [v13](versions/v13-local-context-and-transfer.pdf) | Adds a prospective comparison on 32 fresh environments: the same 1,172-parameter GRU with supplied local context solves 79.30% of compositions versus 24.22% with full prefixes. Shifted success is only 11.13%, and the balanced total remains below uniform search. Includes both frozen controls, every checkpoint, and distinct physical training/ranking costs. |
 | [v14](versions/v14-continued-feedback-and-transfer.pdf) | Adds continued weight updates across two task-family blocks on 32 fresh environments: balanced probe success rises from 43.75% frozen to 51.56%, with a primary gain of +7.81 points (95% CI [4.74, 10.88]). Composition success reaches 92.38%, while shifted success remains 10.74%. Includes initial-corpus replay, both stream orders, every probe checkpoint, and lifetime-resource accounting. |
+| [v15](versions/v15-failure-directed-weight-updates.pdf) | Adds direct failure-conditioned weight updates during task solving on 32 fresh environments. Rejection achieves 48.14% balanced success versus 50.59% for uniformizing updates: -2.44 points, 95% CI [-4.50, -0.38]. Every adaptive batch changes all 1,172 weights, but task resets preclude retained cross-task learning. Includes exact update/journal audits, all checkpoints, measured unequal costs, and the unlikelihood-training precedent. |
 
 All manuscripts are working drafts. The current results support conditional
 adaptation, not the sufficiency of feedback for general intelligence.
@@ -91,12 +92,23 @@ failure-specific target. Thus this is a short continued-learning result,
 not demonstrated shifted-task adaptation or feedback sufficiency. Both orders
 are dependent conditions, and update counts do not match lifetime resources.
 
+Study L in v15 changes weights during failed task searches, using the negative
+log mass of the complement of the known rejected-program set. Its balanced
+rejection-minus-uniformizing primary is -2.44 points, t95 [-4.50, -0.38],
+bootstrap95 [-4.49, -0.68]. Frozen weights score 42.58% and uniform search
+50.00%; recovery over freezing does not establish a useful effect of failure
+content. Rejection performs 178,848 Adam steps in 11,178 batches, all changing
+the 1,172 parameters. It requires greater instrumented work than the controls
+and resets weights between tasks. Finite Adam updates need not reduce the
+penalty monotonically. This is evidence against the fixed failure-loss
+intervention's advantage, not against every online learning mechanism.
+
 From the repository root, compile a version twice to resolve citations:
 
 ```bash
 mkdir -p paper/build
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=paper/build \
-  paper/versions/v14-continued-feedback-and-transfer.tex
+  paper/versions/v15-failure-directed-weight-updates.tex
 ```
 
 Compiled files in `paper/versions/` are inspected snapshots. `paper/build/`
