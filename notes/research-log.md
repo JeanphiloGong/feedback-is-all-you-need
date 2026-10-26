@@ -739,3 +739,35 @@ separately. All outcomes from development seeds remain exploratory.
   Build/render intermediates and Study H bytecode caches were removed. No new
   software abstraction, compatibility layer, or temporary implementation was
   added in the manuscript change.
+
+## 2026-10-26 UTC: DreamCoder capacity source audit
+
+- The printed supplement URL returned 404 and the ACM endpoint returned 403.
+  Internet Archive lookup failed through TLS/timeout errors; this is not
+  evidence that no archived supplement exists. The arXiv v1 source package
+  contains an appendix cross-reference file but no supplement body. Its hash
+  and member list are recorded; the package itself is not added to the repository.
+- Preserved five unmodified source files from the authors' historical commit
+  e6fd72804194ed6cc0c88eee652413b0b44fc63e (2020-04-25). Their byte counts,
+  SHA-256 values, and Git blob hashes match the manifest. The snapshot's link
+  to the publication's actual configurations/checkpoints remains unestablished.
+  A 64-dimensional feature is not a complete neural parameter count.
+- Derived a conditional non-contextual count, `64 V + 54,145 + 130 G`, including
+  embedding, bidirectional GRU, intermediate layer, grammar head, and auxiliary
+  head. Six synthetic PyTorch shape checks passed on the authorized lens host;
+  the standalone script and exact output hashes are archived. No external
+  DreamCoder code, checkpoint, or training run was executed. These counts are
+  not reported as model sizes measured in the publication.
+- Fresh source review found an auxiliary-loss flag misinterpretation. Traced
+  both loss paths and the optimizer call: `auxLoss=False` detaches features for
+  that loss but still trains the auxiliary head. Corrected the note; the
+  parameter formula is unaffected. Narrow follow-up review confirmed the
+  correction resolved the finding. Cross-model CLI review was skipped in the
+  authorized autonomous context.
+- The reference snapshot and its audit form one archival slice; most added
+  lines are exact external source, not new project implementation. The full
+  staged whitespace check flags 165 original trailing-whitespace lines and
+  one original blank line at EOF; all are preserved for source fidelity.
+  The separate whitespace check on authored artifacts passes.
+  No software abstraction, compatibility layer, or temporary implementation
+  was introduced. Manuscript v10 and previous experimental records are unchanged.

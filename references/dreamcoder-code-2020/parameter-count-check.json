@@ -1,0 +1,84 @@
+{
+  "torch": "2.8.0+cu126",
+  "purpose": "Synthetic architecture-count checks only; no DreamCoder code executed or published model measured",
+  "records": [
+    {
+      "vocabulary": 16,
+      "grammar_size": 8,
+      "counts": {
+        "embedding": 1024,
+        "recurrent": 49920,
+        "mlp": 4160,
+        "grammar": 585,
+        "auxiliary": 520
+      },
+      "total": 56209,
+      "formula": 56209
+    },
+    {
+      "vocabulary": 16,
+      "grammar_size": 32,
+      "counts": {
+        "embedding": 1024,
+        "recurrent": 49920,
+        "mlp": 4160,
+        "grammar": 2145,
+        "auxiliary": 2080
+      },
+      "total": 59329,
+      "formula": 59329
+    },
+    {
+      "vocabulary": 16,
+      "grammar_size": 128,
+      "counts": {
+        "embedding": 1024,
+        "recurrent": 49920,
+        "mlp": 4160,
+        "grammar": 8385,
+        "auxiliary": 8320
+      },
+      "total": 71809,
+      "formula": 71809
+    },
+    {
+      "vocabulary": 100,
+      "grammar_size": 8,
+      "counts": {
+        "embedding": 6400,
+        "recurrent": 49920,
+        "mlp": 4160,
+        "grammar": 585,
+        "auxiliary": 520
+      },
+      "total": 61585,
+      "formula": 61585
+    },
+    {
+      "vocabulary": 100,
+      "grammar_size": 32,
+      "counts": {
+        "embedding": 6400,
+        "recurrent": 49920,
+        "mlp": 4160,
+        "grammar": 2145,
+        "auxiliary": 2080
+      },
+      "total": 64705,
+      "formula": 64705
+    },
+    {
+      "vocabulary": 100,
+      "grammar_size": 128,
+      "counts": {
+        "embedding": 6400,
+        "recurrent": 49920,
+        "mlp": 4160,
+        "grammar": 8385,
+        "auxiliary": 8320
+      },
+      "total": 77185,
+      "formula": 77185
+    }
+  ]
+}

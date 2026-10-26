@@ -56,3 +56,9 @@ material, not a claim of authorship or permission for external republication.
 Bayesian program learning*. Its separately linked supplement was not reviewed.
 Do not substitute another publication's title or unverified architecture
 details for this exact copy.
+
+[`dreamcoder-code-2020/`](dreamcoder-code-2020/) preserves five unmodified
+historical source files and their hashes. The accompanying capacity audit
+distinguishes constructor dimensions and synthetic parameter-count checks from
+measured model sizes in the publication. The original supplement remains
+unretrieved; manuscript v10 is unchanged by this source follow-up.

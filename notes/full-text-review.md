@@ -295,3 +295,8 @@ against search without learned memory. It must charge for discovering and
 verifying the library, separate neural updates from symbolic reuse, and report
 the supplied task structure. Neither this paper nor our existing studies proves
 that an arbitrarily small model can acquire unrestricted intelligence.
+
+A subsequent [source-capacity audit](dreamcoder-capacity-audit.md) records the
+failed supplement retrieval and a verified historical code snapshot. It checks
+a conditional neural-parameter formula without identifying the paper's actual
+experimental checkpoints or changing this PDF's stated reading scope.

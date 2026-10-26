@@ -1,0 +1,97 @@
+{
+  "repository": "https://github.com/ellisk42/ec",
+  "commit": "e6fd72804194ed6cc0c88eee652413b0b44fc63e",
+  "commit_date_utc": "2020-04-25T15:33:57Z",
+  "selection": "Latest commit returned from master history before 2020-06-16T00:00:00Z; correspondence to published experimental checkpoints is not established.",
+  "files": [
+    {
+      "file": "dreamcoder/recognition.py",
+      "url": "https://raw.githubusercontent.com/ellisk42/ec/e6fd72804194ed6cc0c88eee652413b0b44fc63e/dreamcoder/recognition.py",
+      "bytes": 68996,
+      "sha256": "8ea854ffbcc3544e24890cd4de6c926910c5acf7a7d757c88da6c7a9447d9631",
+      "git_blob_sha1": "0e253f29f393c553e0b77d0cf55ff4f70f757471",
+      "accessed_utc": "2026-10-26T03:39:18.515016+00:00"
+    },
+    {
+      "file": "dreamcoder/dreamcoder.py",
+      "url": "https://raw.githubusercontent.com/ellisk42/ec/e6fd72804194ed6cc0c88eee652413b0b44fc63e/dreamcoder/dreamcoder.py",
+      "bytes": 53617,
+      "sha256": "7230e5204d09232cb5a58a3707674ac3ee88a83fc62a69cd0e0b4fdf05d230a1",
+      "git_blob_sha1": "a447cef700de1192bad8a3ae885ae901928d200d",
+      "accessed_utc": "2026-10-26T03:39:18.655028+00:00"
+    },
+    {
+      "file": "dreamcoder/grammar.py",
+      "url": "https://raw.githubusercontent.com/ellisk42/ec/e6fd72804194ed6cc0c88eee652413b0b44fc63e/dreamcoder/grammar.py",
+      "bytes": 57787,
+      "sha256": "c5760be5ea26a5259e0e317cf0626248ee24c94a9da5c36188e4e2a08fc019ff",
+      "git_blob_sha1": "b2f90c993e6923eb095e0158d309720af4b4b1ea",
+      "accessed_utc": "2026-10-26T03:46:57.641818+00:00"
+    },
+    {
+      "file": "dreamcoder/domains/list/main.py",
+      "url": "https://raw.githubusercontent.com/ellisk42/ec/e6fd72804194ed6cc0c88eee652413b0b44fc63e/dreamcoder/domains/list/main.py",
+      "bytes": 15837,
+      "sha256": "20d28808ba1785aa2c4d12293ccee6c964d8c9333a54386f147c30c77ad4e4f2",
+      "git_blob_sha1": "32e447c8ab7efb63ee99fadae60e77da1823a470",
+      "accessed_utc": "2026-10-26T03:39:18.299998+00:00"
+    },
+    {
+      "file": "dreamcoder/domains/text/main.py",
+      "url": "https://raw.githubusercontent.com/ellisk42/ec/e6fd72804194ed6cc0c88eee652413b0b44fc63e/dreamcoder/domains/text/main.py",
+      "bytes": 10137,
+      "sha256": "c596a85cd57066a3eff606aed76bab1c016eb4c4703051bb7ce152159f27c160",
+      "git_blob_sha1": "b749456a5996912dd4100cd2659d7336898ff113",
+      "accessed_utc": "2026-10-26T03:39:18.528017+00:00"
+    }
+  ],
+  "arxiv_source": {
+    "url": "https://arxiv.org/src/2006.08381v1",
+    "sha256": "a9e562dba20a6ad6a4d5f92331cd6cac222207be4885a2f8f90fcf91feaf5167",
+    "bytes": 4786950,
+    "members": [
+      "Figure_1_final.png",
+      "appendix.aux",
+      "compressionFigure.pdf",
+      "cycleGraphicalModelCode3.pdf",
+      "dreamcoder.bbl",
+      "dreamcoder.tex",
+      "figures",
+      "figures/figureSevenFinal.png",
+      "logoFigure.pdf",
+      "main.bib",
+      "prelude.tex",
+      "scicite.sty",
+      "testPerformanceRevision.pdf",
+      "towerFigure.pdf"
+    ],
+    "retained_in_repository": false,
+    "finding": "Contains appendix.aux, but no supplement PDF or appendix source body."
+  },
+  "retrieval_attempts": [
+    {
+      "date_utc": "2026-10-26",
+      "url": "https://web.mit.edu/ellisk/www/dreamcodersupplement.pdf",
+      "result": "HTTP 404"
+    },
+    {
+      "date_utc": "2026-10-26",
+      "url": "https://dl.acm.org/doi/10.1145/3453483.3454080",
+      "result": "HTTP 403"
+    },
+    {
+      "date_utc": "2026-10-26",
+      "url": "https://web.archive.org/cdx/search/cdx",
+      "result": "TLS error through configured network; direct connection timed out. No archive availability conclusion."
+    }
+  ],
+  "review_scope": "Selected neural constructors, feature dimensions, grammar sizes, caller configuration, weight reuse, auxiliary-loss gradient flow, and parameter-count utility; not a full repository or training-pipeline audit.",
+  "parameter_count_verification": {
+    "status": "Six synthetic shape checks passed; no original model or training performance measured.",
+    "torch": "2.8.0+cu126",
+    "files": {
+      "verify_parameter_count.py": "28859ac0b633c6cd93e0057db7c39dad2b3f70a5e5f3478f6c2a12fd15d3fac6",
+      "parameter-count-check.json": "960c9f502b997f3d1e4a9e02523fe875b2308e22ad1bb541b73a173b6e88d8a1"
+    }
+  }
+}
