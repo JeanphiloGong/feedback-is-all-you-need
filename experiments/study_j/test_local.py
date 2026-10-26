@@ -7,7 +7,7 @@ import numpy as np
 import torch
 from torch.nn import functional as F
 
-from experiments.study_i.audit import gru_probabilities, reference_search
+from experiments.study_j.audit import gru_probabilities, reference_search
 from experiments.study_i.model import ProgramPrior
 from experiments.study_i.search import rank_programs, search
 from experiments.study_j.local import local_replay_steps

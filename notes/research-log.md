@@ -1112,3 +1112,26 @@ separately. All outcomes from development seeds remain exploratory.
   abstraction or compatibility layer. Full audit/analysis source is still
   under development and outside this commit; no benchmark environment was
   generated and no official run was launched.
+
+## 2026-10-26 UTC: local-context audit and inference freeze
+
+- Added exact replay of shared initialization, both persistent optimizers,
+  every checkpoint, and physical input counters. Independent NumPy equations
+  reconstruct full/local priors and candidate orders; full-function execution
+  verifies every result, partial state, comparison, and cap. Complete cost and
+  phase maps are required, and the development audit returns pinned runtime
+  evidence for formal collection.
+- Inference preserves the local-minus-full composition primary with paired
+  environment intervals and bootstrap seed 953. Uniform/frozen, shifted/balanced,
+  and intermediate outcomes remain descriptive. Actual and reconstructed
+  standalone costs distinguish physical recurrent inputs, logical prefix
+  positions, and shared work. No FLOP or wall-time equality is asserted.
+- All 20 synthetic tests pass on lens under PyTorch 2.8.0+cu126. Audit fixtures
+  exactly reproduce tensors and optimizer states, reject altered learning and
+  five forms of extra unrecorded costs, and detect t/bootstrap disagreement.
+  Fresh independent audit review found no substantive issue; cross-model CLI
+  review was skipped. No official data generation or outcomes preceded this
+  freeze. Temporary fixtures and local Python caches were removed.
+- These are direct experiment-specific audit/analysis functions, with no new
+  architectural abstraction or compatibility layer. Original H/I sources
+  remain intact; J's core test now uses J's corresponding independent auditor.
