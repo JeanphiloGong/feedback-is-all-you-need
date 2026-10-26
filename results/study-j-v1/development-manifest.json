@@ -1,0 +1,162 @@
+{
+  "source": "lens:/tmp/feedback-research-j",
+  "source_revision": "ce232771cd35a61e6b6d7678d4a31c79b9f4a099",
+  "files": {
+    "development-audit-v1/audit.json": {
+      "bytes": 5667,
+      "sha256": "4adfdeea5bafcbffab538a8f118f261f54eb3c444656a8b2c1cefd5fc411fdaa"
+    },
+    "development-audit-v1/summary.json": {
+      "bytes": 64094,
+      "sha256": "a97a2c595c70d442ed255c3d71e80a64cc7f1ccd052ad87dcc305d29d8f51e48"
+    },
+    "development-v1/active-phase.json": {
+      "bytes": 22,
+      "sha256": "0adef27256032d3e542fb78d60204e96f8c1a1ac20e2ce29d187a6afa0171299"
+    },
+    "development-v1/environments.json": {
+      "bytes": 72078,
+      "sha256": "c16fcac5e90a99485775c27bdd9610252dfa94b153ed5ccb3f44a58da4c85d9a"
+    },
+    "development-v1/evaluations.jsonl": {
+      "bytes": 90476,
+      "sha256": "3d5bec83ac9f3c4ba8e3b6f227667b914fade5602c151cf1b49b5686d1996627"
+    },
+    "development-v1/metadata.json": {
+      "bytes": 2702,
+      "sha256": "b500b53feb50f0d4121f004750ea94f5a0f0812dfd3c8eccae33d21426745564"
+    },
+    "development-v1/phases.jsonl": {
+      "bytes": 13981,
+      "sha256": "1851fb440413090ca9e02c12f8401513473f3133938f634fdd3f2a2c33c2aad7"
+    },
+    "development-v1/searches.jsonl": {
+      "bytes": 121664,
+      "sha256": "9bb0e1aa75c6b0edc57e7466cc1205730e0bc7b216976a32f7eff7419431c264"
+    },
+    "development-v1/seed-31/corpus.json": {
+      "bytes": 1924,
+      "sha256": "df5d0b26d2fd4002d7e6aa6e182cfb942fead8a975043f3ada1879138f9ab7cd"
+    },
+    "development-v1/seed-31/costs.json": {
+      "bytes": 5884,
+      "sha256": "b8b160e927063ff8b4a65f4e52d74dc79bf2c0a58a77d29933fbbe9b7255c3be"
+    },
+    "development-v1/seed-31/counts.json": {
+      "bytes": 361,
+      "sha256": "7cda6587ef60ac2971256338668a2cdc05cddaef7f95e55ab961e2bc95ea0c69"
+    },
+    "development-v1/seed-31/full_trained-16.pt": {
+      "bytes": 36171,
+      "sha256": "028cc60ad3733ded8aede73c5ac666c8ba917006365fd561db317ff015a2bdc2"
+    },
+    "development-v1/seed-31/full_trained-24.pt": {
+      "bytes": 36171,
+      "sha256": "a62b1676ed0f673203a558015a25aff994c4a743143d6f52585fd2994d91765e"
+    },
+    "development-v1/seed-31/full_trained-8.pt": {
+      "bytes": 36141,
+      "sha256": "decd94c59394890bca4ed58434d0ca12ef6229e72440435ecd396ede83ca5970"
+    },
+    "development-v1/seed-31/initial.pt": {
+      "bytes": 12117,
+      "sha256": "c76d19bd152efe6a13fbf920c758c0ee86bb2860953764238298f085345ff172"
+    },
+    "development-v1/seed-31/local_trained-16.pt": {
+      "bytes": 36201,
+      "sha256": "390669ed07c034eb1d656b47a2c01ffe3e6e69a80958bfda62bb64f0ff2f71b7"
+    },
+    "development-v1/seed-31/local_trained-24.pt": {
+      "bytes": 36201,
+      "sha256": "6d4ecb440c3ba49f73b312934cb0664eca9980ac6490157ebc40cd5301d1cc9b"
+    },
+    "development-v1/seed-31/local_trained-8.pt": {
+      "bytes": 36171,
+      "sha256": "8583b37105480840e19f9f203caa2f1cd09628e7643fafe24527eb7a4de9f290"
+    },
+    "development-v1/seed-31/order-counts.txt": {
+      "bytes": 75230,
+      "sha256": "54f6a0a55c4dda4cc008d3cb6ee2e195f0ffd4586718f91759eed3ad0f92d6a9"
+    },
+    "development-v1/seed-31/order-full_after_16.txt": {
+      "bytes": 74260,
+      "sha256": "e5d05a0574d5efd233fbf8881f6bfa3596dfe1f233048e8af4f323b0f4e643f2"
+    },
+    "development-v1/seed-31/order-full_after_8.txt": {
+      "bytes": 74026,
+      "sha256": "adb9a7d8ede8a042ccc4461ff0c3bfc1a5fc3cb26cc4217abdb9f6adea177e59"
+    },
+    "development-v1/seed-31/order-full_frozen.txt": {
+      "bytes": 75942,
+      "sha256": "cc22b2326104ad31f0144b8be2bb4ae2455fcfefcad2f267ee428663692ce34e"
+    },
+    "development-v1/seed-31/order-full_trained.txt": {
+      "bytes": 74188,
+      "sha256": "0212e8aeab34836b81b58545b63d9485d52a312e7dac7f8b44ae1c69c914fb2e"
+    },
+    "development-v1/seed-31/order-local_after_16.txt": {
+      "bytes": 74255,
+      "sha256": "59a69038fd0fe1907106c5a2627a6691d6e1661dfb595350d533d7c6baba7863"
+    },
+    "development-v1/seed-31/order-local_after_8.txt": {
+      "bytes": 74054,
+      "sha256": "cb4dcc1fcb952b86e2a49f1d8b52103e33531bb361f67ee8dab5ae1cf5759739"
+    },
+    "development-v1/seed-31/order-local_frozen.txt": {
+      "bytes": 75939,
+      "sha256": "a84c413404739bb2c384c2d5233f4aa5b1f148c8437a8b8b95795102e84ef7d8"
+    },
+    "development-v1/seed-31/order-local_trained.txt": {
+      "bytes": 74105,
+      "sha256": "f873eb0bcee116fa73016c3c0111dc6a5c0191a86c4f2e6342d163766de994be"
+    },
+    "development-v1/seed-31/order-uniform.txt": {
+      "bytes": 75945,
+      "sha256": "20ddcdfc9313e2a34a01e1d2ff1d4346ab376cb5dea9d2635ceb995360aae64f"
+    },
+    "development-v1/seed-31/ranking-counts.json": {
+      "bytes": 234,
+      "sha256": "8f5711aa2d445467f6f138e586385d86662b37db60b7b625174a949151753862"
+    },
+    "development-v1/seed-31/ranking-full_after_16.json": {
+      "bytes": 237,
+      "sha256": "8604711bc23150029326a583c88169046bf2b6eff9ec80046aae7635207e2f32"
+    },
+    "development-v1/seed-31/ranking-full_after_8.json": {
+      "bytes": 236,
+      "sha256": "f570cf679486152892c96d06ba93d9475696bd7da387c401ddbd81e72453720c"
+    },
+    "development-v1/seed-31/ranking-full_frozen.json": {
+      "bytes": 238,
+      "sha256": "12a5df0160a33635f70f5376678a29d2ac7552dd932370d572064c41683cfd14"
+    },
+    "development-v1/seed-31/ranking-full_trained.json": {
+      "bytes": 236,
+      "sha256": "8f25384fff1dfb150f8dfabf04a367e5c91fc802a5490bff62dac6358948ec76"
+    },
+    "development-v1/seed-31/ranking-local_after_16.json": {
+      "bytes": 237,
+      "sha256": "ce3abf60e00753bf4beb79ee395d47f5149199483563a61bbf8840ecf3a59e65"
+    },
+    "development-v1/seed-31/ranking-local_after_8.json": {
+      "bytes": 237,
+      "sha256": "3457189cbe5d497ed5eaf5654acfef38887e8db82329efecdeb64777ce4f7059"
+    },
+    "development-v1/seed-31/ranking-local_frozen.json": {
+      "bytes": 238,
+      "sha256": "790c0583ad0bf27da13f00eab4ba2795f3d496f8b6aad48d61016194d324d66b"
+    },
+    "development-v1/seed-31/ranking-local_trained.json": {
+      "bytes": 236,
+      "sha256": "d644e3ead6c80910d303e4c6d4fe32440e2a144141139e7edfd2f4690c5bb52a"
+    },
+    "development-v1/seed-31/ranking-uniform.json": {
+      "bytes": 236,
+      "sha256": "ecbe5cc120006f00d0338184a6162dad2870bab85ec73a7883f22e71b15035e4"
+    },
+    "development-v1/updates.jsonl": {
+      "bytes": 194781,
+      "sha256": "2acc394353951e4fc4cb690e2254a153cc98f5ae79d273181784104c01fea10e"
+    }
+  }
+}

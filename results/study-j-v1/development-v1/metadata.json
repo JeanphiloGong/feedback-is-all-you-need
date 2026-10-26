@@ -1,0 +1,59 @@
+{
+  "status": "completed",
+  "started_utc": "2026-10-26T09:28:57.572571+00:00",
+  "git_revision": "ce232771cd35a61e6b6d7678d4a31c79b9f4a099",
+  "source_sha256": {
+    "experiments/study_j/analyze.py": "d4346cba0ba906cc503ed469a165b9e71edfe29579c0ba8b72989d98bf4f9b6b",
+    "experiments/study_j/audit.py": "6ae512e540c1b0d6c1d0ebc39857e6788630075c75aa41104d52a57a0972698c",
+    "experiments/study_j/local.py": "8516f44ddef46f7f0ead0d2a8cf0d144f03f85e753858b45b012d2cfc7911b0a",
+    "experiments/study_j/run.py": "a2e3f10b2e745ee09ee2bf492a120e73321b367b5acefd8280a17d3f96ed993c",
+    "experiments/study_j/test_audit.py": "e16616f1d855f575b412d98e39efd5bbaa6a64e882fdd63b3f54c7f4ce87b73c",
+    "experiments/study_j/test_collection.py": "0d9ced651c103f5fd53c13d24e5e140619c5c30a9cf1d289b99f7f0eb503cd8b",
+    "experiments/study_j/test_local.py": "ea6e83c29906c6a8e7680a5c4d3d345c83e70636b9da37fbf7a6b34d57b48b3e",
+    "experiments/study_i/model.py": "24c6d8c1a2fb9af9910942f9098daabec43b9e0304a080ced346626bb1f5e448",
+    "experiments/study_i/search.py": "9f247e701586bc4393d38876b1377966e1fcdd186f29e178d0b4c1e0aaaf8a1e",
+    "experiments/study_h/tasks.py": "4e1e06bc1717fbf63e863d9513996221015a85e02e8fcda6ac3855979d5a15b0",
+    "experiments/study_h/search.py": "70a6c9bbcacb79e7b3623111f67a11cdf1b9f743068679d166f0a1a54cb5d062",
+    "experiments/study_h/run.py": "1b31a0a1d375c03f37adddfba368a821ee278c06e4c8de160a9fd2fc9fd9291a",
+    "experiments/study_h/audit.py": "5af25e6d0e09af3325aa626bf7bb224868ea1f55985d19e24e629e14f9c093cc",
+    "notes/protocol-v10-local-context-prior.md": "ba75747f86464c1a351331467bf53d8c1a878404acec7f3d0e3b074f05492679"
+  },
+  "data_sha256": "095119371ca86477f48198462f5359b5c65d1cac63e6cd98273b4690edee7aaf",
+  "seeds": [
+    31
+  ],
+  "budget": 65536,
+  "arms": [
+    "uniform",
+    "counts",
+    "full_frozen",
+    "local_frozen",
+    "full_trained",
+    "local_trained"
+  ],
+  "probes": [
+    "full_after_8",
+    "full_after_16",
+    "local_after_8",
+    "local_after_16"
+  ],
+  "python": "3.11.15 (main, Jul 23 2026, 14:43:45) [Clang 22.1.3 ]",
+  "torch": "2.8.0+cu126",
+  "threads": 1,
+  "device": "cpu",
+  "dtype": "float64",
+  "deterministic_algorithms": true,
+  "platform": "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41",
+  "cpu_model": "AMD Ryzen 9 9950X 16-Core Processor",
+  "argv": [
+    "/tmp/feedback-research-j/frozen-ce23277/experiments/study_j/run.py",
+    "--development",
+    "--source-revision",
+    "ce232771cd35a61e6b6d7678d4a31c79b9f4a099",
+    "--output",
+    "/tmp/feedback-research-j/development-v1"
+  ],
+  "development_audit_sha256": null,
+  "elapsed_seconds": 5.264680333435535,
+  "completed_utc": "2026-10-26T09:29:02.795367+00:00"
+}

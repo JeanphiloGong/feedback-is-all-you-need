@@ -1148,3 +1148,20 @@ separately. All outcomes from development seeds remain exploratory.
   This separate generated-data commit preserves the source review boundary.
   No new abstraction or compatibility layer was added; only the generator's
   transient local Python caches were removed.
+
+## 2026-10-26 UTC: local-context development archive
+
+- Verified all 15 transferred source/data files against Git freeze ce23277 and
+  lens, then ran development seed 31 once. Its 344 searches and 768 gradient
+  steps completed in 5.265 seconds; independent audit/analysis passed in 2.784
+  seconds, including exact weights/optimizer replay and physical input counts.
+- Local trained solves 15/16 compositions versus full trained 1/16 and uniform
+  8/16. Shifted scores are 1/16, 2/16, and 8/16 respectively. The local balanced
+  score equals uniform at 16/32. All controls/probes remain in the archive;
+  this single environment supports no confirmatory inference. No tuning or
+  source/data/settings change followed. Started the full 32-environment formal
+  grid with the matching audit and unchanged frozen source.
+- All 39 transferred development/audit files, 1,553,116 bytes, match their
+  originals; the original audit also matches all 37 raw hashes. This separate
+  archival slice adds no abstraction or compatibility layer. No experiment
+  records or checkpoints were removed.
