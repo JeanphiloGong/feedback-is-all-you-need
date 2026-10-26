@@ -1411,3 +1411,20 @@ separately. All outcomes from development seeds remain exploratory.
 - Updated the repository and manuscript indexes. Added no new abstraction or
   compatibility layer. Removed disposable v14 build/render intermediates
   after saving the inspected source and PDF; no research evidence was removed.
+
+## 2026-10-26 UTC: prospective failure-conditioned weight updates
+
+- Registered Study L before any new official environment or outcome. The
+  same 1,172-parameter prior will receive direct gradients from the cumulative
+  set of rejected programs during each transfer task. A separate copy resets
+  for each task because a wrong program for one goal can solve another goal.
+  This tests within-task adaptation, not retained cross-task learning.
+- The sole primary is balanced rejection-minus-uniformizing exact success;
+  frozen and uniform references remain essential descriptive comparators.
+  Every arm avoids repeated rejected strings. The plan specifies interrupted
+  execution, operation checkpoints, all weight/optimizer states, full cost
+  accounting, and independent replay before inference.
+- Fresh scientific/protocol review found no actionable issue. Cross-model
+  CLI review was skipped in the autonomous run. No new official tasks have
+  been generated. The protocol adds no software abstraction; historical
+  sources, evidence, and manuscript versions remain intact.
