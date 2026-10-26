@@ -1664,3 +1664,27 @@ separately. All outcomes from development seeds remain exploratory.
   generation, and planning functions, without an architectural abstraction or
   compatibility layer. Bytecode writing was disabled for checks; no research
   evidence was removed. Collector tests remain a separate uncommitted slice.
+
+## 2026-10-27 UTC: retained learning collection
+
+- Added complete action/update/graph journals, persistent model/Adam/replay
+  checkpoints, delayed and frozen controls, and probes after all interaction
+  streams. Startup checks fixed runtime/grid and matching complete development
+  evidence, preserves failed attempts, and never overwrites an existing output.
+- Six collection/probe checks passed locally before the startup gate and
+  exact-distance regression were added; both additional checks passed after
+  implementation. Independent replay matched all neural tensors, Adam moments,
+  corpora, and episode state at 24 checkpoints across eight arms, including
+  an unaligned delayed boundary. Separate resource reconstruction matched all
+  physical counts, journal bytes, and serialized storage records.
+- Fresh review caught capped planning in the true-graph evaluator: a valid
+  nine-step path was recorded as unreachable. The evaluator now records an
+  uncapped exact path/distance and separate eight-action reachability. The
+  regression and 1,984 independent distances passed the targeted recheck.
+  A separate review of the startup gate found no issue after 13 isolated CLI
+  cases with stubbed collection and synthetic manifests.
+- All checks above used local PyTorch 2.5.1+cu124. Further lens handshakes
+  intermittently failed; one connection verified aorus but its default Python
+  had no Torch. No official Study M data/run has been generated. Cross-model
+  CLI was skipped. Added direct experiment functions, no compatibility layer;
+  temporary synthetic outputs clean themselves up and no evidence was removed.
