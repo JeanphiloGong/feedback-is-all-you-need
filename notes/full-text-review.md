@@ -300,3 +300,30 @@ A subsequent [source-capacity audit](dreamcoder-capacity-audit.md) records the
 failed supplement retrieval and a verified historical code snapshot. It checks
 a conditional neural-parameter formula without identifying the paper's actual
 experimental checkpoints or changing this PDF's stated reading scope.
+
+## Unlikelihood training - Welleck et al. (2019), arXiv v2
+
+[arXiv:1908.04319v2](https://arxiv.org/abs/1908.04319v2) is archived exactly
+as downloaded. The metadata title is *Neural Text Generation with Unlikelihood
+Training*; the PDF prints *DeGeneration*, striking through the prefix. The
+introduction (pp. 1-2) and Sections 5.1-5.2 (pp. 4-5) were read; pages 1, 4,
+and 5 were inspected visually. Results and appendices were not exhaustively
+reviewed. This is the September 2019 version, not an inferred conference copy.
+
+The token objective penalizes negative candidates with
+`-sum(log(1 - p(candidate | prefix)))`, combined with positive target
+likelihood (Equations 3-4). Previous context tokens except the true next token
+form the negative set (Equation 5). The sequence-level method decodes
+continuations and penalizes tokens participating in repeated n-grams
+(Equations 7-8). These remain token-level probability penalties applied to
+generated sequences; they are not penalties on a joint whole-sequence
+probability. Fine-tuning equally mixes these updates with the original
+token-level training objective (Section 5.2).
+
+This is prior work for reducing unwanted probabilities through gradients.
+Study L instead minimizes one `-log(1 - sum(q(program) for program in R))`
+for a set of distinct complete programs rejected by visible execution. It
+uses task-local weight resets and no concurrent positive replay during
+transfer. Avoiding that known set does not imply that untested programs are
+correct. We claim neither novelty for negative-probability training nor a
+replication of Welleck et al.'s objective or results.

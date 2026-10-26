@@ -161,5 +161,29 @@
     "source": "Unmodified arXiv PDF, archived in the private research repository.",
     "review_scope": "Main-text introduction, wake/sleep mechanism, selected domain setups, quantitative comparisons, minimal-basis experiments, and discussion (pp. 1-10, 13-18). Separately linked supplementary material was not reviewed.",
     "extraction_note": "22-page PDF; title, algorithm, quantitative results, ablations, and discussion pages 1, 6, 13, 14, 16, 17, 18 inspected visually. Exact v1 title retained rather than substituting a later publication title."
+  },
+  {
+    "name": "unlikelihood",
+    "title": "Neural Text Generation with Unlikelihood Training",
+    "pdf_title": "Neural Text DeGeneration with Unlikelihood Training",
+    "authors": [
+      "Sean Welleck",
+      "Ilia Kulikov",
+      "Stephen Roller",
+      "Emily Dinan",
+      "Kyunghyun Cho",
+      "Jason Weston"
+    ],
+    "file": "unlikelihood-v2.pdf",
+    "url": "https://arxiv.org/pdf/1908.04319v2",
+    "version": "1908.04319v2",
+    "version_url": "https://arxiv.org/abs/1908.04319v2",
+    "sha256": "6e09404d8848dcd5222db7b066e744bb571cae7e0bd496f812bb3a418f8dde64",
+    "bytes": 567247,
+    "accessed_utc": "2026-10-26",
+    "source": "Unmodified arXiv PDF, archived in the private research repository.",
+    "version_note": "Metadata says Generation; the PDF prints DeGeneration, with De struck through. The v2 date is 26 September 2019. No later conference version is inferred.",
+    "review_scope": "Introduction (pp. 1-2) and token/sequence unlikelihood methods (Sections 5.1-5.2, pp. 4-5); title and methods pages 1, 4, 5 inspected visually. No exhaustive results or appendix review.",
+    "extraction_note": "17-page PDF; methods checked against extracted text and rendered pages."
   }
 ]

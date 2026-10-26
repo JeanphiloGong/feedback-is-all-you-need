@@ -39,7 +39,7 @@ been verified for that work at this checkpoint.
 
 `full-text-manifest.json` records exact local copies and versions of Reward is enough,
 RL², Reflexion, Self-Refine, the intrinsic self-correction study, Welcome to
-the Era of Experience, Voyager, Self-Debugging, ExpeL, and DreamCoder. The
+the Era of Experience, Voyager, Self-Debugging, ExpeL, DreamCoder, and unlikelihood training. The
 unmodified PDFs retain their authorship and original license notices.
 [`../notes/full-text-review.md`](../notes/full-text-review.md) records the
 sections read and how their methods constrain our claims. Reward is enough
@@ -62,3 +62,11 @@ historical source files and their hashes. The accompanying capacity audit
 distinguishes constructor dimensions and synthetic parameter-count checks from
 measured model sizes in the publication. The original supplement remains
 unretrieved; manuscript v10 is unchanged by this source follow-up.
+
+`unlikelihood-v2.pdf` is the 17-page arXiv version 1908.04319v2 by
+Welleck et al. (2019). Metadata gives *Neural Text Generation with Unlikelihood
+Training*; the PDF prints *DeGeneration*, with the prefix struck through. The
+reading record covers the introduction and token/sequence unlikelihood
+methods, not a replication or an exhaustive results review. Its token
+penalties precede our failure-loss intervention but differ from Study L's
+negative log mass of the complement of a rejected-program set.
