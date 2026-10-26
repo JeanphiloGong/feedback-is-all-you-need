@@ -624,3 +624,19 @@ separately. All outcomes from development seeds remain exploratory.
   no development environments or formal outcomes had been generated.
 - The protocol adds no software layer. The initial implementation uses direct
   research functions and flat tuples; no compatibility interface is planned.
+
+## 2026-10-26 UTC: library-search core verification
+
+- Implemented the finite task generator, first-fit enumeration with expanded
+  primitive-operation accounting, minimum-token segmentation, and greedy flat
+  fragment induction. Only visible examples enter search; only accepted
+  programs enter compression. Full-function split novelty is enforced by the
+  benchmark generator, independently of learner success.
+- Ten focused tests pass. Fresh core review additionally compared 2,880 search
+  outcomes/counts, 20,145 segmentations, and 500 compression outcomes with
+  independent calculations, checked the four-entry limit, and inspected seed-23
+  generation. It found no material issue. No formal searches were performed.
+  Cross-model CLI review was skipped in this autonomous context.
+- The core adds direct research functions, not a software abstraction layer or
+  compatibility interface. No temporary implementation was introduced. Runtime
+  collection and result auditing are a subsequent implementation slice.
