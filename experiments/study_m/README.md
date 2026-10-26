@@ -36,7 +36,20 @@ write/flush time and bytes separately. Remaining phase/status/file-management
 overhead stays in collection elapsed time. Replay/graph JSON bytes describe
 serialized representations, not Python resident memory or inference RAM.
 
-The independent audit is still being implemented. No official world data or
-experiment outcome has been generated. Official collection must use the
-registered source/data freeze and PyTorch 2.8.0+cu126 runtime; local synthetic
-checks under another runtime do not satisfy that requirement.
+Independent audit regenerates worlds, reconstructs each action and gradient,
+checks every model/Adam/replay checkpoint, and rebuilds fixed-graph probes.
+PyTorch tensors and journal values/digests match exactly; an additional NumPy
+forward check uses rtol 1e-11 and atol 1e-12. Tensor representations, scalar
+types, canonical JSON bytes, complete timing fields, and all physical journal
+rows are checked. Optimized Python is rejected because it disables assertions.
+Raw file hashes are checked before and after reconstruction; this is not file
+locking or protection against changes after verification.
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 python3 -m unittest experiments.study_m.test_replay experiments.study_m.test_audit -v
+```
+
+No official world data or experiment outcome has been generated. Official
+collection must use the registered source/data freeze and PyTorch 2.8.0+cu126
+runtime; local synthetic checks under another runtime do not satisfy that
+requirement.

@@ -1645,7 +1645,7 @@ separately. All outcomes from development seeds remain exploratory.
 - This protocol adds no architectural abstraction or compatibility layer and
   removes no historical evidence. No official Study M data or outcome exists.
 
-## 2026-10-27 UTC: retained predictive learning core
+## 2026-10-26 UTC: retained predictive learning core
 
 - Continued the registered Study M implementation with explicit next-state
   prediction, gradient updates, and persistent optimizer state. The user's
@@ -1665,7 +1665,7 @@ separately. All outcomes from development seeds remain exploratory.
   compatibility layer. Bytecode writing was disabled for checks; no research
   evidence was removed. Collector tests remain a separate uncommitted slice.
 
-## 2026-10-27 UTC: retained learning collection
+## 2026-10-26 UTC: retained learning collection
 
 - Added complete action/update/graph journals, persistent model/Adam/replay
   checkpoints, delayed and frozen controls, and probes after all interaction
@@ -1688,3 +1688,28 @@ separately. All outcomes from development seeds remain exploratory.
   had no Torch. No official Study M data/run has been generated. Cross-model
   CLI was skipped. Added direct experiment functions, no compatibility layer;
   temporary synthetic outputs clean themselves up and no evidence was removed.
+
+## 2026-10-26 UTC: retained learning replay audit
+
+- Added independent world generation, tensor/Adam replay, NumPy forward checks,
+  complete action/episode/graph/probe reconstruction, and physical journal and
+  checkpoint accounting. Exact tensor/value/digest checks and fixed NumPy
+  tolerances precede all official outcomes. Raw manifests are compared before
+  and after reconstruction, without asserting file locking or authentication.
+- Independent review reproduced six integrity gaps: tensor/scalar coercion,
+  null rows mistaken for exhaustion, optional journal timing fields, duplicate
+  document keys, and disabled assertions under optimized Python. All were
+  corrected with reproduction checks. A seventh stale-manifest issue during
+  reconstruction is covered by the final rehash. Mathematical reconstruction
+  found no further issue, including 600 synthetic worlds with rejection paths.
+- Local I/O stalls delayed some review checks; their final rechecks were
+  accurately limited to source inspection. On lens under pinned PyTorch
+  2.8.0+cu126, all 36 current core/collector/replay/audit/analysis tests passed
+  in 7.443 seconds. A subsequently added integrated synthetic development/formal
+  gate and mid-audit mutation test passed in 5.626 seconds. No official seed was
+  used. Initial server default Python lacked Torch; the existing project venv
+  supplies the registered runtime. Cross-model CLI review was skipped.
+- Corrected the preceding two log dates to UTC rather than Hong Kong local
+  date. Added direct audit functions, no architectural abstraction or
+  compatibility layer; temporary fixtures clean themselves up. No historical
+  research evidence was removed. Analysis remains a separate save point.
