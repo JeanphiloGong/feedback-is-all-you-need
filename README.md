@@ -86,7 +86,7 @@ establish feedback sufficiency for general intelligence.
   Subsequent post-hoc selection and exact uniform-proposal references quantify
   recoverable progress and the contribution of supplied algorithms.
 - [Full-text literature review](notes/full-text-review.md): methods and limits
-  of nine close precedents, including Reward is enough, Voyager, ExpeL, and the
+  of ten close precedents, including Reward is enough, DreamCoder, ExpeL, and the
   Era of Experience.
 
 The smallest language model did not improve composition accuracy under the

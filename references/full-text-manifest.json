@@ -136,5 +136,30 @@
     "source": "Unmodified arXiv PDF, archived in the private research repository.",
     "review_scope": "Selected main-text experience collection/insight extraction/inference/transfer (4), setup, results and ablations (5), and limitations (6); no exhaustive appendix review.",
     "extraction_note": "38-page PDF; rendered title, insight-template, and transfer pages for visual checks."
+  },
+  {
+    "name": "dreamcoder",
+    "title": "DreamCoder: Growing generalizable, interpretable knowledge with wake-sleep Bayesian program learning",
+    "authors": [
+      "Kevin Ellis",
+      "Catherine Wong",
+      "Maxwell Nye",
+      "Mathias Sabl\u00e9-Meyer",
+      "Luc Cary",
+      "Lucas Morales",
+      "Luke Hewitt",
+      "Armando Solar-Lezama",
+      "Joshua B. Tenenbaum"
+    ],
+    "file": "dreamcoder-v1.pdf",
+    "url": "https://arxiv.org/pdf/2006.08381v1",
+    "version": "2006.08381v1",
+    "version_url": "https://arxiv.org/abs/2006.08381v1",
+    "sha256": "547027556f1220f22555c35f91d2527d78d825553a1b24201f58d56274ec0e80",
+    "bytes": 4869773,
+    "accessed_utc": "2026-10-26T01:09:39.619293+00:00",
+    "source": "Unmodified arXiv PDF, archived in the private research repository.",
+    "review_scope": "Main-text introduction, wake/sleep mechanism, selected domain setups, quantitative comparisons, minimal-basis experiments, and discussion (pp. 1-10, 13-18). Separately linked supplementary material was not reviewed.",
+    "extraction_note": "22-page PDF; title, algorithm, quantitative results, ablations, and discussion pages 1, 6, 13, 14, 16, 17, 18 inspected visually. Exact v1 title retained rather than substituting a later publication title."
   }
 ]

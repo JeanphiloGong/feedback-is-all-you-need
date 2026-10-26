@@ -39,14 +39,20 @@ been verified for that work at this checkpoint.
 
 `full-text-manifest.json` records exact local copies and versions of Reward is enough,
 RL², Reflexion, Self-Refine, the intrinsic self-correction study, Welcome to
-the Era of Experience, Voyager, Self-Debugging, and ExpeL. The
+the Era of Experience, Voyager, Self-Debugging, ExpeL, and DreamCoder. The
 unmodified PDFs retain their authorship and original license notices.
 [`../notes/full-text-review.md`](../notes/full-text-review.md) records the
 sections read and how their methods constrain our claims. Reward is enough
 was read from an image-only author copy; its Crossref metadata is preserved in
 `reward-is-enough.json`.
 
-Voyager, Self-Debugging, and ExpeL are archived as unmodified PDFs in this
+Voyager, Self-Debugging, ExpeL, and DreamCoder are archived as unmodified PDFs in this
 private research repository, with source URLs, exact hashes, and limited reading
 scopes in `full-text-manifest.json`. Their inclusion is research reference
 material, not a claim of authorship or permission for external republication.
+
+`dreamcoder-v1.pdf` is the 22-page arXiv version 2006.08381v1, titled
+*DreamCoder: Growing generalizable, interpretable knowledge with wake-sleep
+Bayesian program learning*. Its separately linked supplement was not reviewed.
+Do not substitute another publication's title or unverified architecture
+details for this exact copy.

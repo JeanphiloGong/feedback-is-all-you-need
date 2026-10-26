@@ -587,3 +587,22 @@ separately. All outcomes from development seeds remain exploratory.
   page inspected again. Earlier versions remain unchanged. No architectural
   abstraction or compatibility layer was added; build/render files are
   disposable and excluded from the manuscript archive.
+
+## 2026-10-26 UTC: DreamCoder source review
+
+- Archived the unmodified 22-page arXiv 2006.08381v1 PDF with its exact title,
+  source, retrieval time, byte count, and SHA-256. Read the main mechanisms,
+  selected task setups, quantitative comparisons, and discussion; visually
+  checked seven relevant pages. The separate supplement was not reviewed.
+- The method learns a reusable program library and a neural search model,
+  using repeated search, replay, and synthetic tasks. The record distinguishes
+  these mechanisms from transcript memory and preserves the reported CPU
+  costs, supplied primitives, domain-specific setups, and limited transfer scope.
+- Fresh independent review found that the draft overstated the task-generation
+  limitation. Corrected it to purposeful task selection/generation: random
+  dream-task generation is already implemented. Cross-model CLI review was
+  skipped in the authorized autonomous context. Manuscript v9 remains frozen;
+  this precedent will enter a subsequent version with the relevant experiment.
+- Source size/hash and manifest consistency were checked. This documentation
+  change adds no implementation abstraction, compatibility layer, or temporary
+  implementation. Temporary PDF extraction/render files remain outside Git.

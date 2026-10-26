@@ -1,6 +1,6 @@
 # Targeted full-text review: feedback, capacity, and prior learning
 
-Reviewed on 2026-10-25 UTC. This is a targeted comparison, not an exhaustive
+Reviewed on 2026-10-25–26 UTC. This is a targeted comparison, not an exhaustive
 novelty search. Copies and exact hashes are in
 [`../references/full-text-manifest.json`](../references/full-text-manifest.json).
 Page numbers below are printed article pages. Main methods, controls, and
@@ -234,3 +234,64 @@ verifiable rules and an independently held-out evaluator.
    feedback under explicit inference budgets. Keep acceptance examples separate
    from a final held-out evaluator: final test answers must never guide repairs
    or entry into memory. Include rule extraction and verification in costs.
+
+## DreamCoder — Ellis et al. (2020), arXiv v1
+
+[arXiv:2006.08381v1](https://arxiv.org/abs/2006.08381v1), titled
+*DreamCoder: Growing generalizable, interpretable knowledge with wake-sleep
+Bayesian program learning*. The introduction, mechanism, selected domain
+setups, quantitative comparisons, minimal-basis experiments, and discussion
+were read (pp. 1–10, 13–18). Pages 1, 6, 13, 14, 16, 17, and 18 were also
+inspected visually. The separately linked supplementary material was not
+reviewed; architecture details and supplementary results are not independently
+verified here. This record concerns the exact 2020 preprint, not another
+publication with a different DreamCoder title.
+
+DreamCoder directly implements a form of cross-task experience compression.
+During waking, a neural recognition model guides program enumeration against
+task specifications; candidate scores combine fit and a learned program prior.
+During abstraction sleep, it refactors successful programs to find shared
+semantic fragments and adds abstractions to a reusable library. Its objective
+accounts for the description lengths of both the library and rewritten
+programs, so storing every solution is not the same operation (pp. 4–7).
+During dreaming sleep, the recognition network is trained on a 50/50 mixture
+of replayed and imagined tasks. The main text says imagined tasks are solved
+again by search and the network learns the discovered solutions, rather than
+simply copying the programs that generated those tasks (pp. 7–8).
+
+Both neural weights and the external program vocabulary change. The growing
+library can shorten program descriptions and search depth; the recognition
+model changes which programs receive search effort. This is a stronger mechanism
+than preserving a correction transcript, but it supplies a typed language,
+primitives, interpreter, search procedure, and learning objectives. It is not
+feedback acting without an inductive bias or prior implementation.
+
+Several domains use held-out tasks: 218 list problems split equally into
+training and test, 128 generated text-editing training tasks with 108 SyGuS
+test tasks, and held-out splits for LOGO images, towers, and regex concepts
+(pp. 8–10). The main text compares removal of abstraction or recognition and
+describes whole-program memorization baselines; detailed memorization results
+are in the unread supplement. Figure 6 reports standard deviations over five
+runs, not 95% confidence intervals. Multiple domain-specific setups do not
+establish lifelong transfer by one agent across those domains. Purposeful task
+selection and generation, such as choosing stepping stones toward harder
+problems, remain future work in the discussion (p. 17); synthetic dream-task
+generation is already part of the implemented method.
+
+Few provided tasks do not imply a small total training budget. Typical training
+to the reported convergence points takes about a day using 20–100 CPUs
+(p. 13), alongside synthetic dream generation and repeated search. Learning
+functional-programming abstractions from a minimal recursive basis takes
+roughly five days on 64 CPUs for 20 problems (p. 16), described later as
+approximately a year of total CPU time (p. 18). No neural parameter count was
+verified in this copy. The physics experiment uses data generated from 60
+known laws and identities (pp. 14–15), so it does not demonstrate autonomous
+discovery from uncontrolled physical observations.
+
+Implication: reusable abstraction learning already has a concrete precedent.
+Our next experiment should measure whether experience-derived representations
+help on new tasks, comparing compression against storing whole solutions and
+against search without learned memory. It must charge for discovering and
+verifying the library, separate neural updates from symbolic reuse, and report
+the supplied task structure. Neither this paper nor our existing studies proves
+that an arbitrarily small model can acquire unrestricted intelligence.
