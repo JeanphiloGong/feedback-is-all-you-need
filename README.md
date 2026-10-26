@@ -57,14 +57,14 @@ feedback system than as a static parameter store.
 
 ## Current status
 
-The hypothesis has now been tested in controlled classification and pretrained
-language-model studies. Results support conditional adaptation, but do not
+The hypothesis has now been tested in controlled classification, pretrained
+language-model, and symbolic program-search studies. Results support conditional adaptation, but do not
 establish feedback sufficiency for general intelligence.
 
-- [Manuscript versions](paper/README.md): v0 hypothesis through v9, including
+- [Manuscript versions](paper/README.md): v0 hypothesis through v10, including
   audited results, pretrained models, response budgets, online updates, and
   checked rule revision, complete correction history, and explicit separation
-  of candidate generation from external selection.
+  of candidate generation from external selection, and cross-task fragment reuse.
 - [Study A replication](results/study-a-v2/README.md): 20 seeds, four capacities,
   seven feedback conditions; all 19,200 records retained.
 - [Study B results](results/study-b-v1/README.md): four Qwen2.5 sizes, 24 new
@@ -85,6 +85,11 @@ establish feedback sufficiency for general intelligence.
   direct-accuracy benefit, with regressions and additional compute retained.
   Subsequent post-hoc selection and exact uniform-proposal references quantify
   recoverable progress and the contribution of supplied algorithms.
+- [Study H results](results/study-h-v1/README.md): 32 new symbolic environments;
+  compressed fragments solve 85.16% of motif-composition tasks versus 2.34%
+  with whole-program memory and 50.39% without memory. On shifted programs,
+  compressed memory falls to 9.96%, versus 50.00% without memory. This is a
+  supplied symbolic search mechanism with learned representations, no neural model.
 - [Full-text literature review](notes/full-text-review.md): methods and limits
   of ten close precedents, including Reward is enough, DreamCoder, ExpeL, and the
   Era of Experience.

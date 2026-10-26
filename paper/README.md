@@ -17,6 +17,7 @@ is borrowed from it.
 | [v7](versions/v7-rule-memory.pdf) | Adds externally checked rule revision, all intermediate rule memories, explicit executor attribution, and comparisons with Voyager, Self-Debugging, and ExpeL. |
 | [v8](versions/v8-feedback-history.pdf) | Adds 16 checked revisions with last-only or complete history on 48 fresh environments: no demonstrated direct-accuracy benefit, with exact-rule regressions and unequal costs reported. |
 | [v9](versions/v9-selection-and-search.pdf) | Adds explicitly post-hoc candidate selection and exact uniform-proposal references, distinguishing discarded progress from absent exact candidates and attributing the supplied grammar and selector. |
+| [v10](versions/v10-compression-and-transfer.pdf) | Adds DreamCoder as an abstraction-learning precedent and a 32-environment symbolic transfer study: learned fragments help new motif compositions but reduce success on shifted programs, with prior experience and library costs accounted for. |
 
 All manuscripts are working drafts. The current results support conditional
 adaptation, not the sufficiency of feedback for general intelligence.
@@ -39,12 +40,19 @@ score remains below the exact expectation for uniform legal revisions with
 the same initial proposal; the reference supplies the action grammar and
 does not match checking cost. These analyses preserve the original endpoints.
 
+Study H tests cross-task fragment reuse with a supplied symbolic searcher and
+no neural model. Composition success is 85.16% with compressed memory, 2.34%
+with whole-program memory, and 50.39% without memory. The primary difference
+is +82.81 points, t95 [77.12, 88.51]. On shifted programs, compressed memory
+scores 9.96% versus 50.00% without memory. The result supports conditional
+representation reuse, with no claim of general or neural intelligence.
+
 From the repository root, compile a version twice to resolve citations:
 
 ```bash
 mkdir -p paper/build
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=paper/build \
-  paper/versions/v9-selection-and-search.tex
+  paper/versions/v10-compression-and-transfer.tex
 ```
 
 Compiled files in `paper/versions/` are inspected snapshots. `paper/build/`

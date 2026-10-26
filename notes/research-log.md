@@ -717,3 +717,25 @@ separately. All outcomes from development seeds remain exploratory.
   costs, and archive completeness and found no material issue. Cross-model CLI
   review was skipped. No formal rerun, protocol amendment, software abstraction,
   or compatibility layer was introduced in this results checkpoint.
+
+## 2026-10-26 UTC: manuscript v10 review
+
+- Version 10 adds the verified DreamCoder precedent and Study H's fixed
+  cross-task comparison. The abstract, methods, results, and interpretation
+  distinguish symbolic representation learning from neural updates, disclose
+  supplied task structure/search, and retain unfavorable shifted-task outcomes
+  and the lower combined success versus no memory. Earlier manuscripts remain
+  frozen. The manuscript now covers eight studies in the original seven-section
+  organization.
+- Fresh scientific review found that the rewritten abstract omitted Study G's
+  comparator. Restored the latest-proposal-and-check arm for both the zero-point
+  accuracy difference and doubled input cost; narrow follow-up confirmed the
+  finding resolved. No other material scientific issue remained. Cross-model
+  CLI review was skipped in the authorized autonomous context.
+- The final source compiles twice without warnings into 26 pages. All 26 pages
+  were rendered and inspected for text, equations, tables, plots, references,
+  margins, and pagination. The archived PDF is byte-identical to the inspected
+  build, SHA-256 0665470322a8104b24120a88f9014a9b376597e7e94f9217caa9b1062ca2b4a3.
+  Build/render intermediates and Study H bytecode caches were removed. No new
+  software abstraction, compatibility layer, or temporary implementation was
+  added in the manuscript change.
