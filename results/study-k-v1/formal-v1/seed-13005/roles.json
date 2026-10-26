@@ -1,0 +1,60 @@
+{
+  "streams": {
+    "composition_first": [
+      "composition-00",
+      "composition-08",
+      "composition-02",
+      "composition-10",
+      "composition-04",
+      "composition-12",
+      "composition-06",
+      "composition-14",
+      "shifted-00",
+      "shifted-08",
+      "shifted-02",
+      "shifted-10",
+      "shifted-04",
+      "shifted-12",
+      "shifted-06",
+      "shifted-14"
+    ],
+    "shifted_first": [
+      "shifted-00",
+      "shifted-08",
+      "shifted-02",
+      "shifted-10",
+      "shifted-04",
+      "shifted-12",
+      "shifted-06",
+      "shifted-14",
+      "composition-00",
+      "composition-08",
+      "composition-02",
+      "composition-10",
+      "composition-04",
+      "composition-12",
+      "composition-06",
+      "composition-14"
+    ]
+  },
+  "probes": [
+    "composition-01",
+    "composition-09",
+    "composition-03",
+    "composition-11",
+    "composition-05",
+    "composition-13",
+    "composition-07",
+    "composition-15",
+    "shifted-01",
+    "shifted-09",
+    "shifted-03",
+    "shifted-11",
+    "shifted-05",
+    "shifted-13",
+    "shifted-07",
+    "shifted-15"
+  ],
+  "baseline_stream_order": "shared:composition_first",
+  "baseline_probe_checkpoint": 0
+}

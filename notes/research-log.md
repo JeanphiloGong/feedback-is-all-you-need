@@ -1354,3 +1354,20 @@ separately. All outcomes from development seeds remain exploratory.
 - This archive adds no abstraction or compatibility layer. Removed only the
   incorrectly extracted source scratch before any experiment existed; no
   original research output or checkpoint was deleted.
+
+## 2026-10-26 UTC: continual formal archive
+
+- Completed all 32 formal environments under unchanged source/data a22026a
+  and the archived matching development certificate. The run has 8,960
+  searches and 45,056 gradient steps; collection took 92.183 seconds, and
+  complete independent audit/analysis took 142.827 seconds.
+- All 4,586 formal raw/audit files, 205,057,755 bytes, match their execution-host
+  originals; the independent audit's 4,584 raw hashes match locally. Every
+  frozen source/data file still matches Git and the execution host. No seed,
+  source, budget, update schedule, or checkpoint selection changed after
+  development or during formal execution.
+- A separate local reconstruction from raw searches/evaluations reproduced
+  all 4,608 probe cells, 1,536 prequential cells, 324 aggregates, nine contrasts,
+  every primary paired difference, and both intervals. The complete archive
+  is saved separately from narrative interpretation and figures.
+- Added no abstraction or compatibility layer and removed no raw evidence.

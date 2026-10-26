@@ -1,0 +1,58 @@
+[
+  {
+    "arm": "replay",
+    "order": "composition_first",
+    "checkpoint": 8,
+    "name": "replay-composition_first-8",
+    "prior_id": "replay-composition_first-8"
+  },
+  {
+    "arm": "replay",
+    "order": "composition_first",
+    "checkpoint": 16,
+    "name": "replay-composition_first-16",
+    "prior_id": "replay-composition_first-16"
+  },
+  {
+    "arm": "online",
+    "order": "composition_first",
+    "checkpoint": 8,
+    "name": "online-composition_first-8",
+    "prior_id": "online-composition_first-8"
+  },
+  {
+    "arm": "online",
+    "order": "composition_first",
+    "checkpoint": 16,
+    "name": "online-composition_first-16",
+    "prior_id": "online-composition_first-16"
+  },
+  {
+    "arm": "replay",
+    "order": "shifted_first",
+    "checkpoint": 8,
+    "name": "replay-shifted_first-8",
+    "prior_id": "replay-shifted_first-8"
+  },
+  {
+    "arm": "replay",
+    "order": "shifted_first",
+    "checkpoint": 16,
+    "name": "replay-shifted_first-16",
+    "prior_id": "replay-shifted_first-16"
+  },
+  {
+    "arm": "online",
+    "order": "shifted_first",
+    "checkpoint": 8,
+    "name": "online-shifted_first-8",
+    "prior_id": "online-shifted_first-8"
+  },
+  {
+    "arm": "online",
+    "order": "shifted_first",
+    "checkpoint": 16,
+    "name": "online-shifted_first-16",
+    "prior_id": "online-shifted_first-16"
+  }
+]
