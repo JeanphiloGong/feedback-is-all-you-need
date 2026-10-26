@@ -1088,3 +1088,27 @@ separately. All outcomes from development seeds remain exploratory.
   Cross-model CLI review was skipped. Collection, cost auditing, and formal
   execution are not verified by this checkpoint. Removed verification caches;
   no raw research evidence was removed.
+
+## 2026-10-26 UTC: local-context collection and boundary fixes
+
+- Added complete local/full collection with one shared initialization, two
+  persistent optimizers, both frozen controls, all six final arms and four
+  probes, checkpoint records, and distinct logical/physical input accounting.
+  Existing source/model/search files remain unchanged.
+- Independent review demonstrated two pre-collection gate defects using
+  synthetic fixtures: development could start before all formal environments
+  were validated, and a changed Torch version could start formal collection.
+  Now validate the complete ordered 33-environment grid and all checkpoint
+  compatibility before selecting a subset; enforce Torch 2.8.0+cu126 and exact
+  development runtime agreement. Follow-up review confirmed both fixes and
+  a valid formal handoff to mocked collection. No official data existed.
+- All eight collection tests pass on lens. They reject both incomplete/short
+  full-grid cases and both runtime mismatches, preserve flushed work and the
+  original exception, keep false accepted programs, isolate hidden evaluation,
+  and verify physical input counts against real model calls. Reviewer fixtures
+  additionally exercise accepted lengths 1/3/5 and interrupted replay. Temporary
+  fixtures were removed; cross-model CLI review was skipped.
+- This is a direct collector with experiment-specific records, no new generic
+  abstraction or compatibility layer. Full audit/analysis source is still
+  under development and outside this commit; no benchmark environment was
+  generated and no official run was launched.
