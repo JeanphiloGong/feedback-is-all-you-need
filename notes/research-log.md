@@ -690,3 +690,30 @@ separately. All outcomes from development seeds remain exploratory.
   No configuration, seed, task, or implementation changed after inspection.
 - Started the full 32-environment formal suite using the matching development
   audit. The audit did not trigger a design amendment or a favorable rerun.
+
+## 2026-10-26 UTC: formal cross-task compression outcomes
+
+- Completed all 32 environments once from source/data freeze c582467: 768
+  experience searches and 4,096 evaluation searches. Independent full-output
+  replay and exhaustive compression checks passed every search, memory, cost,
+  and score. Collection took 127.832 seconds; audit/analysis 429.540 seconds.
+  All 38 formal raw/audit files were archived byte-identically with a manifest.
+- Composition exact success is 258/512 none, 12/512 whole, 436/512 compressed,
+  and 75/512 renamed. The primary paired compressed-minus-whole effect is
+  +82.8125 points, t95 [77.1176, 88.5074], bootstrap95 [77.3438, 88.0859].
+  Every environment contrast is positive. No accepted evaluation program is
+  wrong on hidden inputs. All 768 experience solutions match their full functions.
+- The unfavorable distribution change is retained: shifted success is 256/512,
+  6/512, 51/512, and 62/512. Across the balanced evaluation mixture, compressed
+  memory solves 487/1,024 compared with 514/1,024 without memory. This result
+  concerns supplied symbolic search, learned flat representations, and deliberate
+  shared structure, not neural learning or general intelligence.
+- Shared experience costs 3,110,069 primitive operations. Each standalone memory
+  arm is charged this cost; the renamed arm also pays compression. Actual
+  collection uses 212,290,956 operations with experience counted once. All
+  library contents, storage, candidate counts, comparison costs, timings, and
+  budget curves are reported; the cap is not total FLOPs or lifetime compute.
+- Fresh results review independently checked outcomes, intervals, compression,
+  costs, and archive completeness and found no material issue. Cross-model CLI
+  review was skipped. No formal rerun, protocol amendment, software abstraction,
+  or compatibility layer was introduced in this results checkpoint.
