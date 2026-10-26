@@ -1,0 +1,143 @@
+{
+  "primary": {
+    "contrast": "rejection minus uniformizing",
+    "family": "balanced",
+    "budget": 65536,
+    "seeds": [
+      41
+    ],
+    "n": 1,
+    "differences": [
+      -0.03125
+    ],
+    "mean": -0.03125,
+    "negative": 1,
+    "zero": 0,
+    "positive": 0,
+    "confirmatory": false,
+    "ci95": null,
+    "bootstrap95": null
+  },
+  "final": [
+    {
+      "arm": "uniform",
+      "family": "composition",
+      "budget": 65536,
+      "environments": 1,
+      "tasks": 16,
+      "exact_count": 8,
+      "exact_rate": 0.5,
+      "false_acceptances": 0
+    },
+    {
+      "arm": "uniform",
+      "family": "shifted",
+      "budget": 65536,
+      "environments": 1,
+      "tasks": 16,
+      "exact_count": 8,
+      "exact_rate": 0.5,
+      "false_acceptances": 0
+    },
+    {
+      "arm": "uniform",
+      "family": "balanced",
+      "budget": 65536,
+      "environments": 1,
+      "tasks": 32,
+      "exact_count": 16,
+      "exact_rate": 0.5,
+      "false_acceptances": 0
+    },
+    {
+      "arm": "frozen",
+      "family": "composition",
+      "budget": 65536,
+      "environments": 1,
+      "tasks": 16,
+      "exact_count": 10,
+      "exact_rate": 0.625,
+      "false_acceptances": 0
+    },
+    {
+      "arm": "frozen",
+      "family": "shifted",
+      "budget": 65536,
+      "environments": 1,
+      "tasks": 16,
+      "exact_count": 0,
+      "exact_rate": 0.0,
+      "false_acceptances": 0
+    },
+    {
+      "arm": "frozen",
+      "family": "balanced",
+      "budget": 65536,
+      "environments": 1,
+      "tasks": 32,
+      "exact_count": 10,
+      "exact_rate": 0.3125,
+      "false_acceptances": 0
+    },
+    {
+      "arm": "uniformizing",
+      "family": "composition",
+      "budget": 65536,
+      "environments": 1,
+      "tasks": 16,
+      "exact_count": 8,
+      "exact_rate": 0.5,
+      "false_acceptances": 0
+    },
+    {
+      "arm": "uniformizing",
+      "family": "shifted",
+      "budget": 65536,
+      "environments": 1,
+      "tasks": 16,
+      "exact_count": 8,
+      "exact_rate": 0.5,
+      "false_acceptances": 0
+    },
+    {
+      "arm": "uniformizing",
+      "family": "balanced",
+      "budget": 65536,
+      "environments": 1,
+      "tasks": 32,
+      "exact_count": 16,
+      "exact_rate": 0.5,
+      "false_acceptances": 0
+    },
+    {
+      "arm": "rejection",
+      "family": "composition",
+      "budget": 65536,
+      "environments": 1,
+      "tasks": 16,
+      "exact_count": 9,
+      "exact_rate": 0.5625,
+      "false_acceptances": 0
+    },
+    {
+      "arm": "rejection",
+      "family": "shifted",
+      "budget": 65536,
+      "environments": 1,
+      "tasks": 16,
+      "exact_count": 6,
+      "exact_rate": 0.375,
+      "false_acceptances": 0
+    },
+    {
+      "arm": "rejection",
+      "family": "balanced",
+      "budget": 65536,
+      "environments": 1,
+      "tasks": 32,
+      "exact_count": 15,
+      "exact_rate": 0.46875,
+      "false_acceptances": 0
+    }
+  ]
+}
