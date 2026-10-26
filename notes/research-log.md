@@ -1816,3 +1816,32 @@ separately. All outcomes from development seeds remain exploratory.
   point. Removed the incomplete v16 build folder and final build intermediates
   after saving the inspected PDF. No tests were rerun for these prose/layout
   changes; statistical reconstruction and archive checks are recorded above.
+
+## 2026-10-26 UTC: encoding and unqueried-transition protocol
+
+- Study N separates physical feedback from supplied encoding by pairing each
+  fresh structured world with a random state relabeling and holding the query
+  transcript fixed. Half of transition pairs never enter learning. The primary
+  is the small model's canonical-minus-relabeled difference in learning gains
+  from initialization, with environment-paired inference; no new outcome has
+  been generated. This controlled identification study is not active exploration.
+- Fresh-context review identified six issues in the initial proposal. Replaced
+  the final-score primary with a learning-gain contrast, narrowed interpretation
+  to encoding sensitivity, added a uniform consistent-permutation expectation
+  and canonical signed-coordinate reference, required planner equivariance on
+  wrong graphs, pinned the inherited network, and specified incomplete-run
+  handling. A second review corrected the reason the ambiguity bound is loose:
+  overlapping events in a union bound, not lack of joint permutation matching.
+  The reviewer found no remaining material scientific issue after correction.
+- Independently enumerated all ten signed-coordinate rules: each has eight
+  rivals agreeing on exactly 16 inputs and one agreeing on none. The final
+  20-output ambiguity bound is 160 / choose(32,16) = 2.661874e-7. This highlights
+  how easy the canonical toy is with its family supplied, rather than serving
+  as evidence of new intelligence. Source/runtime and official data will be
+  frozen only after synthetic implementation checks and review.
+- Verified Sutton's 1990 ICML bibliographic record through Crossref. A guessed
+  AAAI PDF URL returned a different paper and was rejected after title checking;
+  the author's PDF host still failed with TLS EOF. Only metadata is archived,
+  with no full-text claim. Cross-model CLI review was skipped in this autonomous
+  continuation. No new code abstraction or temporary compatibility path was
+  introduced; no research evidence was deleted.
