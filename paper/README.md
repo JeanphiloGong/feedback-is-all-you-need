@@ -23,6 +23,7 @@ is borrowed from it.
 | [v13](versions/v13-local-context-and-transfer.pdf) | Adds a prospective comparison on 32 fresh environments: the same 1,172-parameter GRU with supplied local context solves 79.30% of compositions versus 24.22% with full prefixes. Shifted success is only 11.13%, and the balanced total remains below uniform search. Includes both frozen controls, every checkpoint, and distinct physical training/ranking costs. |
 | [v14](versions/v14-continued-feedback-and-transfer.pdf) | Adds continued weight updates across two task-family blocks on 32 fresh environments: balanced probe success rises from 43.75% frozen to 51.56%, with a primary gain of +7.81 points (95% CI [4.74, 10.88]). Composition success reaches 92.38%, while shifted success remains 10.74%. Includes initial-corpus replay, both stream orders, every probe checkpoint, and lifetime-resource accounting. |
 | [v15](versions/v15-failure-directed-weight-updates.pdf) | Adds direct failure-conditioned weight updates during task solving on 32 fresh environments. Rejection achieves 48.14% balanced success versus 50.59% for uniformizing updates: -2.44 points, 95% CI [-4.50, -0.38]. Every adaptive batch changes all 1,172 weights, but task resets preclude retained cross-task learning. Includes exact update/journal audits, all checkpoints, measured unequal costs, and the unlikelihood-training precedent. |
+| [v16](versions/v16-retained-predictive-learning.pdf) | Adds retained transition-model updates during action/goal interaction in 32 fresh seeds, each with two world families. A 485-parameter model rises from 23.22% to 100% structured-world held-out-goal success; a 1,925-parameter model also reaches 100%. The small-minus-large AUC primary is -0.247 points, 95% CI [-1.128, 0.633], without demonstrated superiority or equivalence. Includes every gradient/checkpoint, both world families, all eight arms, fixed learning curves, and unequal full costs. |
 
 All manuscripts are working drafts. The current results support conditional
 adaptation, not the sufficiency of feedback for general intelligence.
@@ -103,12 +104,24 @@ and resets weights between tasks. Finite Adam updates need not reduce the
 penalty monotonically. This is evidence against the fixed failure-loss
 intervention's advantage, not against every online learning mechanism.
 
+Study M in v16 retains learned next-state predictions, Adam moments, and
+observed-transition replay across goal episodes. Feedback after each action
+triggers actual gradients; evaluation holds weights fixed and tests new goal
+cues in the same world. All 69,632 adaptive batches change at least one
+parameter. Structured-world small/large AUCs are 0.914299/0.916772; the primary
+paired interval spans zero. Random-world final success is 85.22%/97.09%.
+The supplied encoding and planner contribute capability, and equal training
+matrix MACs do not equalize complete computation. These results demonstrate
+useful retained learning in a finite domain, without a claim of feedback
+sufficiency, small-model superiority, or general intelligence. Full evidence
+and journal restoration instructions are in the [Study M archive](../results/study-m-v1/README.md).
+
 From the repository root, compile a version twice to resolve citations:
 
 ```bash
 mkdir -p paper/build
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=paper/build \
-  paper/versions/v15-failure-directed-weight-updates.tex
+  paper/versions/v16-retained-predictive-learning.tex
 ```
 
 Compiled files in `paper/versions/` are inspected snapshots. `paper/build/`

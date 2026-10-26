@@ -1795,7 +1795,24 @@ separately. All outcomes from development seeds remain exploratory.
   GitHub's per-file size limit; exact round-trip/hash checks passed. The
   restored local journal is ignored by Git, and restoration precedes replay.
 - No experiment abstraction or compatibility layer was added. The figure
-  script directly reads the audited summary; all eight controls and five
+  script directly reads the audited summary; all eight arms and five
   checkpoints are shown. No research evidence was deleted or outcome used
   to retune the experiment. Interpretation remains limited to a supplied
   representation/planner with dense feedback in stationary finite worlds.
+
+## 2026-10-26 UTC: manuscript v16
+
+- Added the retained transition-learning methods, formal outcomes, learning
+  curves, resource accounting, and limitations to v16. The abstract and
+  conclusion distinguish useful within-world adaptation from the unsupported
+  small-model superiority claim and from general intelligence. Prior versions
+  remain intact; manuscript and repository navigation now include Study M.
+- Checked the new numbers against the audited summary and reviewed the full
+  rendered document at overview scale plus the changed methods, result,
+  limitation, conclusion, and reference pages in detail. The final 46-page
+  PDF compiles with no LaTeX warnings, unresolved references, or overfull boxes.
+  The figure was enlarged for legible embedded labels and inspected again.
+- No experiment code or new abstraction was added in this manuscript save
+  point. Removed the incomplete v16 build folder and final build intermediates
+  after saving the inspected PDF. No tests were rerun for these prose/layout
+  changes; statistical reconstruction and archive checks are recorded above.

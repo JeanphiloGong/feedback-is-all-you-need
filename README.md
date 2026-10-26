@@ -58,10 +58,10 @@ feedback system than as a static parameter store.
 ## Current status
 
 The hypothesis has now been tested in controlled classification, pretrained
-language-model, and symbolic program-search studies. Results support conditional adaptation, but do not
+language-model, symbolic program-search, and action-world studies. Results support conditional adaptation, but do not
 establish feedback sufficiency for general intelligence.
 
-- [Manuscript versions](paper/README.md): v0 hypothesis through v15, including
+- [Manuscript versions](paper/README.md): v0 hypothesis through v16, including
   audited results, pretrained models, response budgets, online updates, and
   checked rule revision, complete correction history, and explicit separation
   of candidate generation from external selection, cross-task fragment reuse,
@@ -69,7 +69,8 @@ establish feedback sufficiency for general intelligence.
   diagnostics separating experience fitting from transfer likelihood, and
   a prospective local-context intervention with distribution-specific gains,
   and continued weight updates with untouched transfer probes, followed by
-  direct failure-conditioned updates during task solving.
+  direct failure-conditioned updates during task solving and predictive
+  weights retained across goal episodes.
 - [Study A replication](results/study-a-v2/README.md): 20 seeds, four capacities,
   seven feedback conditions; all 19,200 records retained.
 - [Study B results](results/study-b-v1/README.md): four Qwen2.5 sizes, 24 new
@@ -130,6 +131,14 @@ establish feedback sufficiency for general intelligence.
   improve the primary endpoint. Weights reset for each task; the result does
   not measure cross-task retention. Full journals, checkpoints, and unequal
   lifetime costs are archived.
+- [Study M results](results/study-m-v1/README.md): a 485-parameter predictor
+  updates after action outcomes and retains weights across goal episodes.
+  Structured-world held-out-goal success rises from 23.22% to 100%; the
+  1,925-parameter model also reaches 100%. The small-minus-large AUC primary
+  is -0.247 points (95% CI [-1.128, 0.633]), without demonstrated superiority
+  or equivalence. Random-world final scores are 85.22% and 97.09%.
+  All gradients and checkpoints were replayed on lens; supplied encoding,
+  replay memory, planning, and same-world dynamics limit the interpretation.
 - [Full-text literature review](notes/full-text-review.md): methods and limits
   of eleven close precedents, including Reward is enough, DreamCoder, ExpeL,
   the Era of Experience, and unlikelihood training.
