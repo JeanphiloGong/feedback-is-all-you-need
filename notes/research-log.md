@@ -1470,3 +1470,36 @@ separately. All outcomes from development seeds remain exploratory.
   was skipped. No architectural abstraction or compatibility layer was added;
   temporary test directories clean themselves up. Audit implementation remains
   a separate uncommitted slice.
+
+## 2026-10-26 UTC: failure-update audit and inference freeze
+
+- Added independent tensor/Adam replay, NumPy GRU crosschecks, full-function
+  arithmetic reconstruction of interrupted checks, complete ordered journals,
+  file coverage, source/data/runtime checks, and paired environment inference.
+  The sole primary compares rejection with uniformizing; fixed lower budgets
+  follow the observed full-budget path. Standalone costs charge necessary
+  initial learning once and all required task adaptation, with measured journal
+  overhead separated and research archives retained in actual totals.
+- Numerical/search review found no issue after 27,962 synthetic event/state
+  comparisons, 35 exhaustive ordering comparisons over all 349,525 legal
+  programs, and 45 exact loss/model/Adam/table comparisons. Separate statistical
+  review reproduced paired t intervals, bootstrap seed 977, degenerate cases,
+  shared initial costs, and journal accounting on hand-built formal fixtures.
+  Those reviewer checks used local Torch 2.5.1+cu124, not official task runs.
+- Evidence review identified incomplete development-attestation coverage and
+  newline normalization hiding changed journal bytes. The gate now derives
+  every required round, intermediate checkpoint, and rebuilt table from final
+  operation counts and step progression, reconciles gradient totals, and
+  requires exact manifest/checkpoint coverage. It remains an explicitly
+  controlled attestation rather than an authentication mechanism. Raw-byte
+  journal reading detects CRLF changes. Targeted follow-up reviews confirmed
+  both fixes, including boundary acceptance and zero-step updates.
+- The 26-test intermediate suite passed on lens in 5.390 seconds. After the
+  final coverage correction, all ten audit tests passed; together the core,
+  collector, and audit checks contain 27 tests. Synthetic corruptions include
+  altered tensors, Adam state, failures, partial states, tables/orders, scores,
+  durations, files, empty/omitted development evidence, and newline conversions.
+  No official Study L data or outcome exists before this freeze. Cross-model
+  CLI review was skipped. Added direct audit/analysis and one shared certificate
+  boundary check, no architectural abstraction or compatibility layer. Temporary
+  fixture directories clean themselves up; local Study L bytecode was removed.

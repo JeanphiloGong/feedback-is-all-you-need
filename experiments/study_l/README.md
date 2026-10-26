@@ -45,3 +45,37 @@ file opening/closing, directories, and run metadata remain collection overhead;
 phase sums are instrumented measurements, not pure-compute benchmarks.
 Update journals are stored per environment so the complete fixed grid does
 not put its potentially hundreds of thousands of steps into one oversized file.
+
+The development certificate is a controlled audit-tool attestation. Its gate
+checks source/data/runtime, full required search/file/checkpoint coverage, and
+step totals reconciled with final checkpoints. It is not a signature proving
+who authored a certificate; execution and transfer retain the real development
+archive. Journal byte checks read raw bytes so newline conversions cannot hide
+changed physical storage behind text-mode normalization.
+
+The independent auditor reconstructs initial tensors, every Adam update,
+rejection losses, NumPy GRU probabilities, complete ranked orders, and partial
+checks using full functions and arithmetic. It verifies exact journal order,
+all files, raw byte counts, source/data/runtime gates, and timing consistency.
+The formal development gate requires every intermediate checkpoint, round,
+and rebuilt table implied by its final step and operation counters.
+
+```bash
+python -m unittest discover -s experiments/study_l -p 'test_*.py' -v
+python -m experiments.study_l.run --development \
+  --source-revision SOURCE_COMMIT --output runs/study-l-development
+python -m experiments.study_l.analyze --input runs/study-l-development \
+  --output runs/study-l-development-audit
+python -m experiments.study_l.run --source-revision SOURCE_COMMIT \
+  --output runs/study-l-formal \
+  --development-audit runs/study-l-development-audit/audit.json
+python -m experiments.study_l.analyze --input runs/study-l-formal \
+  --output runs/study-l-formal-audit
+```
+
+Analysis follows a passing full audit. The single primary uses 32 environment
+means, with equal composition/shifted weight and fixed bootstrap seed 977.
+Other comparators, families, and lower operation budgets are descriptive.
+Task-specific updates do not establish retained capability on a later goal;
+new ranking, rejection records, supplied search, and additional computation
+remain part of the measured system.

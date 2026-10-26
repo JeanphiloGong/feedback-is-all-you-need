@@ -46,6 +46,63 @@ def source_hashes():
     return {str(path.relative_to(ROOT)): hashlib.sha256(path.read_bytes()).hexdigest() for path in paths}
 
 
+def check_development_evidence(certificate, environment):
+    """Require complete coverage from the controlled audit-tool attestation."""
+    root = f'seed-{environment["seed"]}'
+    required = {'metadata.json', 'environments.json', 'active-phase.json',
+                'searches.jsonl', 'evaluations.jsonl', 'phases.jsonl',
+                f'{root}/updates.jsonl', f'{root}/base-table.json',
+                f'{root}/uniform-order.json', f'{root}/frozen-order.json'}
+    experiences = len(environment['tasks']['experience'])
+    checkpoints = {f'{root}/random.pt'} | {f'{root}/experience-{i}.pt' for i in range(1, experiences + 1)}
+    recorded = {row['file']: row for row in certificate['checkpoints']}
+    final_files, transfer_count = [], 0
+    for arm in ARMS:
+        for family in ('composition', 'shifted'):
+            for task in environment['tasks'][family]:
+                directory = f'{root}/{arm}/{task["id"]}'
+                required.add(f'{directory}/candidates.jsonl')
+                transfer_count += 1
+                if arm in ('uniformizing', 'rejection'):
+                    initial, final = f'{directory}/initial.pt', f'{directory}/final.pt'
+                    checkpoints.update((initial, final))
+                    final_files.append(final)
+                    if initial not in recorded or final not in recorded:
+                        raise ValueError('Development audit must contain complete search, file, and checkpoint evidence.')
+                    if recorded[initial]['at'] != 0 or recorded[initial]['steps'] != 0:
+                        raise ValueError('Development task checkpoints must start without feedback steps.')
+                    final_at = recorded[final]['at']
+                    if not 0 <= final_at <= BUDGET:
+                        raise ValueError('Development task checkpoint exceeds the operation budget.')
+                    required.add(f'{directory}/round-0.json')
+                    previous_steps = 0
+                    for index, boundary in enumerate(range(INTERVAL, final_at, INTERVAL), 1):
+                        name = f'{directory}/after-{boundary}.pt'
+                        checkpoints.add(name)
+                        required.add(f'{directory}/round-{index}.json')
+                        if name not in recorded:
+                            raise ValueError('Development audit is missing an intermediate checkpoint.')
+                        steps = recorded[name]['steps']
+                        if recorded[name]['at'] != boundary or steps - previous_steps not in (0, STEPS):
+                            raise ValueError('Development checkpoint steps must follow the update schedule.')
+                        if steps > previous_steps:
+                            required.add(f'{directory}/table-{index}.json')
+                        previous_steps = steps
+                    if recorded[final]['steps'] != previous_steps:
+                        raise ValueError('Development final steps must match the last update checkpoint.')
+    required.update(checkpoints)
+    initial_final = f'{root}/experience-{experiences}.pt' if experiences else f'{root}/random.pt'
+    if (certificate['searches'] != experiences + transfer_count
+            or certificate['candidate_events'] < transfer_count
+            or set(certificate['files']) != required
+            or set(recorded) != checkpoints
+            or len(recorded) != len(certificate['checkpoints'])):
+        raise ValueError('Development audit must contain complete search, file, and checkpoint evidence.')
+    total_steps = recorded[initial_final]['steps'] + sum(recorded[name]['steps'] for name in final_files)
+    if certificate['gradient_steps'] != total_steps:
+        raise ValueError('Development gradient count must match all final checkpoint steps.')
+
+
 def save_checkpoint(path, model, optimizer, details, key, phases, active):
     active.write_text(json.dumps(dict(stage='checkpoint', **key)))
     started = time.perf_counter()
@@ -362,6 +419,7 @@ def main():
                     or audit['source_sha256'] != hashes or audit['data_sha256'] != data_hash
                     or audit['runtime'] != runtime):
                 raise ValueError('Development audit must match source, data, and runtime.')
+            check_development_evidence(audit, frozen[0])
             (args.output / 'development-audit.json').write_bytes(certificate)
         seeds = [DEVELOPMENT_SEED] if args.development else list(FORMAL_SEEDS)
         environments = [row for row in frozen if row['seed'] in seeds]
