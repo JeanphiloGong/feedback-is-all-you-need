@@ -1050,3 +1050,22 @@ separately. All outcomes from development seeds remain exploratory.
   No code abstraction or compatibility layer was added. Removed v12 build and
   render intermediates; no raw diagnostic or historical evidence was removed.
   No model or experiment rerun was needed for this documentation-only update.
+
+## 2026-10-26 UTC: local-context prior protocol
+
+- After v12, specified a fresh-environment intervention comparing full-prefix
+  and last-two-token prediction with identical 1,172-parameter GRU tensors,
+  initial values, accepted experience, targets, and update counts. Local
+  prediction resets recurrent state; its gradient paths and actual computation
+  differ and are explicitly measured. This tests a supplied context restriction,
+  not the identified cause of Study I's regression.
+- The single primary contrast is local-trained minus full-trained composition
+  success. Uniform, counts, both frozen controls, shifted/balanced outcomes,
+  and both learners' intermediate probes remain mandatory descriptions.
+  Beating the full-prefix arm alone cannot establish useful learning or an
+  advantage over uniform. Development seed 31 and formal 12000–12031 are fixed;
+  no new environments or outcomes were generated before this protocol freeze.
+- Fresh independent review found no substantive issue against the original
+  generator, model, search, and audit contracts. Cross-model CLI review was
+  skipped. Implementation and execution remain unverified. This plan adds no
+  code abstraction or compatibility layer and requires no cleanup.
