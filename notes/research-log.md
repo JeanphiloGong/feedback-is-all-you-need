@@ -1606,3 +1606,16 @@ separately. All outcomes from development seeds remain exploratory.
   source and PDF. Private repository status was verified before push. The
   broader research goal remains active; this manuscript is an evidence
   checkpoint, not proof of feedback sufficiency.
+
+## 2026-10-26 UTC: private evidence push retry
+
+- The first GitHub push disconnected during local delta packing, before
+  remote completion. Stopped the disconnected push and its pack process,
+  preserving all commits and research records.
+- Retried with the per-command option `pack.window=0` to avoid expensive
+  delta search before transfer; no repository setting or tracked file was
+  changed by that option. Final remote verification is recorded below.
+- The retry succeeded, and the remote main ref matches manuscript commit
+  `c0b922c`. The complete raw archive, reviewed result interpretation, reference,
+  and v15 are present in the private repository. The worktree was clean after
+  verification. This retry changed neither experimental evidence nor history.
