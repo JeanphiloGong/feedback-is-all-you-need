@@ -1534,3 +1534,24 @@ separately. All outcomes from development seeds remain exploratory.
   unchanged 32-environment formal grid with the matching audit certificate.
 - This archive adds no abstraction or compatibility layer. No official failed
   attempt occurred, and no original research evidence was removed.
+
+## 2026-10-26 UTC: failure-update formal evidence archive
+
+- The unchanged 32-environment grid completed on lens in 985.204 seconds;
+  independent audit/analysis passed in 688.739 seconds. It reconstructed
+  4,864 searches, 342,416 gradient steps, 25,936,224 candidate/boundary events,
+  and every model/Adam checkpoint. Study L used one CPU thread, not the GPU.
+- Verified all 73,076 host raw/audit files, 5,442,329,227 bytes, and all 73,074
+  auditor raw-file records after transfer. An early local verification attempt
+  found the manifest absent while extraction was still running; it made no
+  changes. Verification was run after successful extraction and passed.
+- Separate local reconstruction imports no experiment implementation and
+  matches 1,152 outcome cells, 36 aggregates, nine contrasts, both primary
+  intervals, 128 standalone cost cells, and key actual totals. Its script and
+  output are retained, including the matching development reconstruction.
+- Primary rejection minus uniformizing is -2.4414 points, t95
+  [-4.4998, -0.3830], bootstrap95 [-4.4946, -0.6836]. There were no official
+  failed attempts or changes to source, data, seeds, budgets, or objectives.
+  This archive adds no architectural abstraction or compatibility layer and
+  removes no research evidence. Scientific interpretation remains a separate
+  reviewable change.

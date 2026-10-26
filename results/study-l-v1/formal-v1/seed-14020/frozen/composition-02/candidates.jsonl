@@ -1,0 +1,233 @@
+{"round": 0, "status": "rejected", "program": [], "example_index": 0, "output": 13, "target": 3, "primitive_ops": 0, "comparisons": 1}
+{"round": 0, "status": "rejected", "program": [1], "example_index": 0, "output": 11, "target": 3, "primitive_ops": 1, "comparisons": 2}
+{"round": 0, "status": "rejected", "program": [0], "example_index": 0, "output": 5, "target": 3, "primitive_ops": 2, "comparisons": 3}
+{"round": 0, "status": "rejected", "program": [2], "example_index": 0, "output": 9, "target": 3, "primitive_ops": 3, "comparisons": 4}
+{"round": 0, "status": "rejected", "program": [0, 0], "example_index": 0, "output": 13, "target": 3, "primitive_ops": 5, "comparisons": 5}
+{"round": 0, "status": "rejected", "program": [1, 1], "example_index": 0, "output": 8, "target": 3, "primitive_ops": 7, "comparisons": 6}
+{"round": 0, "status": "rejected", "program": [1, 1, 0], "example_index": 0, "output": 15, "target": 3, "primitive_ops": 10, "comparisons": 7}
+{"round": 0, "status": "rejected", "program": [3], "example_index": 0, "output": 15, "target": 3, "primitive_ops": 11, "comparisons": 8}
+{"round": 0, "status": "rejected", "program": [1, 0], "example_index": 0, "output": 0, "target": 3, "primitive_ops": 13, "comparisons": 9}
+{"round": 0, "status": "rejected", "program": [2, 0], "example_index": 0, "output": 11, "target": 3, "primitive_ops": 15, "comparisons": 10}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 0], "example_index": 0, "output": 12, "target": 3, "primitive_ops": 19, "comparisons": 11}
+{"round": 0, "status": "rejected", "program": [0, 3], "example_index": 0, "output": 5, "target": 3, "primitive_ops": 21, "comparisons": 12}
+{"round": 0, "status": "rejected", "program": [3, 0], "example_index": 0, "output": 12, "target": 3, "primitive_ops": 23, "comparisons": 13}
+{"round": 0, "status": "rejected", "program": [1, 0, 0], "example_index": 2, "output": 9, "target": 12, "primitive_ops": 32, "comparisons": 16}
+{"round": 0, "status": "rejected", "program": [0, 0, 3], "example_index": 0, "output": 15, "target": 3, "primitive_ops": 35, "comparisons": 17}
+{"round": 0, "status": "rejected", "program": [2, 0, 3], "example_index": 0, "output": 1, "target": 3, "primitive_ops": 38, "comparisons": 18}
+{"round": 0, "status": "rejected", "program": [1, 3], "example_index": 0, "output": 1, "target": 3, "primitive_ops": 40, "comparisons": 19}
+{"round": 0, "status": "rejected", "program": [1, 3, 3], "example_index": 0, "output": 9, "target": 3, "primitive_ops": 43, "comparisons": 20}
+{"round": 0, "status": "rejected", "program": [0, 3, 1], "example_index": 0, "output": 14, "target": 3, "primitive_ops": 46, "comparisons": 21}
+{"round": 0, "status": "rejected", "program": [0, 0, 2], "example_index": 0, "output": 9, "target": 3, "primitive_ops": 49, "comparisons": 22}
+{"round": 0, "status": "rejected", "program": [2, 3], "example_index": 0, "output": 4, "target": 3, "primitive_ops": 51, "comparisons": 23}
+{"round": 0, "status": "rejected", "program": [2, 1], "example_index": 0, "output": 2, "target": 3, "primitive_ops": 53, "comparisons": 24}
+{"round": 0, "status": "rejected", "program": [3, 0, 2], "example_index": 0, "output": 15, "target": 3, "primitive_ops": 56, "comparisons": 25}
+{"round": 0, "status": "rejected", "program": [0, 0, 2, 1], "example_index": 0, "output": 2, "target": 3, "primitive_ops": 60, "comparisons": 26}
+{"round": 0, "status": "rejected", "program": [0, 0, 3, 1], "example_index": 0, "output": 1, "target": 3, "primitive_ops": 64, "comparisons": 27}
+{"round": 0, "status": "rejected", "program": [2, 0, 3, 1], "example_index": 0, "output": 15, "target": 3, "primitive_ops": 68, "comparisons": 28}
+{"round": 0, "status": "rejected", "program": [3, 0, 2, 1], "example_index": 0, "output": 1, "target": 3, "primitive_ops": 72, "comparisons": 29}
+{"round": 0, "status": "rejected", "program": [1, 3, 3, 1], "example_index": 0, "output": 2, "target": 3, "primitive_ops": 76, "comparisons": 30}
+{"round": 0, "status": "rejected", "program": [3, 3], "example_index": 0, "output": 11, "target": 3, "primitive_ops": 78, "comparisons": 31}
+{"round": 0, "status": "rejected", "program": [2, 3, 3], "example_index": 0, "output": 12, "target": 3, "primitive_ops": 81, "comparisons": 32}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 0, 3], "example_index": 0, "output": 10, "target": 3, "primitive_ops": 86, "comparisons": 33}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 2], "example_index": 0, "output": 1, "target": 3, "primitive_ops": 90, "comparisons": 34}
+{"round": 0, "status": "rejected", "program": [3, 3, 1], "example_index": 0, "output": 8, "target": 3, "primitive_ops": 93, "comparisons": 35}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 2, 1], "example_index": 0, "output": 15, "target": 3, "primitive_ops": 98, "comparisons": 36}
+{"round": 0, "status": "rejected", "program": [0, 0, 1], "example_index": 0, "output": 11, "target": 3, "primitive_ops": 101, "comparisons": 37}
+{"round": 0, "status": "rejected", "program": [1, 0, 0, 3], "example_index": 0, "output": 6, "target": 3, "primitive_ops": 105, "comparisons": 38}
+{"round": 0, "status": "rejected", "program": [2, 3, 3, 1], "example_index": 0, "output": 9, "target": 3, "primitive_ops": 109, "comparisons": 39}
+{"round": 0, "status": "rejected", "program": [1, 0, 2], "example_index": 0, "output": 10, "target": 3, "primitive_ops": 112, "comparisons": 40}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 0, 2], "example_index": 0, "output": 15, "target": 3, "primitive_ops": 117, "comparisons": 41}
+{"round": 0, "status": "rejected", "program": [1, 0, 2, 1], "example_index": 0, "output": 10, "target": 3, "primitive_ops": 121, "comparisons": 42}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 0, 2, 1], "example_index": 0, "output": 1, "target": 3, "primitive_ops": 127, "comparisons": 43}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 0, 3, 1], "example_index": 0, "output": 10, "target": 3, "primitive_ops": 133, "comparisons": 44}
+{"round": 0, "status": "rejected", "program": [2, 0, 2], "example_index": 0, "output": 12, "target": 3, "primitive_ops": 136, "comparisons": 45}
+{"round": 0, "status": "rejected", "program": [0, 3, 1, 2], "example_index": 0, "output": 11, "target": 3, "primitive_ops": 140, "comparisons": 46}
+{"round": 0, "status": "rejected", "program": [1, 0, 0, 2], "example_index": 0, "output": 6, "target": 3, "primitive_ops": 144, "comparisons": 47}
+{"round": 0, "status": "rejected", "program": [0, 0, 1, 0], "example_index": 0, "output": 0, "target": 3, "primitive_ops": 148, "comparisons": 48}
+{"round": 0, "status": "rejected", "program": [2, 0, 2, 1], "example_index": 0, "output": 9, "target": 3, "primitive_ops": 152, "comparisons": 49}
+{"round": 0, "status": "rejected", "program": [0, 1], "example_index": 0, "output": 14, "target": 3, "primitive_ops": 154, "comparisons": 50}
+{"round": 0, "status": "rejected", "program": [3, 0, 3], "example_index": 0, "output": 10, "target": 3, "primitive_ops": 157, "comparisons": 51}
+{"round": 0, "status": "rejected", "program": [0, 3, 3], "example_index": 0, "output": 5, "target": 3, "primitive_ops": 160, "comparisons": 52}
+{"round": 0, "status": "rejected", "program": [1, 0, 0, 2, 1], "example_index": 0, "output": 0, "target": 3, "primitive_ops": 165, "comparisons": 53}
+{"round": 0, "status": "rejected", "program": [1, 0, 0, 3, 1], "example_index": 0, "output": 0, "target": 3, "primitive_ops": 170, "comparisons": 54}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 3], "example_index": 0, "output": 11, "target": 3, "primitive_ops": 174, "comparisons": 55}
+{"round": 0, "status": "rejected", "program": [0, 0, 3, 1, 2], "example_index": 0, "output": 14, "target": 3, "primitive_ops": 179, "comparisons": 56}
+{"round": 0, "status": "rejected", "program": [0, 0, 0], "example_index": 0, "output": 5, "target": 3, "primitive_ops": 182, "comparisons": 57}
+{"round": 0, "status": "rejected", "program": [2, 0, 3, 1, 2], "example_index": 0, "output": 1, "target": 3, "primitive_ops": 187, "comparisons": 58}
+{"round": 0, "status": "rejected", "program": [0, 0, 3, 3], "example_index": 0, "output": 11, "target": 3, "primitive_ops": 191, "comparisons": 59}
+{"round": 0, "status": "rejected", "program": [1, 3, 3, 1, 2], "example_index": 0, "output": 8, "target": 3, "primitive_ops": 196, "comparisons": 60}
+{"round": 0, "status": "rejected", "program": [2, 0, 3, 3], "example_index": 0, "output": 9, "target": 3, "primitive_ops": 200, "comparisons": 61}
+{"round": 0, "status": "rejected", "program": [0, 1, 0], "example_index": 0, "output": 14, "target": 3, "primitive_ops": 203, "comparisons": 62}
+{"round": 0, "status": "rejected", "program": [1, 0, 3], "example_index": 0, "output": 8, "target": 3, "primitive_ops": 206, "comparisons": 63}
+{"round": 0, "status": "rejected", "program": [0, 3, 3, 1], "example_index": 0, "output": 14, "target": 3, "primitive_ops": 210, "comparisons": 64}
+{"round": 0, "status": "rejected", "program": [2, 1, 1], "example_index": 0, "output": 12, "target": 3, "primitive_ops": 213, "comparisons": 65}
+{"round": 0, "status": "rejected", "program": [0, 0, 2, 1, 1], "example_index": 0, "output": 12, "target": 3, "primitive_ops": 218, "comparisons": 66}
+{"round": 0, "status": "rejected", "program": [2, 1, 2], "example_index": 0, "output": 8, "target": 3, "primitive_ops": 221, "comparisons": 67}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 0, 1], "example_index": 0, "output": 9, "target": 3, "primitive_ops": 226, "comparisons": 68}
+{"round": 0, "status": "rejected", "program": [3, 0, 3, 1], "example_index": 0, "output": 10, "target": 3, "primitive_ops": 230, "comparisons": 69}
+{"round": 0, "status": "rejected", "program": [0, 0, 2, 1, 2], "example_index": 0, "output": 8, "target": 3, "primitive_ops": 235, "comparisons": 70}
+{"round": 0, "status": "rejected", "program": [2, 1, 1, 0], "example_index": 0, "output": 2, "target": 3, "primitive_ops": 239, "comparisons": 71}
+{"round": 0, "status": "rejected", "program": [3, 0, 2, 1, 1], "example_index": 0, "output": 15, "target": 3, "primitive_ops": 244, "comparisons": 72}
+{"round": 0, "status": "rejected", "program": [0, 0, 3, 3, 1], "example_index": 0, "output": 8, "target": 3, "primitive_ops": 249, "comparisons": 73}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 3, 1], "example_index": 0, "output": 8, "target": 3, "primitive_ops": 254, "comparisons": 74}
+{"round": 0, "status": "rejected", "program": [0, 0, 2, 1, 1, 0], "example_index": 0, "output": 2, "target": 3, "primitive_ops": 260, "comparisons": 75}
+{"round": 0, "status": "rejected", "program": [2, 0, 3, 3, 1], "example_index": 0, "output": 2, "target": 3, "primitive_ops": 265, "comparisons": 76}
+{"round": 0, "status": "rejected", "program": [0, 3, 1, 0], "example_index": 0, "output": 14, "target": 3, "primitive_ops": 269, "comparisons": 77}
+{"round": 0, "status": "rejected", "program": [2, 1, 0], "example_index": 0, "output": 8, "target": 3, "primitive_ops": 272, "comparisons": 78}
+{"round": 0, "status": "rejected", "program": [0, 0, 1, 0, 0], "example_index": 1, "output": 7, "target": 15, "primitive_ops": 282, "comparisons": 80}
+{"round": 0, "status": "rejected", "program": [3, 0, 2, 1, 2], "example_index": 0, "output": 14, "target": 3, "primitive_ops": 287, "comparisons": 81}
+{"round": 0, "status": "rejected", "program": [3, 3, 1, 2], "example_index": 0, "output": 0, "target": 3, "primitive_ops": 291, "comparisons": 82}
+{"round": 0, "status": "rejected", "program": [0, 3, 1, 1], "example_index": 1, "output": 1, "target": 15, "primitive_ops": 299, "comparisons": 84}
+{"round": 0, "status": "rejected", "program": [0, 0, 2, 1, 0], "example_index": 0, "output": 8, "target": 3, "primitive_ops": 304, "comparisons": 85}
+{"round": 0, "status": "rejected", "program": [3, 0, 2, 1, 1, 0], "example_index": 0, "output": 12, "target": 3, "primitive_ops": 310, "comparisons": 86}
+{"round": 0, "status": "rejected", "program": [1, 0, 0, 1], "example_index": 0, "output": 13, "target": 3, "primitive_ops": 314, "comparisons": 87}
+{"round": 0, "status": "rejected", "program": [3, 0, 2, 1, 0], "example_index": 0, "output": 6, "target": 3, "primitive_ops": 319, "comparisons": 88}
+{"round": 0, "status": "rejected", "program": [0, 0, 3, 1, 0], "example_index": 0, "output": 6, "target": 3, "primitive_ops": 324, "comparisons": 89}
+{"round": 0, "status": "rejected", "program": [0, 3, 1, 1, 0], "example_index": 0, "output": 4, "target": 3, "primitive_ops": 329, "comparisons": 90}
+{"round": 0, "status": "rejected", "program": [2, 3, 1], "example_index": 0, "output": 5, "target": 3, "primitive_ops": 332, "comparisons": 91}
+{"round": 0, "status": "rejected", "program": [2, 0, 3, 1, 0], "example_index": 0, "output": 12, "target": 3, "primitive_ops": 337, "comparisons": 92}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 0, 1, 0], "example_index": 0, "output": 11, "target": 3, "primitive_ops": 343, "comparisons": 93}
+{"round": 0, "status": "rejected", "program": [2, 3, 3, 1, 2], "example_index": 2, "output": 8, "target": 12, "primitive_ops": 358, "comparisons": 96}
+{"round": 0, "status": "rejected", "program": [0, 0, 3, 1, 1], "example_index": 0, "output": 15, "target": 3, "primitive_ops": 363, "comparisons": 97}
+{"round": 0, "status": "rejected", "program": [1, 0, 3, 1], "example_index": 0, "output": 4, "target": 3, "primitive_ops": 367, "comparisons": 98}
+{"round": 0, "status": "rejected", "program": [2, 0, 3, 1, 1], "example_index": 0, "output": 1, "target": 3, "primitive_ops": 372, "comparisons": 99}
+{"round": 0, "status": "rejected", "program": [0, 3, 1, 2, 3], "example_index": 0, "output": 1, "target": 3, "primitive_ops": 377, "comparisons": 100}
+{"round": 0, "status": "rejected", "program": [1, 3, 3, 1, 0], "example_index": 0, "output": 8, "target": 3, "primitive_ops": 382, "comparisons": 101}
+{"round": 0, "status": "rejected", "program": [1, 3, 3, 1, 1], "example_index": 0, "output": 12, "target": 3, "primitive_ops": 387, "comparisons": 102}
+{"round": 0, "status": "rejected", "program": [0, 0, 3, 1, 1, 0], "example_index": 0, "output": 12, "target": 3, "primitive_ops": 393, "comparisons": 103}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 0, 3, 1, 2], "example_index": 0, "output": 2, "target": 3, "primitive_ops": 400, "comparisons": 104}
+{"round": 0, "status": "rejected", "program": [2, 0, 3, 1, 1, 0], "example_index": 0, "output": 6, "target": 3, "primitive_ops": 406, "comparisons": 105}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 0, 0], "example_index": 0, "output": 2, "target": 3, "primitive_ops": 411, "comparisons": 106}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 2, 1, 1], "example_index": 0, "output": 1, "target": 3, "primitive_ops": 417, "comparisons": 107}
+{"round": 0, "status": "rejected", "program": [0, 1, 0, 0], "example_index": 0, "output": 14, "target": 3, "primitive_ops": 421, "comparisons": 108}
+{"round": 0, "status": "rejected", "program": [1, 2], "example_index": 0, "output": 12, "target": 3, "primitive_ops": 423, "comparisons": 109}
+{"round": 0, "status": "rejected", "program": [0, 0, 3, 1, 2, 3], "example_index": 0, "output": 14, "target": 3, "primitive_ops": 429, "comparisons": 110}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 2, 1, 2], "example_index": 0, "output": 1, "target": 3, "primitive_ops": 435, "comparisons": 111}
+{"round": 0, "status": "rejected", "program": [1, 3, 3, 3], "example_index": 0, "output": 4, "target": 3, "primitive_ops": 439, "comparisons": 112}
+{"round": 0, "status": "rejected", "program": [2, 0, 3, 1, 2, 3], "example_index": 0, "output": 9, "target": 3, "primitive_ops": 445, "comparisons": 113}
+{"round": 0, "status": "rejected", "program": [1, 3, 3, 1, 1, 0], "example_index": 0, "output": 2, "target": 3, "primitive_ops": 451, "comparisons": 114}
+{"round": 0, "status": "rejected", "program": [1, 0, 0, 1, 0], "example_index": 0, "output": 5, "target": 3, "primitive_ops": 456, "comparisons": 115}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 0, 3, 3], "example_index": 0, "output": 7, "target": 3, "primitive_ops": 462, "comparisons": 116}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 2, 1, 1, 0], "example_index": 0, "output": 6, "target": 3, "primitive_ops": 469, "comparisons": 117}
+{"round": 0, "status": "rejected", "program": [2, 1, 1, 0, 0], "example_index": 0, "output": 8, "target": 3, "primitive_ops": 474, "comparisons": 118}
+{"round": 0, "status": "rejected", "program": [1, 3, 3, 1, 2, 3], "example_index": 1, "output": 14, "target": 15, "primitive_ops": 486, "comparisons": 120}
+{"round": 0, "status": "rejected", "program": [0, 2], "example_index": 0, "output": 4, "target": 3, "primitive_ops": 488, "comparisons": 121}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 2, 1, 0], "example_index": 0, "output": 12, "target": 3, "primitive_ops": 494, "comparisons": 122}
+{"round": 0, "status": "rejected", "program": [0, 0, 2, 1, 1, 0, 0], "example_index": 0, "output": 8, "target": 3, "primitive_ops": 501, "comparisons": 123}
+{"round": 0, "status": "rejected", "program": [0, 3, 1, 0, 0], "example_index": 0, "output": 14, "target": 3, "primitive_ops": 506, "comparisons": 124}
+{"round": 0, "status": "rejected", "program": [1, 0, 0, 3, 1, 2], "example_index": 0, "output": 10, "target": 3, "primitive_ops": 512, "comparisons": 125}
+{"round": 0, "status": "rejected", "program": [2, 1, 0, 0], "example_index": 0, "output": 15, "target": 3, "primitive_ops": 516, "comparisons": 126}
+{"round": 0, "status": "rejected", "program": [1, 0, 0, 0], "example_index": 0, "output": 4, "target": 3, "primitive_ops": 520, "comparisons": 127}
+{"round": 0, "status": "rejected", "program": [1, 0, 2, 1, 1], "example_index": 0, "output": 10, "target": 3, "primitive_ops": 525, "comparisons": 128}
+{"round": 0, "status": "rejected", "program": [3, 1], "example_index": 0, "output": 1, "target": 3, "primitive_ops": 527, "comparisons": 129}
+{"round": 0, "status": "rejected", "program": [3, 3, 1, 0], "example_index": 0, "output": 15, "target": 3, "primitive_ops": 531, "comparisons": 130}
+{"round": 0, "status": "rejected", "program": [0, 0, 0, 3], "example_index": 0, "output": 5, "target": 3, "primitive_ops": 535, "comparisons": 131}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 0, 2, 1, 1], "example_index": 0, "output": 15, "target": 3, "primitive_ops": 542, "comparisons": 132}
+{"round": 0, "status": "rejected", "program": [0, 3, 1, 2, 3, 3], "example_index": 0, "output": 9, "target": 3, "primitive_ops": 548, "comparisons": 133}
+{"round": 0, "status": "rejected", "program": [0, 0, 2, 1, 0, 0], "example_index": 0, "output": 15, "target": 3, "primitive_ops": 554, "comparisons": 134}
+{"round": 0, "status": "rejected", "program": [0, 2, 1], "example_index": 0, "output": 5, "target": 3, "primitive_ops": 557, "comparisons": 135}
+{"round": 0, "status": "rejected", "program": [3, 0, 2, 1, 1, 0, 0], "example_index": 0, "output": 2, "target": 3, "primitive_ops": 564, "comparisons": 136}
+{"round": 0, "status": "rejected", "program": [1, 0, 2, 1, 2], "example_index": 0, "output": 2, "target": 3, "primitive_ops": 569, "comparisons": 137}
+{"round": 0, "status": "rejected", "program": [3, 3, 1, 1], "example_index": 0, "output": 4, "target": 3, "primitive_ops": 573, "comparisons": 138}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 0, 2, 1, 2], "example_index": 0, "output": 14, "target": 3, "primitive_ops": 580, "comparisons": 139}
+{"round": 0, "status": "rejected", "program": [1, 0, 0, 3, 3], "example_index": 0, "output": 2, "target": 3, "primitive_ops": 585, "comparisons": 140}
+{"round": 0, "status": "rejected", "program": [2, 1, 2, 3], "example_index": 1, "output": 4, "target": 15, "primitive_ops": 593, "comparisons": 142}
+{"round": 0, "status": "rejected", "program": [1, 3, 3, 3, 1], "example_index": 0, "output": 5, "target": 3, "primitive_ops": 598, "comparisons": 143}
+{"round": 0, "status": "rejected", "program": [1, 0, 2, 1, 1, 0], "example_index": 0, "output": 10, "target": 3, "primitive_ops": 604, "comparisons": 144}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 0, 3, 3, 1], "example_index": 0, "output": 6, "target": 3, "primitive_ops": 611, "comparisons": 145}
+{"round": 0, "status": "rejected", "program": [3, 0, 2, 1, 0, 0], "example_index": 0, "output": 1, "target": 3, "primitive_ops": 617, "comparisons": 146}
+{"round": 0, "status": "rejected", "program": [0, 0, 3, 1, 0, 0], "example_index": 0, "output": 1, "target": 3, "primitive_ops": 623, "comparisons": 147}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 0, 2, 1, 1, 0], "example_index": 0, "output": 12, "target": 3, "primitive_ops": 631, "comparisons": 148}
+{"round": 0, "status": "rejected", "program": [0, 3, 1, 1, 0, 0], "example_index": 0, "output": 9, "target": 3, "primitive_ops": 637, "comparisons": 149}
+{"round": 0, "status": "rejected", "program": [0, 0, 2, 1, 2, 3], "example_index": 1, "output": 13, "target": 15, "primitive_ops": 649, "comparisons": 151}
+{"round": 0, "status": "rejected", "program": [2, 0, 3, 1, 0, 0], "example_index": 0, "output": 2, "target": 3, "primitive_ops": 655, "comparisons": 152}
+{"round": 0, "status": "rejected", "program": [2, 0, 2, 1, 1], "example_index": 0, "output": 2, "target": 3, "primitive_ops": 660, "comparisons": 153}
+{"round": 0, "status": "rejected", "program": [3, 3, 3], "example_index": 0, "output": 1, "target": 3, "primitive_ops": 663, "comparisons": 154}
+{"round": 0, "status": "rejected", "program": [2, 3, 3, 1, 0], "example_index": 0, "output": 11, "target": 3, "primitive_ops": 668, "comparisons": 155}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 0, 1, 0, 0], "example_index": 0, "output": 0, "target": 3, "primitive_ops": 675, "comparisons": 156}
+{"round": 0, "status": "rejected", "program": [3, 3, 1, 1, 0], "example_index": 0, "output": 9, "target": 3, "primitive_ops": 680, "comparisons": 157}
+{"round": 0, "status": "rejected", "program": [0, 0, 3, 1, 2, 3, 3], "example_index": 0, "output": 14, "target": 3, "primitive_ops": 687, "comparisons": 158}
+{"round": 0, "status": "rejected", "program": [1, 0, 2, 1, 0], "example_index": 0, "output": 10, "target": 3, "primitive_ops": 692, "comparisons": 159}
+{"round": 0, "status": "rejected", "program": [0, 3, 1, 3], "example_index": 0, "output": 14, "target": 3, "primitive_ops": 696, "comparisons": 160}
+{"round": 0, "status": "rejected", "program": [2, 0, 3, 1, 2, 3, 3], "example_index": 0, "output": 4, "target": 3, "primitive_ops": 703, "comparisons": 161}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 0, 2, 1, 0], "example_index": 0, "output": 6, "target": 3, "primitive_ops": 710, "comparisons": 162}
+{"round": 0, "status": "rejected", "program": [2, 3, 3, 1, 1], "example_index": 0, "output": 2, "target": 3, "primitive_ops": 715, "comparisons": 163}
+{"round": 0, "status": "rejected", "program": [2, 0, 2, 1, 2], "example_index": 1, "output": 12, "target": 15, "primitive_ops": 725, "comparisons": 165}
+{"round": 0, "status": "rejected", "program": [0, 3, 1, 2, 1], "example_index": 0, "output": 8, "target": 3, "primitive_ops": 730, "comparisons": 166}
+{"round": 0, "status": "rejected", "program": [3, 0, 2, 1, 2, 3], "example_index": 0, "output": 14, "target": 3, "primitive_ops": 736, "comparisons": 167}
+{"round": 0, "status": "rejected", "program": [0, 3, 3, 1, 2], "example_index": 0, "output": 11, "target": 3, "primitive_ops": 741, "comparisons": 168}
+{"round": 0, "status": "rejected", "program": [1, 3, 3, 1, 0, 0], "example_index": 0, "output": 15, "target": 3, "primitive_ops": 747, "comparisons": 169}
+{"round": 0, "status": "rejected", "program": [1, 0, 0, 2, 1, 1], "example_index": 0, "output": 7, "target": 3, "primitive_ops": 753, "comparisons": 170}
+{"round": 0, "status": "rejected", "program": [3, 3, 1, 2, 3], "example_index": 0, "output": 8, "target": 3, "primitive_ops": 758, "comparisons": 171}
+{"round": 0, "status": "rejected", "program": [2, 1, 3], "example_index": 0, "output": 13, "target": 3, "primitive_ops": 761, "comparisons": 172}
+{"round": 0, "status": "rejected", "program": [2, 0, 2, 1, 1, 0], "example_index": 0, "output": 8, "target": 3, "primitive_ops": 767, "comparisons": 173}
+{"round": 0, "status": "rejected", "program": [0, 0, 3, 1, 1, 0, 0], "example_index": 0, "output": 2, "target": 3, "primitive_ops": 774, "comparisons": 174}
+{"round": 0, "status": "rejected", "program": [1, 3, 3, 1, 2, 3, 3], "example_index": 0, "output": 6, "target": 3, "primitive_ops": 781, "comparisons": 175}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 0, 3, 1, 0], "example_index": 0, "output": 10, "target": 3, "primitive_ops": 788, "comparisons": 176}
+{"round": 0, "status": "rejected", "program": [2, 0, 3, 1, 1, 0, 0], "example_index": 0, "output": 1, "target": 3, "primitive_ops": 795, "comparisons": 177}
+{"round": 0, "status": "rejected", "program": [1, 0, 0, 2, 1, 2], "example_index": 0, "output": 10, "target": 3, "primitive_ops": 801, "comparisons": 178}
+{"round": 0, "status": "rejected", "program": [0, 3, 1, 2, 3, 3, 1], "example_index": 0, "output": 2, "target": 3, "primitive_ops": 808, "comparisons": 179}
+{"round": 0, "status": "rejected", "program": [2, 3, 3, 3], "example_index": 0, "output": 10, "target": 3, "primitive_ops": 812, "comparisons": 180}
+{"round": 0, "status": "rejected", "program": [0, 0, 2, 1, 3], "example_index": 0, "output": 13, "target": 3, "primitive_ops": 817, "comparisons": 181}
+{"round": 0, "status": "rejected", "program": [0, 0, 0, 2], "example_index": 0, "output": 4, "target": 3, "primitive_ops": 821, "comparisons": 182}
+{"round": 0, "status": "rejected", "program": [2, 3, 3, 1, 1, 0], "example_index": 0, "output": 8, "target": 3, "primitive_ops": 827, "comparisons": 183}
+{"round": 0, "status": "rejected", "program": [3, 0, 3, 1, 2], "example_index": 0, "output": 2, "target": 3, "primitive_ops": 832, "comparisons": 184}
+{"round": 0, "status": "rejected", "program": [2, 0, 2, 1, 0], "example_index": 0, "output": 11, "target": 3, "primitive_ops": 837, "comparisons": 185}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 0, 3, 1, 1], "example_index": 0, "output": 10, "target": 3, "primitive_ops": 844, "comparisons": 186}
+{"round": 0, "status": "rejected", "program": [0, 0, 3, 1, 3], "example_index": 0, "output": 9, "target": 3, "primitive_ops": 849, "comparisons": 187}
+{"round": 0, "status": "rejected", "program": [1, 0, 0, 3, 3, 1], "example_index": 0, "output": 12, "target": 3, "primitive_ops": 855, "comparisons": 188}
+{"round": 0, "status": "rejected", "program": [3, 0, 1], "example_index": 0, "output": 9, "target": 3, "primitive_ops": 858, "comparisons": 189}
+{"round": 0, "status": "rejected", "program": [0, 3, 1, 3, 3], "example_index": 0, "output": 14, "target": 3, "primitive_ops": 863, "comparisons": 190}
+{"round": 0, "status": "rejected", "program": [1, 0, 0, 2, 1, 1, 0], "example_index": 0, "output": 7, "target": 3, "primitive_ops": 870, "comparisons": 191}
+{"round": 0, "status": "rejected", "program": [1, 1, 2], "example_index": 0, "output": 0, "target": 3, "primitive_ops": 873, "comparisons": 192}
+{"round": 0, "status": "rejected", "program": [2, 0, 3, 1, 3], "example_index": 0, "output": 11, "target": 3, "primitive_ops": 878, "comparisons": 193}
+{"round": 0, "status": "rejected", "program": [0, 0, 3, 1, 2, 1], "example_index": 1, "output": 11, "target": 15, "primitive_ops": 890, "comparisons": 195}
+{"round": 0, "status": "rejected", "program": [2, 0, 3, 1, 2, 1], "example_index": 0, "output": 15, "target": 3, "primitive_ops": 896, "comparisons": 196}
+{"round": 0, "status": "rejected", "program": [0, 0, 3, 3, 1, 2], "example_index": 0, "output": 0, "target": 3, "primitive_ops": 902, "comparisons": 197}
+{"round": 0, "status": "rejected", "program": [1, 3, 3, 1, 1, 0, 0], "example_index": 0, "output": 8, "target": 3, "primitive_ops": 909, "comparisons": 198}
+{"round": 0, "status": "rejected", "program": [1, 0, 0, 1, 0, 0], "example_index": 0, "output": 13, "target": 3, "primitive_ops": 915, "comparisons": 199}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 3, 1, 2], "example_index": 0, "output": 0, "target": 3, "primitive_ops": 921, "comparisons": 200}
+{"round": 0, "status": "rejected", "program": [2, 2], "example_index": 1, "output": 6, "target": 15, "primitive_ops": 925, "comparisons": 202}
+{"round": 0, "status": "rejected", "program": [2, 3, 3, 1, 2, 3], "example_index": 0, "output": 6, "target": 3, "primitive_ops": 931, "comparisons": 203}
+{"round": 0, "status": "rejected", "program": [3, 0, 2, 1, 3], "example_index": 0, "output": 9, "target": 3, "primitive_ops": 936, "comparisons": 204}
+{"round": 0, "status": "rejected", "program": [2, 0, 3, 3, 1, 2], "example_index": 0, "output": 8, "target": 3, "primitive_ops": 942, "comparisons": 205}
+{"round": 0, "status": "rejected", "program": [0, 0, 0, 2, 1], "example_index": 0, "output": 5, "target": 3, "primitive_ops": 947, "comparisons": 206}
+{"round": 0, "status": "rejected", "program": [0, 0, 0, 3, 1], "example_index": 0, "output": 14, "target": 3, "primitive_ops": 952, "comparisons": 207}
+{"round": 0, "status": "rejected", "program": [0, 0, 1, 0, 0, 3], "example_index": 0, "output": 6, "target": 3, "primitive_ops": 958, "comparisons": 208}
+{"round": 0, "status": "rejected", "program": [2, 1, 3, 3], "example_index": 0, "output": 15, "target": 3, "primitive_ops": 962, "comparisons": 209}
+{"round": 0, "status": "rejected", "program": [3, 0, 3, 3], "example_index": 0, "output": 7, "target": 3, "primitive_ops": 966, "comparisons": 210}
+{"round": 0, "status": "rejected", "program": [3, 3, 3, 1], "example_index": 0, "output": 15, "target": 3, "primitive_ops": 970, "comparisons": 211}
+{"round": 0, "status": "rejected", "program": [1, 0, 0, 2, 1, 0], "example_index": 1, "output": 12, "target": 15, "primitive_ops": 982, "comparisons": 213}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 2, 1, 1, 0, 0], "example_index": 0, "output": 1, "target": 3, "primitive_ops": 990, "comparisons": 214}
+{"round": 0, "status": "rejected", "program": [1, 3, 3, 1, 3], "example_index": 0, "output": 13, "target": 3, "primitive_ops": 995, "comparisons": 215}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 0, 3, 1, 1, 0], "example_index": 0, "output": 10, "target": 3, "primitive_ops": 1003, "comparisons": 216}
+{"round": 0, "status": "rejected", "program": [2, 1, 2, 3, 3], "example_index": 0, "output": 6, "target": 3, "primitive_ops": 1008, "comparisons": 217}
+{"round": 0, "status": "rejected", "program": [0, 0, 3, 1, 2, 3, 3, 1], "example_index": 1, "output": 8, "target": 15, "primitive_ops": 1024, "comparisons": 219}
+{"round": 0, "status": "rejected", "program": [0, 0, 1, 0, 2], "example_index": 0, "output": 10, "target": 3, "primitive_ops": 1029, "comparisons": 220}
+{"round": 0, "status": "rejected", "program": [0, 0, 2, 1, 3, 3], "example_index": 0, "output": 15, "target": 3, "primitive_ops": 1035, "comparisons": 221}
+{"round": 0, "status": "rejected", "program": [1, 3, 3, 1, 2, 1], "example_index": 0, "output": 4, "target": 3, "primitive_ops": 1041, "comparisons": 222}
+{"round": 0, "status": "rejected", "program": [2, 0, 3, 1, 2, 3, 3, 1], "example_index": 0, "output": 5, "target": 3, "primitive_ops": 1049, "comparisons": 223}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 3, 3], "example_index": 0, "output": 1, "target": 3, "primitive_ops": 1054, "comparisons": 224}
+{"round": 0, "status": "rejected", "program": [1, 1, 3], "example_index": 1, "output": 10, "target": 15, "primitive_ops": 1060, "comparisons": 226}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 2, 1, 0, 0], "example_index": 0, "output": 2, "target": 3, "primitive_ops": 1067, "comparisons": 227}
+{"round": 0, "status": "rejected", "program": [0, 0, 2, 1, 2, 3, 3], "example_index": 0, "output": 6, "target": 3, "primitive_ops": 1074, "comparisons": 228}
+{"round": 0, "status": "rejected", "program": [0, 0, 3, 1, 3, 3], "example_index": 0, "output": 4, "target": 3, "primitive_ops": 1080, "comparisons": 229}
+{"round": 0, "status": "rejected", "program": [1, 1, 1], "example_index": 0, "output": 4, "target": 3, "primitive_ops": 1083, "comparisons": 230}
+{"round": 0, "status": "rejected", "program": [2, 0, 3, 1, 3, 3], "example_index": 0, "output": 1, "target": 3, "primitive_ops": 1089, "comparisons": 231}
+{"round": 0, "status": "rejected", "program": [1, 0, 0, 3, 1, 0], "example_index": 2, "output": 13, "target": 12, "primitive_ops": 1107, "comparisons": 234}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 0, 3, 1, 2, 3], "example_index": 0, "output": 13, "target": 3, "primitive_ops": 1115, "comparisons": 235}
+{"round": 0, "status": "rejected", "program": [2, 0, 0], "example_index": 0, "output": 0, "target": 3, "primitive_ops": 1118, "comparisons": 236}
+{"round": 0, "status": "rejected", "program": [3, 3, 1, 0, 0], "example_index": 0, "output": 12, "target": 3, "primitive_ops": 1123, "comparisons": 237}
+{"round": 0, "status": "rejected", "program": [3, 0, 2, 1, 3, 3], "example_index": 0, "output": 4, "target": 3, "primitive_ops": 1129, "comparisons": 238}
+{"round": 0, "status": "rejected", "program": [1, 3, 3, 1, 2, 3, 3, 1], "example_index": 0, "output": 0, "target": 3, "primitive_ops": 1137, "comparisons": 239}
+{"round": 0, "status": "rejected", "program": [0, 0, 1, 0, 2, 1], "example_index": 0, "output": 10, "target": 3, "primitive_ops": 1143, "comparisons": 240}
+{"round": 0, "status": "rejected", "program": [1, 0, 0, 3, 1, 1], "example_index": 0, "output": 7, "target": 3, "primitive_ops": 1149, "comparisons": 241}
+{"round": 0, "status": "rejected", "program": [1, 2, 3], "example_index": 0, "output": 10, "target": 3, "primitive_ops": 1152, "comparisons": 242}
+{"round": 0, "status": "rejected", "program": [2, 3, 1, 2], "example_index": 0, "output": 4, "target": 3, "primitive_ops": 1156, "comparisons": 243}
+{"round": 0, "status": "rejected", "program": [2, 3, 3, 3, 1], "example_index": 0, "output": 10, "target": 3, "primitive_ops": 1161, "comparisons": 244}
+{"round": 0, "status": "rejected", "program": [3, 0, 2, 1, 2, 3, 3], "example_index": 0, "output": 14, "target": 3, "primitive_ops": 1168, "comparisons": 245}
+{"round": 0, "status": "rejected", "program": [1, 1, 0, 2, 1, 2, 3], "example_index": 0, "output": 9, "target": 3, "primitive_ops": 1175, "comparisons": 246}
+{"round": 0, "status": "rejected", "program": [1, 3, 3, 1, 3, 3], "example_index": 0, "output": 15, "target": 3, "primitive_ops": 1181, "comparisons": 247}
+{"round": 0, "status": "rejected", "program": [3, 3, 1, 2, 3, 3], "example_index": 1, "output": 2, "target": 15, "primitive_ops": 1193, "comparisons": 249}
+{"round": 0, "status": "rejected", "program": [1, 0, 3, 1, 2], "example_index": 0, "output": 13, "target": 3, "primitive_ops": 1198, "comparisons": 250}
+{"round": 0, "status": "accepted", "program": [0, 3, 1, 3, 3, 1], "example_index": 7, "output": 7, "target": 7, "primitive_ops": 1246, "comparisons": 258}

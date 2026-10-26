@@ -1,0 +1,27 @@
+{
+  "status": "matched",
+  "environments": 1,
+  "outcome_cells": 36,
+  "aggregates": 36,
+  "contrasts": 9,
+  "standalone_cost_cells": 4,
+  "primary": {
+    "contrast": "rejection minus uniformizing",
+    "family": "balanced",
+    "budget": 65536,
+    "seeds": [
+      41
+    ],
+    "n": 1,
+    "differences": [
+      -0.03125
+    ],
+    "mean": -0.03125,
+    "negative": 1,
+    "zero": 0,
+    "positive": 0,
+    "confirmatory": false,
+    "ci95": null,
+    "bootstrap95": null
+  }
+}

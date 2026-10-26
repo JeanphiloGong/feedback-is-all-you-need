@@ -42,6 +42,9 @@ local archive. Every intermediate state, rank order, rejected candidate,
 partial execution, and failed attempt remains available. Console logs and the
 source-transfer record are saved separately from the host file manifest.
 
-The unchanged 32-environment formal grid has been started with this exact
-passing development certificate. Formal results will be interpreted only
-after complete collection and independent audit.
+The unchanged 32-environment formal grid completed with this exact passing
+certificate. Independent audit/analysis passed in 688.739 seconds after
+985.204 seconds of collection. The complete host archive contains 73,076
+raw/audit files and 5,442,329,227 bytes; the audit covers 73,074 raw files.
+Transfer verification and independent summary reconstruction are recorded
+alongside the original host evidence. No official failed attempt occurred.
