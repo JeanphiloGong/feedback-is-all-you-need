@@ -1644,3 +1644,23 @@ separately. All outcomes from development seeds remain exploratory.
   experiment was started or restarted by those connection checks.
 - This protocol adds no architectural abstraction or compatibility layer and
   removes no historical evidence. No official Study M data or outcome exists.
+
+## 2026-10-27 UTC: retained predictive learning core
+
+- Continued the registered Study M implementation with explicit next-state
+  prediction, gradient updates, and persistent optimizer state. The user's
+  question about servers and weight changes prompted verification of Study B/E
+  LoRA records and Study L's actual parameter changes and task-local resets.
+  These earlier studies do not establish sustained capability accumulation.
+- All ten core tests passed locally under PyTorch 2.5.1+cu124. Fresh independent
+  review found no actionable issue after clipped Adam reconstruction, forced
+  generator rejection paths, and 29,760 BFS queries. Both constructive capacity
+  witnesses hold on synthetic fixtures; optimization success is not implied.
+  The registered PyTorch 2.8.0 runtime has not been tested for this slice.
+- Two read-only lens connection attempts closed during SSH handshake. No
+  official data or experiment was generated or started. Cross-model CLI review
+  was skipped under the continuing autonomous workflow.
+- Added one permanent experiment-specific PyTorch model and direct numerical,
+  generation, and planning functions, without an architectural abstraction or
+  compatibility layer. Bytecode writing was disabled for checks; no research
+  evidence was removed. Collector tests remain a separate uncommitted slice.
