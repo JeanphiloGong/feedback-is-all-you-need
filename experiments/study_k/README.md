@@ -39,5 +39,43 @@ Adam steps, real forward-call costs, reuse of recorded rankings, false accepted
 solutions, hidden/probe isolation, empty acceptance, replay after exhaustion,
 complete-grid/runtime gates, and preservation of an original failure. These
 are artificial fixtures, not Study K development or formal observations.
-The complete independent auditor and inference remain to be implemented;
-official data generation and collection have not begun.
+
+The auditor independently regenerates tasks and initial tensors, reconstructs
+each corpus from visible search outcomes, replays every model/Adam update,
+and checks the archived local tables with NumPy GRU equations. Independent
+full-function search checks preserve primitive costs and exact outcomes.
+Every phase, physical input count, ordering artifact, and file must match.
+
+```bash
+python -m unittest discover -s experiments/study_k -p 'test_*.py' -v
+python -m experiments.study_k.run --development \
+  --source-revision SOURCE_COMMIT --output runs/study-k-development
+python -m experiments.study_k.analyze --input runs/study-k-development \
+  --output runs/study-k-development-audit
+python -m experiments.study_k.run --source-revision SOURCE_COMMIT \
+  --output runs/study-k-formal \
+  --development-audit runs/study-k-development-audit/audit.json
+python -m experiments.study_k.analyze --input runs/study-k-formal \
+  --output runs/study-k-formal-audit
+```
+
+The primary averages final online-minus-frozen held-out success over both
+orders/families within each environment. Reused controls and checkpoint-zero
+scores are explicitly referenced, not independent observations. Both-order
+tables count evaluation conditions and separately identify unique tasks.
+Lower-budget stream scores describe first acceptances along the original
+65,536-budget learning path, not agents retrained under those lower budgets.
+
+Standalone cost serves final probes only: replay's stream searches and
+intermediate orders are diagnostic, while online needs its stream outcomes.
+All actual research work remains in the complete collection totals. Replay
+phase durations include per-step journal writes and flushes; explicit archive,
+clone, and load phases are excluded from standalone sums. These are measured
+instrumented phases, not pure training-compute time or independent timing trials,
+and they do not establish equal lifetime compute.
+Synthetic audit checks reject altered states, corpora, probabilities, scores,
+cost phases, and incomplete grids, and check environment-level intervals and
+the fixed bootstrap. Formal archives retain the exact matching development
+audit certificate. Auditing refuses optimized Python, where assertions would
+be disabled, and requires collection/replay durations to cover their recorded
+work. Official data generation and collection have not begun.

@@ -1284,3 +1284,37 @@ separately. All outcomes from development seeds remain exploratory.
 - Added experiment-specific collection functions, no new architectural
   abstraction, adapter, or compatibility layer. Temporary test directories
   clean themselves up; the full auditor/inference remain unimplemented.
+
+## 2026-10-26 UTC: continual audit and inference
+
+- Added independent task/init regeneration, exact model/Adam replay, corpus
+  reconstruction from visible accepted results, NumPy local probabilities,
+  full-function search verification, complete ordered journals, file inventory,
+  and physical-cost checks. Inference averages both orders/families within
+  environments; repeated controls remain explicit references. Final-only
+  standalone costs exclude replay's diagnostic searches/intermediate orders.
+- Fresh audit review found four actionable issues before official data existed:
+  optimized Python disabled assertions; the initial audit fixture had no
+  successful stream acquisitions or multi-token training; formal archives
+  lacked the development certificate for independent checking; and impossible
+  phase/total timings passed. Added an explicit optimized-mode refusal, mixed
+  local-context fixtures with verified online corpus growth, an archived and
+  matched development certificate, and duration-consistency checks. Follow-up
+  review found no unresolved material issue.
+- Separate analysis review found overbroad exclusion of artifact I/O from
+  standalone timing: replay phases include per-step journal writes/flushes.
+  Corrected the report to disclose this instrumentation and name only the
+  explicit excluded archive/clone/load phases. Initialization and optimizer
+  setup are reported separately. Follow-up confirmed the correction.
+- All 19 synthetic tests pass on lens under PyTorch 2.8.0+cu126 (11.451 seconds).
+  The tests include mixed-length accepted solutions, exact optimizer replay,
+  corruption rejection, a complete zero-budget synthetic dev-to-formal handoff,
+  optimized-mode refusal, complete cost maps, environment-level intervals,
+  bootstrap disagreement, and degenerate paired means. Synthetic environments
+  with declared seed labels are hand-built fixtures, not calls to the official
+  Study H generator. Reviewers' separate local checks used Torch 2.5.1+cu124.
+- Cross-model CLI review was skipped. No official Study K environment or
+  outcome existed before this implementation freeze. Added direct audit and
+  analysis functions without an architectural abstraction or compatibility
+  layer. Synthetic temporary directories clean themselves up; removed local
+  Study K bytecode caches. No research evidence was removed.

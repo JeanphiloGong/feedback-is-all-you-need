@@ -221,6 +221,10 @@ class CollectionTests(unittest.TestCase):
                              collect=lambda *args: self.fail('Invalid formal handoff reached collection.'))
         output, collector = self.invoke_main('valid_formal', complete, development=False, audit=audit)
         self.assertEqual([e['seed'] for e in collector.call_args.args[0]], list(run.FORMAL_SEEDS))
+        certificate = (output / 'development-audit.json').read_bytes()
+        self.assertEqual(json.loads(certificate), audit)
+        self.assertEqual(json.loads((output / 'metadata.json').read_text())['development_audit_sha256'],
+                         hashlib.sha256(certificate).hexdigest())
 
         def interrupted(environments, output):
             (output / 'searches.jsonl').write_text('{"completed": true}\n')

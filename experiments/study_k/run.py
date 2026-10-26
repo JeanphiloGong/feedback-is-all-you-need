@@ -284,14 +284,17 @@ def main():
         if any(len(environment['tasks'][family]) != 16 for environment in frozen
                for family in ('composition', 'shifted')):
             raise ValueError('Every frozen transfer family must have all 16 stream/probe tasks.')
+        development_certificate = None
         if not args.development:
             if args.development_audit is None:
                 raise ValueError('Formal collection requires a passing development audit.')
-            audit = json.loads(args.development_audit.read_text())
+            development_certificate = args.development_audit.read_bytes()
+            audit = json.loads(development_certificate)
             if (audit['status'] != 'passed' or audit['seeds'] != [DEVELOPMENT_SEED]
                     or audit['source_sha256'] != hashes or audit['data_sha256'] != data_hash
                     or audit['runtime'] != runtime):
                 raise ValueError('Development audit must match current source, data, and runtime.')
+            (args.output / 'development-audit.json').write_bytes(development_certificate)
         seeds = [DEVELOPMENT_SEED] if args.development else list(FORMAL_SEEDS)
         environments = [row for row in frozen if row['seed'] in seeds]
         metadata = dict(status='running', started_utc=datetime.now(timezone.utc).isoformat(),
@@ -302,8 +305,8 @@ def main():
             python=sys.version, **runtime, platform=platform.platform(),
             cpu_model=next(line.split(':', 1)[1].strip() for line in Path('/proc/cpuinfo').read_text().splitlines()
                            if line.startswith('model name')), argv=sys.argv,
-            development_audit_sha256=(hashlib.sha256(args.development_audit.read_bytes()).hexdigest()
-                                      if args.development_audit else None))
+            development_audit_sha256=(hashlib.sha256(development_certificate).hexdigest()
+                                      if development_certificate is not None else None))
         (args.output / 'metadata.json').write_text(json.dumps(metadata, indent=2) + '\n')
         (args.output / 'environments.json').write_text(json.dumps(environments, indent=2) + '\n')
         collect(environments, args.output)
