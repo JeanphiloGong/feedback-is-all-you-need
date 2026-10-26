@@ -140,7 +140,12 @@ one table/order only when the model changed, but each round can construct its
 needed remaining order with the updated exclusion set. Record actual ranking,
 heap, query, and storage costs. Uniform/frozen can use one full-cap static
 order per environment, shared across tasks, since neither changes its weights.
-Their results must exactly match unchanged I search on the same tasks/order.
+Their acceptance/exhaustion decisions, accepted solutions, comparisons, and
+primitive counts must match unchanged I search on the same tasks/order.
+After a rejection exactly uses the cap, I additionally records the next
+never-executed candidate; L stops before selecting it. This bookkeeping
+difference does not execute or reject another program. At an adaptive boundary
+the next candidate must instead be selected after the weight update.
 
 Archive every candidate outcome including its first visible mismatch, every
 partial boundary state, all selected orders and tables, all updates, and all

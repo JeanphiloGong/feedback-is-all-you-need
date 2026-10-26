@@ -1428,3 +1428,22 @@ separately. All outcomes from development seeds remain exploratory.
   CLI review was skipped in the autonomous run. No new official tasks have
   been generated. The protocol adds no software abstraction; historical
   sources, evidence, and manuscript versions remain intact.
+
+## 2026-10-26 UTC: failure-loss and interrupted-search kernel
+
+- Implemented differentiable rejected-set probability mass, uniformizing
+  control, and direct task-specific Adam steps. The local batch contains 21
+  contexts with 63 physical padded recurrent positions. Independent NumPy
+  probabilities and finite-difference gradients agree in synthetic checks;
+  a direct failure update changes weights and lowers rejected probability mass.
+- Implemented ranked exclusion of complete strings without pruning their
+  descendants and exact continuation of partial visible checks. Fresh review
+  found that I records an extra never-executed candidate when a rejection
+  exactly exhausts the cap. Clarified protocol equivalence to the actual
+  decisions/solutions/comparisons/operations and added the reproducer. The
+  targeted recheck confirmed resolution without selecting stale candidates.
+- All 11 core synthetic tests passed on lens, pinned PyTorch 2.8.0+cu126,
+  in 0.382 seconds. Cross-model CLI review was skipped. No official environment
+  or outcome exists. Added direct numerical/search functions, no class,
+  architectural abstraction, or compatibility layer; disposable local bytecode
+  caches were removed. Collector work remains a separate uncommitted slice.
