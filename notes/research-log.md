@@ -1135,3 +1135,16 @@ separately. All outcomes from development seeds remain exploratory.
 - These are direct experiment-specific audit/analysis functions, with no new
   architectural abstraction or compatibility layer. Original H/I sources
   remain intact; J's core test now uses J's corresponding independent auditor.
+
+## 2026-10-26 UTC: local-context data freeze
+
+- After source review/freeze aeb2fd9, generated the declared development seed 31
+  and formal 12000–12031 with the unchanged H generator: 33 environments, 1,848
+  tasks, and 24 experience attempts each. Full-function labels, complete task
+  counts, checkpoint compatibility, and cross-split uniqueness passed before
+  exclusive output creation. No search or neural learning outcome was used.
+- The data has 2,378,542 bytes and SHA-256
+  `095119371ca86477f48198462f5359b5c65d1cac63e6cd98273b4690edee7aaf`.
+  This separate generated-data commit preserves the source review boundary.
+  No new abstraction or compatibility layer was added; only the generator's
+  transient local Python caches were removed.

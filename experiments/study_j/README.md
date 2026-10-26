@@ -62,5 +62,27 @@ python -m experiments.study_j.analyze --input runs/study-j-formal \
 The analysis keeps the local-minus-full composition primary separate from
 uniform/frozen, shifted/balanced, and intermediate-checkpoint descriptions.
 Standalone sums reuse shared measured phases; physical input counters do not
-establish equal FLOPs or independent wall-time benchmarks. Source/data freeze,
-task generation, and official collection have not yet occurred.
+establish equal FLOPs or independent wall-time benchmarks.
+
+The data freeze has development seed 31 and formal 12000–12031: 33 environments,
+1,848 tasks, and 24 experience attempts in every environment. The JSON has
+2,378,542 bytes and SHA-256
+`095119371ca86477f48198462f5359b5c65d1cac63e6cd98273b4690edee7aaf`.
+It was generated only after the reviewed implementation freeze at aeb2fd9.
+Full-function labels and split uniqueness were checked before writing.
+
+Reproduce with the unchanged controlled generator, writing a new file:
+
+```bash
+python3 -s - <<'PY'
+import json
+from pathlib import Path
+from experiments.study_h.tasks import make_environment
+
+data = [make_environment(seed) for seed in [31, *range(12000, 12032)]]
+with Path('experiments/study_j/data/environments-v1.json').open('x') as stream:
+    stream.write(json.dumps(data, indent=2) + '\n')
+PY
+```
+
+No official search or learning outcome preceded this data freeze.
