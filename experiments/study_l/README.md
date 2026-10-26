@@ -25,8 +25,11 @@ After rejection exactly exhausts a budget, the new checker stops before
 choosing an unexecuted candidate; this preserves the next updated ranking.
 That bookkeeping difference does not change acceptance or execution counts.
 
-No official Study L environment or outcome has been generated. Implementation
-and audit must be frozen before the development and formal runs.
+The complete task grid is frozen after reviewed implementation `fd08446`:
+development seed 41 and formal seeds 14000--14031, totaling 1,848 tasks with
+24 initial experience tasks per environment. No search/learning outcome
+preceded this freeze. The 2,378,541-byte data file has SHA-256
+`bb900adf1c562b5229486556c9df2fc0af6a28be2d3e4a3ccac63456cdb4ce81`.
 
 The collector resets both model copies and fresh feedback optimizers for every
 transfer target and retains each candidate, partial check, update, checkpoint,

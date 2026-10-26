@@ -1503,3 +1503,16 @@ separately. All outcomes from development seeds remain exploratory.
   CLI review was skipped. Added direct audit/analysis and one shared certificate
   boundary check, no architectural abstraction or compatibility layer. Temporary
   fixture directories clean themselves up; local Study L bytecode was removed.
+
+## 2026-10-26 UTC: failure-update task-data freeze
+
+- After reviewed source freeze fd08446, generated the unchanged H task domain
+  for development seed 41 and formal seeds 14000--14031 exactly once. All 33
+  environments have 24 experience tasks and 16 tasks per transfer family,
+  totaling 1,848 tasks. Checked full-function labels, train/test partition,
+  function uniqueness, and the prespecified transfer lengths before writing.
+- The JSON contains 2,378,541 bytes with SHA-256
+  `bb900adf1c562b5229486556c9df2fc0af6a28be2d3e4a3ccac63456cdb4ce81`.
+  No official search, learning, or evaluation outcome preceded this separate
+  generated-data save point. No abstraction or compatibility layer was added,
+  and no earlier evidence was removed.
