@@ -1069,3 +1069,22 @@ separately. All outcomes from development seeds remain exploratory.
   generator, model, search, and audit contracts. Cross-model CLI review was
   skipped. Implementation and execution remain unverified. This plan adds no
   code abstraction or compatibility layer and requires no cleanup.
+
+## 2026-10-26 UTC: local-context learning core
+
+- Added direct local replay tensors with one fresh recurrent context per target,
+  right padding, last-real-output selection, and recorded physical rows/input
+  positions. The neural model, full-prefix training, finite ranker, and search
+  remain reused unchanged from Study I; no adapter class or compatibility
+  abstraction was added.
+- All four hand-built tests pass on lens under PyTorch 2.8.0+cu126. They check
+  ignored old history, matching short-prefix behavior, individual-context
+  gradients and losses, persistent updates, empty replay, full independent
+  local ordering, and 101 budget boundaries. No Study J benchmark tasks or
+  outcomes were generated. Synthetic test programs are not official experience.
+- Fresh independent core review found no substantive defect. The reviewer
+  additionally checked shorter input widths and multiple Adam states under
+  local PyTorch 2.5.1; the frozen-version evidence is the separate lens run.
+  Cross-model CLI review was skipped. Collection, cost auditing, and formal
+  execution are not verified by this checkpoint. Removed verification caches;
+  no raw research evidence was removed.
