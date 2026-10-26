@@ -771,3 +771,29 @@ separately. All outcomes from development seeds remain exploratory.
   The separate whitespace check on authored artifacts passes.
   No software abstraction, compatibility layer, or temporary implementation
   was introduced. Manuscript v10 and previous experimental records are unchanged.
+
+## 2026-10-26 UTC: neural search-prior protocol
+
+- Declared Study I before generating its development or formal data: a small
+  untrained GRU learns from programs accepted by supplied symbolic search.
+  Uniform search is the single primary comparator; count-based, frozen,
+  shuffled-training, larger-network, intermediate, and shifted-task outcomes
+  remain descriptive. The network learns a program prior, not a task encoder.
+- Fixed 1,172/13,892 parameters, sequential replay, a common finite program
+  space, first-fit acceptance, execution caps, independent environment units,
+  and separate training/ranking/storage costs. Fresh seeds reuse Study H's
+  unchanged generator without importing its outcomes into this comparison.
+- Independent protocol review identified two execution gaps: failed-grid
+  disposition and fully specified neural initialization. Added the distinction
+  between algorithmic exhaustion and incomplete infrastructure attempts, the
+  no-incomplete-primary rule, retained versioned retries/amendments, and exact
+  CPU float64 constructor order and initialization. Narrow follow-up confirmed
+  both findings resolved. Cross-model CLI review was skipped in the authorized
+  autonomous context.
+- Five hand-built core-search checks pass while review proceeds, including
+  complete finite sorting and 200 independent cost comparisons. These are unit
+  fixtures, not development/formal task outcomes. No new benchmark tasks have
+  been generated or searched, and no data-dependent design tuning has occurred.
+  All nine core checks, including four neural checks, also pass on lens with
+  PyTorch 2.8.0+cu126. The initial implementation remains a separate uncommitted
+  slice pending its own review.
