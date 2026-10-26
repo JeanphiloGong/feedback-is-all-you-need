@@ -1,0 +1,248 @@
+{"start": 0, "goal": 2, "shortest_path": [0, 0, 0], "distance": 3, "reachable_within_budget": true, "edge_checks": 17}
+{"start": 1, "goal": 2, "shortest_path": [0, 0], "distance": 2, "reachable_within_budget": true, "edge_checks": 5}
+{"start": 3, "goal": 2, "shortest_path": [0], "distance": 1, "reachable_within_budget": true, "edge_checks": 1}
+{"start": 4, "goal": 2, "shortest_path": [2], "distance": 1, "reachable_within_budget": true, "edge_checks": 3}
+{"start": 5, "goal": 2, "shortest_path": [1], "distance": 1, "reachable_within_budget": true, "edge_checks": 2}
+{"start": 6, "goal": 2, "shortest_path": [0, 2], "distance": 2, "reachable_within_budget": true, "edge_checks": 7}
+{"start": 7, "goal": 2, "shortest_path": [0, 0, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 19}
+{"start": 8, "goal": 2, "shortest_path": [3, 2, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 48}
+{"start": 9, "goal": 2, "shortest_path": [2, 2, 1], "distance": 3, "reachable_within_budget": true, "edge_checks": 46}
+{"start": 10, "goal": 2, "shortest_path": [0, 3, 2, 3], "distance": 4, "reachable_within_budget": true, "edge_checks": 68}
+{"start": 11, "goal": 2, "shortest_path": [1, 2, 0, 2], "distance": 4, "reachable_within_budget": true, "edge_checks": 75}
+{"start": 12, "goal": 2, "shortest_path": [2, 0, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 47}
+{"start": 13, "goal": 2, "shortest_path": [0, 3, 2, 1], "distance": 4, "reachable_within_budget": true, "edge_checks": 62}
+{"start": 14, "goal": 2, "shortest_path": [0, 2, 0, 2], "distance": 4, "reachable_within_budget": true, "edge_checks": 59}
+{"start": 15, "goal": 2, "shortest_path": [3, 2, 1], "distance": 3, "reachable_within_budget": true, "edge_checks": 30}
+{"start": 16, "goal": 2, "shortest_path": [3, 0, 0], "distance": 3, "reachable_within_budget": true, "edge_checks": 25}
+{"start": 17, "goal": 2, "shortest_path": [0, 2, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 32}
+{"start": 18, "goal": 2, "shortest_path": [3, 1], "distance": 2, "reachable_within_budget": true, "edge_checks": 18}
+{"start": 19, "goal": 2, "shortest_path": [2, 3], "distance": 2, "reachable_within_budget": true, "edge_checks": 16}
+{"start": 20, "goal": 2, "shortest_path": [1, 2, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 36}
+{"start": 21, "goal": 2, "shortest_path": [1, 3, 1], "distance": 3, "reachable_within_budget": true, "edge_checks": 38}
+{"start": 22, "goal": 2, "shortest_path": [2, 0, 0], "distance": 3, "reachable_within_budget": true, "edge_checks": 41}
+{"start": 23, "goal": 2, "shortest_path": [0, 2, 0, 0], "distance": 4, "reachable_within_budget": true, "edge_checks": 65}
+{"start": 24, "goal": 2, "shortest_path": [0, 3], "distance": 2, "reachable_within_budget": true, "edge_checks": 8}
+{"start": 25, "goal": 2, "shortest_path": [3], "distance": 1, "reachable_within_budget": true, "edge_checks": 4}
+{"start": 26, "goal": 2, "shortest_path": [0, 0, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 24}
+{"start": 27, "goal": 2, "shortest_path": [1, 2, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 35}
+{"start": 28, "goal": 2, "shortest_path": [2, 2], "distance": 2, "reachable_within_budget": true, "edge_checks": 15}
+{"start": 29, "goal": 2, "shortest_path": [0, 0, 2, 1], "distance": 4, "reachable_within_budget": true, "edge_checks": 70}
+{"start": 30, "goal": 2, "shortest_path": [2, 1], "distance": 2, "reachable_within_budget": true, "edge_checks": 14}
+{"start": 31, "goal": 2, "shortest_path": [0, 2, 1], "distance": 3, "reachable_within_budget": true, "edge_checks": 22}
+{"start": 0, "goal": 9, "shortest_path": [0, 0, 3, 3], "distance": 4, "reachable_within_budget": true, "edge_checks": 60}
+{"start": 1, "goal": 9, "shortest_path": [0, 3, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 36}
+{"start": 2, "goal": 9, "shortest_path": [2, 1, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 48}
+{"start": 3, "goal": 9, "shortest_path": [3, 3], "distance": 2, "reachable_within_budget": true, "edge_checks": 20}
+{"start": 4, "goal": 9, "shortest_path": [1, 3, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 40}
+{"start": 5, "goal": 9, "shortest_path": [2, 0, 0], "distance": 3, "reachable_within_budget": true, "edge_checks": 45}
+{"start": 6, "goal": 9, "shortest_path": [2, 3, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 48}
+{"start": 7, "goal": 9, "shortest_path": [0, 2, 3, 3], "distance": 4, "reachable_within_budget": true, "edge_checks": 64}
+{"start": 8, "goal": 9, "shortest_path": [0], "distance": 1, "reachable_within_budget": true, "edge_checks": 1}
+{"start": 10, "goal": 9, "shortest_path": [0, 0], "distance": 2, "reachable_within_budget": true, "edge_checks": 5}
+{"start": 11, "goal": 9, "shortest_path": [0, 0, 0], "distance": 3, "reachable_within_budget": true, "edge_checks": 21}
+{"start": 12, "goal": 9, "shortest_path": [0, 1, 0, 0], "distance": 4, "reachable_within_budget": true, "edge_checks": 69}
+{"start": 13, "goal": 9, "shortest_path": [1, 0, 0], "distance": 3, "reachable_within_budget": true, "edge_checks": 25}
+{"start": 14, "goal": 9, "shortest_path": [0, 0, 1, 0, 0], "distance": 5, "reachable_within_budget": true, "edge_checks": 73}
+{"start": 15, "goal": 9, "shortest_path": [3, 2, 2, 0, 0], "distance": 5, "reachable_within_budget": true, "edge_checks": 97}
+{"start": 16, "goal": 9, "shortest_path": [0, 0, 1, 3], "distance": 4, "reachable_within_budget": true, "edge_checks": 40}
+{"start": 17, "goal": 9, "shortest_path": [0, 1, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 28}
+{"start": 18, "goal": 9, "shortest_path": [1, 0, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 27}
+{"start": 19, "goal": 9, "shortest_path": [1, 3], "distance": 2, "reachable_within_budget": true, "edge_checks": 12}
+{"start": 20, "goal": 9, "shortest_path": [3], "distance": 1, "reachable_within_budget": true, "edge_checks": 4}
+{"start": 21, "goal": 9, "shortest_path": [0, 2], "distance": 2, "reachable_within_budget": true, "edge_checks": 7}
+{"start": 22, "goal": 9, "shortest_path": [0, 3], "distance": 2, "reachable_within_budget": true, "edge_checks": 8}
+{"start": 23, "goal": 9, "shortest_path": [2], "distance": 1, "reachable_within_budget": true, "edge_checks": 3}
+{"start": 24, "goal": 9, "shortest_path": [2, 3], "distance": 2, "reachable_within_budget": true, "edge_checks": 12}
+{"start": 25, "goal": 9, "shortest_path": [1, 2, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 36}
+{"start": 26, "goal": 9, "shortest_path": [0, 2, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 28}
+{"start": 27, "goal": 9, "shortest_path": [0, 0, 2, 3], "distance": 4, "reachable_within_budget": true, "edge_checks": 64}
+{"start": 28, "goal": 9, "shortest_path": [0, 3, 0, 0], "distance": 4, "reachable_within_budget": true, "edge_checks": 85}
+{"start": 29, "goal": 9, "shortest_path": [3, 0, 0], "distance": 3, "reachable_within_budget": true, "edge_checks": 57}
+{"start": 30, "goal": 9, "shortest_path": [2, 2, 0, 0], "distance": 4, "reachable_within_budget": true, "edge_checks": 97}
+{"start": 31, "goal": 9, "shortest_path": [2, 1, 0, 0], "distance": 4, "reachable_within_budget": true, "edge_checks": 69}
+{"start": 0, "goal": 10, "shortest_path": [2, 3, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 35}
+{"start": 1, "goal": 10, "shortest_path": [2, 1, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 52}
+{"start": 2, "goal": 10, "shortest_path": [1, 2], "distance": 2, "reachable_within_budget": true, "edge_checks": 11}
+{"start": 3, "goal": 10, "shortest_path": [0, 1, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 27}
+{"start": 4, "goal": 10, "shortest_path": [0, 2], "distance": 2, "reachable_within_budget": true, "edge_checks": 7}
+{"start": 5, "goal": 10, "shortest_path": [2], "distance": 1, "reachable_within_budget": true, "edge_checks": 3}
+{"start": 6, "goal": 10, "shortest_path": [3, 3], "distance": 2, "reachable_within_budget": true, "edge_checks": 20}
+{"start": 7, "goal": 10, "shortest_path": [2, 0], "distance": 2, "reachable_within_budget": true, "edge_checks": 9}
+{"start": 8, "goal": 10, "shortest_path": [0, 0, 0], "distance": 3, "reachable_within_budget": true, "edge_checks": 17}
+{"start": 9, "goal": 10, "shortest_path": [0, 0], "distance": 2, "reachable_within_budget": true, "edge_checks": 5}
+{"start": 11, "goal": 10, "shortest_path": [0], "distance": 1, "reachable_within_budget": true, "edge_checks": 1}
+{"start": 12, "goal": 10, "shortest_path": [0, 1], "distance": 2, "reachable_within_budget": true, "edge_checks": 6}
+{"start": 13, "goal": 10, "shortest_path": [1], "distance": 1, "reachable_within_budget": true, "edge_checks": 2}
+{"start": 14, "goal": 10, "shortest_path": [0, 0, 1], "distance": 3, "reachable_within_budget": true, "edge_checks": 22}
+{"start": 15, "goal": 10, "shortest_path": [3, 2, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 31}
+{"start": 16, "goal": 10, "shortest_path": [3, 2, 1, 3], "distance": 4, "reachable_within_budget": true, "edge_checks": 60}
+{"start": 17, "goal": 10, "shortest_path": [0, 0, 3, 2], "distance": 4, "reachable_within_budget": true, "edge_checks": 51}
+{"start": 18, "goal": 10, "shortest_path": [3, 2], "distance": 2, "reachable_within_budget": true, "edge_checks": 19}
+{"start": 19, "goal": 10, "shortest_path": [0, 3, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 35}
+{"start": 20, "goal": 10, "shortest_path": [3, 0, 0], "distance": 3, "reachable_within_budget": true, "edge_checks": 49}
+{"start": 21, "goal": 10, "shortest_path": [1, 3, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 39}
+{"start": 22, "goal": 10, "shortest_path": [3, 1], "distance": 2, "reachable_within_budget": true, "edge_checks": 18}
+{"start": 23, "goal": 10, "shortest_path": [0, 3, 1], "distance": 3, "reachable_within_budget": true, "edge_checks": 26}
+{"start": 24, "goal": 10, "shortest_path": [0, 0, 2, 3], "distance": 4, "reachable_within_budget": true, "edge_checks": 56}
+{"start": 25, "goal": 10, "shortest_path": [0, 2, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 28}
+{"start": 26, "goal": 10, "shortest_path": [1, 3], "distance": 2, "reachable_within_budget": true, "edge_checks": 12}
+{"start": 27, "goal": 10, "shortest_path": [2, 3], "distance": 2, "reachable_within_budget": true, "edge_checks": 16}
+{"start": 28, "goal": 10, "shortest_path": [0, 3], "distance": 2, "reachable_within_budget": true, "edge_checks": 8}
+{"start": 29, "goal": 10, "shortest_path": [3], "distance": 1, "reachable_within_budget": true, "edge_checks": 4}
+{"start": 30, "goal": 10, "shortest_path": [2, 2], "distance": 2, "reachable_within_budget": true, "edge_checks": 15}
+{"start": 31, "goal": 10, "shortest_path": [2, 1], "distance": 2, "reachable_within_budget": true, "edge_checks": 10}
+{"start": 0, "goal": 16, "shortest_path": [0, 3], "distance": 2, "reachable_within_budget": true, "edge_checks": 8}
+{"start": 1, "goal": 16, "shortest_path": [3], "distance": 1, "reachable_within_budget": true, "edge_checks": 4}
+{"start": 2, "goal": 16, "shortest_path": [0, 0, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 24}
+{"start": 3, "goal": 16, "shortest_path": [0, 0, 0, 3], "distance": 4, "reachable_within_budget": true, "edge_checks": 64}
+{"start": 4, "goal": 16, "shortest_path": [2, 0, 0, 3], "distance": 4, "reachable_within_budget": true, "edge_checks": 92}
+{"start": 5, "goal": 16, "shortest_path": [1, 0, 0, 3], "distance": 4, "reachable_within_budget": true, "edge_checks": 96}
+{"start": 6, "goal": 16, "shortest_path": [0, 2, 0, 0, 3], "distance": 5, "reachable_within_budget": true, "edge_checks": 112}
+{"start": 7, "goal": 16, "shortest_path": [2, 3, 2, 3], "distance": 4, "reachable_within_budget": true, "edge_checks": 92}
+{"start": 8, "goal": 16, "shortest_path": [0, 3, 0], "distance": 3, "reachable_within_budget": true, "edge_checks": 25}
+{"start": 9, "goal": 16, "shortest_path": [3, 0], "distance": 2, "reachable_within_budget": true, "edge_checks": 17}
+{"start": 10, "goal": 16, "shortest_path": [0, 0, 3, 0], "distance": 4, "reachable_within_budget": true, "edge_checks": 53}
+{"start": 11, "goal": 16, "shortest_path": [3, 2, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 56}
+{"start": 12, "goal": 16, "shortest_path": [1, 3, 2, 3], "distance": 4, "reachable_within_budget": true, "edge_checks": 92}
+{"start": 13, "goal": 16, "shortest_path": [3, 2, 1, 0], "distance": 4, "reachable_within_budget": true, "edge_checks": 101}
+{"start": 14, "goal": 16, "shortest_path": [0, 1, 3, 2, 3], "distance": 5, "reachable_within_budget": true, "edge_checks": 96}
+{"start": 15, "goal": 16, "shortest_path": [0, 0, 1, 3, 2, 3], "distance": 6, "reachable_within_budget": true, "edge_checks": 112}
+{"start": 17, "goal": 16, "shortest_path": [1], "distance": 1, "reachable_within_budget": true, "edge_checks": 2}
+{"start": 18, "goal": 16, "shortest_path": [0], "distance": 1, "reachable_within_budget": true, "edge_checks": 1}
+{"start": 19, "goal": 16, "shortest_path": [0, 0], "distance": 2, "reachable_within_budget": true, "edge_checks": 5}
+{"start": 20, "goal": 16, "shortest_path": [0, 1, 0], "distance": 3, "reachable_within_budget": true, "edge_checks": 25}
+{"start": 21, "goal": 16, "shortest_path": [1, 0], "distance": 2, "reachable_within_budget": true, "edge_checks": 9}
+{"start": 22, "goal": 16, "shortest_path": [2, 3], "distance": 2, "reachable_within_budget": true, "edge_checks": 16}
+{"start": 23, "goal": 16, "shortest_path": [0, 2, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 24}
+{"start": 24, "goal": 16, "shortest_path": [2, 0, 1, 0], "distance": 4, "reachable_within_budget": true, "edge_checks": 73}
+{"start": 25, "goal": 16, "shortest_path": [3, 0, 0, 3], "distance": 4, "reachable_within_budget": true, "edge_checks": 92}
+{"start": 26, "goal": 16, "shortest_path": [2, 1, 0], "distance": 3, "reachable_within_budget": true, "edge_checks": 49}
+{"start": 27, "goal": 16, "shortest_path": [0, 2, 1, 0], "distance": 4, "reachable_within_budget": true, "edge_checks": 69}
+{"start": 28, "goal": 16, "shortest_path": [3, 3, 2, 3], "distance": 4, "reachable_within_budget": true, "edge_checks": 108}
+{"start": 29, "goal": 16, "shortest_path": [1, 2, 1, 0], "distance": 4, "reachable_within_budget": true, "edge_checks": 89}
+{"start": 30, "goal": 16, "shortest_path": [0, 3, 3, 2, 3], "distance": 5, "reachable_within_budget": true, "edge_checks": 112}
+{"start": 31, "goal": 16, "shortest_path": [2, 3, 2, 1, 0], "distance": 5, "reachable_within_budget": true, "edge_checks": 113}
+{"start": 0, "goal": 21, "shortest_path": [2, 1], "distance": 2, "reachable_within_budget": true, "edge_checks": 10}
+{"start": 1, "goal": 21, "shortest_path": [2, 2], "distance": 2, "reachable_within_budget": true, "edge_checks": 15}
+{"start": 2, "goal": 21, "shortest_path": [3], "distance": 1, "reachable_within_budget": true, "edge_checks": 4}
+{"start": 3, "goal": 21, "shortest_path": [0, 3], "distance": 2, "reachable_within_budget": true, "edge_checks": 8}
+{"start": 4, "goal": 21, "shortest_path": [2, 3], "distance": 2, "reachable_within_budget": true, "edge_checks": 16}
+{"start": 5, "goal": 21, "shortest_path": [1, 3], "distance": 2, "reachable_within_budget": true, "edge_checks": 12}
+{"start": 6, "goal": 21, "shortest_path": [0, 2, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 28}
+{"start": 7, "goal": 21, "shortest_path": [0, 0, 2, 3], "distance": 4, "reachable_within_budget": true, "edge_checks": 56}
+{"start": 8, "goal": 21, "shortest_path": [0, 3, 1], "distance": 3, "reachable_within_budget": true, "edge_checks": 26}
+{"start": 9, "goal": 21, "shortest_path": [3, 1], "distance": 2, "reachable_within_budget": true, "edge_checks": 18}
+{"start": 10, "goal": 21, "shortest_path": [1, 3, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 39}
+{"start": 11, "goal": 21, "shortest_path": [3, 0, 0], "distance": 3, "reachable_within_budget": true, "edge_checks": 49}
+{"start": 12, "goal": 21, "shortest_path": [0, 3, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 35}
+{"start": 13, "goal": 21, "shortest_path": [3, 2], "distance": 2, "reachable_within_budget": true, "edge_checks": 19}
+{"start": 14, "goal": 21, "shortest_path": [0, 0, 3, 2], "distance": 4, "reachable_within_budget": true, "edge_checks": 51}
+{"start": 15, "goal": 21, "shortest_path": [3, 2, 1, 3], "distance": 4, "reachable_within_budget": true, "edge_checks": 60}
+{"start": 16, "goal": 21, "shortest_path": [3, 2, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 31}
+{"start": 17, "goal": 21, "shortest_path": [0, 0, 1], "distance": 3, "reachable_within_budget": true, "edge_checks": 22}
+{"start": 18, "goal": 21, "shortest_path": [1], "distance": 1, "reachable_within_budget": true, "edge_checks": 2}
+{"start": 19, "goal": 21, "shortest_path": [0, 1], "distance": 2, "reachable_within_budget": true, "edge_checks": 6}
+{"start": 20, "goal": 21, "shortest_path": [0], "distance": 1, "reachable_within_budget": true, "edge_checks": 1}
+{"start": 22, "goal": 21, "shortest_path": [0, 0], "distance": 2, "reachable_within_budget": true, "edge_checks": 5}
+{"start": 23, "goal": 21, "shortest_path": [0, 0, 0], "distance": 3, "reachable_within_budget": true, "edge_checks": 17}
+{"start": 24, "goal": 21, "shortest_path": [2, 0], "distance": 2, "reachable_within_budget": true, "edge_checks": 9}
+{"start": 25, "goal": 21, "shortest_path": [3, 3], "distance": 2, "reachable_within_budget": true, "edge_checks": 20}
+{"start": 26, "goal": 21, "shortest_path": [2], "distance": 1, "reachable_within_budget": true, "edge_checks": 3}
+{"start": 27, "goal": 21, "shortest_path": [0, 2], "distance": 2, "reachable_within_budget": true, "edge_checks": 7}
+{"start": 28, "goal": 21, "shortest_path": [0, 1, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 27}
+{"start": 29, "goal": 21, "shortest_path": [1, 2], "distance": 2, "reachable_within_budget": true, "edge_checks": 11}
+{"start": 30, "goal": 21, "shortest_path": [2, 1, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 52}
+{"start": 31, "goal": 21, "shortest_path": [2, 3, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 35}
+{"start": 0, "goal": 25, "shortest_path": [3, 0, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 39}
+{"start": 1, "goal": 25, "shortest_path": [0, 1, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 28}
+{"start": 2, "goal": 25, "shortest_path": [2, 2], "distance": 2, "reachable_within_budget": true, "edge_checks": 15}
+{"start": 3, "goal": 25, "shortest_path": [1, 3], "distance": 2, "reachable_within_budget": true, "edge_checks": 12}
+{"start": 4, "goal": 25, "shortest_path": [3], "distance": 1, "reachable_within_budget": true, "edge_checks": 4}
+{"start": 5, "goal": 25, "shortest_path": [3, 0], "distance": 2, "reachable_within_budget": true, "edge_checks": 17}
+{"start": 6, "goal": 25, "shortest_path": [0, 3], "distance": 2, "reachable_within_budget": true, "edge_checks": 8}
+{"start": 7, "goal": 25, "shortest_path": [0, 0, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 20}
+{"start": 8, "goal": 25, "shortest_path": [3, 2], "distance": 2, "reachable_within_budget": true, "edge_checks": 15}
+{"start": 9, "goal": 25, "shortest_path": [1, 3, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 39}
+{"start": 10, "goal": 25, "shortest_path": [0, 3, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 27}
+{"start": 11, "goal": 25, "shortest_path": [0, 0, 3, 2], "distance": 4, "reachable_within_budget": true, "edge_checks": 63}
+{"start": 12, "goal": 25, "shortest_path": [2, 0, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 48}
+{"start": 13, "goal": 25, "shortest_path": [3, 0, 0], "distance": 3, "reachable_within_budget": true, "edge_checks": 45}
+{"start": 14, "goal": 25, "shortest_path": [0, 2, 0, 3], "distance": 4, "reachable_within_budget": true, "edge_checks": 60}
+{"start": 15, "goal": 25, "shortest_path": [3, 0, 2, 3], "distance": 4, "reachable_within_budget": true, "edge_checks": 56}
+{"start": 16, "goal": 25, "shortest_path": [0, 0, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 15}
+{"start": 17, "goal": 25, "shortest_path": [0, 2], "distance": 2, "reachable_within_budget": true, "edge_checks": 7}
+{"start": 18, "goal": 25, "shortest_path": [2, 0, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 35}
+{"start": 19, "goal": 25, "shortest_path": [2], "distance": 1, "reachable_within_budget": true, "edge_checks": 3}
+{"start": 20, "goal": 25, "shortest_path": [1, 2], "distance": 2, "reachable_within_budget": true, "edge_checks": 11}
+{"start": 21, "goal": 25, "shortest_path": [2, 3, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 43}
+{"start": 22, "goal": 25, "shortest_path": [0, 1, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 27}
+{"start": 23, "goal": 25, "shortest_path": [0, 0, 1, 2], "distance": 4, "reachable_within_budget": true, "edge_checks": 59}
+{"start": 24, "goal": 25, "shortest_path": [0], "distance": 1, "reachable_within_budget": true, "edge_checks": 1}
+{"start": 26, "goal": 25, "shortest_path": [0, 0], "distance": 2, "reachable_within_budget": true, "edge_checks": 5}
+{"start": 27, "goal": 25, "shortest_path": [0, 0, 0], "distance": 3, "reachable_within_budget": true, "edge_checks": 21}
+{"start": 28, "goal": 25, "shortest_path": [2, 3], "distance": 2, "reachable_within_budget": true, "edge_checks": 16}
+{"start": 29, "goal": 25, "shortest_path": [1, 0, 0], "distance": 3, "reachable_within_budget": true, "edge_checks": 33}
+{"start": 30, "goal": 25, "shortest_path": [0, 2, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 32}
+{"start": 31, "goal": 25, "shortest_path": [0, 0, 2, 3], "distance": 4, "reachable_within_budget": true, "edge_checks": 56}
+{"start": 0, "goal": 26, "shortest_path": [0, 2], "distance": 2, "reachable_within_budget": true, "edge_checks": 7}
+{"start": 1, "goal": 26, "shortest_path": [2], "distance": 1, "reachable_within_budget": true, "edge_checks": 3}
+{"start": 2, "goal": 26, "shortest_path": [0, 0, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 23}
+{"start": 3, "goal": 26, "shortest_path": [2, 0], "distance": 2, "reachable_within_budget": true, "edge_checks": 13}
+{"start": 4, "goal": 26, "shortest_path": [1, 2, 0], "distance": 3, "reachable_within_budget": true, "edge_checks": 33}
+{"start": 5, "goal": 26, "shortest_path": [2, 1, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 52}
+{"start": 6, "goal": 26, "shortest_path": [3, 1], "distance": 2, "reachable_within_budget": true, "edge_checks": 18}
+{"start": 7, "goal": 26, "shortest_path": [0, 3, 1], "distance": 3, "reachable_within_budget": true, "edge_checks": 26}
+{"start": 8, "goal": 26, "shortest_path": [2, 2, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 39}
+{"start": 9, "goal": 26, "shortest_path": [0, 0, 1, 3], "distance": 4, "reachable_within_budget": true, "edge_checks": 68}
+{"start": 10, "goal": 26, "shortest_path": [1, 3], "distance": 2, "reachable_within_budget": true, "edge_checks": 12}
+{"start": 11, "goal": 26, "shortest_path": [0, 1, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 28}
+{"start": 12, "goal": 26, "shortest_path": [0, 3], "distance": 2, "reachable_within_budget": true, "edge_checks": 8}
+{"start": 13, "goal": 26, "shortest_path": [3], "distance": 1, "reachable_within_budget": true, "edge_checks": 4}
+{"start": 14, "goal": 26, "shortest_path": [0, 0, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 24}
+{"start": 15, "goal": 26, "shortest_path": [0, 0, 0, 3], "distance": 4, "reachable_within_budget": true, "edge_checks": 36}
+{"start": 16, "goal": 26, "shortest_path": [3, 2], "distance": 2, "reachable_within_budget": true, "edge_checks": 11}
+{"start": 17, "goal": 26, "shortest_path": [1, 3, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 39}
+{"start": 18, "goal": 26, "shortest_path": [0, 3, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 23}
+{"start": 19, "goal": 26, "shortest_path": [2, 0, 0], "distance": 3, "reachable_within_budget": true, "edge_checks": 45}
+{"start": 20, "goal": 26, "shortest_path": [2, 0, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 43}
+{"start": 21, "goal": 26, "shortest_path": [0, 0, 2, 2], "distance": 4, "reachable_within_budget": true, "edge_checks": 51}
+{"start": 22, "goal": 26, "shortest_path": [2, 2], "distance": 2, "reachable_within_budget": true, "edge_checks": 15}
+{"start": 23, "goal": 26, "shortest_path": [0, 2, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 23}
+{"start": 24, "goal": 26, "shortest_path": [0, 0, 0], "distance": 3, "reachable_within_budget": true, "edge_checks": 17}
+{"start": 25, "goal": 26, "shortest_path": [0, 0], "distance": 2, "reachable_within_budget": true, "edge_checks": 5}
+{"start": 27, "goal": 26, "shortest_path": [0], "distance": 1, "reachable_within_budget": true, "edge_checks": 1}
+{"start": 28, "goal": 26, "shortest_path": [0, 1], "distance": 2, "reachable_within_budget": true, "edge_checks": 6}
+{"start": 29, "goal": 26, "shortest_path": [1], "distance": 1, "reachable_within_budget": true, "edge_checks": 2}
+{"start": 30, "goal": 26, "shortest_path": [0, 0, 1], "distance": 3, "reachable_within_budget": true, "edge_checks": 22}
+{"start": 31, "goal": 26, "shortest_path": [2, 3], "distance": 2, "reachable_within_budget": true, "edge_checks": 12}
+{"start": 0, "goal": 29, "shortest_path": [0, 2, 1], "distance": 3, "reachable_within_budget": true, "edge_checks": 22}
+{"start": 1, "goal": 29, "shortest_path": [2, 1], "distance": 2, "reachable_within_budget": true, "edge_checks": 14}
+{"start": 2, "goal": 29, "shortest_path": [0, 0, 2, 1], "distance": 4, "reachable_within_budget": true, "edge_checks": 70}
+{"start": 3, "goal": 29, "shortest_path": [2, 2], "distance": 2, "reachable_within_budget": true, "edge_checks": 15}
+{"start": 4, "goal": 29, "shortest_path": [1, 2, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 35}
+{"start": 5, "goal": 29, "shortest_path": [0, 0, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 24}
+{"start": 6, "goal": 29, "shortest_path": [3], "distance": 1, "reachable_within_budget": true, "edge_checks": 4}
+{"start": 7, "goal": 29, "shortest_path": [0, 3], "distance": 2, "reachable_within_budget": true, "edge_checks": 8}
+{"start": 8, "goal": 29, "shortest_path": [0, 2, 0, 0], "distance": 4, "reachable_within_budget": true, "edge_checks": 65}
+{"start": 9, "goal": 29, "shortest_path": [2, 0, 0], "distance": 3, "reachable_within_budget": true, "edge_checks": 41}
+{"start": 10, "goal": 29, "shortest_path": [1, 3, 1], "distance": 3, "reachable_within_budget": true, "edge_checks": 38}
+{"start": 11, "goal": 29, "shortest_path": [1, 2, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 36}
+{"start": 12, "goal": 29, "shortest_path": [2, 3], "distance": 2, "reachable_within_budget": true, "edge_checks": 16}
+{"start": 13, "goal": 29, "shortest_path": [3, 1], "distance": 2, "reachable_within_budget": true, "edge_checks": 18}
+{"start": 14, "goal": 29, "shortest_path": [0, 2, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 32}
+{"start": 15, "goal": 29, "shortest_path": [3, 0, 0], "distance": 3, "reachable_within_budget": true, "edge_checks": 25}
+{"start": 16, "goal": 29, "shortest_path": [3, 2, 1], "distance": 3, "reachable_within_budget": true, "edge_checks": 30}
+{"start": 17, "goal": 29, "shortest_path": [0, 2, 0, 2], "distance": 4, "reachable_within_budget": true, "edge_checks": 59}
+{"start": 18, "goal": 29, "shortest_path": [0, 3, 2, 1], "distance": 4, "reachable_within_budget": true, "edge_checks": 62}
+{"start": 19, "goal": 29, "shortest_path": [2, 0, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 47}
+{"start": 20, "goal": 29, "shortest_path": [1, 2, 0, 2], "distance": 4, "reachable_within_budget": true, "edge_checks": 75}
+{"start": 21, "goal": 29, "shortest_path": [0, 3, 2, 3], "distance": 4, "reachable_within_budget": true, "edge_checks": 68}
+{"start": 22, "goal": 29, "shortest_path": [2, 2, 1], "distance": 3, "reachable_within_budget": true, "edge_checks": 46}
+{"start": 23, "goal": 29, "shortest_path": [3, 2, 3], "distance": 3, "reachable_within_budget": true, "edge_checks": 48}
+{"start": 24, "goal": 29, "shortest_path": [0, 0, 2], "distance": 3, "reachable_within_budget": true, "edge_checks": 19}
+{"start": 25, "goal": 29, "shortest_path": [0, 2], "distance": 2, "reachable_within_budget": true, "edge_checks": 7}
+{"start": 26, "goal": 29, "shortest_path": [1], "distance": 1, "reachable_within_budget": true, "edge_checks": 2}
+{"start": 27, "goal": 29, "shortest_path": [2], "distance": 1, "reachable_within_budget": true, "edge_checks": 3}
+{"start": 28, "goal": 29, "shortest_path": [0], "distance": 1, "reachable_within_budget": true, "edge_checks": 1}
+{"start": 30, "goal": 29, "shortest_path": [0, 0], "distance": 2, "reachable_within_budget": true, "edge_checks": 5}
+{"start": 31, "goal": 29, "shortest_path": [0, 0, 0], "distance": 3, "reachable_within_budget": true, "edge_checks": 17}

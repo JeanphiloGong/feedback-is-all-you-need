@@ -17,3 +17,5 @@ references/*.pdf
 *.out
 *.toc
 *.synctex.gz
+# Restore this large raw journal from formal-phases.jsonl.gz before replay.
+/results/study-m-v1/formal-v1/phases.jsonl

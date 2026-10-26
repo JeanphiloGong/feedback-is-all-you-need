@@ -1767,3 +1767,35 @@ separately. All outcomes from development seeds remain exploratory.
   abstraction or compatibility layer, and removes no evidence. An attempted
   Dyna source download failed at the author host (HTTPS EOF; HTTP 502); no
   unread full-text claim or downloaded source was added.
+
+## 2026-10-26 UTC: retained learning formal evidence
+
+- The unchanged 32-seed Study M grid completed once on lens (aorus), using
+  the frozen source/data revision 13f1c71 and its matching development audit.
+  Collection took 236.915 seconds; independent replay/analysis passed in
+  322.529 seconds on one AMD Ryzen 9 9950X CPU thread. No GPU was used.
+  The audit reconstructed 262,144 main actions, 665,600 gradients, 2,816
+  checkpoints, and 444,416 probes. All 69,632 adaptive main batches changed
+  parameters, with weights, Adam moments, and replay retained across goals.
+- The structured-world small-minus-large AUC primary is -0.2473 percentage
+  points, t95 [-1.1277, 0.6332], bootstrap95 [-1.0813, 0.5694]. Sixteen
+  environments favor each width; superiority is not demonstrated, and no
+  equivalence margin was tested. Small structured success rises from 23.22%
+  to 100%; large success also reaches 100%. Random final success is 85.22%
+  and 97.09%, respectively. All other comparisons remain descriptive.
+- Verified all 3,211 transferred files (1,336,399,264 bytes), all 3,205 raw
+  audit hashes, and all 16 frozen source/data files. Independent local summary
+  reconstruction passed for 512 seed curves, 16 aggregates, 28 contrasts,
+  512 standalone costs, and the primary intervals/decision. The same checker
+  had already passed on the host; both reports are retained. Frozen source
+  was unchanged, so the earlier 37-test runtime check was not repeated.
+- Two transfer handshakes failed without changing the completed run. A
+  persistent SSH connection completed the transfer. The 291,204,229-byte
+  phase ledger is archived losslessly as a 35,372,018-byte gzip file to meet
+  GitHub's per-file size limit; exact round-trip/hash checks passed. The
+  restored local journal is ignored by Git, and restoration precedes replay.
+- No experiment abstraction or compatibility layer was added. The figure
+  script directly reads the audited summary; all eight controls and five
+  checkpoints are shown. No research evidence was deleted or outcome used
+  to retune the experiment. Interpretation remains limited to a supplied
+  representation/planner with dense feedback in stationary finite worlds.
