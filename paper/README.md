@@ -21,6 +21,7 @@ is borrowed from it.
 | [v11](versions/v11-neural-search-priors.pdf) | Adds 32 new environments with neural program priors learned from accepted solutions: the small trained prior reduces composition success relative to uniform search; counts help compositions but lose that advantage on the balanced mixture. Includes replay audits, intermediate checkpoints, costs, and a qualified DreamCoder capacity audit. |
 | [v12](versions/v12-experience-fit-and-transfer.pdf) | Adds explicitly post-hoc diagnostics of the frozen priors: near-minimal experience loss coexists with worse transfer-program likelihood and search success. Reports empirical prefix bounds, every prior, and the limits of causal and semantic interpretation. |
 | [v13](versions/v13-local-context-and-transfer.pdf) | Adds a prospective comparison on 32 fresh environments: the same 1,172-parameter GRU with supplied local context solves 79.30% of compositions versus 24.22% with full prefixes. Shifted success is only 11.13%, and the balanced total remains below uniform search. Includes both frozen controls, every checkpoint, and distinct physical training/ranking costs. |
+| [v14](versions/v14-continued-feedback-and-transfer.pdf) | Adds continued weight updates across two task-family blocks on 32 fresh environments: balanced probe success rises from 43.75% frozen to 51.56%, with a primary gain of +7.81 points (95% CI [4.74, 10.88]). Composition success reaches 92.38%, while shifted success remains 10.74%. Includes initial-corpus replay, both stream orders, every probe checkpoint, and lifetime-resource accounting. |
 
 All manuscripts are working drafts. The current results support conditional
 adaptation, not the sufficiency of feedback for general intelligence.
@@ -79,12 +80,23 @@ The restriction changes context, recurrent state, gradients, and physical
 work together; it does not isolate the cause of Study I's failure or establish
 general intelligence, overall superiority, or equal computation.
 
+Study K in v14 continues actual neural weight updates between stream tasks,
+then evaluates all fixed checkpoints on untouched probes. Its balanced
+online-minus-frozen difference is +7.81 points, t95 [4.74, 10.88],
+bootstrap95 [4.98, 10.84]. Initial-corpus replay scores 43.16% and uniform
+search 50.20%, compared with online's 51.56%. The gain is concentrated in
+compositions (92.38%); shifted success remains 10.74%. New targets come only
+from accepted solutions: failed searches cause extra replay without a new
+failure-specific target. Thus this is a short continued-learning result,
+not demonstrated shifted-task adaptation or feedback sufficiency. Both orders
+are dependent conditions, and update counts do not match lifetime resources.
+
 From the repository root, compile a version twice to resolve citations:
 
 ```bash
 mkdir -p paper/build
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=paper/build \
-  paper/versions/v13-local-context-and-transfer.tex
+  paper/versions/v14-continued-feedback-and-transfer.tex
 ```
 
 Compiled files in `paper/versions/` are inspected snapshots. `paper/build/`

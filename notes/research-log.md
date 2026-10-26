@@ -1395,3 +1395,19 @@ separately. All outcomes from development seeds remain exploratory.
   size 24 to 33. This example is explanatory, not a new selected endpoint.
   The present failure response is extra replay, not a failure-specific target;
   direct error-driven updates remain the next research question.
+
+## 2026-10-26 UTC: manuscript v14
+
+- Added the complete Study K methods, continued-learning checkpoints, primary
+  and descriptive comparisons, both stream orders, and measured resource
+  costs to a new version while preserving all historical manuscripts. The
+  abstract and conclusion distinguish actual parameter updates from the
+  missing failure-specific learning signal and the unresolved shifted deficit.
+- Fresh scientific review found no material issue against the frozen
+  protocol, implementation, results, and v13 changes. Cross-model CLI review
+  was skipped in this autonomous run. Two LaTeX passes produced 38 pages with
+  no final warnings or overfull/underfull boxes; all pages were rendered and
+  visually inspected, including the complete new learning figure and tables.
+- Updated the repository and manuscript indexes. Added no new abstraction or
+  compatibility layer. Removed disposable v14 build/render intermediates
+  after saving the inspected source and PDF; no research evidence was removed.
