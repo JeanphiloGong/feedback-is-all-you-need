@@ -61,10 +61,11 @@ The hypothesis has now been tested in controlled classification, pretrained
 language-model, and symbolic program-search studies. Results support conditional adaptation, but do not
 establish feedback sufficiency for general intelligence.
 
-- [Manuscript versions](paper/README.md): v0 hypothesis through v10, including
+- [Manuscript versions](paper/README.md): v0 hypothesis through v11, including
   audited results, pretrained models, response budgets, online updates, and
   checked rule revision, complete correction history, and explicit separation
-  of candidate generation from external selection, and cross-task fragment reuse.
+  of candidate generation from external selection, cross-task fragment reuse,
+  and neural program priors learned from accepted solutions.
 - [Study A replication](results/study-a-v2/README.md): 20 seeds, four capacities,
   seven feedback conditions; all 19,200 records retained.
 - [Study B results](results/study-b-v1/README.md): four Qwen2.5 sizes, 24 new
@@ -90,6 +91,14 @@ establish feedback sufficiency for general intelligence.
   with whole-program memory and 50.39% without memory. On shifted programs,
   compressed memory falls to 9.96%, versus 50.00% without memory. This is a
   supplied symbolic search mechanism with learned representations, no neural model.
+- [Study I results](results/study-i-v1/README.md): 32 further environments;
+  the 1,172-parameter trained program prior solves 22.85% of compositions versus
+  50.00% for uniform search, a primary difference of -27.15 points
+  (95% CI [-32.74, -21.55]). A count prior reaches 66.02% on compositions but
+  33.59% on shifted tasks; its balanced total is 510/1,024 versus uniform's
+  512/1,024. All checkpoints, exact replays, and separate training/ranking costs
+  are retained. This is unconditional program learning with supplied symbolic
+  search, not a task-conditioned or lifelong agent.
 - [Full-text literature review](notes/full-text-review.md): methods and limits
   of ten close precedents, including Reward is enough, DreamCoder, ExpeL, and the
   Era of Experience.

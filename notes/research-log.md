@@ -932,3 +932,31 @@ separately. All outcomes from development seeds remain exploratory.
   skipped. No experiment source or protocol changed after official outcomes.
   No new abstraction or compatibility layer was added in this results slice;
   the plot script only presents prespecified audited checkpoints.
+
+## 2026-10-26 UTC: manuscript v11
+
+- Preserved v10 and added a complete v11 with Study I methods, its negative
+  primary result, count and capacity controls, shifted and balanced outcomes,
+  checkpoint trajectories, costs, and limitations. The manuscript retains all
+  A–H evidence and the seven-section organization. It identifies the neural
+  prior as unconditional and attributes accepted experience to supplied search;
+  no untested explanation is asserted as the cause of regression.
+- Added the historical DreamCoder source-audit boundary: conditional tensor
+  counts do not establish the parameter count of a published configuration.
+  Fresh scientific review found no material issue in the changed manuscript
+  against the protocol, source, audit, and archived results. Cross-model CLI
+  review was skipped in the authorized autonomous context.
+- Reflowed two paragraphs that exceeded the text width. The final source
+  compiled twice without warnings, unresolved references, or overfull/underfull
+  boxes. Rendered and visually inspected all 29 pages, including every table,
+  formula, figure, and reference page, with no clipping or overlap found.
+- Saved the inspected PDF byte-identically to the version archive: 579,561
+  bytes, SHA-256
+  `074d82759164673efd1eae07eacc7e67491b6f35af7d09b38197abdfeadd60c8`.
+  Updated both manuscript indexes. This is one inseparable manuscript snapshot;
+  its full source mostly inherits v10, with 215 added and 12 removed lines in
+  the version-to-version comparison. No new code abstraction or compatibility
+  layer was introduced. Removed this version's build/render intermediates and
+  the H/I Python caches created during verification; experiment archives and
+  original remote records remain intact. No experiment rerun was needed for
+  this documentation-only checkpoint.

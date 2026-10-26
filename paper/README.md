@@ -18,6 +18,7 @@ is borrowed from it.
 | [v8](versions/v8-feedback-history.pdf) | Adds 16 checked revisions with last-only or complete history on 48 fresh environments: no demonstrated direct-accuracy benefit, with exact-rule regressions and unequal costs reported. |
 | [v9](versions/v9-selection-and-search.pdf) | Adds explicitly post-hoc candidate selection and exact uniform-proposal references, distinguishing discarded progress from absent exact candidates and attributing the supplied grammar and selector. |
 | [v10](versions/v10-compression-and-transfer.pdf) | Adds DreamCoder as an abstraction-learning precedent and a 32-environment symbolic transfer study: learned fragments help new motif compositions but reduce success on shifted programs, with prior experience and library costs accounted for. |
+| [v11](versions/v11-neural-search-priors.pdf) | Adds 32 new environments with neural program priors learned from accepted solutions: the small trained prior reduces composition success relative to uniform search; counts help compositions but lose that advantage on the balanced mixture. Includes replay audits, intermediate checkpoints, costs, and a qualified DreamCoder capacity audit. |
 
 All manuscripts are working drafts. The current results support conditional
 adaptation, not the sufficiency of feedback for general intelligence.
@@ -47,12 +48,23 @@ is +82.81 points, t95 [77.12, 88.51]. On shifted programs, compressed memory
 scores 9.96% versus 50.00% without memory. The result supports conditional
 representation reuse, with no claim of general or neural intelligence.
 
+Study I trains unconditional GRU program priors from accepted experience
+solutions supplied by symbolic search. The 1,172-parameter trained prior
+solves 22.85% of new compositions versus 50.00% for uniform search: a primary
+difference of -27.15 points, t95 [-32.74, -21.55]. The same small network frozen
+at initialization scores 50.00%; the 13,892-parameter trained prior scores
+17.58%. These results concern the fixed architecture and update schedule,
+not a general capacity limit. A count prior solves 66.02% of compositions but
+33.59% of shifted tasks, totaling 510/1,024 versus uniform's 512/1,024 on the
+balanced mixture. Training, ranking, and supplied search remain explicit parts
+of the system; the cause of neural transfer regression is not isolated.
+
 From the repository root, compile a version twice to resolve citations:
 
 ```bash
 mkdir -p paper/build
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=paper/build \
-  paper/versions/v10-compression-and-transfer.tex
+  paper/versions/v11-neural-search-priors.tex
 ```
 
 Compiled files in `paper/versions/` are inspected snapshots. `paper/build/`
