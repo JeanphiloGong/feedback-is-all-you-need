@@ -1318,3 +1318,17 @@ separately. All outcomes from development seeds remain exploratory.
   analysis functions without an architectural abstraction or compatibility
   layer. Synthetic temporary directories clean themselves up; removed local
   Study K bytecode caches. No research evidence was removed.
+
+## 2026-10-26 UTC: continual task-data freeze
+
+- After reviewed implementation freeze 53e250d, generated the official
+  development seed 37 and formal 13000–13031 once with the unchanged H
+  generator. All 33 environments have 24 initial experience tasks; the complete
+  file has 1,848 tasks. Full-function labels, split uniqueness, and transfer
+  lengths passed checks before exclusive output creation.
+- The data has 2,378,541 bytes and SHA-256
+  `68f068206234e43eb66b444e02a93640cb4611f33298a9a1eaaedae40024675d`.
+  No official search or learning outcome preceded this freeze. Stream/probe
+  indices and both family orders remain exactly as registered.
+- This separate generated-data save point adds no abstraction or compatibility
+  layer. No prior data, failed attempt, or manuscript was removed.

@@ -78,4 +78,25 @@ cost phases, and incomplete grids, and check environment-level intervals and
 the fixed bootstrap. Formal archives retain the exact matching development
 audit certificate. Auditing refuses optimized Python, where assertions would
 be disabled, and requires collection/replay durations to cover their recorded
-work. Official data generation and collection have not begun.
+work.
+
+The task data is now frozen after reviewed implementation commit
+`53e250d52e31aa9b1e5db4d9512510febc70f783`: 33 environments, 1,848 tasks,
+and 24 initial experience attempts in every environment. No official search
+or learning outcome preceded this data freeze. The 2,378,541-byte JSON has
+SHA-256 `68f068206234e43eb66b444e02a93640cb4611f33298a9a1eaaedae40024675d`.
+Task labels, split uniqueness, and the declared length counts passed checks.
+
+Reproduce the unchanged generator into a new file:
+
+```bash
+python3 -s - <<'PY'
+import json
+from pathlib import Path
+from experiments.study_h.tasks import make_environment
+
+data = [make_environment(seed) for seed in [37, *range(13000, 13032)]]
+with Path('/tmp/study-k-environments-regenerated.json').open('x') as stream:
+    stream.write(json.dumps(data, indent=2) + '\n')
+PY
+```
