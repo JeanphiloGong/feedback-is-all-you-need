@@ -27,3 +27,21 @@ That bookkeeping difference does not change acceptance or execution counts.
 
 No official Study L environment or outcome has been generated. Implementation
 and audit must be frozen before the development and formal runs.
+
+The collector resets both model copies and fresh feedback optimizers for every
+transfer target and retains each candidate, partial check, update, checkpoint,
+table, and rank order. Hidden outputs are evaluated only after the complete
+visible result is saved. Initial-experience optimizer states are retained as
+evidence but are not carried into the different transfer losses.
+
+```bash
+python -m unittest experiments.study_l.test_collection -v
+```
+
+Candidate/update/evaluation phases separately measure journal serialization,
+writes, and flushes, with byte counts. Result records and table/order/checkpoint
+archives have explicit I/O phases. Phase-ledger writes, active-status writes,
+file opening/closing, directories, and run metadata remain collection overhead;
+phase sums are instrumented measurements, not pure-compute benchmarks.
+Update journals are stored per environment so the complete fixed grid does
+not put its potentially hundreds of thousands of steps into one oversized file.

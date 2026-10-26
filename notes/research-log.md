@@ -1447,3 +1447,26 @@ separately. All outcomes from development seeds remain exploratory.
   or outcome exists. Added direct numerical/search functions, no class,
   architectural abstraction, or compatibility layer; disposable local bytecode
   caches were removed. Collector work remains a separate uncommitted slice.
+
+## 2026-10-26 UTC: failure-update collector
+
+- Added per-task model resets, fresh feedback optimizers, exact interrupted
+  checks, complete candidate/update journals, every update-batch checkpoint,
+  probability/rank artifacts, and saved visible outcomes before hidden scoring.
+  Update journals are separated by environment to avoid one oversized file
+  across the full grid. Startup gates require the fixed runtime, complete data,
+  and a matching development certificate; failures preserve partial evidence.
+- Fresh review identified unseparated journal overhead inside phase timings.
+  Added journal serialization/write/flush seconds and bytes, plus result-archive
+  phases. A deliberately delayed-flush test verifies exact journal costs while
+  primitive execution stays unchanged. The targeted recheck found no remaining
+  material issue. Phase-ledger/status/metadata/file-management overhead remains
+  in actual collection time and is explicitly disclosed.
+- All 17 synthetic checks passed on lens in 1.011 seconds under pinned
+  PyTorch 2.8.0+cu126. After changing update-journal paths, the six collection
+  checks passed again. The initial synthetic fixture lacked a complete second
+  transfer family; the existing complete-grid gate caught it, and the fixture
+  was corrected before any official data generation. Cross-model CLI review
+  was skipped. No architectural abstraction or compatibility layer was added;
+  temporary test directories clean themselves up. Audit implementation remains
+  a separate uncommitted slice.
