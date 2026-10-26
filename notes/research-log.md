@@ -864,3 +864,20 @@ separately. All outcomes from development seeds remain exploratory.
   new production abstraction. Redundant per-entry cost checks were replaced
   where full-map comparison owns the evidence boundary; no temporary bypass
   or permissive audit path remains in the experiment implementation.
+
+## 2026-10-26 UTC: neural-prior data freeze
+
+- Archived development seed 29 and formal seeds 11000–11031: 33 environments,
+  1,848 tasks, and 24 experience attempts in every environment. The frozen JSON
+  has 2,378,541 bytes and SHA-256
+  `8d44fdd010df018097ffc5a8e5ee08e7f0270b1f3351846e3671293cc657aa78`.
+  Full-function labels and within-environment split uniqueness were checked.
+- The first pre-write validation command compared tuple-valued examples with
+  list-valued expected pairs and failed. Corrected that check's representation
+  and regenerated the identical seed grid; no generator, task, label, seed,
+  model, or protocol changed. No data file or official run had been written by
+  the failed command. This was a validation-script defect, not a task outcome.
+- Implementation is frozen at 992085f, with Study H's unchanged generator and
+  experience search. This large generated JSON is a separate archival commit
+  so it does not obscure the reviewed source. No development/formal search or
+  neural training outcome was used to select the data or implementation.

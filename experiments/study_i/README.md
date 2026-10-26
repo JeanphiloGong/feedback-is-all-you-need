@@ -7,7 +7,9 @@ symbolic search and verification remain supplied parts of the complete system.
 
 The core contains a 1,172/13,892-parameter GRU, sequential replay updates,
 a count-based prior, finite ranked enumeration, and a budgeted first-fit checker.
-No official task outcomes have been collected at this implementation checkpoint.
+The data freeze contains 33 environments and 1,848 tasks; all environments have
+24 experience tasks. No official outcomes were collected before this freeze.
+Data SHA-256: `8d44fdd010df018097ffc5a8e5ee08e7f0270b1f3351846e3671293cc657aa78`.
 
 ```bash
 # Pure search checks (standard library only).
