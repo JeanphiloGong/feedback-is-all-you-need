@@ -19,6 +19,7 @@ is borrowed from it.
 | [v9](versions/v9-selection-and-search.pdf) | Adds explicitly post-hoc candidate selection and exact uniform-proposal references, distinguishing discarded progress from absent exact candidates and attributing the supplied grammar and selector. |
 | [v10](versions/v10-compression-and-transfer.pdf) | Adds DreamCoder as an abstraction-learning precedent and a 32-environment symbolic transfer study: learned fragments help new motif compositions but reduce success on shifted programs, with prior experience and library costs accounted for. |
 | [v11](versions/v11-neural-search-priors.pdf) | Adds 32 new environments with neural program priors learned from accepted solutions: the small trained prior reduces composition success relative to uniform search; counts help compositions but lose that advantage on the balanced mixture. Includes replay audits, intermediate checkpoints, costs, and a qualified DreamCoder capacity audit. |
+| [v12](versions/v12-experience-fit-and-transfer.pdf) | Adds explicitly post-hoc diagnostics of the frozen priors: near-minimal experience loss coexists with worse transfer-program likelihood and search success. Reports empirical prefix bounds, every prior, and the limits of causal and semantic interpretation. |
 
 All manuscripts are working drafts. The current results support conditional
 adaptation, not the sufficiency of feedback for general intelligence.
@@ -59,12 +60,20 @@ not a general capacity limit. A count prior solves 66.02% of compositions but
 balanced mixture. Training, ranking, and supplied search remain explicit parts
 of the system; the cause of neural transfer regression is not isolated.
 
+The post-hoc diagnostics in v12 show that the small prior's full-experience
+loss falls to 0.662957 nats/token from its initial 1.393215, with an unrestricted
+empirical prefix bound of 0.635611. Its composition generating-program loss
+is 2.596447 versus uniform's 1.386294. Thus improved in-sample fitting coexists
+with worse transfer likelihood and original search success. Every checkpoint
+is retained; a generating sequence is only one possible solution, and these
+descriptions do not identify the cause of failure.
+
 From the repository root, compile a version twice to resolve citations:
 
 ```bash
 mkdir -p paper/build
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=paper/build \
-  paper/versions/v11-neural-search-priors.tex
+  paper/versions/v12-experience-fit-and-transfer.tex
 ```
 
 Compiled files in `paper/versions/` are inspected snapshots. `paper/build/`

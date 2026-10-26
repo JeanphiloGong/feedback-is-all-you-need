@@ -1029,3 +1029,24 @@ separately. All outcomes from development seeds remain exploratory.
   Narrow follow-up confirmed resolution; no number changed. Cross-model CLI
   review was skipped. No new abstraction or compatibility layer was added in
   this archival slice; verification caches were removed and raw records retained.
+
+## 2026-10-26 UTC: manuscript v12
+
+- Preserved v11 and added a complete v12 integrating the explicitly post-hoc
+  likelihood plan, empirical prefix-loss formula, all-prior table, own-corpus
+  distinctions, position descriptions, provenance, and interpretation limits.
+  No original A–I endpoint changed. Fresh scientific review independently
+  reconstructed the diagnostic and found no substantive issue; cross-model
+  CLI review was skipped in the autonomous context.
+- Both final compilation passes completed without warnings or unresolved
+  references. Visually inspected all 32 pages. A results table initially floated
+  above its section heading; an explicit page break at the results section
+  corrected this. The final rendering changed only page 12, which was inspected
+  again; all other final page images are byte-identical to the inspected ones.
+- Archived the final PDF byte-identically: 586,957 bytes, SHA-256
+  `b21a5a95d0236183017a072217d4b2110af42a4e2f5722c720f729eac8b561d2`.
+  The full snapshot inherits v11 with 117 added and four removed source lines;
+  source, inspected PDF, and version indexes form one manuscript save point.
+  No code abstraction or compatibility layer was added. Removed v12 build and
+  render intermediates; no raw diagnostic or historical evidence was removed.
+  No model or experiment rerun was needed for this documentation-only update.
