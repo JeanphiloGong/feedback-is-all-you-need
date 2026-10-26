@@ -814,3 +814,28 @@ separately. All outcomes from development seeds remain exploratory.
   full audit, and inference remain separate work, not verified by this slice.
   The GRU class directly implements the experimental model; no compatibility
   layer, temporary implementation, or generic agent abstraction was added.
+
+## 2026-10-26 UTC: neural-prior collection and failure records
+
+- Added collection with three persistent optimizers, matched initial small
+  weights, intermediate/final checkpoints, six final priors, and two frozen
+  probes. Separate search, evaluation, update, and completed-phase journals
+  preserve the observable data flow. Runtime failures include the active-phase
+  file reference; official collection still has not started.
+- Independent collection review found two missing records: completed phase
+  costs could be lost before the final environment summary, and empty corpora
+  had no explicit per-attempt skip. Both were fixed with flushed phase records.
+  Follow-up exposed parsing of a potentially truncated phase file inside the
+  error handler; removed that parsing and retained the raw file by reference.
+  The final narrow review confirmed resolution. Cross-model CLI review was
+  skipped in the authorized autonomous context.
+- All five collection tests pass on lens. Hand-built fixtures show that hidden
+  label changes cannot affect training or search, incorrect hidden fits remain
+  in the learning corpus, completed work survives evaluator failure, all empty
+  attempts are recorded, and a damaged phase file cannot mask the original
+  exception. Initialization failure is also archived. Temporary fixture trees
+  are removed by the tests; no benchmark environment was generated or searched.
+- This checkpoint adds direct experiment collection and evidence files, with
+  no compatibility layer or generic agent abstraction. Full audit and analysis
+  remain a separate uncommitted review slice; their presence is not an official
+  development result or a completed scientific comparison.
