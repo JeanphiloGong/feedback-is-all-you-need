@@ -4,6 +4,8 @@ The [frozen analysis plan](../../notes/study-i-likelihood-diagnostic-plan.md)
 describes all formal checkpoints after manuscript v11. This directory is
 separate from the original experiment so its frozen source hashes remain
 unchanged. There is no training, search rerun, or change to the primary result.
+The [verified results](../../results/study-i-likelihood-v1/README.md) retain all
+formal checkpoints, input hashes, and independent summary reconstructions.
 
 Input is the controlled archive of 967 files, checked once against the passing
 original audit before checkpoint loading. A mismatch aborts the analysis and

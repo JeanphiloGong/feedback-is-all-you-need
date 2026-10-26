@@ -1000,3 +1000,32 @@ separately. All outcomes from development seeds remain exploratory.
   architectural abstraction, compatibility layer, or production interface.
   Synthetic fixture directories clean themselves up. Original collection,
   model, audit, task, and protocol sources remain unchanged.
+
+## 2026-10-26 UTC: archived likelihood diagnostics
+
+- Ran the frozen diagnostic once on all 32 formal environments, after verifying
+  all 18 execution-source hashes against 85f1113 and all 967 raw files against
+  the original audit. Analysis took 4.349 seconds, retaining 17,408 program
+  records and checking 84,480 neural target probabilities and logs against
+  independent NumPy equations. No training, search, or checkpoint change occurred.
+- Small trained experience loss is 0.662957 nats/token versus frozen 1.393215,
+  with a decrease in all 32 environments. Its empirical prefix bound is
+  0.635611 and mean excess 0.027347. Composition generating-program raw loss is
+  2.596447 versus uniform 1.386294, higher in every environment; the smoothed
+  difference is +0.437787, higher in 31 and lower in one. Shifted raw and
+  smoothed losses are higher than uniform in every environment. Fitting improves
+  while these transfer likelihoods and original search outcomes remain poor.
+- Retained every arm, own-corpus bound, checkpoint, length, position, and paired
+  value. The larger final model fits real experience more closely but has worse
+  transfer likelihood under the fixed schedule. Generator likelihood is not
+  total semantic solution probability; no causal mechanism is identified.
+- Standard-library reconstruction on lens and locally agrees on all program
+  membership, 12,128 environment cells, 379 aggregates, 160 training corpora,
+  and six descriptive differences. All four transferred analysis/verification
+  files, 10,794,297 bytes, match the remote originals in the saved manifest.
+- Fresh results review found an overbroad phrase comparing counts with all
+  trained priors. Restricted it to the final small/large priors trained on real
+  accepted experience, because shuffled and early-checkpoint rows differ.
+  Narrow follow-up confirmed resolution; no number changed. Cross-model CLI
+  review was skipped. No new abstraction or compatibility layer was added in
+  this archival slice; verification caches were removed and raw records retained.

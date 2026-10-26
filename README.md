@@ -99,6 +99,12 @@ establish feedback sufficiency for general intelligence.
   512/1,024. All checkpoints, exact replays, and separate training/ranking costs
   are retained. This is unconditional program learning with supplied symbolic
   search, not a task-conditioned or lifelong agent.
+- [Study I likelihood diagnostics](results/study-i-likelihood-v1/README.md):
+  explicitly post-hoc scoring of every fixed checkpoint finds improved
+  experience fitting alongside worse transfer-program likelihood. The small
+  prior's experience loss is 0.663 nats/token versus an empirical bound of
+  0.636; composition-generating-program loss is 2.596 versus uniform's 1.386.
+  This does not identify the cause of the original search regression.
 - [Full-text literature review](notes/full-text-review.md): methods and limits
   of ten close precedents, including Reward is enough, DreamCoder, ExpeL, and the
   Era of Experience.
