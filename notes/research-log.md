@@ -1619,3 +1619,28 @@ separately. All outcomes from development seeds remain exploratory.
   `c0b922c`. The complete raw archive, reviewed result interpretation, reference,
   and v15 are present in the private repository. The worktree was clean after
   verification. This retry changed neither experimental evidence nor history.
+
+## 2026-10-26 UTC: prospective retained predictive learning
+
+- The preceding goal turn made verified progress: complete Study L evidence,
+  reviewed negative-result interpretation, and manuscript v15 were committed
+  and pushed. The broader question of accumulated capability remains open.
+- Registered Study M before implementation or official generation. A neural
+  next-state predictor updates from action outcomes and persists across goal
+  episodes. Two widths, immediate/delayed/frozen branches, exact observed
+  memory, and uniform actions separate capacity, cadence, and supplied support.
+  Held-out goal cues are unused during learning; physical state observations
+  may include those states. Probes run only after all stream interactions.
+- The sole primary is structured-world held-out-goal AUC, small immediate
+  minus large immediate, over 32 paired seeds. Training matrix MAC allocations
+  match while full computation does not. The protocol specifies constructive
+  capacity witnesses, complete costs, frozen checkpoints, and independent
+  replay before inference. Different domains and feedback prevent a causal
+  comparison with Study L.
+- Fresh protocol review found no material issue, including both expressivity
+  witnesses and the MAC calculation. Cross-model CLI review was skipped in
+  this autonomous run. An initial read-only lens connection closed during
+  handshake; a later connection verified aorus and PyTorch 2.8.0+cu126. No
+  experiment was started or restarted by those connection checks.
+- This protocol adds no architectural abstraction or compatibility layer and
+  removes no historical evidence. No official Study M data or outcome exists.
