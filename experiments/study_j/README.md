@@ -86,3 +86,9 @@ PY
 ```
 
 No official search or learning outcome preceded this data freeze.
+
+The [audited development and formal results](../../results/study-j-v1/README.md)
+preserve every arm and checkpoint. The formal local-minus-full composition
+contrast is +55.08 points, t95 [45.60, 64.56]; local-trained remains below
+uniform on shifted tasks and the balanced mixture. No source or setting
+changed after official collection began.

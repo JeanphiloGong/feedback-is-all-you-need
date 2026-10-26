@@ -106,6 +106,12 @@ establish feedback sufficiency for general intelligence.
   prior's experience loss is 0.663 nats/token versus an empirical bound of
   0.636; composition-generating-program loss is 2.596 versus uniform's 1.386.
   This does not identify the cause of the original search regression.
+- [Study J results](results/study-j-v1/README.md): the same 1,172-parameter GRU
+  trained with a supplied last-two-token context solves 79.30% of compositions,
+  versus 24.22% with full-prefix training, a primary difference of +55.08 points
+  (95% CI [45.60, 64.56]). Its shifted score is 11.13%; the balanced total,
+  463/1,024, remains below uniform search's 512/1,024. All experience checkpoints,
+  physical input costs, and independent replay audits are retained.
 - [Full-text literature review](notes/full-text-review.md): methods and limits
   of ten close precedents, including Reward is enough, DreamCoder, ExpeL, and the
   Era of Experience.

@@ -1183,3 +1183,23 @@ separately. All outcomes from development seeds remain exploratory.
   records. This generated evidence is saved separately from its narrative
   interpretation. No abstraction or compatibility layer was added, and no
   research evidence was removed.
+
+## 2026-10-26 UTC: local-context results interpretation
+
+- The prespecified local-minus-full composition difference is +55.08 points,
+  t95 [45.60, 64.56], bootstrap95 [45.90, 63.87]: 30 positive environments and
+  two ties. Local-trained scores 79.30% against full-trained 24.22%, uniform
+  50.00%, and local-frozen 48.83%. Uniform/frozen comparisons are descriptive.
+- Local-trained shifted success is only 11.13%, below uniform in every
+  environment. Its balanced score is 463/1,024 versus uniform 512/1,024;
+  the positive primary therefore does not establish overall superiority.
+  Context restriction, state reset, gradients, and physical work change
+  together. The neural prior and supplied symbolic system remain distinct.
+- Fresh independent results review found no material issue after reconstructing
+  all 1,920 seed/budget records, 90 aggregates, nine descriptive contrasts,
+  primary intervals, costs, and archive/source hashes from raw records.
+  The reviewer also inspected the plot. Cross-model CLI review was skipped
+  in this autonomous run.
+- The figure includes every fixed checkpoint and all environment trajectories;
+  it was rendered and visually inspected. No new abstraction or compatibility
+  layer was added. No source, raw evidence, or historical result was changed.
