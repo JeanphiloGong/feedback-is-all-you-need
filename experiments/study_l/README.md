@@ -6,8 +6,9 @@ copy of the learned 1,172-parameter prior adapts to each task's failures.
 The primary compares rejection-loss updates with uniformizing updates;
 frozen and uniform search provide additional references.
 
-The loss reduces total normalized probability mass assigned to the current
-task's rejected complete strings. All search arms avoid repeated strings.
+The loss penalizes total normalized probability mass assigned to the current
+task's rejected complete strings; finite Adam updates need not reduce it
+monotonically. All search arms avoid repeated strings.
 Updates therefore have to improve the ranking of unchecked programs to help.
 An interrupted candidate continues after an update without repeating work.
 Task weights reset between targets; this is not persistent cross-task learning.
