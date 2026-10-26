@@ -1845,3 +1845,25 @@ separately. All outcomes from development seeds remain exploratory.
   with no full-text claim. Cross-model CLI review was skipped in this autonomous
   continuation. No new code abstraction or temporary compatibility path was
   introduced; no research evidence was deleted.
+
+## 2026-10-26 UTC: encoding study core
+
+- Implemented paired structured-world queries and conjugate graphs, ordered
+  transition replay with real gradients and persistent Adam, and the canonical
+  signed-coordinate reference. The unchanged Study M predictor and planner
+  are reused directly. No official world has been generated or evaluated.
+- Fresh-context review independently checked NumPy gradients/Adam through
+  full synthetic 512/128-step growing-prefix schedules and wrong/missing-graph
+  planner conjugacy. It reproduced two tests accepting incorrect behavior:
+  sorting encoded replay rows and an always-abstaining symbolic predictor.
+  Added real forward-input equality checks and identified/ambiguous rule
+  fixtures; both mutants are now rejected and the unmodified tests pass.
+- Local system Python with user packages disabled lacks Torch. On lens under
+  PyTorch 2.8.0+cu126, all five core tests passed in 0.388 seconds, using only
+  negative synthetic seeds. Tests cover 5,952 arbitrary-graph planner pairs
+  as well as query balance/separation, retained weights/moments, and physical
+  batch pairing. No official outcome informed implementation.
+- Added direct experiment functions, no compatibility layer or new
+  architectural abstraction. Test hooks are removed after capture; temporary
+  source bundles remain outside the research archive. Cross-model CLI review
+  was skipped for this autonomous continuation.
