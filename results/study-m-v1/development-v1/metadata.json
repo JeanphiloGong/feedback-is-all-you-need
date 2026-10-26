@@ -1,0 +1,67 @@
+{
+  "status": "completed",
+  "started_utc": "2026-10-26T22:20:51.546156+00:00",
+  "git_revision": "13f1c71c991ed991507f8ccc66609d4e5b88ec04",
+  "source_sha256": {
+    "experiments/study_m/analyze.py": "8107fcd95880aece8c1bf8d046a7bd8819f01c3720b1ebb67c0c8c56d7b72d9e",
+    "experiments/study_m/audit.py": "ff12267c1525703939b11db736b5dccc0f5c86ce5c1b0147385c166772caca3f",
+    "experiments/study_m/model.py": "4922b2e3f1ef342a0e222263e58428457d1da40af38261767f1fc63812b1007f",
+    "experiments/study_m/policy.py": "4bc7ba52d51756f82d6c04167684bd22bfbd29b9ff6d85f9c8594e896066e97a",
+    "experiments/study_m/replay.py": "d4fef299e56dca8686e86be6fa1f8df8c3a1cb8b3a06ce596ee7f712f96a3c86",
+    "experiments/study_m/run.py": "734d1a2132e7d7126166d3944ecdb4d6ce0fbeafb61a85237d0a406bca074ebf",
+    "experiments/study_m/tasks.py": "7a937476b1fc3dd2ef2a4ed7125d72c4430d12ce212e6219efa90324fd6b0aa2",
+    "experiments/study_m/test_analysis.py": "00aa8e8be198fe89a1116ca96322f79326d62b8a89d74ec14728342eb8e032ab",
+    "experiments/study_m/test_audit.py": "6d974336af37a6fbc3bf7baec1f595efa32ffc30417e241d9303d78ccece0ffb",
+    "experiments/study_m/test_collection.py": "61d49b9b3274b7f0d1f7d61e68b67adedf697887d89cb0254077eaf3afa0855b",
+    "experiments/study_m/test_core.py": "892ce80834db622477dfe006cd5152e192a9bfae8bcf0fa37555fc282604e127",
+    "experiments/study_m/test_replay.py": "90b75d70746f9e3889515fd6b3312f2b6532a4bc295a370d940393f9640eee45",
+    "experiments/study_h/tasks.py": "4e1e06bc1717fbf63e863d9513996221015a85e02e8fcda6ac3855979d5a15b0",
+    "experiments/study_h/search.py": "70a6c9bbcacb79e7b3623111f67a11cdf1b9f743068679d166f0a1a54cb5d062",
+    "notes/protocol-v13-retained-world-model.md": "6f0c43693da1c57f4c8aafbbb66527dbffe19a4878ad3d60ff1ad49a96b4139a"
+  },
+  "data_sha256": "d969414f8db144ddad83a57ad90ec5396aea3614184862615b7a89ef238338da",
+  "seeds": [
+    43
+  ],
+  "families": [
+    "structured",
+    "random"
+  ],
+  "interactions": 512,
+  "checkpoints": [
+    0,
+    64,
+    128,
+    256,
+    512
+  ],
+  "arms": [
+    "small_immediate",
+    "small_delayed",
+    "small_frozen",
+    "large_immediate",
+    "large_delayed",
+    "large_frozen",
+    "observed_table",
+    "uniform"
+  ],
+  "python": "3.11.15 (main, Jul 23 2026, 14:43:45) [Clang 22.1.3 ]",
+  "torch": "2.8.0+cu126",
+  "threads": 1,
+  "device": "cpu",
+  "dtype": "float64",
+  "deterministic_algorithms": true,
+  "platform": "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41",
+  "argv": [
+    "/tmp/feedback-research-m/frozen-13f1c71/repo/experiments/study_m/run.py",
+    "--source-revision",
+    "13f1c71c991ed991507f8ccc66609d4e5b88ec04",
+    "--development",
+    "--output",
+    "/tmp/feedback-research-m/development-v1"
+  ],
+  "cpu_model": "AMD Ryzen 9 9950X 16-Core Processor",
+  "development_audit_sha256": null,
+  "completed_utc": "2026-10-26T22:20:59.278864+00:00",
+  "elapsed_seconds": 7.770728804171085
+}

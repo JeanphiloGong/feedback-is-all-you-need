@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "seed_curves": 16,
+  "aggregates": 16,
+  "contrasts": 28,
+  "standalone_costs": 16,
+  "primary": {
+    "family": "structured",
+    "contrast": "small_immediate minus large_immediate",
+    "metric": "auc",
+    "differences": [
+      0.014616935483870996
+    ],
+    "environments": 1,
+    "mean": 0.014616935483870996,
+    "confirmatory": false,
+    "ci95": null,
+    "bootstrap95": null,
+    "positive_primary": false,
+    "negative": 0,
+    "zero": 0,
+    "positive": 1
+  },
+  "note": "No experiment implementation was imported; checkpoint replay remains the host audit."
+}

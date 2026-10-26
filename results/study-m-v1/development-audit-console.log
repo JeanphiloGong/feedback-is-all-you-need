@@ -1,0 +1,485 @@
+{
+  "primary": {
+    "family": "structured",
+    "contrast": "small_immediate minus large_immediate",
+    "metric": "auc",
+    "differences": [
+      0.014616935483870996
+    ],
+    "environments": 1,
+    "mean": 0.014616935483870996,
+    "confirmatory": false,
+    "ci95": null,
+    "bootstrap95": null,
+    "positive_primary": false,
+    "negative": 0,
+    "zero": 0,
+    "positive": 1
+  },
+  "summaries": [
+    {
+      "family": "structured",
+      "arm": "small_immediate",
+      "environments": 1,
+      "checkpoints": [
+        0,
+        64,
+        128,
+        256,
+        512
+      ],
+      "auc": 0.9301915322580645,
+      "success_rates": [
+        0.1975806451612903,
+        0.8911290322580645,
+        0.967741935483871,
+        1,
+        1
+      ],
+      "success_counts": [
+        49,
+        221,
+        240,
+        248,
+        248
+      ],
+      "tasks_per_checkpoint": 248,
+      "final_minus_initial": 0.8024193548387097
+    },
+    {
+      "family": "structured",
+      "arm": "small_delayed",
+      "environments": 1,
+      "checkpoints": [
+        0,
+        64,
+        128,
+        256,
+        512
+      ],
+      "auc": 0.9012096774193549,
+      "success_rates": [
+        0.1975806451612903,
+        0.7137096774193549,
+        0.9314516129032258,
+        1,
+        1
+      ],
+      "success_counts": [
+        49,
+        177,
+        231,
+        248,
+        248
+      ],
+      "tasks_per_checkpoint": 248,
+      "final_minus_initial": 0.8024193548387097
+    },
+    {
+      "family": "structured",
+      "arm": "small_frozen",
+      "environments": 1,
+      "checkpoints": [
+        0,
+        64,
+        128,
+        256,
+        512
+      ],
+      "auc": 0.1975806451612903,
+      "success_rates": [
+        0.1975806451612903,
+        0.1975806451612903,
+        0.1975806451612903,
+        0.1975806451612903,
+        0.1975806451612903
+      ],
+      "success_counts": [
+        49,
+        49,
+        49,
+        49,
+        49
+      ],
+      "tasks_per_checkpoint": 248,
+      "final_minus_initial": 0.0
+    },
+    {
+      "family": "structured",
+      "arm": "large_immediate",
+      "environments": 1,
+      "checkpoints": [
+        0,
+        64,
+        128,
+        256,
+        512
+      ],
+      "auc": 0.9155745967741935,
+      "success_rates": [
+        0.23790322580645162,
+        0.7419354838709677,
+        0.9758064516129032,
+        1,
+        1
+      ],
+      "success_counts": [
+        59,
+        184,
+        242,
+        248,
+        248
+      ],
+      "tasks_per_checkpoint": 248,
+      "final_minus_initial": 0.7620967741935484
+    },
+    {
+      "family": "structured",
+      "arm": "large_delayed",
+      "environments": 1,
+      "checkpoints": [
+        0,
+        64,
+        128,
+        256,
+        512
+      ],
+      "auc": 0.902217741935484,
+      "success_rates": [
+        0.23790322580645162,
+        0.7741935483870968,
+        0.9233870967741935,
+        0.9798387096774194,
+        1
+      ],
+      "success_counts": [
+        59,
+        192,
+        229,
+        243,
+        248
+      ],
+      "tasks_per_checkpoint": 248,
+      "final_minus_initial": 0.7620967741935484
+    },
+    {
+      "family": "structured",
+      "arm": "large_frozen",
+      "environments": 1,
+      "checkpoints": [
+        0,
+        64,
+        128,
+        256,
+        512
+      ],
+      "auc": 0.23790322580645162,
+      "success_rates": [
+        0.23790322580645162,
+        0.23790322580645162,
+        0.23790322580645162,
+        0.23790322580645162,
+        0.23790322580645162
+      ],
+      "success_counts": [
+        59,
+        59,
+        59,
+        59,
+        59
+      ],
+      "tasks_per_checkpoint": 248,
+      "final_minus_initial": 0.0
+    },
+    {
+      "family": "structured",
+      "arm": "observed_table",
+      "environments": 1,
+      "checkpoints": [
+        0,
+        64,
+        128,
+        256,
+        512
+      ],
+      "auc": 0.8712197580645161,
+      "success_rates": [
+        0.3709677419354839,
+        0.5685483870967742,
+        0.8104838709677419,
+        1,
+        1
+      ],
+      "success_counts": [
+        92,
+        141,
+        201,
+        248,
+        248
+      ],
+      "tasks_per_checkpoint": 248,
+      "final_minus_initial": 0.6290322580645161
+    },
+    {
+      "family": "structured",
+      "arm": "uniform",
+      "environments": 1,
+      "checkpoints": [
+        0,
+        64,
+        128,
+        256,
+        512
+      ],
+      "auc": 0.2056451612903226,
+      "success_rates": [
+        0.2056451612903226,
+        0.2056451612903226,
+        0.2056451612903226,
+        0.2056451612903226,
+        0.2056451612903226
+      ],
+      "success_counts": [
+        51,
+        51,
+        51,
+        51,
+        51
+      ],
+      "tasks_per_checkpoint": 248,
+      "final_minus_initial": 0.0
+    },
+    {
+      "family": "random",
+      "arm": "small_immediate",
+      "environments": 1,
+      "checkpoints": [
+        0,
+        64,
+        128,
+        256,
+        512
+      ],
+      "auc": 0.7157258064516129,
+      "success_rates": [
+        0.3024193548387097,
+        0.43951612903225806,
+        0.5766129032258065,
+        0.8024193548387096,
+        0.9314516129032258
+      ],
+      "success_counts": [
+        75,
+        109,
+        143,
+        199,
+        231
+      ],
+      "tasks_per_checkpoint": 248,
+      "final_minus_initial": 0.629032258064516
+    },
+    {
+      "family": "random",
+      "arm": "small_delayed",
+      "environments": 1,
+      "checkpoints": [
+        0,
+        64,
+        128,
+        256,
+        512
+      ],
+      "auc": 0.6723790322580645,
+      "success_rates": [
+        0.3024193548387097,
+        0.6129032258064516,
+        0.6411290322580645,
+        0.6209677419354839,
+        0.8951612903225806
+      ],
+      "success_counts": [
+        75,
+        152,
+        159,
+        154,
+        222
+      ],
+      "tasks_per_checkpoint": 248,
+      "final_minus_initial": 0.592741935483871
+    },
+    {
+      "family": "random",
+      "arm": "small_frozen",
+      "environments": 1,
+      "checkpoints": [
+        0,
+        64,
+        128,
+        256,
+        512
+      ],
+      "auc": 0.3024193548387097,
+      "success_rates": [
+        0.3024193548387097,
+        0.3024193548387097,
+        0.3024193548387097,
+        0.3024193548387097,
+        0.3024193548387097
+      ],
+      "success_counts": [
+        75,
+        75,
+        75,
+        75,
+        75
+      ],
+      "tasks_per_checkpoint": 248,
+      "final_minus_initial": 0.0
+    },
+    {
+      "family": "random",
+      "arm": "large_immediate",
+      "environments": 1,
+      "checkpoints": [
+        0,
+        64,
+        128,
+        256,
+        512
+      ],
+      "auc": 0.7583165322580645,
+      "success_rates": [
+        0.27419354838709675,
+        0.4314516129032258,
+        0.4959677419354839,
+        0.9717741935483871,
+        0.9193548387096774
+      ],
+      "success_counts": [
+        68,
+        107,
+        123,
+        241,
+        228
+      ],
+      "tasks_per_checkpoint": 248,
+      "final_minus_initial": 0.6451612903225806
+    },
+    {
+      "family": "random",
+      "arm": "large_delayed",
+      "environments": 1,
+      "checkpoints": [
+        0,
+        64,
+        128,
+        256,
+        512
+      ],
+      "auc": 0.7721774193548387,
+      "success_rates": [
+        0.27419354838709675,
+        0.2903225806451613,
+        0.5806451612903226,
+        0.9596774193548387,
+        1
+      ],
+      "success_counts": [
+        68,
+        72,
+        144,
+        238,
+        248
+      ],
+      "tasks_per_checkpoint": 248,
+      "final_minus_initial": 0.7258064516129032
+    },
+    {
+      "family": "random",
+      "arm": "large_frozen",
+      "environments": 1,
+      "checkpoints": [
+        0,
+        64,
+        128,
+        256,
+        512
+      ],
+      "auc": 0.27419354838709675,
+      "success_rates": [
+        0.27419354838709675,
+        0.27419354838709675,
+        0.27419354838709675,
+        0.27419354838709675,
+        0.27419354838709675
+      ],
+      "success_counts": [
+        68,
+        68,
+        68,
+        68,
+        68
+      ],
+      "tasks_per_checkpoint": 248,
+      "final_minus_initial": 0.0
+    },
+    {
+      "family": "random",
+      "arm": "observed_table",
+      "environments": 1,
+      "checkpoints": [
+        0,
+        64,
+        128,
+        256,
+        512
+      ],
+      "auc": 0.686491935483871,
+      "success_rates": [
+        0.35080645161290325,
+        0.5685483870967742,
+        0.6895161290322581,
+        0.7056451612903226,
+        0.7983870967741935
+      ],
+      "success_counts": [
+        87,
+        141,
+        171,
+        175,
+        198
+      ],
+      "tasks_per_checkpoint": 248,
+      "final_minus_initial": 0.44758064516129026
+    },
+    {
+      "family": "random",
+      "arm": "uniform",
+      "environments": 1,
+      "checkpoints": [
+        0,
+        64,
+        128,
+        256,
+        512
+      ],
+      "auc": 0.21370967741935484,
+      "success_rates": [
+        0.21370967741935484,
+        0.21370967741935484,
+        0.21370967741935484,
+        0.21370967741935484,
+        0.21370967741935484
+      ],
+      "success_counts": [
+        53,
+        53,
+        53,
+        53,
+        53
+      ],
+      "tasks_per_checkpoint": 248,
+      "final_minus_initial": 0.0
+    }
+  ]
+}

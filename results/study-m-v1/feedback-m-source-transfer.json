@@ -1,0 +1,71 @@
+{
+  "source_revision": "13f1c71c991ed991507f8ccc66609d4e5b88ec04",
+  "files": {
+    "experiments/study_m/analyze.py": {
+      "sha256": "8107fcd95880aece8c1bf8d046a7bd8819f01c3720b1ebb67c0c8c56d7b72d9e",
+      "bytes": 12258
+    },
+    "experiments/study_m/audit.py": {
+      "sha256": "ff12267c1525703939b11db736b5dccc0f5c86ce5c1b0147385c166772caca3f",
+      "bytes": 19223
+    },
+    "experiments/study_m/model.py": {
+      "sha256": "4922b2e3f1ef342a0e222263e58428457d1da40af38261767f1fc63812b1007f",
+      "bytes": 2528
+    },
+    "experiments/study_m/policy.py": {
+      "sha256": "4bc7ba52d51756f82d6c04167684bd22bfbd29b9ff6d85f9c8594e896066e97a",
+      "bytes": 1164
+    },
+    "experiments/study_m/replay.py": {
+      "sha256": "d4fef299e56dca8686e86be6fa1f8df8c3a1cb8b3a06ce596ee7f712f96a3c86",
+      "bytes": 6404
+    },
+    "experiments/study_m/run.py": {
+      "sha256": "734d1a2132e7d7126166d3944ecdb4d6ce0fbeafb61a85237d0a406bca074ebf",
+      "bytes": 21729
+    },
+    "experiments/study_m/tasks.py": {
+      "sha256": "7a937476b1fc3dd2ef2a4ed7125d72c4430d12ce212e6219efa90324fd6b0aa2",
+      "bytes": 3428
+    },
+    "experiments/study_m/test_analysis.py": {
+      "sha256": "00aa8e8be198fe89a1116ca96322f79326d62b8a89d74ec14728342eb8e032ab",
+      "bytes": 4166
+    },
+    "experiments/study_m/test_audit.py": {
+      "sha256": "6d974336af37a6fbc3bf7baec1f595efa32ffc30417e241d9303d78ccece0ffb",
+      "bytes": 9662
+    },
+    "experiments/study_m/test_collection.py": {
+      "sha256": "61d49b9b3274b7f0d1f7d61e68b67adedf697887d89cb0254077eaf3afa0855b",
+      "bytes": 8387
+    },
+    "experiments/study_m/test_core.py": {
+      "sha256": "892ce80834db622477dfe006cd5152e192a9bfae8bcf0fa37555fc282604e127",
+      "bytes": 10503
+    },
+    "experiments/study_m/test_replay.py": {
+      "sha256": "90b75d70746f9e3889515fd6b3312f2b6532a4bc295a370d940393f9640eee45",
+      "bytes": 2604
+    },
+    "experiments/study_h/tasks.py": {
+      "sha256": "4e1e06bc1717fbf63e863d9513996221015a85e02e8fcda6ac3855979d5a15b0",
+      "bytes": 3566
+    },
+    "experiments/study_h/search.py": {
+      "sha256": "70a6c9bbcacb79e7b3623111f67a11cdf1b9f743068679d166f0a1a54cb5d062",
+      "bytes": 3922
+    },
+    "notes/protocol-v13-retained-world-model.md": {
+      "sha256": "6f0c43693da1c57f4c8aafbbb66527dbffe19a4878ad3d60ff1ad49a96b4139a",
+      "bytes": 15186
+    },
+    "experiments/study_m/data/worlds-v1.json": {
+      "sha256": "d969414f8db144ddad83a57ad90ec5396aea3614184862615b7a89ef238338da",
+      "bytes": 2999821
+    }
+  },
+  "execution_host": "lens (aorus)",
+  "execution_directory": "/tmp/feedback-research-m/frozen-13f1c71/repo"
+}

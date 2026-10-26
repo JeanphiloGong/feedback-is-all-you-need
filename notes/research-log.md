@@ -1743,3 +1743,27 @@ separately. All outcomes from development seeds remain exploratory.
   `d969414f8db144ddad83a57ad90ec5396aea3614184862615b7a89ef238338da`.
   This generated-data save point adds no abstraction or compatibility layer
   and removes no evidence.
+
+## 2026-10-26 UTC: retained learning development evidence
+
+- Transferred all 16 frozen source/data files at 13f1c71 and verified host
+  equality. The frozen checkout passed all 37 checks in 12.882 seconds under
+  PyTorch 2.8.0+cu126. Development completed once in 7.771 seconds and its
+  independent audit/analysis passed in 10.058 seconds, reconstructing every
+  action, gradient, checkpoint, and probe.
+- An initial launch attempted the driver before its scp completed and returned
+  a missing-script error; no experiment process or output started. After
+  transfer completion the driver ran once. The SSH handshake failures and
+  default-Python mismatch likewise did not generate official outcomes.
+- Verified 111 transferred files totaling 41,927,964 bytes and all 104 raw
+  audit hashes. Local analysis without experiment imports matched all curves,
+  aggregates, contrasts, and standalone costs. Review found missing completeness
+  and primary-flag assertions in this secondary checker; the revised checker
+  rejects 27 summary mutations and eight incorrect formal decision flags. Both
+  old and revised passing development reports are preserved. Development small-minus-large
+  structured AUC is 0.014617; this is one descriptive environment, not formal
+  inference. The unchanged 32-seed grid began with its matching certificate.
+- This archive adds a direct independent verification script, no architectural
+  abstraction or compatibility layer, and removes no evidence. An attempted
+  Dyna source download failed at the author host (HTTPS EOF; HTTP 502); no
+  unread full-text claim or downloaded source was added.
