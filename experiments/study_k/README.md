@@ -100,3 +100,9 @@ with Path('/tmp/study-k-environments-regenerated.json').open('x') as stream:
     stream.write(json.dumps(data, indent=2) + '\n')
 PY
 ```
+
+The [audited development and formal results](../../results/study-k-v1/README.md)
+report a primary balanced online-minus-frozen gain of +7.81 points,
+t95 [4.74, 10.88]. The improvement is concentrated in compositions; shifted
+performance remains poor. Every checkpoint/order, independent audit, and
+separate actual/standalone resource record is retained.

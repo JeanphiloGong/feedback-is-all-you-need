@@ -113,6 +113,13 @@ establish feedback sufficiency for general intelligence.
   (95% CI [45.60, 64.56]). Its shifted score is 11.13%; the balanced total,
   463/1,024, remains below uniform search's 512/1,024. All experience checkpoints,
   physical input costs, and independent replay audits are retained.
+- [Study K results](results/study-k-v1/README.md): continued accepted-solution
+  replay raises balanced held-out success from 43.75% frozen to 51.56%, a
+  primary gain of +7.81 points (95% CI [4.74, 10.88]) over 32 environments.
+  Composition success reaches 92.38%; shifted success remains 10.74%. The
+  uniform comparator scores 50.20% overall, and additional optimization of
+  only initial experience scores 43.16%. Both stream orders and all probes
+  are retained with explicit reuse and lifetime-resource accounting.
 - [Full-text literature review](notes/full-text-review.md): methods and limits
   of ten close precedents, including Reward is enough, DreamCoder, ExpeL, and the
   Era of Experience.

@@ -1371,3 +1371,27 @@ separately. All outcomes from development seeds remain exploratory.
   every primary paired difference, and both intervals. The complete archive
   is saved separately from narrative interpretation and figures.
 - Added no abstraction or compatibility layer and removed no raw evidence.
+
+## 2026-10-26 UTC: continual results interpretation
+
+- The prespecified online-minus-frozen balanced probe difference is +7.81
+  points, t95 [4.74, 10.88], bootstrap95 [4.98, 10.84]. Twenty-two environments
+  improve, eight tie, and two decline. Online/frozen/replay/uniform final
+  balanced scores are 51.56/43.75/43.16/50.20%. Counts explicitly distinguish
+  512 unique probe tasks from 1,024 dependent task/order conditions.
+- Improvement is concentrated in compositions (online 92.38%); shifted success
+  is 10.74%, below uniform in all 32 environments. The +1.37-point balanced
+  comparison to uniform is descriptive. New accepted data and greater physical
+  training work vary together; the replay comparator matches update counts,
+  not lifetime resources. Checkpoint-zero is the learned initial state.
+- Independent narrative/figure review found no material issue after checking
+  the protocol and raw evidence. The learning figure includes both orders,
+  every fixed checkpoint, all online environment trajectories, and all four
+  mean comparators; its rendered page passed visual inspection. Cross-model
+  CLI review was skipped. No new abstraction or compatibility layer was added.
+- The researcher emphasized actual weight adjustment during interaction. A
+  direct server check confirmed all 1,172 weights changed in environment
+  13000's online composition-first branch, Adam steps 384 to 640, with corpus
+  size 24 to 33. This example is explanatory, not a new selected endpoint.
+  The present failure response is extra replay, not a failure-specific target;
+  direct error-driven updates remain the next research question.
