@@ -1730,3 +1730,16 @@ separately. All outcomes from development seeds remain exploratory.
   audit/core/collection checks. No official data or outcome preceded this
   source freeze. Cross-model CLI review was skipped. Added direct analysis
   functions, no compatibility layer; no research evidence was removed.
+
+## 2026-10-26 UTC: retained learning world-data freeze
+
+- After reviewed source freeze 9b670bd, generated the fixed development seed 43
+  and formal seeds 15000--15031 once, each with structured and random worlds.
+  Verified all 66 worlds, four unique nonidentity permutations, strong
+  connectivity, 513 episodes and 248 held-out-goal probes per world, and disjoint
+  training/held-out goal roles. No learning or evaluation outcome preceded this
+  data save point; seeds and budgets were not changed.
+- Frozen data SHA-256 is
+  `d969414f8db144ddad83a57ad90ec5396aea3614184862615b7a89ef238338da`.
+  This generated-data save point adds no abstraction or compatibility layer
+  and removes no evidence.
