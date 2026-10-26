@@ -974,3 +974,29 @@ separately. All outcomes from development seeds remain exploratory.
   autonomous context. Generator-sequence likelihood is expressly distinct from
   total semantic solution probability and cannot isolate a causal explanation.
   This documentation-only freeze adds no abstraction or compatibility layer.
+
+## 2026-10-26 UTC: likelihood diagnostic implementation freeze
+
+- Added direct checkpoint scoring and a separate standard-library summary
+  verifier outside the frozen Study I source directory. The collector checks
+  all original file hashes, scores actual and common corpora, independently
+  checks each neural probability and log, and retains flushed partial records
+  if analysis fails. The verifier reconstructs full program membership, all
+  environment/length/position cells, prefix-loss bounds, and paired differences.
+- Two fresh reviews found no substantive implementation or verification issue.
+  A proposed concern about sparse length strata was withdrawn after checking
+  the fixed input contract: all accepted programs have length five, and every
+  transfer length is represented in all 32 environments. This known shape is
+  now explicit in the diagnostic README. Cross-model CLI review was skipped.
+- All six synthetic tests pass on lens with the original PyTorch version.
+  Hand calculations check conflicting prefixes and smoothing; causal targets,
+  attempted-task membership, and unequal environment sizes are exercised.
+  Independent reconstruction passes on a synthetic grid and rejects missing
+  programs, missing position cells, and an incorrect lower bound even after
+  output hashes are recomputed. A reviewer also checked synthetic H16/H64
+  probabilities against NumPy at 1e-12 tolerance. No formal diagnostic scores,
+  new training, or search runs were computed before this source freeze.
+- These are permanent experiment-specific analysis functions, with no new
+  architectural abstraction, compatibility layer, or production interface.
+  Synthetic fixture directories clean themselves up. Original collection,
+  model, audit, task, and protocol sources remain unchanged.
