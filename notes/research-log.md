@@ -839,3 +839,28 @@ separately. All outcomes from development seeds remain exploratory.
   no compatibility layer or generic agent abstraction. Full audit and analysis
   remain a separate uncommitted review slice; their presence is not an official
   development result or a completed scientific comparison.
+
+## 2026-10-26 UTC: independent neural-prior audit and inference
+
+- Added complete-grid auditing, independent full-function search accounting,
+  initial-state regeneration, exact replay of all model and optimizer tensors,
+  and NumPy GRU gate equations for candidate ordering. Statistical summaries
+  retain the single paired environment-level comparison, shifted/balanced
+  outcomes, intermediate probes, and separate actual/standalone costs.
+- Independent audit review demonstrated that extra unrecorded keys in cost
+  maps could inflate actual totals while passing per-entry checks. Replaced
+  those checks with complete map equality against declared phase evidence;
+  actual aggregate timings and prediction counts now come from the verified
+  phase ledger. A new hand-built complete-audit fixture passes normally and
+  rejects each of four separate injected cost entries. Narrow follow-up review
+  confirmed resolution. Cross-model CLI review was skipped.
+- All 22 tests pass on lens. In addition to collection/core checks, verification
+  reproduces all tensors and optimizer states in a controlled replay, compares
+  200 NumPy/Torch prefix probabilities, checks 101 full-output terminal-state
+  cases, rejects incomplete grids and changed training records, and detects
+  negative t/bootstrap disagreement. No development or formal benchmark data
+  or outcomes were used. All transient test directories were removed.
+- This adds direct audit/analysis functions, with no compatibility layer or
+  new production abstraction. Redundant per-entry cost checks were replaced
+  where full-map comparison owns the evidence boundary; no temporary bypass
+  or permissive audit path remains in the experiment implementation.

@@ -48,14 +48,42 @@ After the source and data freeze, use the recorded PyTorch environment:
 ```bash
 python -m experiments.study_i.run --development \
   --source-revision SOURCE_COMMIT --output runs/study-i-development
+python -m experiments.study_i.analyze --input runs/study-i-development \
+  --output runs/study-i-development-audit
 python -m experiments.study_i.run \
   --source-revision SOURCE_COMMIT --output runs/study-i-formal \
   --development-audit runs/study-i-development-audit/audit.json
+python -m experiments.study_i.analyze --input runs/study-i-formal \
+  --output runs/study-i-formal-audit
 ```
 
 `SOURCE_COMMIT` must identify the source archive actually transferred to the
 execution host. File hashes are also recorded, and formal collection requires
 a passing development audit with the same source and data. Each attempt uses
 a new output directory. No incomplete grid supports a primary conclusion.
-The audit/analysis implementation is a separate checkpoint; the commands above
-do not bypass that gate.
+
+The auditor regenerates each complete environment, independently evaluates
+full functions, replays all gradient updates and optimizer states, computes
+GRU probabilities from NumPy gate equations, and rebuilds candidate orders.
+Complete cost maps must match the phase ledger; unrecorded extra entries are
+rejected. Aggregate actual phase costs come from that verified ledger.
+
+To reproduce the controlled data file from the frozen Study H generator:
+
+```bash
+python3 -s - <<'PY'
+import json
+from pathlib import Path
+from experiments.study_h.tasks import make_environment
+
+path = Path('experiments/study_i/data/environments-v1.json')
+path.parent.mkdir(parents=True, exist_ok=True)
+environments = [make_environment(seed) for seed in [29, *range(11000, 11032)]]
+with path.open('x') as stream:
+    stream.write(json.dumps(environments, indent=2) + '\n')
+PY
+```
+
+The exclusive write preserves an existing freeze. Verification fixtures use
+hand-built environments and shortened budgets, never these benchmark seeds
+or outcomes. They are deleted after tests and do not count as an official run.
