@@ -797,3 +797,20 @@ separately. All outcomes from development seeds remain exploratory.
   All nine core checks, including four neural checks, also pass on lens with
   PyTorch 2.8.0+cu126. The initial implementation remains a separate uncommitted
   slice pending its own review.
+
+## 2026-10-26 UTC: neural-prior core implementation
+
+- Implemented the small/large program-prefix GRU, sequential replay with an
+  externally retained optimizer, count prior, rounded-cost enumeration, and
+  visible-example checking. The model takes primitive prefixes; no hidden
+  labels, generating programs, or task features enter these interfaces.
+- Nine hand-built checks pass on lens with PyTorch 2.8.0+cu126, Python 3.11.15,
+  CPU float64 and one thread. They check real tensor counts, causal inputs,
+  padding loss, persistent updates, frozen weights, independent complete finite
+  ordering, and 200 full-output cost comparisons including exact-cap and
+  interrupted checking. No benchmark environment was generated or searched.
+- Fresh independent review found no material issue in this core subset.
+  Cross-model CLI review was skipped. Collection, checkpoint persistence,
+  full audit, and inference remain separate work, not verified by this slice.
+  The GRU class directly implements the experimental model; no compatibility
+  layer, temporary implementation, or generic agent abstraction was added.
