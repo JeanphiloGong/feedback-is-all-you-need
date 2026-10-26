@@ -1,0 +1,370 @@
+{"stage": "initialization", "seed": 37, "seconds": 0.001110132783651352, "initial_seed": 4242545164840097700, "parameters": 1172, "parameter_bytes": 9376}
+{"stage": "checkpoint_save", "seed": 37, "name": "random", "arm": "initial", "order": "shared", "attempt": 0, "seconds": 0.0010251868516206741, "bytes": 12361}
+{"stage": "optimizer_setup", "seed": 37, "seconds": 0.3302625548094511}
+{"stage": "replay", "seed": 37, "phase": "experience", "arm": "initial", "order": "shared", "attempt": 1, "seconds": 0.02381894737482071, "steps": 16, "replay_tokens": 80, "input_rows": 80, "input_positions": 240, "skip_reason": null}
+{"stage": "replay", "seed": 37, "phase": "experience", "arm": "initial", "order": "shared", "attempt": 2, "seconds": 0.009114496409893036, "steps": 16, "replay_tokens": 160, "input_rows": 160, "input_positions": 480, "skip_reason": null}
+{"stage": "replay", "seed": 37, "phase": "experience", "arm": "initial", "order": "shared", "attempt": 3, "seconds": 0.009117642417550087, "steps": 16, "replay_tokens": 240, "input_rows": 240, "input_positions": 720, "skip_reason": null}
+{"stage": "replay", "seed": 37, "phase": "experience", "arm": "initial", "order": "shared", "attempt": 4, "seconds": 0.009119156748056412, "steps": 16, "replay_tokens": 320, "input_rows": 320, "input_positions": 960, "skip_reason": null}
+{"stage": "replay", "seed": 37, "phase": "experience", "arm": "initial", "order": "shared", "attempt": 5, "seconds": 0.009207215160131454, "steps": 16, "replay_tokens": 400, "input_rows": 400, "input_positions": 1200, "skip_reason": null}
+{"stage": "replay", "seed": 37, "phase": "experience", "arm": "initial", "order": "shared", "attempt": 6, "seconds": 0.009335577487945557, "steps": 16, "replay_tokens": 480, "input_rows": 480, "input_positions": 1440, "skip_reason": null}
+{"stage": "replay", "seed": 37, "phase": "experience", "arm": "initial", "order": "shared", "attempt": 7, "seconds": 0.009459996595978737, "steps": 16, "replay_tokens": 560, "input_rows": 560, "input_positions": 1680, "skip_reason": null}
+{"stage": "replay", "seed": 37, "phase": "experience", "arm": "initial", "order": "shared", "attempt": 8, "seconds": 0.009521372616291046, "steps": 16, "replay_tokens": 640, "input_rows": 640, "input_positions": 1920, "skip_reason": null}
+{"stage": "replay", "seed": 37, "phase": "experience", "arm": "initial", "order": "shared", "attempt": 9, "seconds": 0.009630011394619942, "steps": 16, "replay_tokens": 720, "input_rows": 720, "input_positions": 2160, "skip_reason": null}
+{"stage": "replay", "seed": 37, "phase": "experience", "arm": "initial", "order": "shared", "attempt": 10, "seconds": 0.00968371331691742, "steps": 16, "replay_tokens": 800, "input_rows": 800, "input_positions": 2400, "skip_reason": null}
+{"stage": "replay", "seed": 37, "phase": "experience", "arm": "initial", "order": "shared", "attempt": 11, "seconds": 0.009796017780900002, "steps": 16, "replay_tokens": 880, "input_rows": 880, "input_positions": 2640, "skip_reason": null}
+{"stage": "replay", "seed": 37, "phase": "experience", "arm": "initial", "order": "shared", "attempt": 12, "seconds": 0.009795207530260086, "steps": 16, "replay_tokens": 960, "input_rows": 960, "input_positions": 2880, "skip_reason": null}
+{"stage": "replay", "seed": 37, "phase": "experience", "arm": "initial", "order": "shared", "attempt": 13, "seconds": 0.009967135265469551, "steps": 16, "replay_tokens": 1040, "input_rows": 1040, "input_positions": 3120, "skip_reason": null}
+{"stage": "replay", "seed": 37, "phase": "experience", "arm": "initial", "order": "shared", "attempt": 14, "seconds": 0.010034583508968353, "steps": 16, "replay_tokens": 1120, "input_rows": 1120, "input_positions": 3360, "skip_reason": null}
+{"stage": "replay", "seed": 37, "phase": "experience", "arm": "initial", "order": "shared", "attempt": 15, "seconds": 0.01008809544146061, "steps": 16, "replay_tokens": 1200, "input_rows": 1200, "input_positions": 3600, "skip_reason": null}
+{"stage": "replay", "seed": 37, "phase": "experience", "arm": "initial", "order": "shared", "attempt": 16, "seconds": 0.010139243677258492, "steps": 16, "replay_tokens": 1280, "input_rows": 1280, "input_positions": 3840, "skip_reason": null}
+{"stage": "replay", "seed": 37, "phase": "experience", "arm": "initial", "order": "shared", "attempt": 17, "seconds": 0.010297754779458046, "steps": 16, "replay_tokens": 1360, "input_rows": 1360, "input_positions": 4080, "skip_reason": null}
+{"stage": "replay", "seed": 37, "phase": "experience", "arm": "initial", "order": "shared", "attempt": 18, "seconds": 0.010345827788114548, "steps": 16, "replay_tokens": 1440, "input_rows": 1440, "input_positions": 4320, "skip_reason": null}
+{"stage": "replay", "seed": 37, "phase": "experience", "arm": "initial", "order": "shared", "attempt": 19, "seconds": 0.01043052040040493, "steps": 16, "replay_tokens": 1520, "input_rows": 1520, "input_positions": 4560, "skip_reason": null}
+{"stage": "replay", "seed": 37, "phase": "experience", "arm": "initial", "order": "shared", "attempt": 20, "seconds": 0.010583631694316864, "steps": 16, "replay_tokens": 1600, "input_rows": 1600, "input_positions": 4800, "skip_reason": null}
+{"stage": "replay", "seed": 37, "phase": "experience", "arm": "initial", "order": "shared", "attempt": 21, "seconds": 0.010613679885864258, "steps": 16, "replay_tokens": 1680, "input_rows": 1680, "input_positions": 5040, "skip_reason": null}
+{"stage": "replay", "seed": 37, "phase": "experience", "arm": "initial", "order": "shared", "attempt": 22, "seconds": 0.010735191404819489, "steps": 16, "replay_tokens": 1760, "input_rows": 1760, "input_positions": 5280, "skip_reason": null}
+{"stage": "replay", "seed": 37, "phase": "experience", "arm": "initial", "order": "shared", "attempt": 23, "seconds": 0.010829394683241844, "steps": 16, "replay_tokens": 1840, "input_rows": 1840, "input_positions": 5520, "skip_reason": null}
+{"stage": "replay", "seed": 37, "phase": "experience", "arm": "initial", "order": "shared", "attempt": 24, "seconds": 0.010871604084968567, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "checkpoint_save", "seed": 37, "name": "base", "arm": "initial", "order": "shared", "attempt": 24, "seconds": 0.0005947351455688477, "bytes": 35969}
+{"stage": "ranking", "seed": 37, "prior_id": "uniform", "seconds": 0.01818767748773098, "candidates": 10403, "minimum_primitive_ops": 65542, "predictions": 10402, "prefix_positions": 75937, "children": 41608, "maximum_heap_entries": 31207}
+{"stage": "order_archive", "seed": 37, "prior_id": "uniform", "seconds": 0.002919185906648636, "bytes": 75945}
+{"stage": "probability_table", "seed": 37, "prior_id": "base", "seconds": 0.0011825989931821823, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "base", "seconds": 0.00012767314910888672, "bytes": 3873}
+{"stage": "ranking", "seed": 37, "prior_id": "base", "seconds": 0.009293440729379654, "candidates": 8521, "minimum_primitive_ops": 65541, "predictions": 5477, "prefix_positions": 43622, "children": 21908, "maximum_heap_entries": 13389}
+{"stage": "order_archive", "seed": 37, "prior_id": "base", "seconds": 0.0027711819857358932, "bytes": 74062}
+{"stage": "clone", "seed": 37, "arm": "replay", "order": "composition_first", "seconds": 0.000750204548239708}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "composition_first", "attempt": 1, "seconds": 0.0142282135784626, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-composition_first-1", "seconds": 0.0011753253638744354, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-composition_first-1", "seconds": 0.00019890069961547852, "bytes": 3872}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-composition_first-1", "seconds": 0.013178979977965355, "candidates": 8518, "minimum_primitive_ops": 65538, "predictions": 5477, "prefix_positions": 43646, "children": 21908, "maximum_heap_entries": 13394}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-composition_first-1", "seconds": 0.0030611082911491394, "bytes": 74056}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "composition_first", "attempt": 2, "seconds": 0.013312537223100662, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-composition_first-2", "seconds": 0.0011997316032648087, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-composition_first-2", "seconds": 0.00014421716332435608, "bytes": 3871}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-composition_first-2", "seconds": 0.012703493237495422, "candidates": 8519, "minimum_primitive_ops": 65543, "predictions": 5476, "prefix_positions": 43632, "children": 21904, "maximum_heap_entries": 13387}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-composition_first-2", "seconds": 0.0030466094613075256, "bytes": 74062}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "composition_first", "attempt": 3, "seconds": 0.013173690065741539, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-composition_first-3", "seconds": 0.0012039002031087875, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-composition_first-3", "seconds": 0.00016421079635620117, "bytes": 3886}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-composition_first-3", "seconds": 0.013431120663881302, "candidates": 8513, "minimum_primitive_ops": 65540, "predictions": 5453, "prefix_positions": 43454, "children": 21812, "maximum_heap_entries": 13301}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-composition_first-3", "seconds": 0.0031257495284080505, "bytes": 74053}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "composition_first", "attempt": 4, "seconds": 0.013437271118164062, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-composition_first-4", "seconds": 0.0012146588414907455, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-composition_first-4", "seconds": 0.0001539122313261032, "bytes": 3893}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-composition_first-4", "seconds": 0.012028351426124573, "candidates": 8511, "minimum_primitive_ops": 65544, "predictions": 5444, "prefix_positions": 43385, "children": 21776, "maximum_heap_entries": 13268}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-composition_first-4", "seconds": 0.0030680689960718155, "bytes": 74055}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "composition_first", "attempt": 5, "seconds": 0.012413978576660156, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-composition_first-5", "seconds": 0.0011470392346382141, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-composition_first-5", "seconds": 0.00017304904758930206, "bytes": 3885}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-composition_first-5", "seconds": 0.01167384721338749, "candidates": 8509, "minimum_primitive_ops": 65541, "predictions": 5434, "prefix_positions": 43301, "children": 21736, "maximum_heap_entries": 13233}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-composition_first-5", "seconds": 0.0030269622802734375, "bytes": 74050}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "composition_first", "attempt": 6, "seconds": 0.013018785044550896, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-composition_first-6", "seconds": 0.0011566802859306335, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-composition_first-6", "seconds": 0.00014288350939750671, "bytes": 3885}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-composition_first-6", "seconds": 0.011647747829556465, "candidates": 8508, "minimum_primitive_ops": 65537, "predictions": 5436, "prefix_positions": 43326, "children": 21744, "maximum_heap_entries": 13238}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-composition_first-6", "seconds": 0.0029335934668779373, "bytes": 74045}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "composition_first", "attempt": 7, "seconds": 0.012553486973047256, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-composition_first-7", "seconds": 0.0012056119740009308, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-composition_first-7", "seconds": 0.0001472216099500656, "bytes": 3892}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-composition_first-7", "seconds": 0.10341832228004932, "candidates": 8507, "minimum_primitive_ops": 65537, "predictions": 5433, "prefix_positions": 43304, "children": 21732, "maximum_heap_entries": 13230}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-composition_first-7", "seconds": 0.003940016031265259, "bytes": 74044}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "composition_first", "attempt": 8, "seconds": 0.015155725181102753, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "checkpoint_save", "seed": 37, "name": "replay-composition_first-8", "arm": "replay", "order": "composition_first", "attempt": 8, "seconds": 0.0006260648369789124, "bytes": 37717}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-composition_first-8", "seconds": 0.0012609604746103287, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-composition_first-8", "seconds": 0.00014989636838436127, "bytes": 3888}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-composition_first-8", "seconds": 0.013821685686707497, "candidates": 8506, "minimum_primitive_ops": 65539, "predictions": 5427, "prefix_positions": 43255, "children": 21708, "maximum_heap_entries": 13207}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-composition_first-8", "seconds": 0.003314036875963211, "bytes": 74045}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "composition_first", "attempt": 9, "seconds": 0.014497807249426842, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-composition_first-9", "seconds": 0.001202356070280075, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-composition_first-9", "seconds": 0.00016240961849689484, "bytes": 3880}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-composition_first-9", "seconds": 0.012819631025195122, "candidates": 8507, "minimum_primitive_ops": 65545, "predictions": 5428, "prefix_positions": 43262, "children": 21712, "maximum_heap_entries": 13207}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-composition_first-9", "seconds": 0.0031746141612529755, "bytes": 74052}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "composition_first", "attempt": 10, "seconds": 0.014531701803207397, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-composition_first-10", "seconds": 0.0010389834642410278, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-composition_first-10", "seconds": 0.00016814284026622772, "bytes": 3889}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-composition_first-10", "seconds": 0.012073848396539688, "candidates": 8506, "minimum_primitive_ops": 65539, "predictions": 5426, "prefix_positions": 43246, "children": 21704, "maximum_heap_entries": 13200}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-composition_first-10", "seconds": 0.0030053164809942245, "bytes": 74045}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "composition_first", "attempt": 11, "seconds": 0.012387849390506744, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-composition_first-11", "seconds": 0.0010351184755563736, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-composition_first-11", "seconds": 0.00016514398157596588, "bytes": 3895}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-composition_first-11", "seconds": 0.011350084096193314, "candidates": 8506, "minimum_primitive_ops": 65543, "predictions": 5427, "prefix_positions": 43259, "children": 21708, "maximum_heap_entries": 13204}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-composition_first-11", "seconds": 0.0028583798557519913, "bytes": 74049}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "composition_first", "attempt": 12, "seconds": 0.01135028712451458, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-composition_first-12", "seconds": 0.0010280348360538483, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-composition_first-12", "seconds": 0.00013621896505355835, "bytes": 3879}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-composition_first-12", "seconds": 0.010545600205659866, "candidates": 8505, "minimum_primitive_ops": 65542, "predictions": 5423, "prefix_positions": 43228, "children": 21692, "maximum_heap_entries": 13191}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-composition_first-12", "seconds": 0.002908565104007721, "bytes": 74047}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "composition_first", "attempt": 13, "seconds": 0.012596778571605682, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-composition_first-13", "seconds": 0.001051420345902443, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-composition_first-13", "seconds": 0.00015974417328834534, "bytes": 3893}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-composition_first-13", "seconds": 0.012184832245111465, "candidates": 8504, "minimum_primitive_ops": 65542, "predictions": 5421, "prefix_positions": 43219, "children": 21684, "maximum_heap_entries": 13183}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-composition_first-13", "seconds": 0.003078881651163101, "bytes": 74046}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "composition_first", "attempt": 14, "seconds": 0.012770920991897583, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-composition_first-14", "seconds": 0.0010366402566432953, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-composition_first-14", "seconds": 0.00014823302626609802, "bytes": 3888}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-composition_first-14", "seconds": 0.011485917493700981, "candidates": 8503, "minimum_primitive_ops": 65538, "predictions": 5417, "prefix_positions": 43184, "children": 21668, "maximum_heap_entries": 13170}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-composition_first-14", "seconds": 0.002861516550183296, "bytes": 74041}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "composition_first", "attempt": 15, "seconds": 0.011408315971493721, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-composition_first-15", "seconds": 0.0010189767926931381, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-composition_first-15", "seconds": 0.0001335572451353073, "bytes": 3892}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-composition_first-15", "seconds": 0.009876562282443047, "candidates": 8503, "minimum_primitive_ops": 65537, "predictions": 5419, "prefix_positions": 43200, "children": 21676, "maximum_heap_entries": 13176}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-composition_first-15", "seconds": 0.002859964966773987, "bytes": 74040}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "composition_first", "attempt": 16, "seconds": 0.01209494099020958, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "checkpoint_save", "seed": 37, "name": "replay-composition_first-16", "arm": "replay", "order": "composition_first", "attempt": 16, "seconds": 0.0005559585988521576, "bytes": 37747}
+{"stage": "clone", "seed": 37, "arm": "online", "order": "composition_first", "seconds": 0.00043926946818828583}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "composition_first", "attempt": 1, "seconds": 0.011443233117461205, "steps": 16, "replay_tokens": 2016, "input_rows": 2016, "input_positions": 6048, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-composition_first-1", "seconds": 0.0010276734828948975, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-composition_first-1", "seconds": 0.00014693289995193481, "bytes": 3879}
+{"stage": "ranking", "seed": 37, "prior_id": "online-composition_first-1", "seconds": 0.011683512479066849, "candidates": 8518, "minimum_primitive_ops": 65539, "predictions": 5477, "prefix_positions": 43647, "children": 21908, "maximum_heap_entries": 13392}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-composition_first-1", "seconds": 0.002781432121992111, "bytes": 74057}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "composition_first", "attempt": 2, "seconds": 0.011602748185396194, "steps": 16, "replay_tokens": 2160, "input_rows": 2160, "input_positions": 6480, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-composition_first-2", "seconds": 0.0010036993771791458, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-composition_first-2", "seconds": 0.00012907572090625763, "bytes": 3871}
+{"stage": "ranking", "seed": 37, "prior_id": "online-composition_first-2", "seconds": 0.009777553379535675, "candidates": 8525, "minimum_primitive_ops": 65542, "predictions": 5456, "prefix_positions": 43377, "children": 21824, "maximum_heap_entries": 13301}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-composition_first-2", "seconds": 0.0028105955570936203, "bytes": 74067}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "composition_first", "attempt": 3, "seconds": 0.011624239385128021, "steps": 16, "replay_tokens": 2256, "input_rows": 2256, "input_positions": 6768, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-composition_first-3", "seconds": 0.0010027643293142319, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-composition_first-3", "seconds": 0.00012658163905143738, "bytes": 3870}
+{"stage": "ranking", "seed": 37, "prior_id": "online-composition_first-3", "seconds": 0.01015947200357914, "candidates": 8550, "minimum_primitive_ops": 65542, "predictions": 5556, "prefix_positions": 44153, "children": 22224, "maximum_heap_entries": 13678}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-composition_first-3", "seconds": 0.0028298161923885345, "bytes": 74092}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "composition_first", "attempt": 4, "seconds": 0.012114226818084717, "steps": 16, "replay_tokens": 2400, "input_rows": 2400, "input_positions": 7200, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-composition_first-4", "seconds": 0.0010210908949375153, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-composition_first-4", "seconds": 0.00013838335871696472, "bytes": 3876}
+{"stage": "ranking", "seed": 37, "prior_id": "online-composition_first-4", "seconds": 0.011045565828680992, "candidates": 8551, "minimum_primitive_ops": 65541, "predictions": 5553, "prefix_positions": 44112, "children": 22212, "maximum_heap_entries": 13665}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-composition_first-4", "seconds": 0.0029478520154953003, "bytes": 74092}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "composition_first", "attempt": 5, "seconds": 0.012426471337676048, "steps": 16, "replay_tokens": 2496, "input_rows": 2496, "input_positions": 7488, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-composition_first-5", "seconds": 0.0010240450501441956, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-composition_first-5", "seconds": 0.00013863295316696167, "bytes": 3879}
+{"stage": "ranking", "seed": 37, "prior_id": "online-composition_first-5", "seconds": 0.01129935123026371, "candidates": 8545, "minimum_primitive_ops": 65540, "predictions": 5531, "prefix_positions": 43945, "children": 22124, "maximum_heap_entries": 13581}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-composition_first-5", "seconds": 0.0028512440621852875, "bytes": 74085}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "composition_first", "attempt": 6, "seconds": 0.012808313593268394, "steps": 16, "replay_tokens": 2496, "input_rows": 2496, "input_positions": 7488, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-composition_first-6", "seconds": 0.0010539423674345016, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-composition_first-6", "seconds": 0.000150999054312706, "bytes": 3876}
+{"stage": "ranking", "seed": 37, "prior_id": "online-composition_first-6", "seconds": 0.012012813240289688, "candidates": 8539, "minimum_primitive_ops": 65539, "predictions": 5523, "prefix_positions": 43918, "children": 22092, "maximum_heap_entries": 13557}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-composition_first-6", "seconds": 0.002919863909482956, "bytes": 74078}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "composition_first", "attempt": 7, "seconds": 0.012795137241482735, "steps": 16, "replay_tokens": 2592, "input_rows": 2592, "input_positions": 7776, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-composition_first-7", "seconds": 0.0010376516729593277, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-composition_first-7", "seconds": 0.00015517883002758026, "bytes": 3874}
+{"stage": "ranking", "seed": 37, "prior_id": "online-composition_first-7", "seconds": 0.011609852313995361, "candidates": 8520, "minimum_primitive_ops": 65537, "predictions": 5431, "prefix_positions": 43167, "children": 21724, "maximum_heap_entries": 13208}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-composition_first-7", "seconds": 0.002914056181907654, "bytes": 74057}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "composition_first", "attempt": 8, "seconds": 0.013180933892726898, "steps": 16, "replay_tokens": 2592, "input_rows": 2592, "input_positions": 7776, "skip_reason": null}
+{"stage": "checkpoint_save", "seed": 37, "name": "online-composition_first-8", "arm": "online", "order": "composition_first", "attempt": 8, "seconds": 0.0005740281194448471, "bytes": 37973}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-composition_first-8", "seconds": 0.0010612662881612778, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-composition_first-8", "seconds": 0.00013547949492931366, "bytes": 3875}
+{"stage": "ranking", "seed": 37, "prior_id": "online-composition_first-8", "seconds": 0.012073639780282974, "candidates": 8521, "minimum_primitive_ops": 65541, "predictions": 5442, "prefix_positions": 43273, "children": 21768, "maximum_heap_entries": 13250}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-composition_first-8", "seconds": 0.0030268076807260513, "bytes": 74062}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "composition_first", "attempt": 9, "seconds": 0.013006571680307388, "steps": 16, "replay_tokens": 2592, "input_rows": 2592, "input_positions": 7776, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-composition_first-9", "seconds": 0.0010441243648529053, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-composition_first-9", "seconds": 0.00014192983508110046, "bytes": 3877}
+{"stage": "ranking", "seed": 37, "prior_id": "online-composition_first-9", "seconds": 0.01100195199251175, "candidates": 8516, "minimum_primitive_ops": 65545, "predictions": 5418, "prefix_positions": 43081, "children": 21672, "maximum_heap_entries": 13163}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-composition_first-9", "seconds": 0.0028487220406532288, "bytes": 74061}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "composition_first", "attempt": 10, "seconds": 0.012322092428803444, "steps": 16, "replay_tokens": 2592, "input_rows": 2592, "input_positions": 7776, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-composition_first-10", "seconds": 0.0010166224092245102, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-composition_first-10", "seconds": 0.0001314505934715271, "bytes": 3877}
+{"stage": "ranking", "seed": 37, "prior_id": "online-composition_first-10", "seconds": 0.010105710476636887, "candidates": 8512, "minimum_primitive_ops": 65539, "predictions": 5406, "prefix_positions": 42993, "children": 21624, "maximum_heap_entries": 13114}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-composition_first-10", "seconds": 0.002826368436217308, "bytes": 74051}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "composition_first", "attempt": 11, "seconds": 0.012232080101966858, "steps": 16, "replay_tokens": 2688, "input_rows": 2688, "input_positions": 8064, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-composition_first-11", "seconds": 0.001029307022690773, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-composition_first-11", "seconds": 0.0001447238028049469, "bytes": 3879}
+{"stage": "ranking", "seed": 37, "prior_id": "online-composition_first-11", "seconds": 0.011391514912247658, "candidates": 8505, "minimum_primitive_ops": 65539, "predictions": 5384, "prefix_positions": 42834, "children": 21536, "maximum_heap_entries": 13033}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-composition_first-11", "seconds": 0.002986334264278412, "bytes": 74044}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "composition_first", "attempt": 12, "seconds": 0.012939224019646645, "steps": 16, "replay_tokens": 2688, "input_rows": 2688, "input_positions": 8064, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-composition_first-12", "seconds": 0.0010371822863817215, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-composition_first-12", "seconds": 0.00013781152665615082, "bytes": 3886}
+{"stage": "ranking", "seed": 37, "prior_id": "online-composition_first-12", "seconds": 0.010744752362370491, "candidates": 8504, "minimum_primitive_ops": 65544, "predictions": 5375, "prefix_positions": 42758, "children": 21500, "maximum_heap_entries": 12998}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-composition_first-12", "seconds": 0.0028899293392896652, "bytes": 74048}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "composition_first", "attempt": 13, "seconds": 0.012534558773040771, "steps": 16, "replay_tokens": 2688, "input_rows": 2688, "input_positions": 8064, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-composition_first-13", "seconds": 0.0010439436882734299, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-composition_first-13", "seconds": 0.0001460108906030655, "bytes": 3884}
+{"stage": "ranking", "seed": 37, "prior_id": "online-composition_first-13", "seconds": 0.011536072939634323, "candidates": 8498, "minimum_primitive_ops": 65541, "predictions": 5352, "prefix_positions": 42579, "children": 21408, "maximum_heap_entries": 12912}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-composition_first-13", "seconds": 0.0029208995401859283, "bytes": 74039}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "composition_first", "attempt": 14, "seconds": 0.013191133737564087, "steps": 16, "replay_tokens": 2688, "input_rows": 2688, "input_positions": 8064, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-composition_first-14", "seconds": 0.0010357275605201721, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-composition_first-14", "seconds": 0.00014760158956050873, "bytes": 3888}
+{"stage": "ranking", "seed": 37, "prior_id": "online-composition_first-14", "seconds": 0.010989939793944359, "candidates": 8496, "minimum_primitive_ops": 65537, "predictions": 5340, "prefix_positions": 42473, "children": 21360, "maximum_heap_entries": 12874}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-composition_first-14", "seconds": 0.0028700195252895355, "bytes": 74033}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "composition_first", "attempt": 15, "seconds": 0.012303398922085762, "steps": 16, "replay_tokens": 2688, "input_rows": 2688, "input_positions": 8064, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-composition_first-15", "seconds": 0.0010299254208803177, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-composition_first-15", "seconds": 0.00013915635645389557, "bytes": 3892}
+{"stage": "ranking", "seed": 37, "prior_id": "online-composition_first-15", "seconds": 0.010134996846318245, "candidates": 8496, "minimum_primitive_ops": 65543, "predictions": 5340, "prefix_positions": 42480, "children": 21360, "maximum_heap_entries": 12870}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-composition_first-15", "seconds": 0.0028711017221212387, "bytes": 74039}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "composition_first", "attempt": 16, "seconds": 0.012180792167782784, "steps": 16, "replay_tokens": 2688, "input_rows": 2688, "input_positions": 8064, "skip_reason": null}
+{"stage": "checkpoint_save", "seed": 37, "name": "online-composition_first-16", "arm": "online", "order": "composition_first", "attempt": 16, "seconds": 0.0005174484103918076, "bytes": 38003}
+{"stage": "clone", "seed": 37, "arm": "replay", "order": "shifted_first", "seconds": 0.00042255595326423645}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "shifted_first", "attempt": 1, "seconds": 0.011281285434961319, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-shifted_first-1", "seconds": 0.0010429508984088898, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-shifted_first-1", "seconds": 0.00015090033411979675, "bytes": 3872}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-shifted_first-1", "seconds": 0.011205900460481644, "candidates": 8518, "minimum_primitive_ops": 65538, "predictions": 5477, "prefix_positions": 43646, "children": 21908, "maximum_heap_entries": 13394}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-shifted_first-1", "seconds": 0.002915840595960617, "bytes": 74056}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "shifted_first", "attempt": 2, "seconds": 0.011443955823779106, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-shifted_first-2", "seconds": 0.001031581312417984, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-shifted_first-2", "seconds": 0.0001295376569032669, "bytes": 3871}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-shifted_first-2", "seconds": 0.010178199037909508, "candidates": 8519, "minimum_primitive_ops": 65543, "predictions": 5476, "prefix_positions": 43632, "children": 21904, "maximum_heap_entries": 13387}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-shifted_first-2", "seconds": 0.0028521083295345306, "bytes": 74062}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "shifted_first", "attempt": 3, "seconds": 0.011353451758623123, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-shifted_first-3", "seconds": 0.001042783260345459, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-shifted_first-3", "seconds": 0.0001315586268901825, "bytes": 3886}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-shifted_first-3", "seconds": 0.009929204359650612, "candidates": 8513, "minimum_primitive_ops": 65540, "predictions": 5453, "prefix_positions": 43454, "children": 21812, "maximum_heap_entries": 13301}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-shifted_first-3", "seconds": 0.002834932878613472, "bytes": 74053}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "shifted_first", "attempt": 4, "seconds": 0.011344356462359428, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-shifted_first-4", "seconds": 0.0010310597717761993, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-shifted_first-4", "seconds": 0.00013334304094314575, "bytes": 3893}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-shifted_first-4", "seconds": 0.010780829936265945, "candidates": 8511, "minimum_primitive_ops": 65544, "predictions": 5444, "prefix_positions": 43385, "children": 21776, "maximum_heap_entries": 13268}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-shifted_first-4", "seconds": 0.0028607919812202454, "bytes": 74055}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "shifted_first", "attempt": 5, "seconds": 0.011576728895306587, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-shifted_first-5", "seconds": 0.0010386649519205093, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-shifted_first-5", "seconds": 0.00013017840683460236, "bytes": 3885}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-shifted_first-5", "seconds": 0.010295061394572258, "candidates": 8509, "minimum_primitive_ops": 65541, "predictions": 5434, "prefix_positions": 43301, "children": 21736, "maximum_heap_entries": 13233}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-shifted_first-5", "seconds": 0.002884877845644951, "bytes": 74050}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "shifted_first", "attempt": 6, "seconds": 0.011388739570975304, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-shifted_first-6", "seconds": 0.0010268911719322205, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-shifted_first-6", "seconds": 0.0001277737319469452, "bytes": 3885}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-shifted_first-6", "seconds": 0.010116169229149818, "candidates": 8508, "minimum_primitive_ops": 65537, "predictions": 5436, "prefix_positions": 43326, "children": 21744, "maximum_heap_entries": 13238}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-shifted_first-6", "seconds": 0.0029827971011400223, "bytes": 74045}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "shifted_first", "attempt": 7, "seconds": 0.012234646826982498, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-shifted_first-7", "seconds": 0.001046476885676384, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-shifted_first-7", "seconds": 0.0001718178391456604, "bytes": 3892}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-shifted_first-7", "seconds": 0.011423405259847641, "candidates": 8507, "minimum_primitive_ops": 65537, "predictions": 5433, "prefix_positions": 43304, "children": 21732, "maximum_heap_entries": 13230}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-shifted_first-7", "seconds": 0.002879612147808075, "bytes": 74044}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "shifted_first", "attempt": 8, "seconds": 0.011420952156186104, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "checkpoint_save", "seed": 37, "name": "replay-shifted_first-8", "arm": "replay", "order": "shifted_first", "attempt": 8, "seconds": 0.0005423445254564285, "bytes": 37533}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-shifted_first-8", "seconds": 0.0010504089295864105, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-shifted_first-8", "seconds": 0.0001285150647163391, "bytes": 3888}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-shifted_first-8", "seconds": 0.010317403823137283, "candidates": 8506, "minimum_primitive_ops": 65539, "predictions": 5427, "prefix_positions": 43255, "children": 21708, "maximum_heap_entries": 13207}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-shifted_first-8", "seconds": 0.0030342843383550644, "bytes": 74045}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "shifted_first", "attempt": 9, "seconds": 0.012454543262720108, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-shifted_first-9", "seconds": 0.0010574180632829666, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-shifted_first-9", "seconds": 0.00018475204706192017, "bytes": 3880}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-shifted_first-9", "seconds": 0.10479358769953251, "candidates": 8507, "minimum_primitive_ops": 65545, "predictions": 5428, "prefix_positions": 43262, "children": 21712, "maximum_heap_entries": 13207}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-shifted_first-9", "seconds": 0.004047621041536331, "bytes": 74052}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "shifted_first", "attempt": 10, "seconds": 0.013801757246255875, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-shifted_first-10", "seconds": 0.0011003725230693817, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-shifted_first-10", "seconds": 0.00016670860350131989, "bytes": 3889}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-shifted_first-10", "seconds": 0.012780098244547844, "candidates": 8506, "minimum_primitive_ops": 65539, "predictions": 5426, "prefix_positions": 43246, "children": 21704, "maximum_heap_entries": 13200}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-shifted_first-10", "seconds": 0.003089750185608864, "bytes": 74045}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "shifted_first", "attempt": 11, "seconds": 0.012548383325338364, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-shifted_first-11", "seconds": 0.001081954687833786, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-shifted_first-11", "seconds": 0.00015612877905368805, "bytes": 3895}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-shifted_first-11", "seconds": 0.011501708999276161, "candidates": 8506, "minimum_primitive_ops": 65543, "predictions": 5427, "prefix_positions": 43259, "children": 21708, "maximum_heap_entries": 13204}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-shifted_first-11", "seconds": 0.002949753776192665, "bytes": 74049}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "shifted_first", "attempt": 12, "seconds": 0.012098515406250954, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-shifted_first-12", "seconds": 0.0010711736977100372, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-shifted_first-12", "seconds": 0.00016301125288009644, "bytes": 3879}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-shifted_first-12", "seconds": 0.011857235804200172, "candidates": 8505, "minimum_primitive_ops": 65542, "predictions": 5423, "prefix_positions": 43228, "children": 21692, "maximum_heap_entries": 13191}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-shifted_first-12", "seconds": 0.003030337393283844, "bytes": 74047}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "shifted_first", "attempt": 13, "seconds": 0.012280302122235298, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-shifted_first-13", "seconds": 0.0010685008019208908, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-shifted_first-13", "seconds": 0.00018204748630523682, "bytes": 3893}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-shifted_first-13", "seconds": 0.011657824739813805, "candidates": 8504, "minimum_primitive_ops": 65542, "predictions": 5421, "prefix_positions": 43219, "children": 21684, "maximum_heap_entries": 13183}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-shifted_first-13", "seconds": 0.00288243405520916, "bytes": 74046}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "shifted_first", "attempt": 14, "seconds": 0.01174386776983738, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-shifted_first-14", "seconds": 0.0010314788669347763, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-shifted_first-14", "seconds": 0.00013113021850585938, "bytes": 3888}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-shifted_first-14", "seconds": 0.009869476780295372, "candidates": 8503, "minimum_primitive_ops": 65538, "predictions": 5417, "prefix_positions": 43184, "children": 21668, "maximum_heap_entries": 13170}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-shifted_first-14", "seconds": 0.0028367657214403152, "bytes": 74041}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "shifted_first", "attempt": 15, "seconds": 0.011350555345416069, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-shifted_first-15", "seconds": 0.0010229237377643585, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-shifted_first-15", "seconds": 0.00012487731873989105, "bytes": 3892}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-shifted_first-15", "seconds": 0.009779658168554306, "candidates": 8503, "minimum_primitive_ops": 65537, "predictions": 5419, "prefix_positions": 43200, "children": 21676, "maximum_heap_entries": 13176}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-shifted_first-15", "seconds": 0.002825634554028511, "bytes": 74040}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "replay", "order": "shifted_first", "attempt": 16, "seconds": 0.011788012459874153, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "checkpoint_save", "seed": 37, "name": "replay-shifted_first-16", "arm": "replay", "order": "shifted_first", "attempt": 16, "seconds": 0.0005663726478815079, "bytes": 37563}
+{"stage": "clone", "seed": 37, "arm": "online", "order": "shifted_first", "seconds": 0.00042524002492427826}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "shifted_first", "attempt": 1, "seconds": 0.011316072195768356, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-shifted_first-1", "seconds": 0.0010392554104328156, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-shifted_first-1", "seconds": 0.00013169273734092712, "bytes": 3872}
+{"stage": "ranking", "seed": 37, "prior_id": "online-shifted_first-1", "seconds": 0.01147121749818325, "candidates": 8518, "minimum_primitive_ops": 65538, "predictions": 5477, "prefix_positions": 43646, "children": 21908, "maximum_heap_entries": 13394}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-shifted_first-1", "seconds": 0.0028077010065317154, "bytes": 74056}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "shifted_first", "attempt": 2, "seconds": 0.011341748759150505, "steps": 16, "replay_tokens": 1920, "input_rows": 1920, "input_positions": 5760, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-shifted_first-2", "seconds": 0.00103779137134552, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-shifted_first-2", "seconds": 0.00012708455324172974, "bytes": 3871}
+{"stage": "ranking", "seed": 37, "prior_id": "online-shifted_first-2", "seconds": 0.009826596826314926, "candidates": 8519, "minimum_primitive_ops": 65543, "predictions": 5476, "prefix_positions": 43632, "children": 21904, "maximum_heap_entries": 13387}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-shifted_first-2", "seconds": 0.0028239041566848755, "bytes": 74062}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "shifted_first", "attempt": 3, "seconds": 0.011510651558637619, "steps": 16, "replay_tokens": 2016, "input_rows": 2016, "input_positions": 6048, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-shifted_first-3", "seconds": 0.001032169908285141, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-shifted_first-3", "seconds": 0.00012565217912197113, "bytes": 3882}
+{"stage": "ranking", "seed": 37, "prior_id": "online-shifted_first-3", "seconds": 0.0098507609218359, "candidates": 8524, "minimum_primitive_ops": 65545, "predictions": 5490, "prefix_positions": 43729, "children": 21960, "maximum_heap_entries": 13439}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-shifted_first-3", "seconds": 0.002880331128835678, "bytes": 74069}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "shifted_first", "attempt": 4, "seconds": 0.011631254106760025, "steps": 16, "replay_tokens": 2016, "input_rows": 2016, "input_positions": 6048, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-shifted_first-4", "seconds": 0.001031951978802681, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-shifted_first-4", "seconds": 0.0001277923583984375, "bytes": 3882}
+{"stage": "ranking", "seed": 37, "prior_id": "online-shifted_first-4", "seconds": 0.010127641260623932, "candidates": 8518, "minimum_primitive_ops": 65538, "predictions": 5479, "prefix_positions": 43669, "children": 21916, "maximum_heap_entries": 13403}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-shifted_first-4", "seconds": 0.002828311175107956, "bytes": 74056}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "shifted_first", "attempt": 5, "seconds": 0.01153707318007946, "steps": 16, "replay_tokens": 2016, "input_rows": 2016, "input_positions": 6048, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-shifted_first-5", "seconds": 0.0010390263050794601, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-shifted_first-5", "seconds": 0.0001355297863483429, "bytes": 3877}
+{"stage": "ranking", "seed": 37, "prior_id": "online-shifted_first-5", "seconds": 0.011543327942490578, "candidates": 8516, "minimum_primitive_ops": 65537, "predictions": 5472, "prefix_positions": 43613, "children": 21888, "maximum_heap_entries": 13376}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-shifted_first-5", "seconds": 0.0028937477618455887, "bytes": 74053}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "shifted_first", "attempt": 6, "seconds": 0.012030607089400291, "steps": 16, "replay_tokens": 2016, "input_rows": 2016, "input_positions": 6048, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-shifted_first-6", "seconds": 0.0010460764169692993, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-shifted_first-6", "seconds": 0.00014747120440006256, "bytes": 3881}
+{"stage": "ranking", "seed": 37, "prior_id": "online-shifted_first-6", "seconds": 0.011873766779899597, "candidates": 8512, "minimum_primitive_ops": 65540, "predictions": 5456, "prefix_positions": 43493, "children": 21824, "maximum_heap_entries": 13314}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-shifted_first-6", "seconds": 0.0029720477759838104, "bytes": 74052}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "shifted_first", "attempt": 7, "seconds": 0.012426210567355156, "steps": 16, "replay_tokens": 2016, "input_rows": 2016, "input_positions": 6048, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-shifted_first-7", "seconds": 0.0011738725006580353, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-shifted_first-7", "seconds": 0.0003186110407114029, "bytes": 3887}
+{"stage": "ranking", "seed": 37, "prior_id": "online-shifted_first-7", "seconds": 0.02472800761461258, "candidates": 8510, "minimum_primitive_ops": 65538, "predictions": 5446, "prefix_positions": 43409, "children": 21784, "maximum_heap_entries": 13276}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-shifted_first-7", "seconds": 0.006418248638510704, "bytes": 74048}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "shifted_first", "attempt": 8, "seconds": 0.018539687618613243, "steps": 16, "replay_tokens": 2016, "input_rows": 2016, "input_positions": 6048, "skip_reason": null}
+{"stage": "checkpoint_save", "seed": 37, "name": "online-shifted_first-8", "arm": "online", "order": "shifted_first", "attempt": 8, "seconds": 0.001119198277592659, "bytes": 37597}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-shifted_first-8", "seconds": 0.0012005511671304703, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-shifted_first-8", "seconds": 0.00030574388802051544, "bytes": 3888}
+{"stage": "ranking", "seed": 37, "prior_id": "online-shifted_first-8", "seconds": 0.022549817338585854, "candidates": 8508, "minimum_primitive_ops": 65537, "predictions": 5438, "prefix_positions": 43346, "children": 21752, "maximum_heap_entries": 13246}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-shifted_first-8", "seconds": 0.006341470405459404, "bytes": 74045}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "shifted_first", "attempt": 9, "seconds": 0.01823277212679386, "steps": 16, "replay_tokens": 2112, "input_rows": 2112, "input_positions": 6336, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-shifted_first-9", "seconds": 0.0011507980525493622, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-shifted_first-9", "seconds": 0.00046331435441970825, "bytes": 3894}
+{"stage": "ranking", "seed": 37, "prior_id": "online-shifted_first-9", "seconds": 0.01650100387632847, "candidates": 8504, "minimum_primitive_ops": 65540, "predictions": 5421, "prefix_positions": 43216, "children": 21684, "maximum_heap_entries": 13182}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-shifted_first-9", "seconds": 0.003811970353126526, "bytes": 74044}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "shifted_first", "attempt": 10, "seconds": 0.015568973496556282, "steps": 16, "replay_tokens": 2256, "input_rows": 2256, "input_positions": 6768, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-shifted_first-10", "seconds": 0.0011612791568040848, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-shifted_first-10", "seconds": 0.0003175158053636551, "bytes": 3883}
+{"stage": "ranking", "seed": 37, "prior_id": "online-shifted_first-10", "seconds": 0.020603127777576447, "candidates": 8499, "minimum_primitive_ops": 65539, "predictions": 5352, "prefix_positions": 42568, "children": 21408, "maximum_heap_entries": 12917}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-shifted_first-10", "seconds": 0.007193760946393013, "bytes": 74038}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "shifted_first", "attempt": 11, "seconds": 0.01591779850423336, "steps": 16, "replay_tokens": 2352, "input_rows": 2352, "input_positions": 7056, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-shifted_first-11", "seconds": 0.0011728070676326752, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-shifted_first-11", "seconds": 0.0003115944564342499, "bytes": 3886}
+{"stage": "ranking", "seed": 37, "prior_id": "online-shifted_first-11", "seconds": 0.02169116586446762, "candidates": 8531, "minimum_primitive_ops": 65542, "predictions": 5501, "prefix_positions": 43773, "children": 22004, "maximum_heap_entries": 13475}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-shifted_first-11", "seconds": 0.0057384297251701355, "bytes": 74073}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "shifted_first", "attempt": 12, "seconds": 0.015779217705130577, "steps": 16, "replay_tokens": 2496, "input_rows": 2496, "input_positions": 7488, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-shifted_first-12", "seconds": 0.0011523719877004623, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-shifted_first-12", "seconds": 0.0002267211675643921, "bytes": 3874}
+{"stage": "ranking", "seed": 37, "prior_id": "online-shifted_first-12", "seconds": 0.018439555540680885, "candidates": 8534, "minimum_primitive_ops": 65537, "predictions": 5520, "prefix_positions": 43932, "children": 22080, "maximum_heap_entries": 13549}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-shifted_first-12", "seconds": 0.0046031419187784195, "bytes": 74071}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "shifted_first", "attempt": 13, "seconds": 0.014722136780619621, "steps": 16, "replay_tokens": 2592, "input_rows": 2592, "input_positions": 7776, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-shifted_first-13", "seconds": 0.0010451171547174454, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-shifted_first-13", "seconds": 0.00014777109026908875, "bytes": 3876}
+{"stage": "ranking", "seed": 37, "prior_id": "online-shifted_first-13", "seconds": 0.011484773829579353, "candidates": 8528, "minimum_primitive_ops": 65543, "predictions": 5474, "prefix_positions": 43531, "children": 21896, "maximum_heap_entries": 13371}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-shifted_first-13", "seconds": 0.002904728055000305, "bytes": 74071}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "shifted_first", "attempt": 14, "seconds": 0.012484144419431686, "steps": 16, "replay_tokens": 2592, "input_rows": 2592, "input_positions": 7776, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-shifted_first-14", "seconds": 0.0010394863784313202, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-shifted_first-14", "seconds": 0.00013402849435806274, "bytes": 3879}
+{"stage": "ranking", "seed": 37, "prior_id": "online-shifted_first-14", "seconds": 0.010313896462321281, "candidates": 8518, "minimum_primitive_ops": 65540, "predictions": 5439, "prefix_positions": 43269, "children": 21756, "maximum_heap_entries": 13241}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-shifted_first-14", "seconds": 0.002909325063228607, "bytes": 74058}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "shifted_first", "attempt": 15, "seconds": 0.012458013370633125, "steps": 16, "replay_tokens": 2688, "input_rows": 2688, "input_positions": 8064, "skip_reason": null}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-shifted_first-15", "seconds": 0.0010468997061252594, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-shifted_first-15", "seconds": 0.00012851320207118988, "bytes": 3876}
+{"stage": "ranking", "seed": 37, "prior_id": "online-shifted_first-15", "seconds": 0.010081231594085693, "candidates": 8504, "minimum_primitive_ops": 65537, "predictions": 5372, "prefix_positions": 42722, "children": 21488, "maximum_heap_entries": 12989}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-shifted_first-15", "seconds": 0.0029144156724214554, "bytes": 74041}
+{"stage": "replay", "seed": 37, "phase": "stream", "arm": "online", "order": "shifted_first", "attempt": 16, "seconds": 0.01427752710878849, "steps": 16, "replay_tokens": 2688, "input_rows": 2688, "input_positions": 8064, "skip_reason": null}
+{"stage": "checkpoint_save", "seed": 37, "name": "online-shifted_first-16", "arm": "online", "order": "shifted_first", "attempt": 16, "seconds": 0.0005827844142913818, "bytes": 37883}
+{"stage": "probe_load", "seed": 37, "arm": "replay", "order": "composition_first", "checkpoint": 16, "name": "replay-composition_first-16", "prior_id": "replay-composition_first-16", "seconds": 0.0018522776663303375}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-composition_first-16", "seconds": 0.0012810267508029938, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-composition_first-16", "seconds": 0.00017949193716049194, "bytes": 3896}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-composition_first-16", "seconds": 0.012260526418685913, "candidates": 8503, "minimum_primitive_ops": 65540, "predictions": 5417, "prefix_positions": 43186, "children": 21668, "maximum_heap_entries": 13167}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-composition_first-16", "seconds": 0.0028548333793878555, "bytes": 74043}
+{"stage": "probe_load", "seed": 37, "arm": "online", "order": "composition_first", "checkpoint": 16, "name": "online-composition_first-16", "prior_id": "online-composition_first-16", "seconds": 0.001557404175400734}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-composition_first-16", "seconds": 0.0012618396431207657, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-composition_first-16", "seconds": 0.00017663836479187012, "bytes": 3881}
+{"stage": "ranking", "seed": 37, "prior_id": "online-composition_first-16", "seconds": 0.01240369863808155, "candidates": 8495, "minimum_primitive_ops": 65543, "predictions": 5339, "prefix_positions": 42478, "children": 21356, "maximum_heap_entries": 12863}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-composition_first-16", "seconds": 0.0029162168502807617, "bytes": 74038}
+{"stage": "probe_load", "seed": 37, "arm": "replay", "order": "shifted_first", "checkpoint": 16, "name": "replay-shifted_first-16", "prior_id": "replay-shifted_first-16", "seconds": 0.0019885990768671036}
+{"stage": "probability_table", "seed": 37, "prior_id": "replay-shifted_first-16", "seconds": 0.0014038030058145523, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "replay-shifted_first-16", "seconds": 0.00018330849707126617, "bytes": 3896}
+{"stage": "ranking", "seed": 37, "prior_id": "replay-shifted_first-16", "seconds": 0.012495335191488266, "candidates": 8503, "minimum_primitive_ops": 65540, "predictions": 5417, "prefix_positions": 43186, "children": 21668, "maximum_heap_entries": 13167}
+{"stage": "order_archive", "seed": 37, "prior_id": "replay-shifted_first-16", "seconds": 0.0029591042548418045, "bytes": 74043}
+{"stage": "probe_load", "seed": 37, "arm": "online", "order": "shifted_first", "checkpoint": 16, "name": "online-shifted_first-16", "prior_id": "online-shifted_first-16", "seconds": 0.0015074685215950012}
+{"stage": "probability_table", "seed": 37, "prior_id": "online-shifted_first-16", "seconds": 0.001244284212589264, "model_calls": 21, "recurrent_input_positions": 57, "probability_values": 84}
+{"stage": "table_archive", "seed": 37, "prior_id": "online-shifted_first-16", "seconds": 0.00016024895012378693, "bytes": 3883}
+{"stage": "ranking", "seed": 37, "prior_id": "online-shifted_first-16", "seconds": 0.011968538165092468, "candidates": 8497, "minimum_primitive_ops": 65538, "predictions": 5352, "prefix_positions": 42587, "children": 21408, "maximum_heap_entries": 12915}
+{"stage": "order_archive", "seed": 37, "prior_id": "online-shifted_first-16", "seconds": 0.0029196366667747498, "bytes": 74035}

@@ -1,0 +1,84 @@
+{
+  "status": "completed",
+  "started_utc": "2026-10-26T12:46:27.200671+00:00",
+  "git_revision": "a22026af5be6b77fdcb39ad33e717f296f422987",
+  "source_sha256": {
+    "experiments/study_k/analyze.py": "8347e21576fa4733097848a7a519f3cc622dd1965fd68759fb2135624805c3e0",
+    "experiments/study_k/audit.py": "89d433fe44ab3d00cb45eccfd225910ee87ba91cba13fbd1ccdd5c20ee1a8797",
+    "experiments/study_k/run.py": "1c0095366018042f97f785d1cc97b83a21923229fd371d2eba4692279848e4f4",
+    "experiments/study_k/stream.py": "77b2859e5804133adee9597690727f31476a2ded9116064a63e5493f5fa1a42a",
+    "experiments/study_k/test_audit.py": "8df98c3b6a91e3d074c42e62f9aa44ae13f50d0b1b5f1ac92518f798533db910",
+    "experiments/study_k/test_collection.py": "fb17bc1035ed413d9e33485efeae0f6c2ca6e899448024993403dfa4da5522ff",
+    "experiments/study_k/test_stream.py": "f44b5eadadca15bb305cebe577f4a38779aadbf856dca0501e63245695f6b369",
+    "experiments/study_j/local.py": "8516f44ddef46f7f0ead0d2a8cf0d144f03f85e753858b45b012d2cfc7911b0a",
+    "experiments/study_j/audit.py": "6ae512e540c1b0d6c1d0ebc39857e6788630075c75aa41104d52a57a0972698c",
+    "experiments/study_j/run.py": "a2e3f10b2e745ee09ee2bf492a120e73321b367b5acefd8280a17d3f96ed993c",
+    "experiments/study_i/model.py": "24c6d8c1a2fb9af9910942f9098daabec43b9e0304a080ced346626bb1f5e448",
+    "experiments/study_i/search.py": "9f247e701586bc4393d38876b1377966e1fcdd186f29e178d0b4c1e0aaaf8a1e",
+    "experiments/study_h/tasks.py": "4e1e06bc1717fbf63e863d9513996221015a85e02e8fcda6ac3855979d5a15b0",
+    "experiments/study_h/search.py": "70a6c9bbcacb79e7b3623111f67a11cdf1b9f743068679d166f0a1a54cb5d062",
+    "experiments/study_h/run.py": "1b31a0a1d375c03f37adddfba368a821ee278c06e4c8de160a9fd2fc9fd9291a",
+    "experiments/study_h/audit.py": "5af25e6d0e09af3325aa626bf7bb224868ea1f55985d19e24e629e14f9c093cc",
+    "notes/protocol-v11-continual-local-feedback.md": "41d5e71efefac14bdfe60d0ef37c63ec46360619a8d899f6b03c40b6688874f8"
+  },
+  "data_sha256": "68f068206234e43eb66b444e02a93640cb4611f33298a9a1eaaedae40024675d",
+  "seeds": [
+    37
+  ],
+  "budget": 65536,
+  "arms": [
+    "uniform",
+    "frozen",
+    "replay",
+    "online"
+  ],
+  "orders": [
+    "composition_first",
+    "shifted_first"
+  ],
+  "checkpoints": [
+    0,
+    8,
+    16
+  ],
+  "stream_indices": [
+    0,
+    8,
+    2,
+    10,
+    4,
+    12,
+    6,
+    14
+  ],
+  "probe_indices": [
+    1,
+    9,
+    3,
+    11,
+    5,
+    13,
+    7,
+    15
+  ],
+  "baseline_reuse": "Shared stream/probe searches are evaluated once and referenced by both orders.",
+  "python": "3.11.15 (main, Jul 23 2026, 14:43:45) [Clang 22.1.3 ]",
+  "torch": "2.8.0+cu126",
+  "threads": 1,
+  "device": "cpu",
+  "dtype": "float64",
+  "deterministic_algorithms": true,
+  "platform": "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41",
+  "cpu_model": "AMD Ryzen 9 9950X 16-Core Processor",
+  "argv": [
+    "/tmp/feedback-research-k/frozen-a22026a/repo/experiments/study_k/run.py",
+    "--development",
+    "--source-revision",
+    "a22026af5be6b77fdcb39ad33e717f296f422987",
+    "--output",
+    "/tmp/feedback-research-k/development-v1"
+  ],
+  "development_audit_sha256": null,
+  "completed_utc": "2026-10-26T12:46:30.512756+00:00",
+  "elapsed_seconds": 3.3767140954732895
+}

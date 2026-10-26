@@ -1332,3 +1332,25 @@ separately. All outcomes from development seeds remain exploratory.
   indices and both family orders remain exactly as registered.
 - This separate generated-data save point adds no abstraction or compatibility
   layer. No prior data, failed attempt, or manuscript was removed.
+
+## 2026-10-26 UTC: continual development archive
+
+- Source-transfer setup initially stripped one directory component, then a
+  development module launch used the parent of the corrected checkout. These
+  startup failures preceded experiment execution. Corrected the extraction
+  and working directory; all 19 tests passed in the frozen checkout. The
+  first launch console was overwritten when the successful command reused
+  its local log name; this event record does not claim to preserve that log.
+- Official development seed 37 ran once: 280 searches, 1,408 steps, 3.377
+  collection seconds. Complete independent audit/analysis passed in 4.974
+  seconds. Final balanced online score is 14/32 task/order conditions, versus
+  frozen/replay 10/32 and uniform 16/32; online shifted score is zero. These
+  are descriptive observations on one environment, with reused controls.
+- Verified all 18 source/data files against frozen Git a22026a and lens and
+  every raw development hash against the independent audit. All 152 transferred
+  raw/audit files, 6,507,233 bytes, match their host originals. No settings or
+  source changed after development. Started the unchanged full formal grid
+  using its matching audit certificate.
+- This archive adds no abstraction or compatibility layer. Removed only the
+  incorrectly extracted source scratch before any experiment existed; no
+  original research output or checkpoint was deleted.
