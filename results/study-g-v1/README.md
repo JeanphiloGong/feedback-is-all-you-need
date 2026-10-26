@@ -207,3 +207,61 @@ Independent calculation from the audited rule memories reproduces all 1,152
 selected-prefix records and 24 summaries, including gains/losses and extra
 example checks; all input/source hashes match. Fresh reporting review found
 no material issue. Cross-model CLI review was skipped in the autonomous run.
+
+## Exploratory uniform-proposal reference
+
+This later post-hoc calculation follows the plan and source at `7da2453`:
+[`../../notes/study-g-random-reference-plan.md`](../../notes/study-g-random-reference-plan.md).
+It evaluates expectations over a supplied sampler of the 1,680 distinct-offset
+rules, with independent draws and replacement. The counts of rules matching
+0, 1, 2, 3, or 4 true offsets are **1,001, 536, 126, 16, and 1**. The same
+distribution holds for every legal true rule by relabeling the offset values.
+
+Seventeen uniform legal candidates, selected using all disclosed examples,
+have expected direct accuracy **48.71%** and exact-rule probability **1.01%**.
+These are exact policy expectations, not observed agents or confidence bounds.
+The sampler has no learned proposal generator, but its legal rule grammar,
+example scorer, memory, and executor are all supplied algorithms.
+
+The second reference retains each observed neural initial proposal and adds
+16 uniform legal candidates. Thus it retains that model's initial generation
+and prior learning. The following comparison conditions on those same 48
+initial proposals and uses the training-only selector on both candidate pools.
+
+| Model / observed pool | Observed selected direct % | Uniform-revision expected direct % | Observed minus expected, pp | Observed exact / expected exact count, out of 48 |
+| --- | ---: | ---: | ---: | ---: |
+| 0.5B last only | 17.71 | 48.47 | -30.76 | 0 / 0.46 |
+| 0.5B full history | 19.27 | 48.47 | -29.20 | 0 / 0.46 |
+| 7B last only | 63.54 | 63.84 | -0.30 | 10 / 4.42 |
+| 7B full history | 70.31 | 63.84 | +6.47 | 17 / 4.42 |
+
+The small-model pools have less direct-score utility than this uniform-policy
+expectation under the supplied grammar and selector. In 7B, the full-history
+pool has a higher observed direct mean and more exact rules than the reference
+expectation. These are descriptive observed-versus-expected comparisons,
+without a significance or universal capability claim. In particular, observing
+zero exact small-model rules is not evidence of falling below a reference
+whose expected exact count is only 0.46. Candidate validity, dependence, and
+learned priors differ across policies; this is not an isolated causal effect
+of feedback, neural parameters, or semantic candidate quality.
+
+Each conditional reference has 48 initial neural proposals and 768 uniform
+revision candidates. Full-example execution counts are 12,992 for the 0.5B
+initial states and 13,008 for the 7B initial states, versus 9,056/8,464 and
+12,032/11,664 for the respective observed selected pools. Uniform candidates
+are always valid; invalid neural candidates are excluded without executing
+examples. The pure seventeen-draw reference instead uses 272 example
+executions per environment, or 13,056 for 48 environments, with no neural
+initial generation. Candidate counts do not match these checker costs or
+overall computation, and the pure reference has a different initial source.
+
+`random-reference.json` preserves the exact rational expectations, 96
+conditional records, four comparisons, and analysis/input hashes. The offline
+expectation calculation takes 0.037 seconds before output serialization,
+excluding imports. This is not a measured runtime of deployed random agents.
+No neural inference or original result modification is involved. Reproduction
+commands are in [`../../experiments/study_g/README.md`](../../experiments/study_g/README.md).
+An independent rational dynamic program, using the original audited rule
+memories, reproduces the pure reference, all 96 conditional records, four
+comparisons, and checker totals. All input/source hashes match; independent
+reporting review found no numerical or attribution issue in this section.

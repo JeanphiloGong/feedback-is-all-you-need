@@ -546,3 +546,26 @@ separately. All outcomes from development seeds remain exploratory.
   in the formula, initial-rule conditioning, implementation, or attribution.
   Cross-model CLI review was skipped. The added research functions introduce
   no compatibility layer or temporary implementation.
+
+## 2026-10-26 UTC: uniform-proposal reference verification
+
+- The exact match-count distribution is 1,001/536/126/16/1 across zero through
+  four correct offsets. Seventeen uniform legal proposals with supplied
+  selection have expected direct accuracy 48.71% and exact recovery 1.01%.
+  These are policy expectations, not observed random-agent runs.
+- Keeping the shared neural initial rule and adding 16 uniform revisions
+  gives mean expected direct accuracy 48.47% for the 0.5B initial states and
+  63.84% for the 7B initial states. Observed selected full-history pools score
+  19.27% and 70.31%. Expected exact counts are 0.46 and 4.42, versus observed
+  selected counts of zero and 17. All comparisons remain post-hoc/descriptive.
+- The random reference supplies a valid rule grammar and uses more example
+  executions than the observed pools: 12,992/13,008 per conditional group.
+  The pure reference has no neural initial call and uses 13,056 checks per
+  48 environments. Its 0.037-second offline expectation calculation is not
+  a runtime measurement for a deployed random agent.
+- Independent rational dynamic programming from the original audited rule
+  memories reproduces the pure reference, all 96 conditional records, four
+  comparisons, and cost totals; input/source hashes match. Fresh reporting
+  review found no numerical or attribution issue in the result section.
+  Cross-model CLI review was skipped. No new model calls or changes to
+  earlier formal scores, sources, or manuscripts occurred in this analysis.
