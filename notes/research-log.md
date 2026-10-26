@@ -569,3 +569,21 @@ separately. All outcomes from development seeds remain exploratory.
   review found no numerical or attribution issue in the result section.
   Cross-model CLI review was skipped. No new model calls or changes to
   earlier formal scores, sources, or manuscripts occurred in this analysis.
+
+## 2026-10-26 UTC: manuscript v9 review
+
+- Version 9 adds the two sequentially declared post-hoc analyses without
+  changing Study G's original endpoints. It distinguishes selected candidates,
+  exact-rule availability, externally supplied verification, and uniform-policy
+  expectations from neural learning or a measured interactive intervention.
+  The abstract was condensed to retain the main evidence and its limits.
+- Fresh review found two wording ambiguities: the selection boundary could
+  be read as excluding training targets, and the abstract's 19.27% score did
+  not name the full-history branch. Both were corrected, and narrow follow-up
+  review confirmed resolution. No numerical or inferential finding remained.
+  Cross-model CLI review was skipped in the authorized autonomous context.
+- The final 23-page PDF compiles twice without warnings. All pages were
+  rendered and inspected; paragraph pagination was adjusted and every changed
+  page inspected again. Earlier versions remain unchanged. No architectural
+  abstraction or compatibility layer was added; build/render files are
+  disposable and excluded from the manuscript archive.

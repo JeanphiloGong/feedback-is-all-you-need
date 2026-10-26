@@ -16,6 +16,7 @@ is borrowed from it.
 | [v6](versions/v6-online-feedback.pdf) | Adds repeated parameter updates after verified outcomes on 24 fresh environments: no demonstrated composition gain, with context dependence and all adapter states retained. |
 | [v7](versions/v7-rule-memory.pdf) | Adds externally checked rule revision, all intermediate rule memories, explicit executor attribution, and comparisons with Voyager, Self-Debugging, and ExpeL. |
 | [v8](versions/v8-feedback-history.pdf) | Adds 16 checked revisions with last-only or complete history on 48 fresh environments: no demonstrated direct-accuracy benefit, with exact-rule regressions and unequal costs reported. |
+| [v9](versions/v9-selection-and-search.pdf) | Adds explicitly post-hoc candidate selection and exact uniform-proposal references, distinguishing discarded progress from absent exact candidates and attributing the supplied grammar and selector. |
 
 All manuscripts are working drafts. The current results support conditional
 adaptation, not the sufficiency of feedback for general intelligence.
@@ -32,13 +33,18 @@ Study G retains complete correction transcripts for 16 revisions. The primary
 exact-rule counts in 7B coexist with loss of three of four initially exact
 rules. Full history uses over twice the input tokens; neither extra iterations
 nor transcript retention ensures cumulative improvement under this mechanism.
+Post-hoc selection recovers exact rules from 17/48 full-history 7B pools
+instead of the final 9/48. The 0.5B pools contain none. Their selected direct
+score remains below the exact expectation for uniform legal revisions with
+the same initial proposal; the reference supplies the action grammar and
+does not match checking cost. These analyses preserve the original endpoints.
 
 From the repository root, compile a version twice to resolve citations:
 
 ```bash
 mkdir -p paper/build
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=paper/build \
-  paper/versions/v8-feedback-history.tex
+  paper/versions/v9-selection-and-search.tex
 ```
 
 Compiled files in `paper/versions/` are inspected snapshots. `paper/build/`

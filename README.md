@@ -61,9 +61,10 @@ The hypothesis has now been tested in controlled classification and pretrained
 language-model studies. Results support conditional adaptation, but do not
 establish feedback sufficiency for general intelligence.
 
-- [Manuscript versions](paper/README.md): v0 hypothesis through v8, including
+- [Manuscript versions](paper/README.md): v0 hypothesis through v9, including
   audited results, pretrained models, response budgets, online updates, and
-  checked revision of external rule memory and complete correction history.
+  checked rule revision, complete correction history, and explicit separation
+  of candidate generation from external selection.
 - [Study A replication](results/study-a-v2/README.md): 20 seeds, four capacities,
   seven feedback conditions; all 19,200 records retained.
 - [Study B results](results/study-b-v1/README.md): four Qwen2.5 sizes, 24 new
@@ -82,6 +83,8 @@ establish feedback sufficiency for general intelligence.
 - [Study G results](results/study-g-v1/README.md): 48 fresh environments per
   model and 16 checked revisions; complete history does not demonstrate a
   direct-accuracy benefit, with regressions and additional compute retained.
+  Subsequent post-hoc selection and exact uniform-proposal references quantify
+  recoverable progress and the contribution of supplied algorithms.
 - [Full-text literature review](notes/full-text-review.md): methods and limits
   of nine close precedents, including Reward is enough, Voyager, ExpeL, and the
   Era of Experience.
@@ -102,5 +105,11 @@ the full-history branch finishes with nine exact rules but loses three of the
 four initially exact rules. More revisions do not ensure cumulative progress
 under this mechanism, and the full-history branch consumes over twice the
 input tokens.
+Post-hoc selection retrieves exact rules from 17/48 full-history 7B pools
+instead of the final 9/48, but from none of the 0.5B pools. The latter's
+selected direct score is 19.27%, compared with an exact 48.47% expectation
+for 16 uniform legal revisions after the same initial proposal. This reference
+supplies the rule grammar and selector and has different checker costs; it
+is not an observed model run or a general intelligence comparison.
 More effective feedback systems and sustained cross-task learning remain open.
 All commits use English. External paper submission has not been authorized.
