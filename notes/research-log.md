@@ -1222,3 +1222,26 @@ separately. All outcomes from development seeds remain exploratory.
   citations, section transitions, and margins are legible and unclipped.
 - Added no abstraction or compatibility layer. Removed disposable LaTeX build
   files; all prior manuscripts, protocols, results, and checkpoints remain.
+
+## 2026-10-26 UTC: continual local-feedback protocol
+
+- Specified a prospective Study K on development seed 37 and formal
+  13000–13031, before implementation or data generation. Split each generated
+  transfer family into eight stream tasks and eight untouched probes, with
+  balanced alternating lengths. Both family orders start from the same
+  learned local GRU and Adam state. Online accepted-solution replay is
+  compared with frozen, extra replay of initial experience, and uniform.
+- The sole primary is final online-minus-frozen balanced held-out success,
+  averaging orders within 32 paired environments. Intermediate family probes,
+  prequential outcomes, extra-replay and uniform comparisons remain descriptive.
+  This tests one short continued-learning mechanism; failure feedback supplies
+  no corrective oracle target and computation is measured rather than equated.
+- Independent protocol review found two valid ambiguities. Defined final-only
+  standalone cost to exclude replay's diagnostic stream searches/intermediate
+  ranking, and fixed construction/reuse of local probability tables and orders.
+  Follow-up found one residual wording ambiguity; explicitly separated the
+  shared neural checkpoint-0 order from uniform's independent order. No other
+  material contradiction remained. Cross-model CLI review was skipped.
+- No official K environment or outcome exists. This protocol introduces no
+  code abstraction or compatibility layer; no cleanup or evidence deletion
+  was required.
