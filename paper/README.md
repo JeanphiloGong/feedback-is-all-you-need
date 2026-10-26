@@ -20,6 +20,7 @@ is borrowed from it.
 | [v10](versions/v10-compression-and-transfer.pdf) | Adds DreamCoder as an abstraction-learning precedent and a 32-environment symbolic transfer study: learned fragments help new motif compositions but reduce success on shifted programs, with prior experience and library costs accounted for. |
 | [v11](versions/v11-neural-search-priors.pdf) | Adds 32 new environments with neural program priors learned from accepted solutions: the small trained prior reduces composition success relative to uniform search; counts help compositions but lose that advantage on the balanced mixture. Includes replay audits, intermediate checkpoints, costs, and a qualified DreamCoder capacity audit. |
 | [v12](versions/v12-experience-fit-and-transfer.pdf) | Adds explicitly post-hoc diagnostics of the frozen priors: near-minimal experience loss coexists with worse transfer-program likelihood and search success. Reports empirical prefix bounds, every prior, and the limits of causal and semantic interpretation. |
+| [v13](versions/v13-local-context-and-transfer.pdf) | Adds a prospective comparison on 32 fresh environments: the same 1,172-parameter GRU with supplied local context solves 79.30% of compositions versus 24.22% with full prefixes. Shifted success is only 11.13%, and the balanced total remains below uniform search. Includes both frozen controls, every checkpoint, and distinct physical training/ranking costs. |
 
 All manuscripts are working drafts. The current results support conditional
 adaptation, not the sufficiency of feedback for general intelligence.
@@ -68,12 +69,22 @@ with worse transfer likelihood and original search success. Every checkpoint
 is retained; a generating sequence is only one possible solution, and these
 descriptions do not identify the cause of failure.
 
+Study J in v13 restricts the same GRU to the last two primitive tokens, with
+identical initial tensors, accepted experience, targets, and update counts.
+The primary local-minus-full composition difference is +55.08 points,
+t95 [45.60, 64.56], bootstrap95 [45.90, 63.87]. Local-trained composition
+success is 79.30% versus uniform's 50.00%, descriptively, but its shifted
+success is 11.13% and its balanced total is 463/1,024 versus uniform's 512.
+The restriction changes context, recurrent state, gradients, and physical
+work together; it does not isolate the cause of Study I's failure or establish
+general intelligence, overall superiority, or equal computation.
+
 From the repository root, compile a version twice to resolve citations:
 
 ```bash
 mkdir -p paper/build
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=paper/build \
-  paper/versions/v12-experience-fit-and-transfer.tex
+  paper/versions/v13-local-context-and-transfer.tex
 ```
 
 Compiled files in `paper/versions/` are inspected snapshots. `paper/build/`

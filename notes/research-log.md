@@ -1203,3 +1203,22 @@ separately. All outcomes from development seeds remain exploratory.
 - The figure includes every fixed checkpoint and all environment trajectories;
   it was rendered and visually inspected. No new abstraction or compatibility
   layer was added. No source, raw evidence, or historical result was changed.
+
+## 2026-10-26 UTC: manuscript v13, local context and transfer
+
+- Added Study J to the unchanged seven-section organization, retaining all
+  previous studies and the historical v12 artifact. The ten-study draft adds
+  the full/local methods, primary result, all controls and checkpoints,
+  physical input costs, and learning trajectories. The shifted and balanced
+  deficits appear in the abstract, results, limitations, and conclusion.
+- Fresh independent scientific review reconstructed the J scores, intervals,
+  costs, and hashes. It found one valid abstract wording issue: "establish no
+  composition gain" could imply proof of no effect in E/F. Corrected this to
+  "do not establish a composition gain"; the follow-up found no unresolved
+  substantive issue. Cross-model CLI review was skipped.
+- The final source compiled twice without warnings. Rendered and inspected all
+  35 pages. After the wording correction, rerendered every page: only page 1
+  changed, and it passed another visual inspection. All figures, tables,
+  citations, section transitions, and margins are legible and unclipped.
+- Added no abstraction or compatibility layer. Removed disposable LaTeX build
+  files; all prior manuscripts, protocols, results, and checkpoints remain.
