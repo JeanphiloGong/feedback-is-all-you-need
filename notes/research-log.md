@@ -1245,3 +1245,21 @@ separately. All outcomes from development seeds remain exploratory.
 - No official K environment or outcome exists. This protocol introduces no
   code abstraction or compatibility layer; no cleanup or evidence deletion
   was required.
+
+## 2026-10-26 UTC: continual task roles and local probability table
+
+- Added direct task-role assignment and exact tabulation of the existing local
+  GRU's 21 possible contexts. The ranker can consume the same probabilities
+  with 21 model calls and 57 recurrent positions per state; no new predictor
+  class, adapter, or compatibility layer was introduced.
+- All four synthetic tests pass on lens under the pinned PyTorch environment:
+  disjoint task roles and prescribed orders, physical forward calls, agreement
+  with direct prediction and independent NumPy GRU equations, exhaustive finite
+  ordering, and preservation of archived tables after later learning.
+- Independent review found a valid test gap: a permutation of probe task pairs
+  could pass the original role check. Added a complete ordered probe-ID
+  assertion; follow-up confirmed the reported mutation now fails. Cross-model
+  CLI review was skipped. No official K environment was generated.
+- The collector, continual-learning control, and complete audit remain
+  unimplemented at this checkpoint. Only synthetic scratch files and caches
+  were used; no research evidence was removed.
