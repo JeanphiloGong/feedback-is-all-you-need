@@ -1,0 +1,58 @@
+{
+  "status": "completed",
+  "started_utc": "2026-10-26T17:00:36.763875+00:00",
+  "git_revision": "69cc5bc503d030a7e5ed9912c71bd366c0f0ef28",
+  "source_sha256": {
+    "experiments/study_l/analyze.py": "741024e7965130167c3edd1f0d7f9b56957beea412744790ec0342c0073d8a5d",
+    "experiments/study_l/audit.py": "4367040d929d3e4287bd418bf3cae7a0ff77650ab29993dce150d370d1441d12",
+    "experiments/study_l/feedback.py": "927ee298a84aa89b4980ce1609ffa87007900a0658cdccf48d95d212534e571a",
+    "experiments/study_l/run.py": "292f9e392e5c5c43fa81c6f7caf4fc18b2e5d3dff58b0243d60bb5bf78bec6de",
+    "experiments/study_l/search.py": "7a6338230afaa7564673fea477f3e2f6aa2a08432cddd6226fdec4beca2a022a",
+    "experiments/study_l/test_audit.py": "c75d7f6ed327c254224ff91c2e448e89bd3e0674b3af34bee3e020a9aae9f2f6",
+    "experiments/study_l/test_collection.py": "41e84f2b98cd739bd6570483b07a305827c7bf1a2cdebd8707dd228edab23f86",
+    "experiments/study_l/test_feedback.py": "e90166426a0f755a434eefbf2ffea482c70471a5b76f70b0bc2d996f00cf6681",
+    "experiments/study_l/test_search.py": "f9a240b8ed5e57b39053549bb8de8801ed7f3b52c567f83cb32fb9d647da1d49",
+    "experiments/study_h/tasks.py": "4e1e06bc1717fbf63e863d9513996221015a85e02e8fcda6ac3855979d5a15b0",
+    "experiments/study_h/search.py": "70a6c9bbcacb79e7b3623111f67a11cdf1b9f743068679d166f0a1a54cb5d062",
+    "experiments/study_h/run.py": "1b31a0a1d375c03f37adddfba368a821ee278c06e4c8de160a9fd2fc9fd9291a",
+    "experiments/study_h/audit.py": "5af25e6d0e09af3325aa626bf7bb224868ea1f55985d19e24e629e14f9c093cc",
+    "experiments/study_i/model.py": "24c6d8c1a2fb9af9910942f9098daabec43b9e0304a080ced346626bb1f5e448",
+    "experiments/study_i/search.py": "9f247e701586bc4393d38876b1377966e1fcdd186f29e178d0b4c1e0aaaf8a1e",
+    "experiments/study_j/local.py": "8516f44ddef46f7f0ead0d2a8cf0d144f03f85e753858b45b012d2cfc7911b0a",
+    "experiments/study_j/audit.py": "6ae512e540c1b0d6c1d0ebc39857e6788630075c75aa41104d52a57a0972698c",
+    "experiments/study_j/run.py": "a2e3f10b2e745ee09ee2bf492a120e73321b367b5acefd8280a17d3f96ed993c",
+    "notes/protocol-v12-failure-conditioned-weights.md": "ffd1910a8a20611c0f13860f1624d7b312116aa87df5f0967f4fdfa58c77dc66"
+  },
+  "data_sha256": "bb900adf1c562b5229486556c9df2fc0af6a28be2d3e4a3ccac63456cdb4ce81",
+  "seeds": [
+    41
+  ],
+  "budget": 65536,
+  "interval": 4096,
+  "steps_per_update": 16,
+  "arms": [
+    "uniform",
+    "frozen",
+    "uniformizing",
+    "rejection"
+  ],
+  "python": "3.11.15 (main, Jul 23 2026, 14:43:45) [Clang 22.1.3 ]",
+  "torch": "2.8.0+cu126",
+  "threads": 1,
+  "device": "cpu",
+  "dtype": "float64",
+  "deterministic_algorithms": true,
+  "platform": "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41",
+  "cpu_model": "AMD Ryzen 9 9950X 16-Core Processor",
+  "argv": [
+    "/tmp/feedback-research-l/frozen-69cc5bc/repo/experiments/study_l/run.py",
+    "--development",
+    "--source-revision",
+    "69cc5bc503d030a7e5ed9912c71bd366c0f0ef28",
+    "--output",
+    "/tmp/feedback-research-l/development-v1"
+  ],
+  "development_audit_sha256": null,
+  "completed_utc": "2026-10-26T17:01:11.798411+00:00",
+  "elapsed_seconds": 35.06982866115868
+}

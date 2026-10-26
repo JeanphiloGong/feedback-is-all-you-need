@@ -1,0 +1,88 @@
+{
+  "source_revision": "69cc5bc503d030a7e5ed9912c71bd366c0f0ef28",
+  "files": {
+    "experiments/study_l/analyze.py": {
+      "sha256": "741024e7965130167c3edd1f0d7f9b56957beea412744790ec0342c0073d8a5d",
+      "bytes": 10623
+    },
+    "experiments/study_l/audit.py": {
+      "sha256": "4367040d929d3e4287bd418bf3cae7a0ff77650ab29993dce150d370d1441d12",
+      "bytes": 27362
+    },
+    "experiments/study_l/feedback.py": {
+      "sha256": "927ee298a84aa89b4980ce1609ffa87007900a0658cdccf48d95d212534e571a",
+      "bytes": 2378
+    },
+    "experiments/study_l/run.py": {
+      "sha256": "292f9e392e5c5c43fa81c6f7caf4fc18b2e5d3dff58b0243d60bb5bf78bec6de",
+      "bytes": 26943
+    },
+    "experiments/study_l/search.py": {
+      "sha256": "7a6338230afaa7564673fea477f3e2f6aa2a08432cddd6226fdec4beca2a022a",
+      "bytes": 3782
+    },
+    "experiments/study_l/test_audit.py": {
+      "sha256": "c75d7f6ed327c254224ff91c2e448e89bd3e0674b3af34bee3e020a9aae9f2f6",
+      "bytes": 13731
+    },
+    "experiments/study_l/test_collection.py": {
+      "sha256": "41e84f2b98cd739bd6570483b07a305827c7bf1a2cdebd8707dd228edab23f86",
+      "bytes": 11555
+    },
+    "experiments/study_l/test_feedback.py": {
+      "sha256": "e90166426a0f755a434eefbf2ffea482c70471a5b76f70b0bc2d996f00cf6681",
+      "bytes": 4904
+    },
+    "experiments/study_l/test_search.py": {
+      "sha256": "f9a240b8ed5e57b39053549bb8de8801ed7f3b52c567f83cb32fb9d647da1d49",
+      "bytes": 5582
+    },
+    "experiments/study_h/tasks.py": {
+      "sha256": "4e1e06bc1717fbf63e863d9513996221015a85e02e8fcda6ac3855979d5a15b0",
+      "bytes": 3566
+    },
+    "experiments/study_h/search.py": {
+      "sha256": "70a6c9bbcacb79e7b3623111f67a11cdf1b9f743068679d166f0a1a54cb5d062",
+      "bytes": 3922
+    },
+    "experiments/study_h/run.py": {
+      "sha256": "1b31a0a1d375c03f37adddfba368a821ee278c06e4c8de160a9fd2fc9fd9291a",
+      "bytes": 7586
+    },
+    "experiments/study_h/audit.py": {
+      "sha256": "5af25e6d0e09af3325aa626bf7bb224868ea1f55985d19e24e629e14f9c093cc",
+      "bytes": 9697
+    },
+    "experiments/study_i/model.py": {
+      "sha256": "24c6d8c1a2fb9af9910942f9098daabec43b9e0304a080ced346626bb1f5e448",
+      "bytes": 1732
+    },
+    "experiments/study_i/search.py": {
+      "sha256": "9f247e701586bc4393d38876b1377966e1fcdd186f29e178d0b4c1e0aaaf8a1e",
+      "bytes": 3294
+    },
+    "experiments/study_j/local.py": {
+      "sha256": "8516f44ddef46f7f0ead0d2a8cf0d144f03f85e753858b45b012d2cfc7911b0a",
+      "bytes": 1225
+    },
+    "experiments/study_j/audit.py": {
+      "sha256": "6ae512e540c1b0d6c1d0ebc39857e6788630075c75aa41104d52a57a0972698c",
+      "bytes": 22664
+    },
+    "experiments/study_j/run.py": {
+      "sha256": "a2e3f10b2e745ee09ee2bf492a120e73321b367b5acefd8280a17d3f96ed993c",
+      "bytes": 18270
+    },
+    "notes/protocol-v12-failure-conditioned-weights.md": {
+      "sha256": "ffd1910a8a20611c0f13860f1624d7b312116aa87df5f0967f4fdfa58c77dc66",
+      "bytes": 12509
+    },
+    "experiments/study_l/data/environments-v1.json": {
+      "sha256": "bb900adf1c562b5229486556c9df2fc0af6a28be2d3e4a3ccac63456cdb4ce81",
+      "bytes": 2378541
+    }
+  },
+  "execution_host": "lens (aorus)",
+  "execution_directory": "/tmp/feedback-research-l/frozen-69cc5bc/repo",
+  "verification": "All 20 source/data files match frozen Git bytes and the execution-host copy."
+}

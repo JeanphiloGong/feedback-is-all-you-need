@@ -1516,3 +1516,21 @@ separately. All outcomes from development seeds remain exploratory.
   No official search, learning, or evaluation outcome preceded this separate
   generated-data save point. No abstraction or compatibility layer was added,
   and no earlier evidence was removed.
+
+## 2026-10-26 UTC: failure-update development archive
+
+- Transferred frozen source/data 69cc5bc into a new isolated lens checkout;
+  all 20 files match both Git and host bytes. All 27 synthetic tests passed
+  there in 5.725 seconds. Official development seed 41 completed once in
+  35.070 seconds; independent audit/analysis passed in 23.279 seconds.
+- Development has 152 searches, 12,224 gradient steps, and 882,800 candidate
+  or boundary events. Rejection scores 15/32 balanced tasks, frozen 10/32,
+  and uniformizing/uniform each 16/32. Rejection's composition/shifted counts
+  are 9/16 and 6/16. These are descriptive observations on one environment,
+  not a primary inference or reason to tune the frozen settings.
+- Verified all 2,577 transferred raw/audit files, 187,163,676 bytes, against
+  the execution host, including the auditor's 2,575 raw-file hashes. Preserved
+  the complete archive and console/test/source-transfer records. Started the
+  unchanged 32-environment formal grid with the matching audit certificate.
+- This archive adds no abstraction or compatibility layer. No official failed
+  attempt occurred, and no original research evidence was removed.
