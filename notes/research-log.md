@@ -1263,3 +1263,24 @@ separately. All outcomes from development seeds remain exploratory.
 - The collector, continual-learning control, and complete audit remain
   unimplemented at this checkpoint. Only synthetic scratch files and caches
   were used; no research evidence was removed.
+
+## 2026-10-26 UTC: continual collection and controls
+
+- Added the direct collector with independent model/Adam clones for both
+  continual arms and orders, retained accepted corpora, delayed untouched
+  probes, and explicit common/frozen/uniform artifact reuse. Every search is
+  flushed before hidden evaluation; every gradient step and resource phase
+  is retained. Complete-grid and pinned-runtime checks precede collection,
+  and formal mode requires the matching development audit.
+- All six synthetic collection tests pass on lens under PyTorch 2.8.0+cu126.
+  They verify optimizer continuation and ownership, physical forward costs,
+  all table/order builds, hidden/probe isolation, false accepted solutions,
+  empty acceptance, replay after exhaustion, formal gates, and preservation
+  of completed work and the original interrupted-run error.
+- Fresh independent review found no material issue. It additionally replayed
+  a mixed-token fixture and all eight model/Adam checkpoints under local
+  PyTorch 2.5.1+cu124; those checks are distinct from the pinned lens evidence.
+  Cross-model CLI review was skipped. No official K task was generated.
+- Added experiment-specific collection functions, no new architectural
+  abstraction, adapter, or compatibility layer. Temporary test directories
+  clean themselves up; the full auditor/inference remain unimplemented.

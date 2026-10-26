@@ -21,5 +21,23 @@ python -m unittest experiments.study_k.test_stream -v
 Synthetic checks cover task-role disjointness and ordering, physical forward
 calls, exact agreement with direct predictions, independent NumPy GRU
 probabilities and finite ordering, and preservation of an earlier table after
-updates. They do not generate official environments or test the collection,
-continual-learning control, or complete audit, which remain to be implemented.
+updates. They do not generate official environments.
+
+The collector preserves every search, outcome, update, probability table,
+candidate order, and checkpoint. Both continual branches clone the common
+model and complete Adam state independently for each stream order. Online
+adds only visibly accepted nonempty programs; replay always uses the initial
+corpus. Frozen/uniform stream outcomes are shared explicitly between orders.
+All stream updates finish before any untouched probe is searched.
+
+```bash
+python -m unittest experiments.study_k.test_collection -v
+```
+
+Synthetic collection checks cover cloned model/optimizer ownership, retained
+Adam steps, real forward-call costs, reuse of recorded rankings, false accepted
+solutions, hidden/probe isolation, empty acceptance, replay after exhaustion,
+complete-grid/runtime gates, and preservation of an original failure. These
+are artificial fixtures, not Study K development or formal observations.
+The complete independent auditor and inference remain to be implemented;
+official data generation and collection have not begun.
