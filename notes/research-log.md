@@ -606,3 +606,21 @@ separately. All outcomes from development seeds remain exploratory.
 - Source size/hash and manifest consistency were checked. This documentation
   change adds no implementation abstraction, compatibility layer, or temporary
   implementation. Temporary PDF extraction/render files remain outside Git.
+
+## 2026-10-26 UTC: cross-task library protocol
+
+- Specified Study H before any development or formal task outcomes: a supplied
+  symbolic searcher learns flat fragments from accepted experience programs,
+  then freezes them for new tasks. Four arms separate no memory, whole-program
+  memory, compressed fragments, and renamed fragments. No neural model is used.
+- New tasks have explicitly shared motif structure or a shifted random-program
+  distribution. Hidden labels and latent generating programs cannot enter
+  search or memory induction. All calls pay for expanded primitive execution;
+  prior experience, compression, memory, and interpreter costs remain separate.
+- The primary paired comparison uses 32 frozen environment seeds and a fixed
+  65,536-operation cap. Independent protocol review found no material issue.
+  Cross-model CLI review was skipped. Seven hand-built unit checks of the core
+  search and compression routines passed while the protocol was being reviewed;
+  no development environments or formal outcomes had been generated.
+- The protocol adds no software layer. The initial implementation uses direct
+  research functions and flat tuples; no compatibility interface is planned.
