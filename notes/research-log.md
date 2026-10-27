@@ -2006,3 +2006,30 @@ separately. All outcomes from development seeds remain exploratory.
   plotting with system Python's user site disabled succeeded without package
   changes. The final figure was visually inspected. No research evidence was
   removed; external cross-model CLI review was skipped in this autonomous run.
+
+## 2026-10-27 UTC: manuscript v17
+
+- Added Study N's prospective methods, fixed prediction curves, primary
+  learning-gain contrast, reference algorithms, full costs, and interpretation
+  to v17. The revised abstract and conclusion distinguish retained updates,
+  predictive generalization, and supplied planning. Added Sutton's verified
+  1990 bibliographic record with an explicit metadata-only comparison scope.
+- Fresh-context scientific review found no actionable numerical or scope
+  issue in the new passages. Claims remain specific to the fixed learner,
+  encoding, feedback budget, and finite world; the manuscript makes no
+  small-model superiority, representation impossibility, or general-intelligence
+  claim. Prior manuscript snapshots remain intact.
+- The final 51-page PDF compiles with no LaTeX warnings, unresolved references,
+  or overfull/underfull boxes. Inspected the whole document at overview scale
+  and the changed abstract, methods, results/table/figure, limitations,
+  conclusion, and references in detail. Corrected the new figure's float
+  placement so it appears with Study N before limitations, then re-rendered
+  the affected pages. Repository and manuscript navigation now include v17.
+- No experiment code or architectural abstraction was added in this save
+  point. Removed this version's local render/build intermediates and transferred
+  archive copies after preserving the checked PDF and complete evidence.
+  No experiment tests were rerun for these prose/layout changes; the audited
+  numerical evidence and frozen source/data digests remain unchanged.
+- The research goal remains open. Relabeled observed-fit deficits leave
+  optimization versus representation/capacity unresolved; stronger claims
+  require new prospective experiments rather than retuning this formal grid.

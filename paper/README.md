@@ -24,6 +24,7 @@ is borrowed from it.
 | [v14](versions/v14-continued-feedback-and-transfer.pdf) | Adds continued weight updates across two task-family blocks on 32 fresh environments: balanced probe success rises from 43.75% frozen to 51.56%, with a primary gain of +7.81 points (95% CI [4.74, 10.88]). Composition success reaches 92.38%, while shifted success remains 10.74%. Includes initial-corpus replay, both stream orders, every probe checkpoint, and lifetime-resource accounting. |
 | [v15](versions/v15-failure-directed-weight-updates.pdf) | Adds direct failure-conditioned weight updates during task solving on 32 fresh environments. Rejection achieves 48.14% balanced success versus 50.59% for uniformizing updates: -2.44 points, 95% CI [-4.50, -0.38]. Every adaptive batch changes all 1,172 weights, but task resets preclude retained cross-task learning. Includes exact update/journal audits, all checkpoints, measured unequal costs, and the unlikelihood-training precedent. |
 | [v16](versions/v16-retained-predictive-learning.pdf) | Adds retained transition-model updates during action/goal interaction in 32 fresh seeds, each with two world families. A 485-parameter model rises from 23.22% to 100% structured-world held-out-goal success; a 1,925-parameter model also reaches 100%. The small-minus-large AUC primary is -0.247 points, 95% CI [-1.128, 0.633], without demonstrated superiority or equivalence. Includes every gradient/checkpoint, both world families, all eight arms, fixed learning curves, and unequal full costs. |
+| [v17](versions/v17-encoding-and-unqueried-transitions.pdf) | Adds paired state-encoding experiments on 32 fresh worlds with half of transition pairs never trained. The 485-parameter learner rises from 3.13% to 53.76% unqueried accuracy canonically but changes from 3.42% to 2.29% after relabeling; the registered difference in gains is +51.76 points, 95% CI [48.40, 55.11]. A stronger-prior symbolic matcher reaches 100%, while an observed-edge table reaches 87.81% goal success with no unqueried prediction. All gradients, checkpoints, probes, and full costs are audited. |
 
 All manuscripts are working drafts. The current results support conditional
 adaptation, not the sufficiency of feedback for general intelligence.
@@ -116,12 +117,23 @@ useful retained learning in a finite domain, without a claim of feedback
 sufficiency, small-model superiority, or general intelligence. Full evidence
 and journal restoration instructions are in the [Study M archive](../results/study-m-v1/README.md).
 
+Study N in v17 holds physical feedback and replay indices fixed while changing
+state encoding. Its small-model difference in learning gains is +51.76 points,
+t95 [48.40, 55.11], bootstrap95 [48.58, 54.93], with every world difference
+positive. Canonical unqueried accuracy reaches 53.76%; relabeled accuracy is
+2.29%. All 8,192 adaptive batches change weights, yet relabeled observed fit
+is also poor. The family-informed symbolic reference reaches 100% and the
+observed-edge table reaches 87.81% goal success while abstaining on every
+unqueried pair. This establishes an encoding-dependent effect under the fixed
+algorithm and budget, not feedback sufficiency or a universal capacity bound.
+Full records and independent reconstruction are in the [Study N archive](../results/study-n-v1/README.md).
+
 From the repository root, compile a version twice to resolve citations:
 
 ```bash
 mkdir -p paper/build
 pdflatex -interaction=nonstopmode -halt-on-error -output-directory=paper/build \
-  paper/versions/v16-retained-predictive-learning.tex
+  paper/versions/v17-encoding-and-unqueried-transitions.tex
 ```
 
 Compiled files in `paper/versions/` are inspected snapshots. `paper/build/`

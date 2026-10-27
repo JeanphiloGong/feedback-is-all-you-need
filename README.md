@@ -61,7 +61,7 @@ The hypothesis has now been tested in controlled classification, pretrained
 language-model, symbolic program-search, and action-world studies. Results support conditional adaptation, but do not
 establish feedback sufficiency for general intelligence.
 
-- [Manuscript versions](paper/README.md): v0 hypothesis through v16, including
+- [Manuscript versions](paper/README.md): v0 hypothesis through v17, including
   audited results, pretrained models, response budgets, online updates, and
   checked rule revision, complete correction history, and explicit separation
   of candidate generation from external selection, cross-task fragment reuse,
@@ -70,7 +70,8 @@ establish feedback sufficiency for general intelligence.
   a prospective local-context intervention with distribution-specific gains,
   and continued weight updates with untouched transfer probes, followed by
   direct failure-conditioned updates during task solving and predictive
-  weights retained across goal episodes.
+  weights retained across goal episodes, and paired encoding interventions
+  on unqueried transitions.
 - [Study A replication](results/study-a-v2/README.md): 20 seeds, four capacities,
   seven feedback conditions; all 19,200 records retained.
 - [Study B results](results/study-b-v1/README.md): four Qwen2.5 sizes, 24 new
@@ -139,6 +140,14 @@ establish feedback sufficiency for general intelligence.
   or equivalence. Random-world final scores are 85.22% and 97.09%.
   All gradients and checkpoints were replayed on lens; supplied encoding,
   replay memory, planning, and same-world dynamics limit the interpretation.
+- [Study N results](results/study-n-v1/README.md): identical physical feedback
+  and replay indices yield a +51.76-point encoding difference in small-model
+  learning gains (95% CI [48.40, 55.11]) across 32 fresh worlds. Unqueried exact
+  accuracy reaches 53.76% canonically and 2.29% after relabeling. A supplied-
+  family symbolic matcher reaches 100%; an observed-edge table reaches 87.81%
+  goal success while predicting no unqueried pair. All 40,960 gradients,
+  512 checkpoints, and 888,832 probes are audited; the result concerns the
+  fixed representation/learning mechanism, not general intelligence.
 - [Full-text literature review](notes/full-text-review.md): methods and limits
   of eleven close precedents, including Reward is enough, DreamCoder, ExpeL,
   the Era of Experience, and unlikelihood training.
