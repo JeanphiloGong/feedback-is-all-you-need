@@ -1891,3 +1891,28 @@ separately. All outcomes from development seeds remain exploratory.
   experimental failures are preserved by the production entry point. No
   historical research evidence was removed; external cross-model CLI review
   was skipped in this autonomous run.
+
+## 2026-10-27 UTC: encoding study independent replay
+
+- Added independent world generation, ordered gradient reconstruction, full
+  model/Adam/replay comparisons, NumPy forward checks, separate planner replay,
+  and reconstruction of all held-out, symbolic, and distance records. Root
+  checks bind the exact file grid to the source/data freeze and archived
+  development certificate; collector provenance now includes its certificate
+  digest. No official Study N data or outcomes have been generated.
+- Fresh-context review identified the same metadata-read/snapshot interval
+  noticed during implementation. The initial raw-file hash snapshot now
+  precedes every raw read. A regression replaces metadata immediately after
+  parsing and requires rejection; the reviewer found no remaining substantive
+  replay or acceptance issue. External cross-model CLI review was skipped
+  in this autonomous continuation.
+- On lens with pinned PyTorch 2.8.0+cu126, all nine replay/audit tests pass,
+  including complete synthetic development/formal runs, wrong weights and
+  Adam moments, extra/missing records, cost corruption, stale provenance,
+  changing bytes, incomplete certificates, and optimized Python. The initial
+  audit/collector run passed 15 tests in 28.216 seconds; the final audit plus
+  five analysis checks passed 14 tests in 24.756 seconds. Only negative seeds
+  were used. Analysis remains a separate uncommitted slice pending review.
+- Added direct reconstruction functions with no compatibility layer or new
+  architectural abstraction. Temporary test output is removed by fixtures;
+  official failures would remain archived. No prior evidence was removed.

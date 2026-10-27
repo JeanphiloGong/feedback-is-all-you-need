@@ -111,7 +111,7 @@ class CollectionTests(unittest.TestCase):
             digest = hashlib.sha256(data.read_bytes()).hexdigest()
             run.document(manifest, dict(source_sha256={}, data_sha256=digest, source_revision='synthetic'))
             evidence = dict(status='passed', seeds=[run.DEVELOPMENT_SEED],
-                source_sha256={}, data_sha256=digest, runtime='2.8.0+cu126',
+                source_sha256={}, source_revision='synthetic', data_sha256=digest, runtime='2.8.0+cu126',
                 counts=dict(queries=64, gradients=1280, checkpoints=16, direct=20, probes=27776),
                 files={}, raw_directory=str(root / 'absent'))
             with patch.object(run, 'DATA', data), patch.object(run, 'MANIFEST', manifest), \

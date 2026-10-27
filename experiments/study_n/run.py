@@ -275,6 +275,7 @@ def main():
         certificate = json.loads(args.development_audit.read_text())
         if (certificate['status'] != 'passed' or certificate['seeds'] != [DEVELOPMENT_SEED]
                 or certificate['source_sha256'] != sources or certificate['data_sha256'] != digest
+                or certificate['source_revision'] != frozen['source_revision']
                 or certificate['runtime'] != '2.8.0+cu126'
                 or set(certificate['files']) != required_files([DEVELOPMENT_SEED], True)
                 or certificate['counts'] != dict(queries=64, gradients=1280, checkpoints=16, direct=20, probes=27776)):
@@ -288,9 +289,11 @@ def main():
         source_sha256=sources, data_sha256=digest, source_revision=frozen['source_revision'],
         runtime='2.8.0+cu126', device='cpu', dtype='float64', threads=1,
         deterministic_algorithms=True, platform=platform.platform(), node=platform.node())
-    document(args.output / 'metadata.json', metadata)
+    metadata['development_audit_sha256'] = None
     if not args.development:
         document(args.output / 'development-audit.json', certificate)
+        metadata['development_audit_sha256'] = hashlib.sha256((args.output / 'development-audit.json').read_bytes()).hexdigest()
+    document(args.output / 'metadata.json', metadata)
     started = time.perf_counter()
     try:
         collect(selected, args.output)
