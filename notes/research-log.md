@@ -1916,3 +1916,23 @@ separately. All outcomes from development seeds remain exploratory.
 - Added direct reconstruction functions with no compatibility layer or new
   architectural abstraction. Temporary test output is removed by fixtures;
   official failures would remain archived. No prior evidence was removed.
+
+## 2026-10-27 UTC: encoding study analysis freeze
+
+- Added audit-gated analysis of the registered paired difference in learning
+  gains, both absolute gains/finals, all neural/frozen curves, symbolic and
+  permutation references, fixed-graph goal success, and true-distance bounds.
+  Shared actual work is distinguished from standalone learner costs, with
+  known journal I/O removed and remaining instrumentation explicitly noted.
+- All five analysis tests passed on lens in the 14-test, 24.756-second run
+  above. Fresh-context review found no actionable defect; supplemental local
+  checks used hand-built 32-world counts, development inference suppression,
+  frozen reuse, complete cost attribution, and a 31-step-distance fixture.
+  Those supplemental checks used Torch 2.5.1+cu124 and do not replace pinned
+  server tests. No official environment or outcome has been generated.
+- Source, runtime, and the complete official world grid will now be frozen
+  before development; formal collection remains gated by full development
+  replay. Added direct statistics and cost functions with no compatibility
+  layer or architectural abstraction. Temporary review fixtures were removed;
+  no research records were removed. External cross-model CLI review was
+  skipped in this autonomous continuation.
