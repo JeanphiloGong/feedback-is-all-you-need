@@ -1936,3 +1936,20 @@ separately. All outcomes from development seeds remain exploratory.
   layer or architectural abstraction. Temporary review fixtures were removed;
   no research records were removed. External cross-model CLI review was
   skipped in this autonomous continuation.
+
+## 2026-10-27 UTC: Study N source/runtime and complete data freeze
+
+- Froze 17 execution/protocol files at source revision
+  `df2ecb3310e575a278c93bdec753434e85b6e161`, verifying each against Git bytes.
+  Recorded lens/aorus, AMD Ryzen 9 9950X, Python 3.11.15, Torch 2.8.0+cu126,
+  NumPy 2.3.4, SciPy 1.16.3, CPU float64, one thread, deterministic algorithms.
+- Generated the full development/formal world grid once: seed 47 and
+  16000--16031, 243,572 bytes, SHA-256
+  `1bc25cf9f9c098ac6ec44ea3662e81e0c11168dfc92eb082a0f3bb1ec30f39e3`.
+  Source and runtime were frozen before generation. No development or formal
+  outcomes existed at this save point; no world was selected using learning.
+- No abstraction was added or research evidence removed. Initial SSH
+  multiplex/scp connections twice closed before command execution; fresh
+  connections succeeded. These infrastructure retries produced no official
+  experiment records. Source bundles and synthetic fixtures remain separate
+  from official evidence.
