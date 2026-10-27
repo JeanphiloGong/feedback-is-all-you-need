@@ -1,0 +1,217 @@
+{
+  "primary": {
+    "differences": [
+      0.8125
+    ],
+    "environments": 1,
+    "mean": 0.8125,
+    "confirmatory": false,
+    "ci95": null,
+    "bootstrap95": null,
+    "positive_primary": false,
+    "negative": 0,
+    "zero": 0,
+    "positive": 1,
+    "estimand": "small canonical-minus-relabeled difference in exact-accuracy learning gains",
+    "canonical_gain": 0.765625,
+    "relabeled_gain": -0.046875,
+    "canonical_final": 0.796875,
+    "relabeled_final": 0.0,
+    "final_difference": 0.796875,
+    "gain_difference": 0.8125
+  },
+  "direct_summaries": [
+    {
+      "encoding": "canonical",
+      "arm": "small_online",
+      "environments": 1,
+      "exact_rates": [
+        0.03125,
+        0.046875,
+        0.3125,
+        0.796875
+      ],
+      "bit_rates": [
+        0.521875,
+        0.575,
+        0.775,
+        0.95625
+      ],
+      "observed_rates": [
+        null,
+        0.6875,
+        0.90625,
+        1.0
+      ],
+      "final_minus_initial": 0.765625
+    },
+    {
+      "encoding": "canonical",
+      "arm": "large_online",
+      "environments": 1,
+      "exact_rates": [
+        0.046875,
+        0.015625,
+        0.125,
+        0.625
+      ],
+      "bit_rates": [
+        0.509375,
+        0.50625,
+        0.65625,
+        0.915625
+      ],
+      "observed_rates": [
+        null,
+        0.25,
+        0.5625,
+        0.921875
+      ],
+      "final_minus_initial": 0.578125
+    },
+    {
+      "encoding": "canonical",
+      "arm": "small_frozen",
+      "environments": 1,
+      "exact_rates": [
+        0.03125,
+        0.03125,
+        0.03125,
+        0.03125
+      ],
+      "bit_rates": [
+        0.521875,
+        0.521875,
+        0.521875,
+        0.521875
+      ],
+      "observed_rates": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "final_minus_initial": 0.0
+    },
+    {
+      "encoding": "canonical",
+      "arm": "large_frozen",
+      "environments": 1,
+      "exact_rates": [
+        0.046875,
+        0.046875,
+        0.046875,
+        0.046875
+      ],
+      "bit_rates": [
+        0.509375,
+        0.509375,
+        0.509375,
+        0.509375
+      ],
+      "observed_rates": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "final_minus_initial": 0.0
+    },
+    {
+      "encoding": "relabeled",
+      "arm": "small_online",
+      "environments": 1,
+      "exact_rates": [
+        0.046875,
+        0.015625,
+        0.03125,
+        0.0
+      ],
+      "bit_rates": [
+        0.528125,
+        0.49375,
+        0.503125,
+        0.515625
+      ],
+      "observed_rates": [
+        null,
+        0.25,
+        0.625,
+        0.484375
+      ],
+      "final_minus_initial": -0.046875
+    },
+    {
+      "encoding": "relabeled",
+      "arm": "large_online",
+      "environments": 1,
+      "exact_rates": [
+        0.015625,
+        0.046875,
+        0.015625,
+        0.0
+      ],
+      "bit_rates": [
+        0.471875,
+        0.5125,
+        0.49375,
+        0.4875
+      ],
+      "observed_rates": [
+        null,
+        0.3125,
+        0.46875,
+        0.34375
+      ],
+      "final_minus_initial": -0.015625
+    },
+    {
+      "encoding": "relabeled",
+      "arm": "small_frozen",
+      "environments": 1,
+      "exact_rates": [
+        0.046875,
+        0.046875,
+        0.046875,
+        0.046875
+      ],
+      "bit_rates": [
+        0.528125,
+        0.528125,
+        0.528125,
+        0.528125
+      ],
+      "observed_rates": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "final_minus_initial": 0.0
+    },
+    {
+      "encoding": "relabeled",
+      "arm": "large_frozen",
+      "environments": 1,
+      "exact_rates": [
+        0.015625,
+        0.015625,
+        0.015625,
+        0.015625
+      ],
+      "bit_rates": [
+        0.471875,
+        0.471875,
+        0.471875,
+        0.471875
+      ],
+      "observed_rates": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "final_minus_initial": 0.0
+    }
+  ]
+}

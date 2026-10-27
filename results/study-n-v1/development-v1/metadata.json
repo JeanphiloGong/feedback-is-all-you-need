@@ -1,0 +1,37 @@
+{
+  "status": "completed",
+  "development": true,
+  "seeds": [
+    47
+  ],
+  "source_sha256": {
+    "experiments/study_n/analyze.py": "ce834411ac5881b24ba6a4ad798b66d2aa10d23ab3744a8a8b4e4f0a2c6c6ad2",
+    "experiments/study_n/audit.py": "ee6480ed316c4895325c91b1642e23c7173c9cb9269eeb28590bdf2ea8362752",
+    "experiments/study_n/learning.py": "c9af817d20748a0695bb3bfafa54f44ad533c7a673e09ee5d8b2b19e66c26f43",
+    "experiments/study_n/replay.py": "6da487ad0049647395fca4811d040c0d9798287e16acf04704501da55e28ffcd",
+    "experiments/study_n/run.py": "46c2295a0f93184f4ef1c884d672378e20bb604586fd4eeef858048e5ccd374d",
+    "experiments/study_n/tasks.py": "8f4571aae53c23ed5c9004894f6d4729f2345b3d081c4c427fa6cf4020d25226",
+    "experiments/study_n/test_analysis.py": "13ed8608e3c1c2f105f0ca08ed19ac8744be365a04f9296228f20a6d0e6196f9",
+    "experiments/study_n/test_audit.py": "6bc204319ce0cea131b57f7de6a1b0d758eb195c8e687bf44d033ca0afdde82d",
+    "experiments/study_n/test_collection.py": "b07de2d68677e4d9dfbaeb7ea4009c6f87ee66530daa5f9f82b7a174673884c8",
+    "experiments/study_n/test_core.py": "63b6f53bfe13c479409f0a0013a72d9a1df5fea60bb1a4284d9a89a29ed57236",
+    "experiments/study_h/tasks.py": "4e1e06bc1717fbf63e863d9513996221015a85e02e8fcda6ac3855979d5a15b0",
+    "experiments/study_h/search.py": "70a6c9bbcacb79e7b3623111f67a11cdf1b9f743068679d166f0a1a54cb5d062",
+    "experiments/study_m/model.py": "4922b2e3f1ef342a0e222263e58428457d1da40af38261767f1fc63812b1007f",
+    "experiments/study_m/policy.py": "4bc7ba52d51756f82d6c04167684bd22bfbd29b9ff6d85f9c8594e896066e97a",
+    "experiments/study_m/tasks.py": "7a937476b1fc3dd2ef2a4ed7125d72c4430d12ce212e6219efa90324fd6b0aa2",
+    "experiments/study_m/replay.py": "d4fef299e56dca8686e86be6fa1f8df8c3a1cb8b3a06ce596ee7f712f96a3c86",
+    "notes/protocol-v14-encoding-and-unseen-transitions.md": "985326ebd9240890f37e4e6f859ad4570b9c9d1a888f8e1c4d4c3e5a97ddedee"
+  },
+  "data_sha256": "1bc25cf9f9c098ac6ec44ea3662e81e0c11168dfc92eb082a0f3bb1ec30f39e3",
+  "source_revision": "df2ecb3310e575a278c93bdec753434e85b6e161",
+  "runtime": "2.8.0+cu126",
+  "device": "cpu",
+  "dtype": "float64",
+  "threads": 1,
+  "deterministic_algorithms": true,
+  "platform": "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41",
+  "node": "aorus",
+  "development_audit_sha256": null,
+  "elapsed_seconds": 2.179708819836378
+}

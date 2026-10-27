@@ -1,0 +1,1044 @@
+{
+  "status": "audited encoding and unqueried-transition learning",
+  "seeds": [
+    47
+  ],
+  "statistics_packages": {
+    "numpy": "2.3.4",
+    "scipy": "1.16.3"
+  },
+  "checkpoints": [
+    0,
+    16,
+    32,
+    64
+  ],
+  "primary": {
+    "differences": [
+      0.8125
+    ],
+    "environments": 1,
+    "mean": 0.8125,
+    "confirmatory": false,
+    "ci95": null,
+    "bootstrap95": null,
+    "positive_primary": false,
+    "negative": 0,
+    "zero": 0,
+    "positive": 1,
+    "estimand": "small canonical-minus-relabeled difference in exact-accuracy learning gains",
+    "canonical_gain": 0.765625,
+    "relabeled_gain": -0.046875,
+    "canonical_final": 0.796875,
+    "relabeled_final": 0.0,
+    "final_difference": 0.796875,
+    "gain_difference": 0.8125
+  },
+  "direct_summaries": [
+    {
+      "encoding": "canonical",
+      "arm": "small_online",
+      "environments": 1,
+      "exact_rates": [
+        0.03125,
+        0.046875,
+        0.3125,
+        0.796875
+      ],
+      "bit_rates": [
+        0.521875,
+        0.575,
+        0.775,
+        0.95625
+      ],
+      "observed_rates": [
+        null,
+        0.6875,
+        0.90625,
+        1.0
+      ],
+      "final_minus_initial": 0.765625
+    },
+    {
+      "encoding": "canonical",
+      "arm": "large_online",
+      "environments": 1,
+      "exact_rates": [
+        0.046875,
+        0.015625,
+        0.125,
+        0.625
+      ],
+      "bit_rates": [
+        0.509375,
+        0.50625,
+        0.65625,
+        0.915625
+      ],
+      "observed_rates": [
+        null,
+        0.25,
+        0.5625,
+        0.921875
+      ],
+      "final_minus_initial": 0.578125
+    },
+    {
+      "encoding": "canonical",
+      "arm": "small_frozen",
+      "environments": 1,
+      "exact_rates": [
+        0.03125,
+        0.03125,
+        0.03125,
+        0.03125
+      ],
+      "bit_rates": [
+        0.521875,
+        0.521875,
+        0.521875,
+        0.521875
+      ],
+      "observed_rates": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "final_minus_initial": 0.0
+    },
+    {
+      "encoding": "canonical",
+      "arm": "large_frozen",
+      "environments": 1,
+      "exact_rates": [
+        0.046875,
+        0.046875,
+        0.046875,
+        0.046875
+      ],
+      "bit_rates": [
+        0.509375,
+        0.509375,
+        0.509375,
+        0.509375
+      ],
+      "observed_rates": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "final_minus_initial": 0.0
+    },
+    {
+      "encoding": "relabeled",
+      "arm": "small_online",
+      "environments": 1,
+      "exact_rates": [
+        0.046875,
+        0.015625,
+        0.03125,
+        0.0
+      ],
+      "bit_rates": [
+        0.528125,
+        0.49375,
+        0.503125,
+        0.515625
+      ],
+      "observed_rates": [
+        null,
+        0.25,
+        0.625,
+        0.484375
+      ],
+      "final_minus_initial": -0.046875
+    },
+    {
+      "encoding": "relabeled",
+      "arm": "large_online",
+      "environments": 1,
+      "exact_rates": [
+        0.015625,
+        0.046875,
+        0.015625,
+        0.0
+      ],
+      "bit_rates": [
+        0.471875,
+        0.5125,
+        0.49375,
+        0.4875
+      ],
+      "observed_rates": [
+        null,
+        0.3125,
+        0.46875,
+        0.34375
+      ],
+      "final_minus_initial": -0.015625
+    },
+    {
+      "encoding": "relabeled",
+      "arm": "small_frozen",
+      "environments": 1,
+      "exact_rates": [
+        0.046875,
+        0.046875,
+        0.046875,
+        0.046875
+      ],
+      "bit_rates": [
+        0.528125,
+        0.528125,
+        0.528125,
+        0.528125
+      ],
+      "observed_rates": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "final_minus_initial": 0.0
+    },
+    {
+      "encoding": "relabeled",
+      "arm": "large_frozen",
+      "environments": 1,
+      "exact_rates": [
+        0.015625,
+        0.015625,
+        0.015625,
+        0.015625
+      ],
+      "bit_rates": [
+        0.471875,
+        0.471875,
+        0.471875,
+        0.471875
+      ],
+      "observed_rates": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "final_minus_initial": 0.0
+    }
+  ],
+  "goal_summaries": [
+    {
+      "encoding": "canonical",
+      "arm": "small_online",
+      "success_rates": [
+        0.23487903225806453,
+        0.26814516129032256,
+        0.5221774193548387,
+        1.0
+      ]
+    },
+    {
+      "encoding": "canonical",
+      "arm": "large_online",
+      "success_rates": [
+        0.19153225806451613,
+        0.18346774193548387,
+        0.3034274193548387,
+        0.967741935483871
+      ]
+    },
+    {
+      "encoding": "canonical",
+      "arm": "small_frozen",
+      "success_rates": [
+        0.23487903225806453,
+        0.23487903225806453,
+        0.23487903225806453,
+        0.23487903225806453
+      ]
+    },
+    {
+      "encoding": "canonical",
+      "arm": "large_frozen",
+      "success_rates": [
+        0.19153225806451613,
+        0.19153225806451613,
+        0.19153225806451613,
+        0.19153225806451613
+      ]
+    },
+    {
+      "encoding": "canonical",
+      "arm": "observed_table",
+      "success_rates": [
+        0.23084677419354838,
+        0.3165322580645161,
+        0.5120967741935484,
+        0.9002016129032258
+      ]
+    },
+    {
+      "encoding": "relabeled",
+      "arm": "small_online",
+      "success_rates": [
+        0.24193548387096775,
+        0.19556451612903225,
+        0.2217741935483871,
+        0.3467741935483871
+      ]
+    },
+    {
+      "encoding": "relabeled",
+      "arm": "large_online",
+      "success_rates": [
+        0.2006048387096774,
+        0.22580645161290322,
+        0.18346774193548387,
+        0.21975806451612903
+      ]
+    },
+    {
+      "encoding": "relabeled",
+      "arm": "small_frozen",
+      "success_rates": [
+        0.24193548387096775,
+        0.24193548387096775,
+        0.24193548387096775,
+        0.24193548387096775
+      ]
+    },
+    {
+      "encoding": "relabeled",
+      "arm": "large_frozen",
+      "success_rates": [
+        0.2006048387096774,
+        0.2006048387096774,
+        0.2006048387096774,
+        0.2006048387096774
+      ]
+    },
+    {
+      "encoding": "relabeled",
+      "arm": "observed_table",
+      "success_rates": [
+        0.23084677419354838,
+        0.3165322580645161,
+        0.5120967741935484,
+        0.9002016129032258
+      ]
+    }
+  ],
+  "symbolic_reference": [
+    {
+      "at": 0,
+      "exact_rate": 0.0,
+      "coverage": 0.0,
+      "comparisons": 0,
+      "surviving_rules": 200,
+      "permutation_completion_expectation": 0.03125
+    },
+    {
+      "at": 16,
+      "exact_rate": 0.359375,
+      "coverage": 0.359375,
+      "comparisons": 404,
+      "surviving_rules": 32,
+      "permutation_completion_expectation": 0.03571428571428571
+    },
+    {
+      "at": 32,
+      "exact_rate": 1.0,
+      "coverage": 1.0,
+      "comparisons": 500,
+      "surviving_rules": 20,
+      "permutation_completion_expectation": 0.041666666666666664
+    },
+    {
+      "at": 64,
+      "exact_rate": 1.0,
+      "coverage": 1.0,
+      "comparisons": 660,
+      "surviving_rules": 20,
+      "permutation_completion_expectation": 0.0625
+    }
+  ],
+  "observed_table_unqueried_exact_rates": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "descriptive_contrasts": [
+    {
+      "size": "small",
+      "canonical_gain": 0.765625,
+      "relabeled_gain": -0.046875,
+      "canonical_final": 0.796875,
+      "relabeled_final": 0.0,
+      "final_difference": 0.796875,
+      "gain_difference": 0.8125
+    },
+    {
+      "size": "large",
+      "canonical_gain": 0.578125,
+      "relabeled_gain": -0.015625,
+      "canonical_final": 0.625,
+      "relabeled_final": 0.0,
+      "final_difference": 0.625,
+      "gain_difference": 0.59375
+    }
+  ],
+  "seed_contrasts": [
+    {
+      "seed": 47,
+      "size": "small",
+      "canonical_gain": 0.765625,
+      "relabeled_gain": -0.046875,
+      "canonical_final": 0.796875,
+      "relabeled_final": 0.0,
+      "final_difference": 0.796875,
+      "gain_difference": 0.8125
+    },
+    {
+      "seed": 47,
+      "size": "large",
+      "canonical_gain": 0.578125,
+      "relabeled_gain": -0.015625,
+      "canonical_final": 0.625,
+      "relabeled_final": 0.0,
+      "final_difference": 0.625,
+      "gain_difference": 0.59375
+    }
+  ],
+  "seed_direct_curves": [
+    {
+      "seed": 47,
+      "encoding": "canonical",
+      "arm": "small_online",
+      "checkpoints": [
+        0,
+        16,
+        32,
+        64
+      ],
+      "exact_rates": [
+        0.03125,
+        0.046875,
+        0.3125,
+        0.796875
+      ],
+      "bit_rates": [
+        0.521875,
+        0.575,
+        0.775,
+        0.95625
+      ],
+      "observed_rates": [
+        null,
+        0.6875,
+        0.90625,
+        1.0
+      ],
+      "final_minus_initial": 0.765625,
+      "tests_per_checkpoint": 64,
+      "newly_evaluated_pairs": 256
+    },
+    {
+      "seed": 47,
+      "encoding": "canonical",
+      "arm": "large_online",
+      "checkpoints": [
+        0,
+        16,
+        32,
+        64
+      ],
+      "exact_rates": [
+        0.046875,
+        0.015625,
+        0.125,
+        0.625
+      ],
+      "bit_rates": [
+        0.509375,
+        0.50625,
+        0.65625,
+        0.915625
+      ],
+      "observed_rates": [
+        null,
+        0.25,
+        0.5625,
+        0.921875
+      ],
+      "final_minus_initial": 0.578125,
+      "tests_per_checkpoint": 64,
+      "newly_evaluated_pairs": 256
+    },
+    {
+      "seed": 47,
+      "encoding": "canonical",
+      "arm": "small_frozen",
+      "checkpoints": [
+        0,
+        16,
+        32,
+        64
+      ],
+      "exact_rates": [
+        0.03125,
+        0.03125,
+        0.03125,
+        0.03125
+      ],
+      "bit_rates": [
+        0.521875,
+        0.521875,
+        0.521875,
+        0.521875
+      ],
+      "observed_rates": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "final_minus_initial": 0.0,
+      "tests_per_checkpoint": 64,
+      "newly_evaluated_pairs": 64
+    },
+    {
+      "seed": 47,
+      "encoding": "canonical",
+      "arm": "large_frozen",
+      "checkpoints": [
+        0,
+        16,
+        32,
+        64
+      ],
+      "exact_rates": [
+        0.046875,
+        0.046875,
+        0.046875,
+        0.046875
+      ],
+      "bit_rates": [
+        0.509375,
+        0.509375,
+        0.509375,
+        0.509375
+      ],
+      "observed_rates": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "final_minus_initial": 0.0,
+      "tests_per_checkpoint": 64,
+      "newly_evaluated_pairs": 64
+    },
+    {
+      "seed": 47,
+      "encoding": "relabeled",
+      "arm": "small_online",
+      "checkpoints": [
+        0,
+        16,
+        32,
+        64
+      ],
+      "exact_rates": [
+        0.046875,
+        0.015625,
+        0.03125,
+        0.0
+      ],
+      "bit_rates": [
+        0.528125,
+        0.49375,
+        0.503125,
+        0.515625
+      ],
+      "observed_rates": [
+        null,
+        0.25,
+        0.625,
+        0.484375
+      ],
+      "final_minus_initial": -0.046875,
+      "tests_per_checkpoint": 64,
+      "newly_evaluated_pairs": 256
+    },
+    {
+      "seed": 47,
+      "encoding": "relabeled",
+      "arm": "large_online",
+      "checkpoints": [
+        0,
+        16,
+        32,
+        64
+      ],
+      "exact_rates": [
+        0.015625,
+        0.046875,
+        0.015625,
+        0.0
+      ],
+      "bit_rates": [
+        0.471875,
+        0.5125,
+        0.49375,
+        0.4875
+      ],
+      "observed_rates": [
+        null,
+        0.3125,
+        0.46875,
+        0.34375
+      ],
+      "final_minus_initial": -0.015625,
+      "tests_per_checkpoint": 64,
+      "newly_evaluated_pairs": 256
+    },
+    {
+      "seed": 47,
+      "encoding": "relabeled",
+      "arm": "small_frozen",
+      "checkpoints": [
+        0,
+        16,
+        32,
+        64
+      ],
+      "exact_rates": [
+        0.046875,
+        0.046875,
+        0.046875,
+        0.046875
+      ],
+      "bit_rates": [
+        0.528125,
+        0.528125,
+        0.528125,
+        0.528125
+      ],
+      "observed_rates": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "final_minus_initial": 0.0,
+      "tests_per_checkpoint": 64,
+      "newly_evaluated_pairs": 64
+    },
+    {
+      "seed": 47,
+      "encoding": "relabeled",
+      "arm": "large_frozen",
+      "checkpoints": [
+        0,
+        16,
+        32,
+        64
+      ],
+      "exact_rates": [
+        0.015625,
+        0.015625,
+        0.015625,
+        0.015625
+      ],
+      "bit_rates": [
+        0.471875,
+        0.471875,
+        0.471875,
+        0.471875
+      ],
+      "observed_rates": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "final_minus_initial": 0.0,
+      "tests_per_checkpoint": 64,
+      "newly_evaluated_pairs": 64
+    }
+  ],
+  "seed_goal_curves": [
+    {
+      "seed": 47,
+      "encoding": "canonical",
+      "arm": "small_online",
+      "checkpoints": [
+        0,
+        16,
+        32,
+        64
+      ],
+      "success_rates": [
+        0.23487903225806453,
+        0.26814516129032256,
+        0.5221774193548387,
+        1.0
+      ],
+      "tasks_per_checkpoint": 992,
+      "newly_evaluated_tasks": 3968
+    },
+    {
+      "seed": 47,
+      "encoding": "canonical",
+      "arm": "large_online",
+      "checkpoints": [
+        0,
+        16,
+        32,
+        64
+      ],
+      "success_rates": [
+        0.19153225806451613,
+        0.18346774193548387,
+        0.3034274193548387,
+        0.967741935483871
+      ],
+      "tasks_per_checkpoint": 992,
+      "newly_evaluated_tasks": 3968
+    },
+    {
+      "seed": 47,
+      "encoding": "canonical",
+      "arm": "small_frozen",
+      "checkpoints": [
+        0,
+        16,
+        32,
+        64
+      ],
+      "success_rates": [
+        0.23487903225806453,
+        0.23487903225806453,
+        0.23487903225806453,
+        0.23487903225806453
+      ],
+      "tasks_per_checkpoint": 992,
+      "newly_evaluated_tasks": 992
+    },
+    {
+      "seed": 47,
+      "encoding": "canonical",
+      "arm": "large_frozen",
+      "checkpoints": [
+        0,
+        16,
+        32,
+        64
+      ],
+      "success_rates": [
+        0.19153225806451613,
+        0.19153225806451613,
+        0.19153225806451613,
+        0.19153225806451613
+      ],
+      "tasks_per_checkpoint": 992,
+      "newly_evaluated_tasks": 992
+    },
+    {
+      "seed": 47,
+      "encoding": "canonical",
+      "arm": "observed_table",
+      "checkpoints": [
+        0,
+        16,
+        32,
+        64
+      ],
+      "success_rates": [
+        0.23084677419354838,
+        0.3165322580645161,
+        0.5120967741935484,
+        0.9002016129032258
+      ],
+      "tasks_per_checkpoint": 992,
+      "newly_evaluated_tasks": 3968
+    },
+    {
+      "seed": 47,
+      "encoding": "relabeled",
+      "arm": "small_online",
+      "checkpoints": [
+        0,
+        16,
+        32,
+        64
+      ],
+      "success_rates": [
+        0.24193548387096775,
+        0.19556451612903225,
+        0.2217741935483871,
+        0.3467741935483871
+      ],
+      "tasks_per_checkpoint": 992,
+      "newly_evaluated_tasks": 3968
+    },
+    {
+      "seed": 47,
+      "encoding": "relabeled",
+      "arm": "large_online",
+      "checkpoints": [
+        0,
+        16,
+        32,
+        64
+      ],
+      "success_rates": [
+        0.2006048387096774,
+        0.22580645161290322,
+        0.18346774193548387,
+        0.21975806451612903
+      ],
+      "tasks_per_checkpoint": 992,
+      "newly_evaluated_tasks": 3968
+    },
+    {
+      "seed": 47,
+      "encoding": "relabeled",
+      "arm": "small_frozen",
+      "checkpoints": [
+        0,
+        16,
+        32,
+        64
+      ],
+      "success_rates": [
+        0.24193548387096775,
+        0.24193548387096775,
+        0.24193548387096775,
+        0.24193548387096775
+      ],
+      "tasks_per_checkpoint": 992,
+      "newly_evaluated_tasks": 992
+    },
+    {
+      "seed": 47,
+      "encoding": "relabeled",
+      "arm": "large_frozen",
+      "checkpoints": [
+        0,
+        16,
+        32,
+        64
+      ],
+      "success_rates": [
+        0.2006048387096774,
+        0.2006048387096774,
+        0.2006048387096774,
+        0.2006048387096774
+      ],
+      "tasks_per_checkpoint": 992,
+      "newly_evaluated_tasks": 992
+    },
+    {
+      "seed": 47,
+      "encoding": "relabeled",
+      "arm": "observed_table",
+      "checkpoints": [
+        0,
+        16,
+        32,
+        64
+      ],
+      "success_rates": [
+        0.23084677419354838,
+        0.3165322580645161,
+        0.5120967741935484,
+        0.9002016129032258
+      ],
+      "tasks_per_checkpoint": 992,
+      "newly_evaluated_tasks": 3968
+    }
+  ],
+  "seed_references": [
+    {
+      "seed": 47,
+      "at": 0,
+      "exact_rate": 0.0,
+      "coverage": 0.0,
+      "comparisons": 0,
+      "surviving_rules": 200,
+      "permutation_completion_expectation": 0.03125
+    },
+    {
+      "seed": 47,
+      "at": 16,
+      "exact_rate": 0.359375,
+      "coverage": 0.359375,
+      "comparisons": 404,
+      "surviving_rules": 32,
+      "permutation_completion_expectation": 0.03571428571428571
+    },
+    {
+      "seed": 47,
+      "at": 32,
+      "exact_rate": 1.0,
+      "coverage": 1.0,
+      "comparisons": 500,
+      "surviving_rules": 20,
+      "permutation_completion_expectation": 0.041666666666666664
+    },
+    {
+      "seed": 47,
+      "at": 64,
+      "exact_rate": 1.0,
+      "coverage": 1.0,
+      "comparisons": 660,
+      "surviving_rules": 20,
+      "permutation_completion_expectation": 0.0625
+    }
+  ],
+  "true_graph_bounds": [
+    {
+      "seed": 47,
+      "tasks": 992,
+      "maximum_distance": 4,
+      "reachable_within_eight": 992
+    }
+  ],
+  "standalone_learning_costs": [
+    {
+      "seed": 47,
+      "encoding": "canonical",
+      "arm": "small_online",
+      "environment_actions": 64,
+      "gradient_steps": 512,
+      "training_macs": 17301504,
+      "forward_macs": 28672,
+      "target_bits": 81920,
+      "training_rows": 16384,
+      "prediction_rows": 64,
+      "update_batches": 64,
+      "batches_changing_weights": 64,
+      "instrumented_phase_seconds": 0.49569227173924446,
+      "included_journal_seconds": 0.0038098804652690887,
+      "seconds_excluding_journal_io": 0.4918823912739754,
+      "model_bytes": 3880,
+      "adam_bytes": 7776,
+      "replay_json_bytes": 599
+    },
+    {
+      "seed": 47,
+      "encoding": "relabeled",
+      "arm": "small_online",
+      "environment_actions": 64,
+      "gradient_steps": 512,
+      "training_macs": 17301504,
+      "forward_macs": 28672,
+      "target_bits": 81920,
+      "training_rows": 16384,
+      "prediction_rows": 64,
+      "update_batches": 64,
+      "batches_changing_weights": 64,
+      "instrumented_phase_seconds": 0.14999602176249027,
+      "included_journal_seconds": 0.00367848202586174,
+      "seconds_excluding_journal_io": 0.14631753973662853,
+      "model_bytes": 3880,
+      "adam_bytes": 7776,
+      "replay_json_bytes": 600
+    },
+    {
+      "seed": 47,
+      "encoding": "canonical",
+      "arm": "large_online",
+      "environment_actions": 64,
+      "gradient_steps": 128,
+      "training_macs": 17301504,
+      "forward_macs": 114688,
+      "target_bits": 20480,
+      "training_rows": 4096,
+      "prediction_rows": 64,
+      "update_batches": 64,
+      "batches_changing_weights": 64,
+      "instrumented_phase_seconds": 0.04867194592952728,
+      "included_journal_seconds": 0.0012040603905916214,
+      "seconds_excluding_journal_io": 0.04746788553893566,
+      "model_bytes": 15400,
+      "adam_bytes": 30816,
+      "replay_json_bytes": 599
+    },
+    {
+      "seed": 47,
+      "encoding": "relabeled",
+      "arm": "large_online",
+      "environment_actions": 64,
+      "gradient_steps": 128,
+      "training_macs": 17301504,
+      "forward_macs": 114688,
+      "target_bits": 20480,
+      "training_rows": 4096,
+      "prediction_rows": 64,
+      "update_batches": 64,
+      "batches_changing_weights": 64,
+      "instrumented_phase_seconds": 0.048080604523420334,
+      "included_journal_seconds": 0.0011592265218496323,
+      "seconds_excluding_journal_io": 0.0469213780015707,
+      "model_bytes": 15400,
+      "adam_bytes": 30816,
+      "replay_json_bytes": 600
+    }
+  ],
+  "actual_cost": {
+    "queries": 64,
+    "gradients": 1280,
+    "checkpoints": 16,
+    "direct": 20,
+    "probes": 27776,
+    "collection_seconds": 2.179708819836378,
+    "environment_actions": 180238,
+    "training_macs": 69206016,
+    "forward_macs": 286720,
+    "dense_forward_macs": 2867200,
+    "edge_checks": 5667941,
+    "expanded_states": 1450658,
+    "target_bits": 204800,
+    "prediction_rows": 256,
+    "training_rows": 40960,
+    "evaluation_graph_rows": 2560,
+    "update_batches": 256,
+    "batches_changing_weights": 256,
+    "checkpoint_file_bytes": 456640,
+    "known_learning_journal_seconds": 0.009431570768356323,
+    "phase_seconds": {
+      "branch_setup": 0.33097005635499954,
+      "checkpoint": 0.0050140079110860825,
+      "direct": 0.0004189740866422653,
+      "evaluation_graph": 0.015660488978028297,
+      "initialization": 0.001158449798822403,
+      "observation": 3.738701343536377e-05,
+      "prediction": 0.01077590323984623,
+      "probes": 1.4116185884922743,
+      "query": 0.00017591752111911774,
+      "symbolic_reference": 0.0004772450774908066,
+      "training": 0.3975995406508446,
+      "true_distances": 0.000681903213262558
+    }
+  },
+  "interpretation_notes": [
+    "One primary: paired small-model difference in learning gains over world seeds; all other comparisons descriptive.",
+    "Identical physical evidence and sampling indices; supplied encodings induce different neural geometry.",
+    "Positive contrast alone does not imply either encoding improves: gains and final accuracies are reported.",
+    "Unqueried pairs share state vocabulary and dynamics with observed pairs; no unseen-world claim follows.",
+    "Frozen evaluations run once and are reused; an observed-edge table abstains on every unqueried pair.",
+    "The canonical symbolic matcher has a stronger supplied family prior; permutation completion is an exact expectation.",
+    "BFS and live state feedback supply goal capability beyond learned weights; learners cannot train on probes.",
+    "Standalone online-learning costs charge shared width initialization, physical queries, and encoded insertions once per learner.",
+    "Known journal I/O is subtracted; sampling digests and some instrumentation remain, so this is not a pure deployment benchmark.",
+    "Archive, graph, and probe work appear only in actual totals; phase sums exclude uninstrumented bookkeeping.",
+    "Equal training matrix MACs do not imply equal total compute or wall time; storage counts are not resident RAM.",
+    "No open-ended intelligence, human-intelligence explanation, equivalence, or universal capacity conclusion is tested."
+  ],
+  "analysis_elapsed_seconds": 0.01616712659597397
+}

@@ -1953,3 +1953,23 @@ separately. All outcomes from development seeds remain exploratory.
   connections succeeded. These infrastructure retries produced no official
   experiment records. Source bundles and synthetic fixtures remain separate
   from official evidence.
+
+## 2026-10-27 UTC: Study N development collection and audit
+
+- The frozen host checkout passed all 25 synthetic tests in 28.431 seconds
+  after verifying every execution/data digest and registered package version.
+  One additional SSH connection closed before any remote command; the
+  subsequent persistent connection succeeded. No official attempt was lost.
+- Development seed 47 completed once in 2.179709 seconds. Full independent
+  replay passed in 2.710896 seconds: 64 queries, 1,280 gradients, 16 complete
+  checkpoints, 20 direct-test rows, and 27,776 frozen graph probes. The small
+  model's unqueried exact accuracy changes from 3.125% to 79.6875% canonically
+  and 4.6875% to 0% after relabeling. This is a single descriptive observation,
+  not inference or a reason to modify the frozen configuration.
+- All 36 transferred files (28,705,937 bytes) match server SHA-256 digests.
+  The unchanged formal grid began only after the matching development
+  certificate passed and the collector rechecked its entire raw manifest.
+  Independent local summary reconstruction is being reviewed separately.
+- No experiment code, abstraction, or compatibility layer was changed, and
+  no research evidence was removed. Temporary source/test bundles remain
+  outside this official archive; English commits preserve each save point.
