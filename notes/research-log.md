@@ -2033,3 +2033,26 @@ separately. All outcomes from development seeds remain exploratory.
 - The research goal remains open. Relabeled observed-fit deficits leave
   optimization versus representation/capacity unresolved; stronger claims
   require new prospective experiments rather than retuning this formal grid.
+
+## 2026-10-27 UTC: prospective Study O optimization contrast
+
+- Registered development seed 53 and formal seeds 17000--17031 before any
+  Study O implementation, data generation, or outcomes. Hold the 64 physical
+  observations, model widths, initial tensors, and update rule fixed while
+  multiplying gradient steps per observation by 1, 4, and 16. The sole
+  primary is the small relabeled model's final unqueried accuracy difference
+  between 16x and 1x, paired by world. Observed fitting and held-out BCE remain
+  descriptive diagnostics; more steps are explicitly more compute.
+- Fresh-context adversarial review found no actionable scientific issue.
+  The reviewer independently checked the full-table capacity construction
+  and all three training-MAC budgets. Cross-budget sampling can use different
+  arrival prefixes despite sharing random roles; the protocol makes that
+  distinction explicit. The large model's existence witness does not imply
+  that Adam will find it from partial feedback.
+- Server access was reconfirmed on lens/aorus with PyTorch 2.8.0+cu126 and
+  the complete Study N evidence still present. Previous weight learning used
+  CPU float64 because these networks have only 485/1,925 parameters. Study O
+  will likewise preserve full weights, optimizer moments, and replay states.
+- No code abstraction was added and no research evidence removed. This is a
+  prospective document check; no Study O experiment has run. External
+  cross-model CLI review was skipped in this autonomous continuation.
