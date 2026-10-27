@@ -1973,3 +1973,36 @@ separately. All outcomes from development seeds remain exploratory.
 - No experiment code, abstraction, or compatibility layer was changed, and
   no research evidence was removed. Temporary source/test bundles remain
   outside this official archive; English commits preserve each save point.
+
+## 2026-10-27 UTC: Study N formal evidence and independent reconstruction
+
+- All 32 unchanged formal seeds completed once in 59.882903 seconds. Full
+  pinned-runtime replay passed in 73.516094 seconds, reconstructing 2,048
+  queries, 40,960 gradients, 512 complete checkpoints, 640 direct records,
+  and 888,832 frozen-graph probes. All 8,192 adaptive batches changed weights.
+  No seed, checkpoint, result, or failed run was selected or discarded.
+- The small model gains 50.6348 percentage points of unqueried exact accuracy
+  canonically (3.125% to 53.7598%) and -1.1230 points after relabeling
+  (3.4180% to 2.2949%). The registered paired gain difference is +51.7578
+  points, t95 [48.4028, 55.1128], bootstrap95 [48.5840, 54.9316]. All 32
+  differences are positive. This is sensitivity of the fixed learning rule
+  to supplied encoding, not feedback sufficiency or a universal capacity bound.
+- The canonical family-informed matcher reaches 100% unqueried accuracy.
+  The observed-edge table reaches 87.8056% goal success in either encoding
+  while abstaining on every unqueried transition. Small canonical/relabeled
+  goal success is 84.2175%/29.5174%; these comparisons are descriptive.
+  Relabeled observed fit is also poor, leaving optimization, effective
+  capacity, and prior mismatch unresolved under the fixed budget.
+- All 810 transferred files (932,832,984 bytes) match host digests; the largest
+  is 28,799,364 bytes. A fresh-context local reviewer independently reconstructs
+  every prediction, goal trace, reference, numerical summary, primary, and
+  cost, including all 804 formal raw hashes before/after, in 334.073253 seconds.
+  No evidence inconsistency was found. Nineteen deliberate corruptions are
+  rejected. Local reconstruction imports no experiment implementation and
+  makes no claim to rerun the pinned neural gradients or wall-clock timings.
+- Added a permanent standalone evidence verifier and a direct figure script,
+  without an architectural abstraction or compatibility layer. Altered test
+  copies were removed. User-site NumPy 2 conflicted with system Matplotlib;
+  plotting with system Python's user site disabled succeeded without package
+  changes. The final figure was visually inspected. No research evidence was
+  removed; external cross-model CLI review was skipped in this autonomous run.

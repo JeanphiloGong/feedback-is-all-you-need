@@ -1,0 +1,222 @@
+{
+  "status": "passed",
+  "scope": "Independent local reconstruction of archived Study N numerical summaries; no local pinned gradient/tensor replay.",
+  "verified": [
+    "Exact raw file grids and audit-linked SHA-256 before and after verification.",
+    "Complete seed, encoding, branch, checkpoint, gradient-journal, prediction, phase, and probe grids.",
+    "Stored world rules, encoded query mapping, fixed unqueried split, and observed-table graphs.",
+    "Direct exact/bit/observed scores from graph predictions and physical targets; frozen reuse.",
+    "Every goal trace, seeded fallback, BFS path and operation count; table equivariance and true distances.",
+    "Signed-coordinate candidates, predictions, work counts, and exact permutation-completion expectations.",
+    "All seed curves, aggregate curves, contrasts, formal world-paired t95 and 10000-bootstrap seed 991 decisions.",
+    "All reported actual and standalone learning costs, recorded phase sums, and storage accounting."
+  ],
+  "not_reexecuted": [
+    "World random generation and rejection history.",
+    "Model forwards, logits, gradients, Adam updates, tensor/corpus checkpoint contents, and tensor-change norms.",
+    "Wall-time measurements and reported package versions in the remote run."
+  ],
+  "remote_replay_certificate": "/home/jeanphilo/Documents/Ichigo_Documents/03_\u793e\u4f1a\u79d1\u5b66_\u5546\u4e1a_\u6cd5\u5f8b/\u751f\u8d22\u6709\u9053/\u521b\u4e1a\u9879\u76ee/date/2026/oct/feedback-is-all-you-need/results/study-n-v1/development-audit-v1/audit.json",
+  "remote_replay_certificate_sha256": "c93e373dd838896bdd4d43363ea3df902403f0fd3322a7d8088a754311b4de00",
+  "raw_directory": "/home/jeanphilo/Documents/Ichigo_Documents/03_\u793e\u4f1a\u79d1\u5b66_\u5546\u4e1a_\u6cd5\u5f8b/\u751f\u8d22\u6709\u9053/\u521b\u4e1a\u9879\u76ee/date/2026/oct/feedback-is-all-you-need/results/study-n-v1/development-v1",
+  "raw_file_count": 28,
+  "summary": "/home/jeanphilo/Documents/Ichigo_Documents/03_\u793e\u4f1a\u79d1\u5b66_\u5546\u4e1a_\u6cd5\u5f8b/\u751f\u8d22\u6709\u9053/\u521b\u4e1a\u9879\u76ee/date/2026/oct/feedback-is-all-you-need/results/study-n-v1/development-audit-v1/summary.json",
+  "summary_sha256": "2eb6c7b934ab1c4805cff4af485616cbf8ac44c23605a3df99ddcfd9bf5d11be",
+  "verifier_sha256": "2264f99a1631a31c8632df123f5b1732a91e3d7bb03ff213a82446ca8949804f",
+  "seeds": [
+    47
+  ],
+  "counts": {
+    "queries": 64,
+    "gradients": 1280,
+    "checkpoints": 16,
+    "direct": 20,
+    "probes": 27776
+  },
+  "actual_cost": {
+    "queries": 64,
+    "gradients": 1280,
+    "checkpoints": 16,
+    "direct": 20,
+    "probes": 27776,
+    "collection_seconds": 2.179708819836378,
+    "environment_actions": 180238,
+    "training_macs": 69206016,
+    "forward_macs": 286720,
+    "dense_forward_macs": 2867200,
+    "edge_checks": 5667941,
+    "expanded_states": 1450658,
+    "target_bits": 204800,
+    "prediction_rows": 256,
+    "training_rows": 40960,
+    "evaluation_graph_rows": 2560,
+    "update_batches": 256,
+    "batches_changing_weights": 256,
+    "checkpoint_file_bytes": 456640,
+    "known_learning_journal_seconds": 0.009431570768356323,
+    "phase_seconds": {
+      "branch_setup": 0.33097005635499954,
+      "checkpoint": 0.0050140079110860825,
+      "direct": 0.0004189740866422653,
+      "evaluation_graph": 0.015660488978028297,
+      "initialization": 0.001158449798822403,
+      "observation": 3.738701343536377e-05,
+      "prediction": 0.01077590323984623,
+      "probes": 1.4116185884922743,
+      "query": 0.00017591752111911774,
+      "symbolic_reference": 0.0004772450774908066,
+      "training": 0.3975995406508446,
+      "true_distances": 0.000681903213262558
+    }
+  },
+  "primary": {
+    "differences": [
+      0.8125
+    ],
+    "environments": 1,
+    "mean": 0.8125,
+    "confirmatory": false,
+    "ci95": null,
+    "bootstrap95": null,
+    "positive_primary": false,
+    "negative": 0,
+    "zero": 0,
+    "positive": 1,
+    "estimand": "small canonical-minus-relabeled difference in exact-accuracy learning gains",
+    "canonical_gain": 0.765625,
+    "relabeled_gain": -0.046875,
+    "canonical_final": 0.796875,
+    "relabeled_final": 0.0,
+    "final_difference": 0.796875,
+    "gain_difference": 0.8125
+  },
+  "verified_summary_fields": [
+    "actual_cost",
+    "checkpoints",
+    "descriptive_contrasts",
+    "direct_summaries",
+    "goal_summaries",
+    "observed_table_unqueried_exact_rates",
+    "primary",
+    "seed_contrasts",
+    "seed_direct_curves",
+    "seed_goal_curves",
+    "seed_references",
+    "seeds",
+    "standalone_learning_costs",
+    "status",
+    "symbolic_reference",
+    "true_graph_bounds"
+  ],
+  "informational_summary_fields": [
+    "analysis_elapsed_seconds",
+    "interpretation_notes",
+    "statistics_packages"
+  ],
+  "local_runtime": {
+    "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+    "numpy": "2.2.4",
+    "scipy": "1.15.1"
+  },
+  "cross_model_review": "Skipped in autonomous context; no external CLI invoked.",
+  "elapsed_seconds": 11.67798039293848,
+  "adversarial_controls": [
+    {
+      "case": "wrong-primary-estimate",
+      "rejected": true,
+      "reason": "ValueError: summary.primary.mean: 0.828125 != 0.8125"
+    },
+    {
+      "case": "wrong-primary-decision",
+      "rejected": true,
+      "reason": "ValueError: summary.primary.positive_primary: True != False"
+    },
+    {
+      "case": "wrong-symbolic-baseline",
+      "rejected": true,
+      "reason": "ValueError: summary.symbolic_reference(32,).exact_rate: 0.5 != 1.0"
+    },
+    {
+      "case": "wrong-permutation-completion-expectation",
+      "rejected": true,
+      "reason": "ValueError: summary.seed_references(47, 64).permutation_completion_expectation: 0.03125 != 0.0625"
+    },
+    {
+      "case": "wrong-actual-action-cost",
+      "rejected": true,
+      "reason": "ValueError: summary.actual_cost.environment_actions: 180239 != 180238"
+    },
+    {
+      "case": "wrong-standalone-storage-cost",
+      "rejected": true,
+      "reason": "ValueError: summary.standalone_learning_costs(47, 'canonical', 'small_online').model_bytes: 3888 != 3880"
+    },
+    {
+      "case": "missing-direct-summary-cell",
+      "rejected": true,
+      "reason": "ValueError: summary.direct_summaries: incomplete or unexpected cell grid"
+    },
+    {
+      "case": "duplicate-goal-summary-cell",
+      "rejected": true,
+      "reason": "ValueError: summary.seed_goal_curves: duplicate cell (47, 'canonical', 'small_online')"
+    },
+    {
+      "case": "missing-contrast-cell",
+      "rejected": true,
+      "reason": "ValueError: summary.seed_contrasts: incomplete or unexpected cell grid"
+    },
+    {
+      "case": "missing-reference-checkpoint",
+      "rejected": true,
+      "reason": "ValueError: summary.seed_references: incomplete or unexpected cell grid"
+    },
+    {
+      "case": "duplicate-distance-bound-cell",
+      "rejected": true,
+      "reason": "ValueError: summary.true_graph_bounds: duplicate cell (47,)"
+    },
+    {
+      "case": "missing-direct-curve-checkpoint",
+      "rejected": true,
+      "reason": "ValueError: summary.seed_direct_curves(47, 'canonical', 'small_online').exact_rates: different list length"
+    },
+    {
+      "case": "optimized-python-refused",
+      "rejected": true,
+      "reason": "RuntimeError: Verification refuses optimized Python (-O/-OO)."
+    },
+    {
+      "case": "duplicate-raw-direct",
+      "rejected": true,
+      "reason": "ValueError: 47: direct: duplicate cell ('canonical', 'small_online', 0)"
+    },
+    {
+      "case": "duplicate-raw-gradient",
+      "rejected": true,
+      "reason": "ValueError: 47: update journal: duplicate cell ('canonical', 'small_online', 1, 1)"
+    },
+    {
+      "case": "duplicate-raw-phase",
+      "rejected": true,
+      "reason": "ValueError: 47: phases: duplicate cell ('initialization', None, 'small', None)"
+    },
+    {
+      "case": "unexpected-raw-file",
+      "rejected": true,
+      "reason": "ValueError: raw file grid: {'seed-47/canonical/small/0.pt', 'seed-47/distances.json', 'seed-47/canonical/small/32.pt', 'seed-47/canonical/large/0.pt', 'seed-47/canonical/large/32.pt', 'seed-47/queries.jsonl', 'seed-47/graphs.jsonl', 'seed-47/canonical/small/16.pt', 'worlds.json', 'seed-47/relabeled/small/64.pt', 'seed-47/canonical/large/64.pt', 'extra.json', 'seed-47/probes.jsonl', 'seed-47/relabeled/small/32.pt', 'seed-47/relabeled/small/0.pt', 'active-phase.json', 'seed-47/canonical/small/64.pt', 'seed-47/reference.jsonl', 'seed-47/relabeled/large/16.pt', 'seed-47/relabeled/large/0.pt', 'seed-47/updates.jsonl', 'seed-47/direct.jsonl', 'seed-47/phases.jsonl', 'seed-47/predictions.jsonl', 'seed-47/relabeled/small/16.pt', 'seed-47/relabeled/large/32.pt', 'seed-47/canonical/large/16.pt', 'metadata.json', 'seed-47/relabeled/large/64.pt'} != {'seed-47/canonical/small/0.pt', 'seed-47/distances.json', 'seed-47/canonical/small/32.pt', 'seed-47/canonical/large/0.pt', 'seed-47/canonical/large/32.pt', 'seed-47/queries.jsonl', 'seed-47/graphs.jsonl', 'seed-47/canonical/small/16.pt', 'worlds.json', 'seed-47/relabeled/small/64.pt', 'seed-47/canonical/large/64.pt', 'seed-47/probes.jsonl', 'seed-47/relabeled/small/32.pt', 'seed-47/relabeled/small/0.pt', 'active-phase.json', 'seed-47/canonical/small/64.pt', 'seed-47/reference.jsonl', 'seed-47/relabeled/large/16.pt', 'seed-47/relabeled/large/0.pt', 'seed-47/updates.jsonl', 'seed-47/direct.jsonl', 'seed-47/phases.jsonl', 'seed-47/predictions.jsonl', 'seed-47/relabeled/small/16.pt', 'seed-47/relabeled/large/32.pt', 'seed-47/canonical/large/16.pt', 'metadata.json', 'seed-47/relabeled/large/64.pt'}"
+    },
+    {
+      "case": "changed-raw-bytes",
+      "rejected": true,
+      "reason": "ValueError: raw hashes before verification.seed-47/direct.jsonl: '076be829f5a00218150b4a5085b71a026e66264ec4f37c8524e4104e4879513a' != 'e9c2709ce05768827e4b7f296a03a1d12bae58b7bd7655d8908fe5d99fc191a8'"
+    },
+    {
+      "case": "exclusive-output-preserved",
+      "rejected": true,
+      "reason": "ValueError: Output already exists: /tmp/study-n-summary-adversarial-3br90o8u/exclusive-output-output.json"
+    }
+  ],
+  "adversarial_fixture_directory": "/tmp/study-n-summary-adversarial-3br90o8u",
+  "adversarial_control_scope": "Original development raw archive was read-only. All altered summaries and raw copies were temporary fixtures. Changed-digest fixtures test row-grid validation beyond file integrity."
+}
