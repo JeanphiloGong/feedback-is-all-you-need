@@ -1,5 +1,9 @@
 # Study N: encoding and unqueried transition learning
 
+Full checkpoint replay and numerical reconstruction now run on `lens`;
+weights are excluded from Git. See [server storage and execution instructions](../STORAGE.md).
+Earlier local verification certificates remain historical evidence.
+
 The [prospective protocol](../../notes/protocol-v14-encoding-and-unseen-transitions.md)
 and [implementation](../../experiments/study_n/README.md) compare retained
 gradient learning under canonical and randomly relabeled coordinates, using

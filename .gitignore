@@ -17,5 +17,12 @@ references/*.pdf
 *.out
 *.toc
 *.synctex.gz
+# Model and optimizer checkpoints are stored on lens, outside Git.
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+pytorch_model*.bin
+adapter_model*.bin
 # Restore this large raw journal from formal-phases.jsonl.gz before replay.
 /results/study-m-v1/formal-v1/phases.jsonl

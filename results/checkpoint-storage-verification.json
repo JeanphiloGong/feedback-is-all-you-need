@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "archive_root": "/src/users/lens/feedback-research-archive",
+  "host": "lens",
+  "manifest_sha256": "f4a8f2a3b6d70d4624369f3a533d5a975a8883bbe5059a8b2cb038334be782be",
+  "files": 36492,
+  "bytes": 13774200908,
+  "groups": {
+    "feedback-research-e": {
+      "files": 50,
+      "bytes": 108758400
+    },
+    "feedback-research-i": {
+      "files": 363,
+      "bytes": 45158091
+    },
+    "feedback-research-j": {
+      "files": 231,
+      "bytes": 7562709
+    },
+    "feedback-research-k": {
+      "files": 330,
+      "bytes": 11565514
+    },
+    "feedback-research-l": {
+      "files": 26422,
+      "bytes": 894069978
+    },
+    "feedback-research-m": {
+      "files": 2904,
+      "bytes": 77233648
+    },
+    "feedback-research-n": {
+      "files": 528,
+      "bytes": 15069120
+    },
+    "feedback-research-o": {
+      "files": 1584,
+      "bytes": 45207360
+    },
+    "feedback-research-p": {
+      "files": 1980,
+      "bytes": 58945788
+    },
+    "feedback-research-q": {
+      "files": 1050,
+      "bytes": 6254806350
+    },
+    "feedback-research-r": {
+      "files": 1050,
+      "bytes": 6255823950
+    }
+  },
+  "missing": [],
+  "mismatched": [],
+  "scope": "Every local checkpoint path maps to a persistent server file with the same size and SHA256; no checkpoint contents or scientific results changed.",
+  "local_checkpoint_files_removed": 36492,
+  "history_rewritten": false,
+  "removed_from_local_research_index": 35484,
+  "remote_cleanup_base": "ffc501671a3eb60a508d0bba7078ecaea4549cad",
+  "remote_cleanup_checkpoint_paths": 30828
+}

@@ -48,6 +48,9 @@ feedback system than as a static parameter store.
 
 ## Repository map
 
+Model and optimizer checkpoints are stored on the model server, outside Git.
+See [evidence storage and verification](results/STORAGE.md).
+
 - [`paper/outline.md`](paper/outline.md): working paper structure and evidence plan.
 - [`notes/seed-idea.md`](notes/seed-idea.md): the initial conceptual argument.
 - [`references/README.md`](references/README.md): source records and title precedent.

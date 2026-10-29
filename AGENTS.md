@@ -23,6 +23,10 @@ verifiable experiments.
   result summaries, and reproducibility instructions.
 - Do not commit secrets, credentials, private user data, or unreviewed generated
   artifacts.
+- Keep model weights and optimizer checkpoints on `lens` in persistent storage
+  outside Git. Track code, manuscripts, result records, hashes, and server
+  locations instead. Run full checkpoint verification on the server; do not
+  download checkpoints locally unless the user explicitly requests it.
 - Keep external publication, public announcements, and irreversible releases
   subject to explicit human approval.
 
